@@ -1,3 +1,5 @@
+import { auClimateSources } from './auClimate';
+import { usClimateSources } from './usClimate';
 import { climateArchive } from './climate.generated';
 import type { Source } from './types';
 import { internationalSources } from './international';
@@ -26,5 +28,5 @@ export const referenceSources: Source[] = [
   { id: 'molit-electronics-guide', organization: '대한민국 정책브리핑', title: '리튬 배터리·스마트가방 항공기 반입 안내 (2018)', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148847990', period: null, status: 'verified', lastVerified: researchCheckedOn, notes: '장착·분리 구분을 공항 현행 FAQ와 대조. 과거 보조배터리 수량 안내는 사용하지 않는다.' },
 ];
 
-export const sources: readonly Source[] = [...referenceSources, ...internationalSources, ...climateArchive.sources];
+export const sources: readonly Source[] = [...referenceSources, ...internationalSources, ...usClimateSources, ...auClimateSources, ...climateArchive.sources];
 export function getSource(id: string) { return sources.find(source => source.id === id); }

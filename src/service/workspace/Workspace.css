@@ -3,7 +3,7 @@
 .pmb-service .pmb-workspace-heading p { font-size:14px; color:var(--pmb-blue); margin:12px 0 4px; }
 .pmb-service .pmb-workspace-heading h1 { font-size:24px; margin:0 0 20px; }
 .pmb-workspace-result-step { background:#f6edcf; color:#3d5a83; text-align:center; font-size:14px; padding:8px 20px; }
-.pmb-workspace .pmb-setup .pmb-country-button { min-height:54px; padding:8px 10px; }
+.pmb-service.pmb-workspace .pmb-setup :is(.pmb-country-button,.pmb-setup-city-grid>button) { min-height:68px; padding:9px 10px; }
 .pmb-workspace .pmb-setup .pmb-country-grid { grid-auto-rows:1fr; }
 .pmb-start-screen .pmb-header { justify-content:space-between; }
 .pmb-workspace .pmb-setup { margin-bottom:32px; }

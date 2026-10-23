@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
 import './TripBriefModal.css';
@@ -6,17 +6,28 @@ export default function ServiceModal({ title, topic, children, onClose, returnFo
   const dialog = useRef<HTMLDialogElement>(null);
   const timer = useRef<number | undefined>(undefined);
   const [closing, setClosing] = useState(false);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const opener = returnFocus;
-    const scroll = window.scrollY;
-    const style = { position: document.body.style.position, top: document.body.style.top, width: document.body.style.width, overflow: document.body.style.overflow };
-    document.body.style.position = 'fixed'; document.body.style.top = `-${scroll}px`; document.body.style.width = '100%'; document.body.style.overflow = 'hidden';
-    dialog.current?.showModal();
+    const modal = dialog.current;
+    const scroll = { top: window.scrollY, left: window.scrollX };
+    const root = document.documentElement;
+    const bounds = document.body.getBoundingClientRect();
+    const style = { position: document.body.style.position, top: document.body.style.top, left: document.body.style.left, width: document.body.style.width, overflow: document.body.style.overflow, boxSizing: document.body.style.boxSizing };
+    const rootStyle = { overflow: root.style.overflow, scrollBehavior: root.style.scrollBehavior };
+    // Preserve the actual page width, including the space occupied by its scrollbar.
+    root.style.scrollBehavior = 'auto';
+    root.style.overflow = 'hidden';
+    Object.assign(document.body.style, { position: 'fixed', top: `-${scroll.top}px`, left: `${bounds.left}px`, width: `${bounds.width}px`, overflow: 'hidden', boxSizing: 'border-box' });
+    modal?.showModal();
     return () => {
       window.clearTimeout(timer.current);
+      // Native dialog focus restoration must happen while the background is still locked.
+      modal?.close();
+      root.style.overflow = rootStyle.overflow;
       Object.assign(document.body.style, style);
-      window.scrollTo({ top: scroll, behavior: 'instant' });
+      window.scrollTo({ ...scroll, behavior: 'instant' });
       opener?.focus({ preventScroll: true });
+      root.style.scrollBehavior = rootStyle.scrollBehavior;
     };
   }, []);
   function close() {

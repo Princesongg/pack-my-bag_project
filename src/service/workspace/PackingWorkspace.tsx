@@ -11,9 +11,10 @@ import './Workspace.css';
 export default function PackingWorkspace() {
   const { trip } = useTrip();
   const [params, setParams] = useSearchParams();
-  const result = params.get('view') === 'bag' && tripComplete(trip);
+  const lastMinute = params.get('view') === 'last-minute';
+  const result = (params.get('view') === 'bag' || lastMinute) && tripComplete(trip);
   useEffect(() => { window.scrollTo(0, 0); }, [result]);
   return <>
-    {result ? <><div className="pmb-workspace-result-step" aria-label="현재 작업 단계">STEP 02 — MY BAG RESULT</div><MyBag/></> : <div className="pmb-service pmb-workspace"><ServiceHeader mode="workspace"/><main><div className="pmb-workspace-heading pmb-container"><Link to="/implementation">← START SCREEN</Link><p>PACKING WORKSPACE</p><h1>STEP 01 — TRIP INPUT</h1></div><TripSetup onComplete={() => setParams({ view: 'bag' })}/></main></div>}
+    {result ? <>{!lastMinute && <div className="pmb-workspace-result-step" aria-label="현재 작업 단계">STEP 02 — MY BAG RESULT</div>}<MyBag lastMinuteView={lastMinute}/></> : <div className="pmb-service pmb-workspace"><ServiceHeader mode="workspace"/><main><div className="pmb-workspace-heading pmb-container"><Link to="/implementation">← START SCREEN</Link><p>PACKING WORKSPACE</p><h1>STEP 01 — TRIP INPUT</h1></div><TripSetup onComplete={() => setParams({ view: 'bag' })}/></main></div>}
   </>;
 }

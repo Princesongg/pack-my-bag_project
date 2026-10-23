@@ -1,0 +1,16 @@
+[
+  {
+    "file": "new-york-central-park.pdf",
+    "url": "https://www.weather.gov/media/okx/Climate/CentralPark/nycnormals.pdf",
+    "verifiedOn": "2026-10-23",
+    "sha256": "1244af3cb47e74d7dc43f5a459d9549e0dd8cecd62e6c4a0f39d0c19f7e62bc2",
+    "bytes": 44437
+  },
+  {
+    "file": "los-angeles-usw00023174.pdf",
+    "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00023174",
+    "verifiedOn": "2026-10-23",
+    "sha256": "95e32c848ab6b7cba94cf966cf3c9abc942d5f0d96da66205363ce1acab7a152",
+    "bytes": 14445
+  }
+]

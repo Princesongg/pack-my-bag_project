@@ -1,0 +1,23 @@
+.pmb-last-minute { margin-top:22px; padding:16px 20px; border:1px solid #cfdded; border-radius:14px; background:#edf4fc; font-size:14px; min-width:0; }
+.pmb-last-minute [hidden] { display:none!important; }
+.pmb-last-minute button,.pmb-last-minute select { font:inherit; color:inherit; cursor:pointer; }
+.pmb-last-minute button:focus-visible,.pmb-last-minute :is(input,select):focus-visible { outline:2px solid var(--pmb-blue); outline-offset:3px; }
+.pmb-last-minute-track { height:5px; margin-top:12px; border-radius:8px; background:#d6e3f3; }
+.pmb-last-minute-track>span { display:block; height:100%; border-radius:inherit; background:var(--pmb-blue); transition:width .18s ease; }
+.pmb-last-minute-feedback { margin:8px 0 0; color:#526580; line-height:1.6; }
+.pmb-last-minute p,.pmb-last-minute label { word-break:keep-all; overflow-wrap:break-word; }
+.pmb-last-minute-list { margin:12px 0; padding:0; list-style:none; }
+.pmb-last-minute-list li { display:flex; align-items:center; gap:8px; border-bottom:1px solid #d5e0ed; }
+.pmb-last-minute-list label { flex:1; min-width:0; display:flex; gap:10px; align-items:center; min-height:44px; cursor:pointer; }
+.pmb-last-minute-list input { width:19px; height:19px; flex-shrink:0; accent-color:var(--pmb-blue); margin:0; }
+.pmb-last-minute-list button { display:grid; place-items:center; min-width:44px; min-height:44px; border:0; background:none; }
+.pmb-last-minute-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+.pmb-last-minute-actions button { display:flex; align-items:center; gap:6px; min-height:44px; padding:8px 12px; border:1px solid #bdcfe6; border-radius:8px; background:#fffdf7; }
+.pmb-last-minute button:disabled { opacity:.5; cursor:default; }
+.pmb-last-minute-select { display:grid; gap:6px; margin-top:12px; }
+.pmb-last-minute-select select { min-height:44px; width:100%; min-width:0; max-width:100%; box-sizing:border-box; border:1px solid #bdcfe6; border-radius:8px; padding:8px; background:#fffdf7; }
+@media(max-width:768px) {
+  .pmb-last-minute { padding:14px; margin-top:18px; }
+  .pmb-last-minute-feedback,#pmb-last-minute-add p { font-size:12px; }
+}
+@media(prefers-reduced-motion:reduce) { .pmb-last-minute-track>span { transition:none; } }

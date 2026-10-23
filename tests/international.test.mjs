@@ -5,21 +5,20 @@ const { getInternationalProfile, getTripTimeOffsets } = await loadTs('src/servic
 const { getClimateMonth } = await loadTs('src/service/data/climate.ts');
 const { getDefaultBagItems, bagStorageKey } = await loadTs('src/service/my-bag/bag.ts');
 const { getSource } = await loadTs('src/service/data/sources.ts');
-test('new countries expose sourced facts and explicitly pending climate instead of fabricated clothing',()=>{
+test('new countries expose sourced facts, US normals, and Australian all-record statistics',()=>{
   for(const [countryId,cityIds] of [['US',['new-york','los-angeles']],['AU',['sydney','melbourne']]]){
     const profile=getInternationalProfile(countryId);
-    assert.equal(profile.climate.value,null);
-    assert.equal(profile.climate.status,'needs-research');
+    assert.equal(profile.climate.status,'verified');
     for(const field of ['electricity','currency','entry']){
       assert.equal(profile[field].status,'verified');
       for(const source of profile[field].sourceIds) assert.equal(getSource(source).status,'verified');
     }
     for(const cityId of cityIds){
-      assert.equal(getClimateMonth(cityId,1).recommendedMetrics,null);
+      assert.ok(getClimateMonth(cityId,1).recommendedMetrics);
       const trip={countryId,cityId,departureDate:'2027-01-10',returnDate:'2027-01-14',travelPurpose:'sightseeing',baggageType:'checked'};
       const items=getDefaultBagItems(trip);
       assert.equal(new Set(items.map(i=>i.id)).size,items.length);
-      assert.ok(!items.some(i=>i.id.startsWith('clothing:')));
+      assert.ok(items.some(i=>i.id.startsWith('clothing:')));
       assert.ok(items.some(i=>i.id==='essential:passport'));
       assert.ok(bagStorageKey(trip).includes(cityId));
     }

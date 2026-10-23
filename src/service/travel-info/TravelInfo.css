@@ -37,13 +37,20 @@
 .pmb-guide-service .pmb-guide-weather-heading h3 { margin:8px 0 5px; font-size:25px; letter-spacing:-.8px; }
 .pmb-guide-service .pmb-guide-weather-heading p { margin:0; color:#657895; font-size:14px; }
 .pmb-guide-service .pmb-guide-weather-icon { display:grid; place-items:center; width:78px; height:78px; border-radius:50%; background:#f7e8ad; color:var(--pmb-blue); flex-shrink:0; }
-.pmb-guide-service .pmb-guide-metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
-.pmb-guide-service .pmb-guide-metrics>div { padding:20px 16px; border-radius:12px; background:#fcfdff; border:1px solid #dbe5f4; display:flex; flex-direction:column; justify-content:center; gap:9px; }
+.pmb-guide-service .pmb-guide-weather { container-type:inline-size; }
+.pmb-guide-service .pmb-guide-metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); grid-auto-rows:1fr; gap:12px; }
+.pmb-guide-service .pmb-guide-metrics>div { min-width:0; box-sizing:border-box; padding:20px 12px; border-radius:12px; background:#fcfdff; border:1px solid #dbe5f4; display:grid; grid-template-rows:auto auto 1fr; align-items:center; justify-items:center; text-align:center; gap:9px; }
+.pmb-guide-service .pmb-guide-metrics>div>:is(span,strong,small) { width:100%; min-width:0; margin-inline:0; text-align:center; }
 .pmb-guide-service .pmb-guide-metrics span { color:#62728b; font-size:14px; }
-.pmb-guide-service .pmb-guide-metrics strong { color:#28476e; font-size:28px; letter-spacing:-1px; line-height:1.3; }
+.pmb-guide-service .pmb-guide-metrics strong { color:#28476e; font-size:28px; letter-spacing:0; line-height:1.3; white-space:nowrap; font-variant-numeric:tabular-nums; }
 .pmb-guide-service .pmb-guide-metrics .pmb-guide-temperature { background:var(--pmb-blue); color:white; border-color:var(--pmb-blue); }
 .pmb-guide-service .pmb-guide-temperature :is(span,strong,small) { color:white; }
-.pmb-guide-service .pmb-guide-temperature strong { font-size:40px; }
+.pmb-guide-service .pmb-guide-rainfall { grid-template-columns:minmax(0,1fr); margin-top:12px; }
+.pmb-guide-service .pmb-guide-rainfall>div { display:flex; flex-direction:row; flex-wrap:wrap; padding-block:12px; }
+.pmb-guide-service .pmb-guide-rainfall>div>:is(span,strong,small) { width:auto; }
+@container(max-width:540px) {
+  .pmb-guide-service .pmb-guide-metrics:not(.pmb-guide-rainfall) { grid-template-columns:minmax(0,1fr); }
+}
 .pmb-guide-service .pmb-guide-metrics small { font-size:14px; color:#65768f; line-height:1.6; }
 .pmb-guide-service .pmb-guide-metrics .pmb-guide-temperature small { color:#fff; }
 .pmb-guide-service .pmb-guide-note { font-size:14px; color:#6b7583; line-height:1.8; }
@@ -69,12 +76,14 @@
 .pmb-guide-service .pmb-guide-clothing-heading h4 { font-size:21px; letter-spacing:-.6px; margin:0; }
 .pmb-guide-service .pmb-guide-clothing-heading>span { font-size:14px; color:#69758b; background:#fff8e5; padding:5px 9px; border-radius:6px; }
 .pmb-guide-service .pmb-guide-clothing>p { color:#65738a; }
-.pmb-guide-service .pmb-guide-outfits { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:18px; }
-.pmb-guide-service .pmb-guide-outfit { background:#fffdf7; border:1px solid #dce1e7; border-radius:12px; padding:16px; min-width:0; }
-.pmb-guide-service .pmb-guide-outfit>div { display:flex; align-items:center; gap:8px; flex-wrap:wrap; color:#426a9a; }
-.pmb-guide-service .pmb-guide-outfit h5 { margin:0; font-size:16px; color:var(--pmb-ink); }
-.pmb-guide-service .pmb-guide-outfit>div>span { font-size:14px; color:#767d83; margin-left:auto; }
-.pmb-guide-service .pmb-guide-outfit p { font-size:14px; color:#677387; line-height:1.8; }
+.pmb-guide-service .pmb-guide-outfits { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr)); gap:12px; margin-top:18px; align-items:stretch; }
+.pmb-guide-service .pmb-guide-outfit { display:grid; grid-template-rows:subgrid; grid-row:span 4; row-gap:8px; background:#fffdf7; border:1px solid #dce1e7; border-radius:12px; padding:16px; min-width:0; box-sizing:border-box; }
+.pmb-guide-service .pmb-guide-outfit>div { display:flex; align-items:center; gap:8px; color:#426a9a; }
+.pmb-guide-service .pmb-guide-outfit>div>svg { flex-shrink:0; }
+.pmb-guide-service .pmb-guide-outfit h5 { margin:0; min-width:0; font-size:16px; color:var(--pmb-ink); word-break:keep-all; overflow-wrap:break-word; }
+.pmb-guide-service .pmb-guide-outfit-status { font-size:14px; color:#767d83; }
+.pmb-guide-service .pmb-guide-outfit p { margin:0; font-size:14px; color:#677387; line-height:1.8; word-break:keep-all; overflow-wrap:break-word; }
+.pmb-guide-service .pmb-guide-outfit details { align-self:start; min-width:0; word-break:keep-all; overflow-wrap:break-word; }
 .pmb-guide-service .pmb-guide-outfit summary { font-size:14px; }
 .pmb-guide-service .pmb-guide-outfit ul { font-size:14px; color:#677387; padding-left:18px; }
 .pmb-guide-service .pmb-guide-weather-disclaimer { border-top:1px solid #d1dced; margin:20px 0 0; padding-top:16px; font-size:14px; color:#64738a; }
@@ -144,11 +153,10 @@
   .pmb-guide-service .pmb-guide-weather-heading p { font-size:12px; }
   .pmb-guide-service .pmb-guide-weather-icon { width:48px; height:48px; }
   .pmb-guide-service .pmb-guide-weather-icon svg { width:27px; height:27px; }
-  .pmb-guide-service .pmb-guide-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+  .pmb-guide-service .pmb-guide-metrics { gap:9px; }
   .pmb-guide-service .pmb-guide-metrics>div { padding:14px 11px; gap:6px; }
   .pmb-guide-service .pmb-guide-metrics :is(span,small) { font-size:12px; }
   .pmb-guide-service .pmb-guide-metrics strong { font-size:25px; }
-  .pmb-guide-service .pmb-guide-temperature strong { font-size:32px; }
   .pmb-guide-service .pmb-guide-season { padding-block:12px; }
   .pmb-guide-service .pmb-guide-season h4 { font-size:16px; }
   .pmb-guide-service :is(.pmb-guide-note,.pmb-guide-review,.pmb-guide-climate-evidence,.pmb-guide-climate-evidence>p,.pmb-guide-weather-disclaimer,.pmb-guide-pending,.pmb-guide-scope,.pmb-guide-sources a,.pmb-guide-sources li>span,summary) { font-size:12px; }
@@ -156,11 +164,11 @@
   .pmb-guide-service .pmb-guide-clothing { margin-top:18px; padding-top:18px; }
   .pmb-guide-service .pmb-guide-clothing-heading h4 { font-size:18px; }
   .pmb-guide-service .pmb-guide-clothing-heading>span { font-size:12px; }
-  .pmb-guide-service .pmb-guide-outfits { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+  .pmb-guide-service .pmb-guide-outfits { grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr)); gap:9px; }
   .pmb-guide-service .pmb-guide-outfit { padding:12px 10px; }
   .pmb-guide-service .pmb-guide-outfit>div { gap:6px; }
   .pmb-guide-service .pmb-guide-outfit h5 { font-size:14px; }
-  .pmb-guide-service .pmb-guide-outfit>div>span { font-size:12px; margin-left:0; }
+  .pmb-guide-service .pmb-guide-outfit-status { font-size:12px; }
   .pmb-guide-service .pmb-guide-outfit :is(p,summary,ul) { font-size:12px; }
   .pmb-guide-service .pmb-guide-essentials { margin-top:30px; }
   .pmb-guide-service .pmb-guide-info-grid { grid-template-columns:1fr; gap:14px; }

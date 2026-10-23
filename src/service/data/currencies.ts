@@ -1,7 +1,21 @@
 import { verified } from './types';
 
+// Display metadata only; no exchange rates or new verification claims.
+export const currencyDetails = {
+  JP: { name: '일본 엔', code: 'JPY', symbol: '¥' },
+  VN: { name: '베트남 동', code: 'VND', symbol: '₫' },
+  TH: { name: '태국 바트', code: 'THB', symbol: '฿' },
+  TW: { name: '신타이완 달러', code: 'TWD', symbol: 'NT$' },
+  US: { name: '미국 달러', code: 'USD', symbol: '$' },
+  AU: { name: '호주 달러', code: 'AUD', symbol: 'A$' },
+} as const;
+
+export function getCountryCurrency(countryId: string) {
+  return Object.prototype.hasOwnProperty.call(currencyDetails, countryId) ? currencyDetails[countryId as keyof typeof currencyDetails] : null;
+}
+
 export const currencies = {
-  JP: verified({ name: '일본 엔', code: 'JPY', symbol: '¥' }, ['jnto-faq']),
+  JP: verified(currencyDetails.JP, ['jnto-faq']),
 };
 
 // No exchange rates and no runtime API. Future seasonal offset entries stay explicit.

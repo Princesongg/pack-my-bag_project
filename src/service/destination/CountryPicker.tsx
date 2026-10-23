@@ -2,9 +2,10 @@ import { useState } from 'react';
 import { Check, Search, X } from 'lucide-react';
 import { destinations, filterDestinations, popularCountryIds } from './destinations';
 
-type Props = { selectedId: string; onSelect: (countryId: string) => void };
+type Props = { selectedId: string; onSelect: (countryId: string) => void; aligned?: boolean };
 
-export default function CountryPicker({ selectedId, onSelect }: Props) {
+export default function CountryPicker({ selectedId, onSelect, aligned = false }: Props) {
+  const Group = aligned ? 'div' : 'fieldset';
   const [query, setQuery] = useState('');
   const searching = query.trim().length > 0;
 
@@ -19,11 +20,13 @@ export default function CountryPicker({ selectedId, onSelect }: Props) {
     </button>;
   }
 
-  return <fieldset className="pmb-choice-group pmb-country-picker"><legend><span>01</span> 나라를 선택해 주세요 <small>한 곳 선택</small></legend>
+  return <Group className="pmb-choice-group pmb-country-picker" role={aligned ? 'group' : undefined} aria-label={aligned ? '나라를 선택해 주세요' : undefined}>{aligned ? <h3 className="pmb-setup-destination-title">나라를 선택해 주세요</h3> : <legend><span>01</span> 나라를 선택해 주세요 <small>한 곳 선택</small></legend>}
+    <div className={aligned ? 'pmb-setup-destination-controls' : undefined}>
     <label className="pmb-search-label" htmlFor="pmb-country-search">국가 검색</label>
-    <div className="pmb-search"><Search size={20} aria-hidden="true"/><input id="pmb-country-search" type="search" placeholder="국가명으로 검색해 보세요 (예: 일본, Japan)" value={query} onChange={event => setQuery(event.target.value)} aria-controls="pmb-all-countries" autoComplete="off"/>{query && <button type="button" aria-label="국가 검색어 지우기" onClick={() => { setQuery(''); document.getElementById('pmb-country-search')?.focus(); }}><X size={17}/></button>}</div>
+    <div className="pmb-search"><Search size={20} aria-hidden="true"/><input id="pmb-country-search" type="search" placeholder="국가명으로 검색해 보세요 (예: 일본, Japan)" value={query} onChange={event => setQuery(event.target.value)} aria-controls="pmb-all-countries" autoComplete="off"/><button type="button" disabled={!query} style={{ visibility: query ? 'visible' : 'hidden' }} aria-label="국가 검색어 지우기" onClick={() => { setQuery(''); document.getElementById('pmb-country-search')?.focus(); }}><X size={17}/></button></div>
     <div className="pmb-country-heading"><h3>지원 국가</h3></div>
+    </div>
     <div id="pmb-all-countries" className="pmb-country-grid" role="group" aria-label="국가 선택">{(searching ? results : popular).map(item => renderCountry(item))}</div>
     {results.length === 0 && <p className="pmb-search-empty" role="status">검색 결과가 없어요. 국가명을 확인해 주세요.</p>}
-  </fieldset>;
+  </Group>;
 }

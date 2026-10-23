@@ -1,5 +1,6 @@
-import { pending, verified, type Source } from './types';
+import { verified, type Source } from './types';
 import { dayNumber } from '../trip/trip';
+import { currencyDetails } from './currencies';
 
 export const internationalSources: Source[] = [
   { id:'noaa-normals', organization:'미국 NOAA NCEI', title:'U.S. Climate Normals', url:'https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals', period:{startYear:1991,endYear:2020}, status:'verified', lastVerified:'2026-10-23', notes:'자료 안내만 확인. 도시별 관측소·수치·품질은 미수집.' },
@@ -14,19 +15,19 @@ export const internationalSources: Source[] = [
 ];
 export const internationalProfiles = {
   US: {
-    climate: pending<number[]>('뉴욕·로스앤젤레스의 2016–2025 관측 평균 및 1991–2020 평년값 수치는 아직 수집·검증하지 않았습니다.', ['noaa-normals']),
+    climate: verified('뉴욕 Central Park·로스앤젤레스 LAX의 1991–2020 월별 기온 평년값을 지원합니다.', ['nws-central-park-normal', 'noaa-lax-normal'], '2016–2025 관측 평균 및 강수·강설·습도·바람 데이터는 이번 연결 범위에 포함하지 않습니다.'),
     electricity: verified('110–120V · 60Hz · 2핀 또는 3핀', ['us-energy']),
     plugDetail: '미국 에너지부의 2핀·3핀 안내를 사용합니다. 세부 플러그 규격과 숙소 콘센트는 직접 확인하세요.',
-    currency: verified('미국 달러 · USD', ['us-currency']),
+    currency: verified(`${currencyDetails.US.name} · ${currencyDetails.US.code}`, ['us-currency']),
     entry: verified('ESTA는 비자면제프로그램(VWP) 자격을 충족하는 여행자의 관광·상용 방문 등에 적용됩니다. 국적·방문 목적·여권·여행 이력 등에 따라 비자가 필요할 수 있으며, 승인도 입국을 보장하지 않습니다.', ['us-vwp']),
     entryUrl:'https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html',
     entryLabel:'미국 국무부 · VWP / ESTA 자격 확인',
   },
   AU: {
-    climate: pending<number[]>('시드니·멜버른의 2016–2025 관측 평균 및 공식 평년값 수치는 아직 수집·검증하지 않았습니다.', ['bom-climate']),
+    climate: verified('시드니 공항·멜버른 Olympic Park의 전체 가용 관측기간 최고·최저기온·강수량 통계를 지원합니다.', ['bom-066037-all-years', 'bom-086338-all-years'], '평균기온은 최고·최저의 계산 참고값입니다. 고정 30년 평년값이나 2016–2025 관측 평균이 아닙니다.'),
     electricity: verified('220–240V · 50Hz · 역 V자 평핀 호주형', ['au-facts']),
     plugDetail: '호주 관광청 안내: 역 V자 두 평핀과 일부 플러그의 중앙 세 번째 핀. 가져갈 기기의 플러그 형태와 접지 조건을 확인하세요.',
-    currency: verified('호주 달러 · AUD', ['au-facts']),
+    currency: verified(`${currencyDetails.AU.name} · ${currencyDetails.AU.code}`, ['au-facts']),
     entry: verified('ETA(subclass 601)는 자격이 있는 여권 소지자의 관광·사업 방문 등에 적용됩니다. 국적·목적·자격에 따라 다른 비자가 필요할 수 있습니다. 실제 근로 가능 여부나 입국을 보장하지 않습니다.', ['au-visa']),
     entryUrl:'https://usa.embassy.gov.au/visa-faqs', entryLabel:'호주 정부 · 비자 / ETA 공식 안내',
   },

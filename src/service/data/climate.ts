@@ -1,3 +1,5 @@
+import { getAUClimateMonth } from './auClimate';
+import { getUSClimateMonth } from './usClimate';
 import { climateArchive } from './climate.generated';
 import { japanStations, seasonalFeatures } from './cities';
 import { dayNumber } from '../trip/trip';
@@ -48,7 +50,11 @@ export function calculateRecentMetric(
 
 export function getClimateMonth(cityId: string, month: number, archive: ClimateArchive = climateArchive) {
   if (!Number.isInteger(month) || month < 1 || month > 12) throw new RangeError('month must be 1..12');
-  if (!isJapanCity(cityId)) return { status: 'needs-research' as const, cityId, month, recent: null, officialNormal: null, recommendedMetrics: null };
+  const auClimate = getAUClimateMonth(cityId, month);
+  if (auClimate) return auClimate;
+  const usClimate = getUSClimateMonth(cityId, month);
+  if (usClimate) return usClimate;
+  if (!isJapanCity(cityId)) return { provenance: undefined, status: 'needs-research' as const, cityId, month, recent: null, officialNormal: null, recommendedMetrics: null };
   const metrics = Object.fromEntries(climateMetricKeys.map(metric => [metric, calculateRecentMetric(archive.observations, cityId, month, metric)])) as Record<ClimateMetric, ClimateStatistic>;
   const normal = archive.normals.find(row => row.cityId === cityId && row.month === month);
   // Fallback is explicitly labelled PER METRIC; a normal is never renamed a 10-year mean.
@@ -60,7 +66,7 @@ export function getClimateMonth(cityId: string, month: number, archive: ClimateA
       : { value: fallback?.quality === 'normal' ? fallback.value : null, basis: fallback?.quality === 'normal' ? 'official-30-year-normal' : 'needs-research', label: normalClimateLabel, period: normalPeriod, sourceIds: normal ? [normal.sourceId] : [], lastVerified: archive.verifiedOn }];
   }));
   return {
-    status: 'partially-verified' as const, cityId, month,
+    provenance: undefined, status: 'partially-verified' as const, cityId, month,
     stationId: japanStations[cityId].stationId,
     continuityReview: japanStations[cityId].continuityReview,
     warnings: ['과거 월별 기후 평균이며 실제 여행 날짜의 일기예보가 아닙니다.', '관측 환경·이전·통계 단절 이력의 전체 검토는 추가 조사 필요입니다.', ...japanStations[cityId].notes],

@@ -11,6 +11,7 @@
 .pmb-bag-trip { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px 24px; padding:18px 22px; background:#f6edcf; border:1px solid #ede1b9; border-radius:14px; }
 .pmb-bag-trip>div { display:grid; gap:4px; }
 .pmb-bag-trip span { font-size:14px; color:#77715f; }
+.pmb-bag-trip .pmb-bag-trip-currency { font-size:14px; font-weight:400; line-height:1.6; word-break:keep-all; overflow-wrap:break-word; }
 .pmb-bag-edit-trip { display:flex; align-items:center; gap:5px; width:fit-content; min-height:44px; font-size:14px; color:var(--pmb-blue); }
 .pmb-bag-progress { padding:22px 0; }
 .pmb-bag-progress>div:first-child { display:flex; align-items:center; justify-content:space-between; gap:12px; }
