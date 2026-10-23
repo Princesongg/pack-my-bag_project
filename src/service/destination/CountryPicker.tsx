@@ -6,11 +6,10 @@ type Props = { selectedId: string; onSelect: (countryId: string) => void };
 
 export default function CountryPicker({ selectedId, onSelect }: Props) {
   const [query, setQuery] = useState('');
-  
   const searching = query.trim().length > 0;
 
   const results = filterDestinations(destinations, query);
-  const popular = popularCountryIds.flatMap(id => destinations.filter(country => country.id === id)).slice(0, 4);
+  const popular = popularCountryIds.flatMap(id => destinations.filter(country => country.id === id));
 
   function renderCountry(item: typeof destinations[number], compact = false) {
     return <button type="button" key={item.id} className={`pmb-country-button ${compact ? 'pmb-country-row' : ''}`} aria-pressed={selectedId === item.id} onClick={() => onSelect(item.id)}>

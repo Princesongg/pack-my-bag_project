@@ -1,0 +1,42 @@
+.pmb-bag-service .pmb-red-flags { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:18px 20px; margin-top:18px; border:1px solid #ede1b9; border-radius:14px; background:#faf1d8; }
+.pmb-red-flags-copy { min-width:0; }
+.pmb-red-flags-copy>span { display:flex; align-items:center; gap:7px; color:#79602e; font-size:14px; font-weight:600; }
+.pmb-red-flags-copy h2 { font-size:20px; margin:5px 0; }
+.pmb-red-flags-copy p { font-size:14px; margin:5px 0; color:#65738a; }
+.pmb-red-flags-chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.pmb-red-flags-chips>span { display:flex; align-items:center; gap:5px; padding:3px 8px; border-radius:6px; background:#fffaf0; font-size:14px; }
+.pmb-red-flags-action { display:grid; gap:5px; flex-shrink:0; }
+.pmb-red-flags-action p { font-size:14px; margin:0; }
+.pmb-red-flags-action small { font-size:14px; color:#65738a; }
+.pmb-red-flags-action button { min-height:44px; padding:10px 16px; border:1px solid #245be0; border-radius:9px; background:#245be0; color:white; font:inherit; font-size:14px; cursor:pointer; }
+.pmb-red-flags-modal { font-size:14px; }
+.pmb-red-flags-modal p { margin:10px 0; font-size:14px; }
+.pmb-red-flags-disclaimer { color:#65738a; }
+.pmb-red-flags-tabs { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin:16px 0; }
+.pmb-red-flags-tabs button { display:grid; gap:3px; min-width:0; min-height:56px; padding:9px 8px; border:1px solid #cbd9ee; border-radius:9px; color:#3d5a83; background:#fffdf7; font:inherit; font-size:14px; cursor:pointer; word-break:keep-all; }
+.pmb-red-flags-tabs small { font-size:14px; }
+.pmb-red-flags-tabs button[aria-pressed=true] { background:#e9f1fc; border-color:#245be0; color:#245be0; }
+.pmb-red-flags-modal h3 { font-size:17px; }
+.pmb-passport-date { display:grid; gap:6px; margin:14px 0; font-size:14px; }
+.pmb-passport-date>span { color:#65738a; }
+.pmb-passport-date input { width:100%; box-sizing:border-box; min-height:46px; padding:10px 12px; border:1px solid #cbd9ee; border-radius:8px; background:#fffdf7; font:inherit; color:inherit; }
+.pmb-red-flags-payment-note { padding:12px; border-radius:9px; background:#faf1d8; }
+.pmb-red-flags-official { display:flex; align-items:center; gap:6px; min-height:44px; color:#245be0; font-size:14px; overflow-wrap:anywhere; }
+.pmb-red-flags-official svg { flex-shrink:0; }
+.pmb-red-flags-checks { padding:0; margin:18px 0 0; border:0; min-width:0; }
+.pmb-red-flags-checks legend { padding:0; font-weight:600; margin-bottom:8px; font-size:14px; }
+.pmb-red-flags-checks label { display:flex; align-items:center; gap:10px; min-height:44px; padding:7px 0; border-top:1px solid #e2e0d7; font-size:14px; cursor:pointer; }
+.pmb-red-flags-checks input { width:19px; height:19px; margin:0; accent-color:#245be0; flex-shrink:0; }
+.pmb-red-flags-checks label>span { flex:1; min-width:0; word-break:keep-all; }
+.pmb-red-flags-checks small { font-size:14px; color:#65738a; flex-shrink:0; }
+.pmb-bag-service .pmb-bag-category li>.pmb-item-check-link { padding:6px; font-size:14px; color:#245be0; min-width:44px; white-space:nowrap; }
+@media(max-width:768px) {
+ .pmb-bag-service .pmb-red-flags { padding:14px; flex-direction:column; align-items:stretch; gap:12px; }
+ .pmb-red-flags-copy h2 { font-size:18px; }
+ .pmb-red-flags-copy>span,.pmb-red-flags-chips>span,.pmb-red-flags-action small { font-size:12px; }
+ .pmb-red-flags-action { grid-template-columns:1fr auto; align-items:center; }
+ .pmb-red-flags-action small { grid-column:1 / -1; }
+ .pmb-red-flags-tabs small,.pmb-red-flags-checks small { font-size:12px; }
+ .pmb-red-flags-tabs { gap:5px; }
+ .pmb-bag-service .pmb-bag-category li>.pmb-item-check-link { font-size:12px; }
+}

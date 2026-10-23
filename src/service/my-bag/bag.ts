@@ -2,6 +2,8 @@ import type { Trip } from '../trip/trip';
 import { getTripClimate } from '../data/climate';
 import { getClothingPreview } from '../travel-info/guideModel';
 import { restorePackLess, type PackLessState } from './packLessModel';
+import { restoreRedFlagChecks } from './redFlagsModel';
+import { restoreBaggageAllowance, type BaggageAllowance } from './baggageAllowance';
 
 export const bagCategories = [
   { id: 'essentials', name: '필수 준비물' }, { id: 'clothing', name: '의류 · 패션' },
@@ -10,7 +12,7 @@ export const bagCategories = [
 ] as const;
 export type CategoryId = typeof bagCategories[number]['id'];
 export type BagItem = { id: string; name: string; categoryId: CategoryId; custom?: true; note?: string };
-export type BagState = { version: 1; checkedIds: string[]; customItems: BagItem[]; packLess?: PackLessState };
+export type BagState = { version: 1; checkedIds: string[]; customItems: BagItem[]; packLess?: PackLessState; redFlagCheckedIds?: string[]; baggageAllowance?: BaggageAllowance };
 
 // General packing suggestions, not entry requirements or airline clearance.
 export const basicBagItems: BagItem[] = [
@@ -53,7 +55,8 @@ export function restoreBag(value: unknown, defaults: readonly BagItem[]): BagSta
     customItems.push({ id: item.id, name: item.name.trim(), categoryId: item.categoryId, custom: true });
   }
   const packLess = restorePackLess(raw.packLess, [...defaults, ...customItems]);
-  return { version: 1, customItems, checkedIds: [...new Set((Array.isArray(raw.checkedIds) ? raw.checkedIds : []).filter((id): id is string => typeof id === 'string' && ids.has(id)))], ...(packLess ? { packLess } : {}) };
+  const baggageAllowance = restoreBaggageAllowance(raw.baggageAllowance);
+  return { version: 1, customItems, checkedIds: [...new Set((Array.isArray(raw.checkedIds) ? raw.checkedIds : []).filter((id): id is string => typeof id === 'string' && ids.has(id)))], ...(packLess ? { packLess } : {}), ...(baggageAllowance ? { baggageAllowance } : {}), ...(Array.isArray(raw.redFlagCheckedIds) ? { redFlagCheckedIds: restoreRedFlagChecks(raw.redFlagCheckedIds) } : {}) };
 }
 export function loadBag(storage: Pick<Storage, 'getItem'>, key: string, defaults: readonly BagItem[]) {
   try { return restoreBag(JSON.parse(storage.getItem(key) ?? 'null'), defaults); }

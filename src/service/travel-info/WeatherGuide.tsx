@@ -5,6 +5,7 @@ import { clothingPolicy } from '../data/clothing';
 import { getClothingPreview, formatClimateValue, getWeatherPoints } from './guideModel';
 import SourceLinks from './SourceLinks';
 import { MobileMore, useCompactGuide } from './MobileCompact';
+import { getInternationalProfile, internationalCityZones } from '../data/international';
 
 type Segment = ReturnType<typeof getTripClimate>[number];
 const clothingIcons: Record<string, LucideIcon> = {
@@ -22,10 +23,12 @@ export default function WeatherGuide({ segment, cityName, travelPurpose }: { seg
   const preview = getClothingPreview(climate, travelPurpose);
   const points = getWeatherPoints(climate, travelPurpose);
   const mobile = useCompactGuide();
+  const zone = internationalCityZones[climate.cityId];
+  const research = getInternationalProfile(zone?.ianaId.startsWith('America/') ? 'US' : zone ? 'AU' : '');
   const chip = (item: typeof preview[number]) => <details className="pmb-mobile-clothing-chip" key={item.ruleId} data-checklist-item-id={item.checklistItemId}><summary>{item.name}</summary><div><p>{item.reason}</p><ul>{item.reviewNotes.map(note => <li key={note}>{note}</li>)}</ul></div></details>;
   return <article className="pmb-guide-weather" id="pmb-weather-panel" aria-labelledby="pmb-weather-month">
     <div className="pmb-guide-weather-heading"><div><span className="pmb-guide-eyebrow">PAST CLIMATE / {cityName.toUpperCase()}</span><h3 id="pmb-weather-month">{segment.year}년 {segment.month}월의 여행 준비</h3><p>이 달에 포함된 여행 일정 {segment.daysCovered}일 · 과거 월별 기후 참고</p></div><span className="pmb-guide-weather-icon"><ThermometerSun size={38} strokeWidth={1.4}/></span></div>
-    {!climate.recommendedMetrics ? <div className="pmb-guide-empty"><h4>공식 정보 확인 필요</h4><p>선택한 도시의 검증된 월별 기후자료가 아직 없습니다. 다른 도시의 기온으로 대신 안내하지 않습니다.</p><p>옷차림 제안은 공식 기후자료를 확보한 뒤 제공할 예정이에요.</p></div> : <>
+    {!climate.recommendedMetrics ? <div className="pmb-guide-empty"><h4>공식 정보 확인 필요</h4><p>선택한 도시의 검증된 월별 기후자료가 아직 없습니다. 다른 도시의 기온으로 대신 안내하지 않습니다.</p><p>옷차림 제안은 공식 기후자료를 확보한 뒤 제공할 예정이에요.</p>{research && <><p>{research.climate.notes}</p><p>아래는 공식 자료 조회 경로입니다. 자료 안내를 확인한 날짜이며 도시별 수치의 검증 완료일이 아닙니다. 2016–2025 평균이나 다른 기간의 평년값으로 대체 표시하지 않습니다.</p><SourceLinks ids={research.climate.sourceIds}/></>}</div> : <>
       <div className="pmb-guide-metrics">{metricLabels.map(([key, label, unit]) => {
         const metric = climate.recommendedMetrics![key];
         return <div key={key} className={key === 'meanTemperatureC' ? 'pmb-guide-temperature' : ''}><span>{label}</span><strong>{formatClimateValue(metric.value, unit)}</strong><small>{metric.value === null ? '공식 정보 확인 필요' : `${metric.period.startYear}–${metric.period.endYear} · ${metric.basis === 'recent-10-year-observations' ? '관측 10년 평균' : '공식 30년 평년값'}`}</small></div>;

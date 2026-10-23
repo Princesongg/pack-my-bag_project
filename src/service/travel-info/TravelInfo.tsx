@@ -64,7 +64,7 @@ export default function TravelInfo() {
         {segments.length > 1 && <div className="pmb-guide-months" role="group" aria-label="여행 월별 기후 선택">{segments.map((item, index) => <button type="button" key={`${item.year}-${item.month}`} data-month={`${item.year}-${item.month}`} aria-pressed={index === Math.min(activeMonth, segments.length - 1)} aria-controls="pmb-weather-panel" onClick={() => setActiveMonth(index)}>{item.year}년 {item.month}월 <span>{item.daysCovered}일 여행</span></button>)}</div>}
         <WeatherGuide segment={segment} cityName={city.english} travelPurpose={trip.travelPurpose}/>
       </section>
-      <EssentialInfo countryId={country.id} travelPurpose={trip.travelPurpose} tripDays={current.tripDays}/>
+      <EssentialInfo cityId={city.id} departureDate={trip.departureDate} returnDate={trip.returnDate} countryId={country.id} travelPurpose={trip.travelPurpose} tripDays={current.tripDays}/>
       <MobileMore title="여행 정보 이용 안내"><aside className="pmb-guide-source-notice"><MapPin size={21}/><div><strong>정보를 확인하고, 나에게 맞게 준비하세요.</strong><p>{travelNotices.sources}</p><p>{travelNotices.clothing}</p></div></aside></MobileMore>
       <div className="pmb-guide-actions"><Link to="/implementation/trip-details" className="pmb-guide-back"><ArrowLeft size={17}/> PREVIOUS</Link><Link to="/implementation/my-bag" className="pmb-bag-next">NEXT · MY BAG <ArrowUpRight size={16}/></Link></div>
     </main>

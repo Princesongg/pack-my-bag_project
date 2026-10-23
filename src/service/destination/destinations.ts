@@ -14,10 +14,16 @@ export const destinations = [
   { id: 'TW', name: '대만', english: 'Taiwan', flag: '🇹🇼', cities: [
     { id: 'taipei', name: '타이베이', english: 'Taipei' }, { id: 'kaohsiung', name: '가오슝', english: 'Kaohsiung' },
   ] },
+  { id: 'US', name: '미국', english: 'United States', flag: '🇺🇸', cities: [
+    { id: 'new-york', name: '뉴욕', english: 'New York' }, { id: 'los-angeles', name: '로스앤젤레스', english: 'Los Angeles' },
+  ] },
+  { id: 'AU', name: '호주', english: 'Australia', flag: '🇦🇺', cities: [
+    { id: 'sydney', name: '시드니', english: 'Sydney' }, { id: 'melbourne', name: '멜버른', english: 'Melbourne' },
+  ] },
 ] as const;
 
 // Order is editorial; adding supported countries does not grow the popular grid.
-export const popularCountryIds: readonly string[] = ['JP', 'VN', 'TH', 'TW'];
+export const popularCountryIds: readonly string[] = ['JP', 'VN', 'TH', 'TW', 'US', 'AU'];
 export const citySearchThreshold = 8;
 
 export function filterDestinations<T extends { name: string; english: string }>(items: readonly T[], query: string): T[] {

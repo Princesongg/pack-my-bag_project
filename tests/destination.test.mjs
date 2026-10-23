@@ -9,11 +9,12 @@ const { outputText } = ts.transpileModule(source, { compilerOptions: { module: t
 const { destinations, popularCountryIds, filterDestinations, emptySelection, selectionKey, validateSelection, selectCountry, loadSelection, saveSelection } =
   await import(`data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`);
 
-test('all four countries expose exactly the supported city lists', () => {
+test('all six countries expose exactly the supported city lists', () => {
   assert.deepEqual(destinations.map(country => [country.name, country.cities.map(city => city.name)]), [
     ['일본', ['도쿄', '오사카', '후쿠오카', '삿포로']],
     ['베트남', ['다낭', '하노이', '나트랑', '푸꾸옥']],
     ['태국', ['방콕', '푸껫', '치앙마이']], ['대만', ['타이베이', '가오슝']],
+    ['미국', ['뉴욕', '로스앤젤레스']], ['호주', ['시드니', '멜버른']],
   ]);
 });
 
@@ -58,8 +59,8 @@ test('country search supports Korean, English, partial names, case and whitespac
   }
   assert.deepEqual(filterDestinations(destinations, '베트').map(item => item.id), ['VN']);
   assert.deepEqual(filterDestinations(destinations, 'Canada'), []);
-  assert.equal(filterDestinations(destinations, '  ').length, 4);
-  assert.equal(popularCountryIds.length, 4);
+  assert.equal(filterDestinations(destinations, '  ').length, 6);
+  assert.equal(popularCountryIds.length, 6);
   assert.ok(popularCountryIds.every(id => destinations.some(country => country.id === id)));
 });
 
