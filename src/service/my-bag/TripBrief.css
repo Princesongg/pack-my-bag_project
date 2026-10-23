@@ -1,0 +1,28 @@
+.pmb-bag-service .pmb-trip-brief { margin-top:22px; }
+.pmb-bag-service .pmb-trip-brief>header h2 { font-size:16px; margin:0; }
+.pmb-bag-service .pmb-trip-brief>header p { font-size:16px; margin:4px 0; }
+.pmb-bag-service .pmb-trip-brief>header>span { font-size:14px; color:#65738a; }
+.pmb-bag-service .pmb-trip-brief-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:12px; }
+.pmb-bag-service .pmb-trip-brief-grid>article { min-width:0; padding:16px; border:1px solid #d9e2ee; border-radius:12px; background:#f0f5fc; font-size:14px; }
+.pmb-bag-service .pmb-trip-brief-link { display:flex; align-items:center; gap:8px; min-height:44px; color:var(--pmb-blue); }
+.pmb-bag-service .pmb-trip-brief-link h3 { font-size:16px; margin:0; flex:1; }
+.pmb-bag-service .pmb-trip-brief-link svg { flex-shrink:0; }
+.pmb-bag-service .pmb-trip-brief-grid p { margin:8px 0; font-size:14px; }
+.pmb-bag-service .pmb-trip-brief-month { margin-top:7px; }
+.pmb-bag-service .pmb-trip-brief-month>a { display:flex; align-items:center; gap:5px; min-height:44px; font-weight:600; }
+.pmb-bag-service .pmb-trip-brief small { display:block; font-size:14px; color:#65738a; }
+.pmb-bag-service .pmb-trip-brief summary { min-height:44px; padding-block:9px; box-sizing:border-box; cursor:pointer; color:#3d5a83; font-size:14px; }
+.pmb-bag-service .pmb-trip-brief .pmb-guide-sources ul { padding-left:18px; font-size:14px; }
+.pmb-bag-service .pmb-trip-brief .pmb-guide-sources li { margin-bottom:8px; }
+.pmb-bag-service .pmb-trip-brief .pmb-guide-sources a { overflow-wrap:anywhere; color:var(--pmb-blue); }
+.pmb-bag-service .pmb-trip-brief .pmb-guide-sources li>span { display:block; color:#65738a; }
+@media(max-width:768px) {
+  .pmb-bag-service .pmb-trip-brief { margin-top:16px; }
+  .pmb-bag-service .pmb-trip-brief>header p { font-size:14px; }
+  .pmb-bag-service .pmb-trip-brief>header>span,.pmb-bag-service .pmb-trip-brief small { font-size:12px; }
+  .pmb-bag-service .pmb-trip-brief-grid { grid-template-columns:1fr; gap:0; border:1px solid #d9e2ee; border-radius:12px; overflow:hidden; }
+  .pmb-bag-service .pmb-trip-brief-grid>article { border:0; border-radius:0; padding:10px 14px; }
+  .pmb-bag-service .pmb-trip-brief-grid>article+article { border-top:1px solid #d9e2ee; }
+  .pmb-bag-service .pmb-trip-brief-link h3 { font-size:14px; }
+  .pmb-bag-service .pmb-trip-brief .pmb-guide-sources :is(summary,ul,li) { font-size:12px; }
+}

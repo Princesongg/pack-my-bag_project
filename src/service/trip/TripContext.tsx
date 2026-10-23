@@ -24,7 +24,7 @@ export function TripProvider({ children }: { children: ReactNode }) {
   function setSelection(value: SetStateAction<DestinationSelection>) {
     setTrip(current => {
       const destination = validateSelection(typeof value === 'function' ? value(current) : value);
-      return recalculateTrip({ ...(destination.countryId && destination.cityId ? current : emptyTrip), ...destination });
+      return recalculateTrip({ ...current, ...destination });
     });
   }
   return <TripContext.Provider value={{ trip, saved, setSelection, persist, updateDetails: value => setTrip(current => recalculateTrip({ ...current, ...value })) }}>{children}</TripContext.Provider>;

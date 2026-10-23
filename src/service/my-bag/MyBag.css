@@ -11,6 +11,7 @@
 .pmb-bag-trip { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px 24px; padding:18px 22px; background:#f6edcf; border:1px solid #ede1b9; border-radius:14px; }
 .pmb-bag-trip>div { display:grid; gap:4px; }
 .pmb-bag-trip span { font-size:14px; color:#77715f; }
+.pmb-bag-edit-trip { display:flex; align-items:center; gap:5px; width:fit-content; min-height:44px; font-size:14px; color:var(--pmb-blue); }
 .pmb-bag-progress { padding:22px 0; }
 .pmb-bag-progress>div:first-child { display:flex; align-items:center; justify-content:space-between; gap:12px; }
 .pmb-bag-progress h2 { font-size:16px; margin:0; }
@@ -22,6 +23,7 @@
 .pmb-bag-note p { flex:1; min-width:200px; margin:0; }
 .pmb-bag-note a { display:flex; align-items:center; gap:5px; color:var(--pmb-blue); min-height:44px; }
 .pmb-bag-categories { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:20px; }
+.pmb-bag-category-column { display:flex; flex-direction:column; gap:20px; min-width:0; }
 .pmb-bag-category { border:1px solid #e2e0d7; border-radius:14px; background:#fffdf7; padding:18px; min-width:0; }
 .pmb-bag-category>header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-bottom:10px; }
 .pmb-bag-category h2 { font-size:18px; margin:0; }
@@ -62,6 +64,7 @@
   .pmb-bag-progress p,.pmb-bag-note { font-size:12px; }
   .pmb-bag-note { margin-bottom:14px; }
   .pmb-bag-categories { grid-template-columns:1fr; gap:12px; }
+  .pmb-bag-category-column { gap:12px; }
   .pmb-bag-category { padding:12px 14px; }
   .pmb-bag-category h2 { font-size:16px; }
   .pmb-bag-category small,.pmb-bag-category>header>span { font-size:12px; }

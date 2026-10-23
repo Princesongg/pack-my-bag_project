@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link, Navigate } from 'react-router-dom';
+import { Link, Navigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, ArrowUpRight, CalendarDays, MapPin, Sparkles } from 'lucide-react';
 import ServiceHeader from '../ServiceHeader';
 import { useTrip } from '../trip/TripContext';
@@ -16,6 +16,8 @@ import './MobileCompact.css';
 
 export default function TravelInfo() {
   const { trip, saved } = useTrip();
+  const location = useLocation();
+  const fromBag = new URLSearchParams(location.search).get('from') === 'my-bag';
   const mobile = useCompactGuide();
   const [activeMonth, setActiveMonth] = useState(0);
   const [today, setToday] = useState(localToday);
@@ -26,6 +28,20 @@ export default function TravelInfo() {
   const segments = useMemo(() => complete ? getTripClimate(trip.cityId, trip.departureDate, trip.returnDate) : [], [complete, trip.cityId, trip.departureDate, trip.returnDate]);
   const segment = segments[Math.min(activeMonth, segments.length - 1)];
   useEffect(() => { setActiveMonth(0); }, [trip.cityId, trip.departureDate, trip.returnDate]);
+  useEffect(() => {
+    if (!complete) return;
+    const month = Number(new URLSearchParams(location.search).get('month') ?? 0);
+    if (Number.isInteger(month) && month >= 0 && month < segments.length) setActiveMonth(month);
+    const targetId = location.hash.slice(1);
+    if (!['pmb-guide-weather', 'pmb-guide-electricity', 'pmb-guide-baggage'].includes(targetId)) return;
+    const frame = requestAnimationFrame(() => {
+      const target = document.getElementById(targetId);
+      const disclosure = target?.closest<HTMLDetailsElement>('.pmb-mobile-info-row');
+      if (disclosure) disclosure.open = true;
+      target?.scrollIntoView();
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [location.hash, location.search, complete, segments.length, mobile]);
   useEffect(() => {
     window.scrollTo(0, 0);
     const refresh = () => setToday(localToday());
@@ -39,7 +55,7 @@ export default function TravelInfo() {
     <a href="#pmb-guide-main" className="pmb-skip">본문으로 건너뛰기</a>
     <ServiceHeader currentPage="travel-info"/>
     <main id="pmb-guide-main" className="pmb-guide pmb-container">
-      <Link className="pmb-guide-back" to="/implementation/trip-details"><ArrowLeft size={16}/> 여행 일정 및 스타일 수정</Link>
+      <Link className="pmb-guide-back" to={fromBag ? '/implementation/my-bag' : '/implementation/trip-details'}><ArrowLeft size={16}/>{fromBag ? 'MY BAG으로 돌아가기' : '여행 일정 및 스타일 수정'}</Link>
       <header className="pmb-guide-heading"><span className="pmb-guide-eyebrow">YOUR TRAVEL GUIDE</span>{mobile ? <h1>{city.name} 여행 준비 정보</h1> : <><h1>여행 전 꼭 알아야 할 정보<span>More ready.<br/>More excited.</span></h1><p>여행지는 정했으니, 이제 준비를 조금 더 가볍게.<br/>선택한 여행의 기후와 꼭 필요한 정보를 모았어요.</p></>}</header>
       <section className="pmb-guide-trip" aria-label="선택한 여행 정보"><div><img src={`/flags/${country.id.toLowerCase()}.svg`} width="30" height="21" alt=""/><strong>{country.name} · {city.name}<span>{country.english.toUpperCase()} · {city.english.toUpperCase()}</span></strong></div><p><CalendarDays size={19}/><span>{trip.departureDate.replaceAll('-', '.')} — {trip.returnDate.replaceAll('-', '.')}<small>{current.tripNights}박 {current.tripDays}일 · {purposes.find(item => item.id === trip.travelPurpose)?.label} · {baggageOptions.find(item => item.id === trip.baggageType)?.label}</small></span></p><Link to="/implementation/trip-details">여행 조건 수정 <ArrowUpRight size={16}/></Link></section>
       {!saved && <p className="pmb-guide-pending" role="status">현재 선택 정보는 유지되지만 브라우저에 저장하지 못했습니다. 새로고침 시 사라질 수 있어요.</p>}

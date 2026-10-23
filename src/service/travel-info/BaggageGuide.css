@@ -1,25 +1,38 @@
 .pmb-guide-service .pmb-baggage-intro { margin:12px 0; font-size:14px; }
 .pmb-guide-service .pmb-baggage-rules { list-style:none; display:grid; gap:8px; padding:0; margin:0; min-width:0; }
-.pmb-guide-service .pmb-baggage-rule { border:1px solid #e3dfd1; border-radius:9px; background:#fcfaf4; min-width:0; }
-.pmb-guide-service .pmb-baggage-rule>summary { display:flex; align-items:center; gap:11px; padding:12px; min-height:44px; cursor:pointer; list-style:none; }
-.pmb-guide-service .pmb-baggage-rule>summary::-webkit-details-marker { display:none; }
-.pmb-guide-service .pmb-baggage-rule>summary>svg { flex-shrink:0; color:var(--pmb-blue); }
+.pmb-guide-service .pmb-baggage-rule { display:flex; align-items:center; gap:11px; width:100%; height:100%; box-sizing:border-box; border:1px solid #e3dfd1; border-radius:9px; background:#fcfaf4; min-width:0; padding:12px; min-height:72px; cursor:pointer; text-align:left; color:inherit; font:inherit; }
 .pmb-guide-service .pmb-baggage-rule-label { display:grid; gap:4px; min-width:0; flex:1; font-size:14px; line-height:1.5; word-break:keep-all; overflow-wrap:break-word; white-space:normal; }
 .pmb-guide-service .pmb-baggage-rule-label>strong { font-size:16px; }
 .pmb-guide-service .pmb-baggage-rule-label>span { color:#687383; }
 .pmb-guide-service .pmb-baggage-status { display:flex; flex-wrap:wrap; gap:4px 8px; }
 .pmb-guide-service .pmb-baggage-status>span { color:#32618b; background:#e9f1f6; border-radius:4px; padding:1px 6px; }
 .pmb-guide-service .pmb-baggage-status>[data-prohibited=true] { background:#f5dacc; color:#89553f; }
-.pmb-guide-service .pmb-baggage-rule[open] .pmb-baggage-chevron { transform:rotate(180deg); }
-.pmb-guide-service .pmb-baggage-detail { padding:0 12px 12px; border-top:1px solid #e3dfd1; font-size:14px; line-height:1.7; word-break:keep-all; overflow-wrap:break-word; white-space:normal; }
-.pmb-guide-service .pmb-baggage-detail>ul { padding-left:19px; display:grid; gap:8px; }
+.pmb-guide-service .pmb-baggage-rule[aria-expanded=true] .pmb-baggage-chevron { transform:rotate(180deg); }
+.pmb-guide-service .pmb-baggage-rule[aria-expanded=true] { border-color:var(--pmb-blue); background:#e9f1fc; }
+.pmb-guide-service .pmb-baggage-rule>svg { flex-shrink:0; color:var(--pmb-blue); }
+.pmb-guide-service .pmb-baggage-rule:focus-visible { outline:2px solid var(--pmb-blue); outline-offset:3px; }
+.pmb-guide-service .pmb-guide-baggage>.pmb-baggage-panel-shell { display:grid; grid-template-rows:0fr; opacity:0; transition:grid-template-rows .2s ease,opacity .2s ease,margin-top .2s ease; }
+.pmb-guide-service .pmb-baggage-panel-shell[data-open=true] { grid-template-rows:1fr; opacity:1; margin-top:14px; }
+.pmb-guide-service .pmb-baggage-panel-clip { min-height:0; overflow:hidden; }
+.pmb-guide-service .pmb-baggage-panel-content { animation:pmb-baggage-panel-in .18s ease; }
+.pmb-guide-service .pmb-baggage-panel-content>header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.pmb-guide-service .pmb-baggage-panel-content h3 { font-size:18px; margin:0; word-break:keep-all; }
+.pmb-guide-service .pmb-baggage-panel-content>header>button { display:flex; align-items:center; gap:5px; min-height:44px; padding:8px 10px; border:1px solid #cbd9ee; border-radius:8px; background:#fffdf7; color:#3d5a83; font:inherit; cursor:pointer; flex-shrink:0; }
+.pmb-guide-service .pmb-baggage-cautions h4 { font-size:14px; margin:14px 0 6px; }
+.pmb-guide-service .pmb-baggage-official-links { display:grid; gap:4px; margin-top:12px; }
+.pmb-guide-service .pmb-baggage-official-links a { display:flex; align-items:center; gap:6px; min-height:44px; color:var(--pmb-blue); overflow-wrap:anywhere; }
+@keyframes pmb-baggage-panel-in { from { opacity:0; transform:translateY(-4px); } to { opacity:1; transform:translateY(0); } }
+@media(prefers-reduced-motion:reduce) { .pmb-guide-service .pmb-baggage-panel-shell { transition:none; }.pmb-guide-service .pmb-baggage-panel-content { animation:none; } }
+.pmb-guide-service .pmb-baggage-detail { padding:22px; border:1px solid #cbd9ee; border-radius:12px; background:#f8fbff; font-size:14px; line-height:1.7; word-break:keep-all; overflow-wrap:break-word; white-space:normal; }
+.pmb-guide-service .pmb-baggage-panel-content>ul { padding-left:19px; display:grid; gap:8px; }
 .pmb-guide-service .pmb-baggage-verified { color:#32618b; }
 .pmb-guide-service .pmb-baggage-unresolved { color:#87734f; }
 .pmb-guide-service .pmb-baggage-other { margin-top:12px; font-size:14px; }
 .pmb-guide-service .pmb-baggage-other>p { line-height:1.7; }
-.pmb-guide-service .pmb-baggage-rule>summary:focus-visible { outline:2px solid var(--pmb-blue); outline-offset:3px; border-radius:8px; }
 @media(max-width:768px) {
-  .pmb-guide-service .pmb-baggage-rule>summary { padding:10px; gap:9px; }
+  .pmb-guide-service .pmb-baggage-rule { padding:10px; gap:9px; }
+  .pmb-guide-service .pmb-baggage-detail { padding:16px; }
+  .pmb-guide-service .pmb-baggage-panel-content h3 { font-size:16px; }
   .pmb-guide-service .pmb-baggage-rule-label>strong { font-size:14px; }
   .pmb-guide-service :is(.pmb-baggage-rule-label,.pmb-baggage-detail,.pmb-baggage-other,.pmb-baggage-intro) { font-size:12px; }
 }

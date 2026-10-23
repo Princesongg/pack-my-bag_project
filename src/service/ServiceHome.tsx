@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowUpRight, Check, Compass, Globe2, Luggage, Plane, Plug, ShieldCheck, Sparkles } from 'lucide-react';
 import './service.css';
+import './ServiceHomeCTA.css';
 import ServiceHeader from './ServiceHeader';
+import TripSetup from './trip/TripSetup';
 
 const features = [
   { number: '01', title: 'TRAVEL ESSENTIALS', subtitle: '낯선 여행지, 익숙한 준비', description: '여행 국가별 전압, 콘센트, 통화, 날씨 등 꼭 필요한 정보를 한눈에 확인합니다.', icon: Globe2, detail: 'KNOW BEFORE YOU GO', tone: 'blue' },
@@ -34,8 +36,9 @@ export default function ServiceHome() {
     <a className="pmb-skip" href="#pmb-main">본문으로 건너뛰기</a>
     <ServiceHeader />
     <main id="pmb-main">
-      <section className="pmb-hero pmb-container" aria-labelledby="pmb-hero-title"><div className="pmb-hero-copy"><span className="pmb-kicker pmb-hero-kicker"><span/> YOUR NEXT ADVENTURE STARTS HERE</span><h1 id="pmb-hero-title">Where to<br/><span>next?</span><span className="pmb-title-spark">✳</span></h1><h2>여행 준비, 검색은 줄이고<br className="pmb-mobile-break"/> 설렘은 더하고.</h2><p>여행지를 선택하면 꼭 필요한 여행 정보부터<br className="pmb-desktop-break"/> 나만의 준비물 리스트까지 한 번에 정리할 수 있어요.</p><div className="pmb-cta-area"><Link to="/implementation/destination" className="pmb-cta">START PACKING <ArrowUpRight size={21}/></Link><span>새로운 여행의 시작 <span aria-hidden="true">↗</span></span></div><div className="pmb-hero-note"><Compass size={16}/><span>어디로 떠나든, 준비는 가볍게.</span><span className="pmb-home-label">HOME PREVIEW</span></div></div><TravelVisual /></section>
+      <section className="pmb-hero pmb-container" aria-labelledby="pmb-hero-title"><div className="pmb-hero-copy"><span className="pmb-kicker pmb-hero-kicker"><span/> YOUR NEXT ADVENTURE STARTS HERE</span><h1 id="pmb-hero-title">Where to<br/><span>next?</span><span className="pmb-title-spark">✳</span></h1><h2>여행 준비, 검색은 줄이고<br className="pmb-mobile-break"/> 설렘은 더하고.</h2><p>여행지를 선택하면 꼭 필요한 여행 정보부터<br className="pmb-desktop-break"/> 나만의 준비물 리스트까지 한 번에 정리할 수 있어요.</p><div className="pmb-cta-area"><Link to="/implementation#trip-setup" className="pmb-cta" aria-describedby="pmb-home-cta-description">START PACKING <ArrowUpRight size={24} strokeWidth={2.3} aria-hidden="true"/></Link><span id="pmb-home-cta-description">여행지 선택부터 준비물 정리까지 한 번에</span></div><div className="pmb-hero-note"><Compass size={16}/><span>어디로 떠나든, 준비는 가볍게.</span><span className="pmb-home-label">HOME PREVIEW</span></div></div><TravelVisual /></section>
       <div className="pmb-travel-strip" aria-hidden="true"><div className="pmb-container"><span>PLAN A LITTLE</span><span>✳</span><span>PACK SMART</span><span>✳</span><span>TRAVEL HAPPY</span><Plane size={20}/><span>REPEAT</span></div></div>
+      <TripSetup/>
       <FeatureCards />
       <section className="pmb-signoff pmb-container"><span className="pmb-signoff-icon"><Plane size={24}/></span><p>가방에는 필요한 것만.<br/><strong>마음에는 설렘을 가득.</strong></p><span>PACK LIGHT. DREAM BIG.</span></section>
     </main>

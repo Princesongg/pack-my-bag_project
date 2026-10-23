@@ -5,7 +5,7 @@
 .pmb-guide-service .pmb-checks-tabs [aria-selected=true] { color:var(--pmb-blue); border-color:var(--pmb-blue); background:#e9f1fc; font-weight:600; }
 .pmb-guide-service .pmb-checks-tabs button:focus-visible { outline:2px solid var(--pmb-blue); outline-offset:3px; }
 .pmb-guide-service .pmb-travel-checks .pmb-checks-baggage { margin:0; padding:0; border:0; border-radius:0; background:transparent; }
-.pmb-guide-service .pmb-travel-checks .pmb-baggage-rules { grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:12px; }
+.pmb-guide-service .pmb-travel-checks .pmb-baggage-rules { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:1fr; align-items:stretch; gap:12px; }
 .pmb-guide-service .pmb-travel-checks .pmb-baggage-rules>li { min-width:0; }
 @media(max-width:768px) {
   .pmb-guide-service .pmb-checks-tabs { gap:8px; margin:16px 0; }
