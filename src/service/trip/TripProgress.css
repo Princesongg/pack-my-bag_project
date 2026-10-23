@@ -1,0 +1,8 @@
+.pmb-service .pmb-input-progress { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); list-style:none; padding:0; margin:28px 0 34px; border-block:1px solid #e3e2da; gap:20px; }
+.pmb-service .pmb-input-progress li { display:flex; align-items:center; gap:12px; padding:18px 0; color:#737c89; border-bottom:2px solid transparent; }
+.pmb-service .pmb-input-progress li>span { display:grid; place-items:center; width:30px; height:30px; border:1px solid #d7dce1; border-radius:50%; flex-shrink:0; font-size:12px; }
+.pmb-service .pmb-input-progress strong { font-size:12px; display:block; }
+.pmb-service .pmb-input-progress small { display:block; font-size:12px; margin-top:5px; }
+.pmb-service .pmb-input-progress [aria-current] { color:var(--pmb-blue); border-color:var(--pmb-blue); }
+.pmb-service .pmb-input-progress [aria-current]>span { background:var(--pmb-blue); color:white; border-color:var(--pmb-blue); }
+@media(max-width:768px) { .pmb-service .pmb-input-progress { gap:12px; margin:18px 0 24px; }.pmb-service .pmb-input-progress li { padding:13px 0; gap:8px; }.pmb-service .pmb-input-progress strong { line-height:1.5; } }

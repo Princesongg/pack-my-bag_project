@@ -1,0 +1,538 @@
+{
+  "verifiedOn": "2026-10-23",
+  "sources": [
+    {
+      "id": "jma-tokyo-2016",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2016&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2016,
+        "endYear": 2016
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2016.html.gz",
+      "sha256": "0cbffda39de7a613679f4f881d3a1a628efd01d25d80ce8dae929cfc318abe13"
+    },
+    {
+      "id": "jma-tokyo-2017",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2017&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2017,
+        "endYear": 2017
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2017.html.gz",
+      "sha256": "6665391e40885fbe47d3ba7f60b99edd1acd66fd27becd13fe1d34298c467d5b"
+    },
+    {
+      "id": "jma-tokyo-2018",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2018&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2018,
+        "endYear": 2018
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2018.html.gz",
+      "sha256": "e91da6eb774fca77998ba35ee7936087c0357bd381c4bfa97824efafc0aa2805"
+    },
+    {
+      "id": "jma-tokyo-2019",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2019&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2019,
+        "endYear": 2019
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2019.html.gz",
+      "sha256": "5e7a568031b8c905623baf84d7c2c3c30978a26915f79ed4876bc46c62591056"
+    },
+    {
+      "id": "jma-tokyo-2020",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2020&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2020,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2020.html.gz",
+      "sha256": "8d835c169b3ee5ff9811d855eccf4788f316db8a1b054f55e3fae545f4a525b9"
+    },
+    {
+      "id": "jma-tokyo-2021",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2021&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2021,
+        "endYear": 2021
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2021.html.gz",
+      "sha256": "cfe5987114f010febc5e94f4f665191922fd4d9fc054cc123c44808aaef3e9f2"
+    },
+    {
+      "id": "jma-tokyo-2022",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2022&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2022,
+        "endYear": 2022
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2022.html.gz",
+      "sha256": "3184ee9617153ad1397bf78f49440b3fe15afdca6f7e8ba59f30ca9107efec15"
+    },
+    {
+      "id": "jma-tokyo-2023",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2023&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2023,
+        "endYear": 2023
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2023.html.gz",
+      "sha256": "a39a9449f15bc5c9923845651f9cb0876d6990a4647702a02e533547131fb9df"
+    },
+    {
+      "id": "jma-tokyo-2024",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2024&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2024,
+        "endYear": 2024
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2024.html.gz",
+      "sha256": "7aaa6dd0d8311fc372ab33c9223109ae34ecaceb0549f689ba035f4f28e65698"
+    },
+    {
+      "id": "jma-tokyo-2025",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2025&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2025,
+        "endYear": 2025
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-tokyo-2025.html.gz",
+      "sha256": "2e9fcd75e1ab852ff61d503e6d866e0c46576e820e6300bcb01583cbb1be322e"
+    },
+    {
+      "id": "jma-osaka-2016",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2016&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2016,
+        "endYear": 2016
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2016.html.gz",
+      "sha256": "66f6b630e645a74225472e2131e036f7bd6043c44e0a0a99a7864e731cc360ab"
+    },
+    {
+      "id": "jma-osaka-2017",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2017&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2017,
+        "endYear": 2017
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2017.html.gz",
+      "sha256": "4fc3e26df8994d28cfc880c36aacbe158cbd85c6a24b616e196dbd875c9ce076"
+    },
+    {
+      "id": "jma-osaka-2018",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2018&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2018,
+        "endYear": 2018
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2018.html.gz",
+      "sha256": "81dd2efd46af9fda24c706a159ffd2917a476f2433edffeff8eb2e5081ac2c92"
+    },
+    {
+      "id": "jma-osaka-2019",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2019&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2019,
+        "endYear": 2019
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2019.html.gz",
+      "sha256": "6721766f58f19111d4846079d08bf741f44e7a95235d1f896cdd0f70b8c47a51"
+    },
+    {
+      "id": "jma-osaka-2020",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2020&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2020,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2020.html.gz",
+      "sha256": "2f93547d9803b49add8e4e7cbf8344066ca7bc6e5d3bd79487bb160da7b173bb"
+    },
+    {
+      "id": "jma-osaka-2021",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2021&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2021,
+        "endYear": 2021
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2021.html.gz",
+      "sha256": "98cddc130a0291e890114eb3be5e982f54ce94cf6811b9ce598b16b5d0f4a131"
+    },
+    {
+      "id": "jma-osaka-2022",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2022&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2022,
+        "endYear": 2022
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2022.html.gz",
+      "sha256": "777211f51dc93ae3da9e93f640eb4d4a3e96f77124d0b47e88c62f9869c1b6ae"
+    },
+    {
+      "id": "jma-osaka-2023",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2023&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2023,
+        "endYear": 2023
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2023.html.gz",
+      "sha256": "49f9adedcb2917be475508467d201bcd6b4eb5ff57404bd8efe5aea0a836f8e0"
+    },
+    {
+      "id": "jma-osaka-2024",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2024&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2024,
+        "endYear": 2024
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2024.html.gz",
+      "sha256": "b286cd0a2eaaef2f4be6156b7c442c178d7210b3df54fbbfa44bb1a29c8153e8"
+    },
+    {
+      "id": "jma-osaka-2025",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2025&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2025,
+        "endYear": 2025
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-osaka-2025.html.gz",
+      "sha256": "0058a98edb64034dbf7ac5f6400bda0a2951cd14c1b18fd42f1e3c8d23259367"
+    },
+    {
+      "id": "jma-fukuoka-2016",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2016&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2016,
+        "endYear": 2016
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2016.html.gz",
+      "sha256": "fe4b2970e38eb16fa2a098f900051a627813b3c6145559e928ddcc6b30695e90"
+    },
+    {
+      "id": "jma-fukuoka-2017",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2017&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2017,
+        "endYear": 2017
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2017.html.gz",
+      "sha256": "13ff1a2ad662e18283ce583b90533d037ef9d8974d2112c815122ee1db5f44be"
+    },
+    {
+      "id": "jma-fukuoka-2018",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2018&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2018,
+        "endYear": 2018
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2018.html.gz",
+      "sha256": "3db67c8bd6733583b9cd44f657b97d17be013c7ccbc13bbd8995ddc44c07c6f7"
+    },
+    {
+      "id": "jma-fukuoka-2019",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2019&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2019,
+        "endYear": 2019
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2019.html.gz",
+      "sha256": "e2c4894dc1452afad522e55b6b134835a754c6e8f67b11dd1f319b853e4725b5"
+    },
+    {
+      "id": "jma-fukuoka-2020",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2020&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2020,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2020.html.gz",
+      "sha256": "5c8a081c6f206d27b5ee0cb586e04b5e2498bfa73dd201c729813f533baa6d65"
+    },
+    {
+      "id": "jma-fukuoka-2021",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2021&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2021,
+        "endYear": 2021
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2021.html.gz",
+      "sha256": "594a681f1250790c9fd3c2cb33764b5599ad86ecc775fc742e7f40f16f32ce4c"
+    },
+    {
+      "id": "jma-fukuoka-2022",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2022&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2022,
+        "endYear": 2022
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2022.html.gz",
+      "sha256": "a8150a250100c47a2161ab3fc09b5888d0ddaab1e4227e929fbc87b42e055328"
+    },
+    {
+      "id": "jma-fukuoka-2023",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2023&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2023,
+        "endYear": 2023
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2023.html.gz",
+      "sha256": "a36d32cf2c06321fb084cf66563e5978a0cf37c60e4b127d00f8bc39709f8fbb"
+    },
+    {
+      "id": "jma-fukuoka-2024",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2024&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2024,
+        "endYear": 2024
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2024.html.gz",
+      "sha256": "8bf24e19d2ec0d2964d5698b059e059132242e35ca81d8d2a868bf37c8e64d95"
+    },
+    {
+      "id": "jma-fukuoka-2025",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2025&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2025,
+        "endYear": 2025
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-fukuoka-2025.html.gz",
+      "sha256": "6f31ca15195f2c3eeaaf60fd0c892228616ab04c1ac2b33fb15f55c81df14e8b"
+    },
+    {
+      "id": "jma-sapporo-2016",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2016&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2016,
+        "endYear": 2016
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2016.html.gz",
+      "sha256": "d6a7215f6fb0b068a5613d38e635ef59f3ccae4f64092b28abbeb28ea760c82e"
+    },
+    {
+      "id": "jma-sapporo-2017",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2017&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2017,
+        "endYear": 2017
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2017.html.gz",
+      "sha256": "785236153588119b0b7b1ff80877c346c45eb7d8748f4390e07d5e36b975f4d5"
+    },
+    {
+      "id": "jma-sapporo-2018",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2018&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2018,
+        "endYear": 2018
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2018.html.gz",
+      "sha256": "eee43fd96bcb106075f4a47df3d831f370732c526041a168ecef2f6b218ee54e"
+    },
+    {
+      "id": "jma-sapporo-2019",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2019&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2019,
+        "endYear": 2019
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2019.html.gz",
+      "sha256": "2a4ccd6b095bf415636f13c3b601cfdb3609f77b17978b4a1476399aea19a60d"
+    },
+    {
+      "id": "jma-sapporo-2020",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2020&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2020,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2020.html.gz",
+      "sha256": "5f3711d95e37757db672bc15f5aba59e8f019706f6b4a382edca019bfae67686"
+    },
+    {
+      "id": "jma-sapporo-2021",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2021&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2021,
+        "endYear": 2021
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2021.html.gz",
+      "sha256": "2b8018170cb7da983ba855d1620b54df6129828e577051ebde438aead363b584"
+    },
+    {
+      "id": "jma-sapporo-2022",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2022&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2022,
+        "endYear": 2022
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2022.html.gz",
+      "sha256": "88580519c333d4c487b52027bc79b9c4b77331ee8f9d91058985182fcf3f42b3"
+    },
+    {
+      "id": "jma-sapporo-2023",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2023&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2023,
+        "endYear": 2023
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2023.html.gz",
+      "sha256": "46cf8d4c094b8d18cb08692d57029a9523c1e800345e13de94cfecbe5078dd2e"
+    },
+    {
+      "id": "jma-sapporo-2024",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2024&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2024,
+        "endYear": 2024
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2024.html.gz",
+      "sha256": "fd4e79d23880aa3e7ca381a53118986874e825791fc952478102d2774a240a3a"
+    },
+    {
+      "id": "jma-sapporo-2025",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2025&month=&day=&view=",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 2025,
+        "endYear": 2025
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-sapporo-2025.html.gz",
+      "sha256": "2b255621ae7a86470654d95742b3f3fe8aeb23c55c8490246c6b11421a022288"
+    },
+    {
+      "id": "jma-normals-1991-2020",
+      "organization": "Japan Meteorological Agency (JMA)",
+      "url": "https://www.data.jma.go.jp/stats/en/normal/normal.html",
+      "lastVerified": "2026-10-23",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "snapshotPath": "raw/jma/jma-normals-1991-2020.html.gz",
+      "sha256": "56b07408210c589fcfb4e9cdbbd322379ca712a8718cc824a7cad1378f41c262"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.pmb-guide-service .pmb-travel-checks { grid-column:1 / -1; }
+.pmb-guide-service .pmb-checks-tabs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:20px 0; }
+.pmb-guide-service .pmb-checks-tabs button { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:4px 10px; min-width:0; min-height:48px; padding:10px 14px; border:1px solid #d4deeb; border-radius:9px; background:#fffdf7; color:#596e88; font:inherit; font-size:16px; cursor:pointer; word-break:keep-all; overflow-wrap:break-word; }
+.pmb-guide-service .pmb-checks-tabs button>span { font-size:14px; }
+.pmb-guide-service .pmb-checks-tabs [aria-selected=true] { color:var(--pmb-blue); border-color:var(--pmb-blue); background:#e9f1fc; font-weight:600; }
+.pmb-guide-service .pmb-checks-tabs button:focus-visible { outline:2px solid var(--pmb-blue); outline-offset:3px; }
+.pmb-guide-service .pmb-travel-checks .pmb-checks-baggage { margin:0; padding:0; border:0; border-radius:0; background:transparent; }
+.pmb-guide-service .pmb-travel-checks .pmb-baggage-rules { grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:12px; }
+.pmb-guide-service .pmb-travel-checks .pmb-baggage-rules>li { min-width:0; }
+@media(max-width:768px) {
+  .pmb-guide-service .pmb-checks-tabs { gap:8px; margin:16px 0; }
+  .pmb-guide-service .pmb-checks-tabs button { font-size:14px; padding:9px 8px; }
+  .pmb-guide-service .pmb-checks-tabs button>span { font-size:12px; }
+  .pmb-guide-service .pmb-travel-checks .pmb-baggage-rules { grid-template-columns:1fr; gap:8px; }
+}
