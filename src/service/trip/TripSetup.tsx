@@ -7,7 +7,7 @@ import { useTrip } from './TripContext';
 import { baggageOptions, dateErrors, localToday, purposes, recalculateTrip, tripComplete } from './trip';
 import './TripSetup.css';
 
-export default function TripSetup() {
+export default function TripSetup({ onComplete }: { onComplete?: () => void }) {
   const { trip, setSelection, updateDetails, saved, persist } = useTrip();
   const navigate = useNavigate();
   const location = useLocation();
@@ -38,7 +38,7 @@ export default function TripSetup() {
   return <section id="trip-setup" className="pmb-setup pmb-container" tabIndex={-1} aria-labelledby="pmb-setup-title"><header><span>TRIP SETUP</span><h2 id="pmb-setup-title">어떤 여행을 준비하고 있나요?</h2><p>여행지부터 스타일까지 한 번에 정하고, 나만의 가방을 만들어 보세요.</p></header>
     <form noValidate onSubmit={event => {
       event.preventDefault(); setSubmitted(true);
-      if (complete) { persist(); navigate('/implementation/my-bag'); }
+      if (complete) { persist(); if (onComplete) onComplete(); else navigate('/implementation/workspace?view=bag'); }
       else requestAnimationFrame(() => document.querySelector<HTMLElement>('#trip-setup [aria-invalid="true"]')?.focus());
     }}>
       <div className="pmb-setup-destinations"><div><CountryPicker selectedId={trip.countryId} onSelect={id => { setSelection(current => selectCountry(current, id)); setCityQuery(''); }}/>{submitted && !country && <p className="pmb-setup-error" role="alert">국가를 선택해 주세요.</p>}</div>
