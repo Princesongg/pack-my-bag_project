@@ -4,7 +4,7 @@ import { launchQaBrowser } from './qaBrowser.mjs';
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
-const output='docs/verification/modal-corners';mkdirSync(output,{recursive:true});
+const origin=process.env.QA_ORIGIN??'http://127.0.0.1:5173';const output=process.env.QA_OUTPUT??'docs/verification/modal-corners';mkdirSync(output,{recursive:true});
 const browser = launchQaBrowser({ port: 9267, profile: 'modal-corners-ui-browser' });
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));let ws;
 try {
@@ -19,15 +19,15 @@ try {
   const click=async(selector,text)=>{await js(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(selector)})].find(e=>e.textContent.includes(${JSON.stringify(text)}));if(!e)throw Error('Missing '+${JSON.stringify(text)});e.click();})()`);await sleep(60);};
   await cdp('Page.enable');await cdp('Runtime.enable');await cdp('Network.enable');
   await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
-  await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+  await cdp('Storage.clearDataForOrigin',{origin:origin,storageTypes:'local_storage'});
   const {tripKey}=await loadTs('src/service/trip/trip.ts');
   const phase=process.env.CORNERS_PHASE??'after',results=[];
   const trip={countryId:'US',cityId:'new-york',departureDate:'2027-12-17',returnDate:'2027-12-20',travelPurpose:'sightseeing',baggageType:'checked'};
-  for(const [width,height]of [[1440,900],[1024,768],[768,600],[430,700],[390,600],[375,600],[360,600],[640,360]]){
-    await cdp('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:width<=768});await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation'});await wait(`!!document.querySelector('.pmb-hero')`);await js(`localStorage.setItem(${JSON.stringify(tripKey)},${JSON.stringify(JSON.stringify(trip))})`);await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation/workspace?view=bag'});await wait(`!!document.querySelector('.pmb-trip-brief')`);
+  for(const [width,height]of [[1920,900],[1440,900],[1280,900],[1024,768],[820,667],[768,600],[430,700],[390,600],[375,600],[360,600],[640,360]]){
+    await cdp('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:width<=768});await cdp('Page.navigate',{url:origin+"/implementation"});await wait(`!!document.querySelector('.pmb-hero')`);await js(`localStorage.setItem(${JSON.stringify(tripKey)},${JSON.stringify(JSON.stringify(trip))})`);await cdp('Page.navigate',{url:origin+"/implementation/workspace?view=bag"});await wait(`!!document.querySelector('.pmb-trip-brief')`);
     for(const [topic,selector]of [['weather','[data-topic=weather]'],['electricity','[data-topic=electricity]'],['baggage','[data-topic=baggage]'],['entry','.pmb-entry-banner'],['passport','.pmb-red-flags-action button'],['confirm','#pmb-last-minute-entry']]){
       await js(`document.querySelector(${JSON.stringify(selector)}).click()`);await wait(`!!document.querySelector('dialog[open]')`);await js(`document.querySelectorAll('dialog details').forEach(e=>e.open=true);document.querySelector('dialog').scrollTop=document.querySelector('dialog').scrollHeight`);await sleep(80);
-      const g=await js(`(()=>{const d=document.querySelector('dialog'),s=getComputedStyle(d),r=d.getBoundingClientRect(),c=d.querySelector('.pmb-brief-modal-header button').getBoundingClientRect();return {corners:[s.borderTopLeftRadius,s.borderTopRightRadius,s.borderBottomRightRadius,s.borderBottomLeftRadius],token:getComputedStyle(document.documentElement).getPropertyValue('--pmb-radius-modal').trim(),top:r.top,bottom:r.bottom,left:r.left,right:r.right,scrollHeight:d.scrollHeight,clientHeight:d.clientHeight,overflow:d.scrollWidth>d.clientWidth+1,closeTop:c.top,closeBottom:c.bottom};})()`);results.push({width,height,topic,...g});
+      const g=await js(`(()=>{const d=document.querySelector('dialog'),s=getComputedStyle(d),r=d.getBoundingClientRect(),c=d.querySelector('.pmb-brief-modal-header button').getBoundingClientRect();return {corners:[s.borderTopLeftRadius,s.borderTopRightRadius,s.borderBottomRightRadius,s.borderBottomLeftRadius],token:getComputedStyle(document.documentElement).getPropertyValue('--pmb-radius-modal').trim(),top:r.top,bottom:r.bottom,left:r.left,right:r.right,scrollHeight:d.scrollHeight,clientHeight:d.clientHeight,overflow:d.scrollWidth>d.clientWidth+1,closeTop:c.top,closeBottom:c.bottom};})()`);const links=await js(`[...document.querySelectorAll('dialog a[href]')].map(a=>({text:a.textContent,url:a.href,target:a.target,rel:a.rel}))`);results.push({width,height,topic,links,...g});
       if(phase==='after'){assert.equal(new Set(g.corners).size,1);assert.ok(parseFloat(g.corners[0])>0);assert.ok(g.top>=0&&g.bottom<=height+1&&g.left>=0&&g.right<=width+1);assert.equal(g.overflow,false);assert.ok(g.closeTop>=0&&g.closeBottom<=height+1);}
       const shot=await cdp('Page.captureScreenshot',{format:'png'});writeFileSync(`${output}/${phase}-${topic}-${width}.png`,Buffer.from(shot.data,'base64'));
       if(topic==='confirm'){await click('.pmb-final-confirm button','준비물 더 확인하기');await wait(`!document.querySelector('dialog[open]')`);assert.ok(await js(`!!document.querySelector('.pmb-trip-brief')`));await js(`document.querySelector('#pmb-last-minute-entry').click()`);await wait(`!!document.querySelector('dialog[open]')`);await click('.pmb-final-confirm button','마지막 점검으로 이동');await wait(`!!document.querySelector('.pmb-last-call')`);}else{await js(`document.querySelector('dialog .pmb-brief-modal-header button').click()`);await wait(`!document.querySelector('dialog[open]')`);}

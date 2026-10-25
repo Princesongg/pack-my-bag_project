@@ -1,0 +1,1289 @@
+{
+  "results": [
+    {
+      "url": "https://www.qsncc.com/en/visit/plan-your-trip/",
+      "status": 200,
+      "finalUrl": "https://www.qsncc.com/en/visit/plan-your-trip/",
+      "elapsedMs": 221,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-qsncc-electricity"
+      ]
+    },
+    {
+      "url": "https://www.tourismthailand.org/Articles/plan-your-trip-electricity",
+      "status": 403,
+      "finalUrl": "https://www.tourismthailand.org/Articles/plan-your-trip-electricity",
+      "elapsedMs": 235,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-tat-electricity"
+      ]
+    },
+    {
+      "url": "https://panasonic.jp/tourist/en/electricity.html",
+      "status": 200,
+      "finalUrl": "https://panasonic.jp/tourist/en/electricity.html",
+      "elapsedMs": 266,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-panasonic-electricity",
+        "kr-electricity-comparison",
+        "vn-panasonic-electricity"
+      ]
+    },
+    {
+      "url": "https://www.am2026thailand.go.th/electrical-info-and-devices",
+      "status": 200,
+      "finalUrl": "https://www.am2026thailand.go.th/electrical-info-and-devices",
+      "elapsedMs": 288,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-am2026-electricity"
+      ]
+    },
+    {
+      "url": "https://www.tatnews.org/visitor-information/",
+      "status": 200,
+      "finalUrl": "https://www.tatnews.org/visitor-information/",
+      "elapsedMs": 484,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-tat-plugs"
+      ]
+    },
+    {
+      "url": "https://www.taiwantour.or.kr/introduction/faq.html",
+      "status": 403,
+      "finalUrl": "https://www.taiwantour.or.kr/introduction/faq.html",
+      "elapsedMs": 270,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "taiwan-tourism-electricity"
+      ]
+    },
+    {
+      "url": "https://www.icao.int/sites/default/files/APAC/Meetings/2026/2026%20AAC-6/General%20Information/Attachment-B-Meeting-Bulletin.pdf",
+      "status": 200,
+      "finalUrl": "https://www.icao.int/sites/default/files/APAC/Meetings/2026/2026%20AAC-6/General%20Information/Attachment-B-Meeting-Bulletin.pdf",
+      "elapsedMs": 337,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "vn-icao-electricity"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/data/mdrr/man/remark.html",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/data/mdrr/man/remark.html",
+      "elapsedMs": 81,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-quality"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/risk/obsdl/index.php",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/risk/obsdl/index.php",
+      "elapsedMs": 222,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-download"
+      ]
+    },
+    {
+      "url": "https://travel.tycg.gov.tw/ko/service/electricity",
+      "status": 200,
+      "finalUrl": "https://travel.tycg.gov.tw/ko/service/electricity",
+      "elapsedMs": 544,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "taoyuan-tourism-electricity"
+      ]
+    },
+    {
+      "url": "https://www.jma.go.jp/jma/kishou/books/hakusho/2015/01-1.html",
+      "status": 200,
+      "finalUrl": "https://www.jma.go.jp/jma/kishou/books/hakusho/2015/01-1.html",
+      "elapsedMs": 257,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-tokyo-relocation"
+      ]
+    },
+    {
+      "url": "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/passengers_travelling_with_lithium_batteries.pdf",
+      "status": 200,
+      "finalUrl": "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/passengers_travelling_with_lithium_batteries.pdf",
+      "elapsedMs": 581,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "iata-passenger-batteries-2026"
+      ]
+    },
+    {
+      "url": "https://www.iata.org/en/youandiata/travelers/batteries",
+      "status": 200,
+      "finalUrl": "https://www.iata.org/en/youandiata/travelers/batteries",
+      "elapsedMs": 628,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "iata-traveler-battery-safety"
+      ]
+    },
+    {
+      "url": "https://www.japan.travel/en/faq/",
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/ko/kr/",
+      "elapsedMs": 434,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jnto-faq"
+      ]
+    },
+    {
+      "url": "https://www.japan.travel/en/plan/",
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/ko/plan/",
+      "elapsedMs": 387,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jnto-plan"
+      ]
+    },
+    {
+      "url": "https://www.japan.travel/en/plan/plug-and-electricity/",
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/ko/plan/plug-and-electricity/",
+      "elapsedMs": 595,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jnto-electricity"
+      ]
+    },
+    {
+      "url": "https://bd.kma.go.kr/contest/faq_view.do",
+      "status": 200,
+      "finalUrl": "https://bd.kma.go.kr/contest/faq_view.do",
+      "elapsedMs": 326,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "kma-kst"
+      ]
+    },
+    {
+      "url": "https://vietnam.travel/node/26",
+      "status": 200,
+      "finalUrl": "https://vietnam.travel/node/26/",
+      "elapsedMs": 1439,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "vn-tourism-electricity"
+      ]
+    },
+    {
+      "url": "https://services.digital.go.jp/ko/visit-japan-web/guide/",
+      "status": 200,
+      "finalUrl": "https://services.digital.go.jp/ko/visit-japan-web/guide/",
+      "elapsedMs": 354,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "vjw-ko-guide"
+      ]
+    },
+    {
+      "url": "https://www.nict.go.jp/en/sts/jst.html",
+      "status": 200,
+      "finalUrl": "https://www.nict.go.jp/en/sts/jst.html",
+      "elapsedMs": 955,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "nict-jst"
+      ]
+    },
+    {
+      "url": "https://www.digital.go.jp/policies/visit_japan_web",
+      "status": 200,
+      "finalUrl": "https://www.digital.go.jp/policies/visit_japan_web",
+      "elapsedMs": 575,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "digital-agency-vjw"
+      ]
+    },
+    {
+      "url": "https://www.busan.kr.emb-japan.go.jp/itpr_ko/nsm_021.html",
+      "status": 200,
+      "finalUrl": "https://www.busan.kr.emb-japan.go.jp/itpr_ko/nsm_021.html",
+      "elapsedMs": 582,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "japan-visa-busan"
+      ]
+    },
+    {
+      "url": "https://www.city.sapporo.jp/shimin/bunkazai/documents/2sixyou.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.sapporo.jp/shimin/bunkazai/documents/2sixyou.pdf",
+      "elapsedMs": 627,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "sapporo-season"
+      ]
+    },
+    {
+      "url": "https://www.customs.go.jp/english/passenger/",
+      "status": 200,
+      "finalUrl": "https://www.customs.go.jp/english/passenger/",
+      "elapsedMs": 696,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "japan-customs"
+      ]
+    },
+    {
+      "url": "https://www.airport.kr/ap_ko/905/subview.do",
+      "status": 200,
+      "finalUrl": "https://www.airport.kr/ap_ko/905/subview.do",
+      "elapsedMs": 683,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "icn-restricted-items"
+      ]
+    },
+    {
+      "url": "https://www.airport.kr/ap_ko/907/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYXBfa28lMkY5NDYlMkYxMzg0MjclMkZhcnRjbFZpZXcuZG8lM0Y%3D",
+      "status": 200,
+      "finalUrl": "https://www.airport.kr/ap_ko/907/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYXBfa28lMkY5NDYlMkYxMzg0MjclMkZhcnRjbFZpZXcuZG8lM0Y%3D",
+      "elapsedMs": 584,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "icn-battery-faq"
+      ]
+    },
+    {
+      "url": "https://www.airport.kr/ap_ko/907/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYXBfa28lMkY5NDYlMkYxMzg0MjglMkZhcnRjbFZpZXcuZG8lM0Y%3D",
+      "status": 200,
+      "finalUrl": "https://www.airport.kr/ap_ko/907/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYXBfa28lMkY5NDYlMkYxMzg0MjglMkZhcnRjbFZpZXcuZG8lM0Y%3D",
+      "elapsedMs": 550,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "icn-spray-faq"
+      ]
+    },
+    {
+      "url": "https://www.airport.kr/ap_ko/907/subview.do",
+      "status": 200,
+      "finalUrl": "https://www.airport.kr/ap_ko/907/subview.do",
+      "elapsedMs": 579,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "icn-restricted-faq"
+      ]
+    },
+    {
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148962298",
+      "status": 200,
+      "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148962298",
+      "elapsedMs": 949,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "molit-power-banks-2026-policy"
+      ]
+    },
+    {
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148847990",
+      "status": 200,
+      "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148847990",
+      "elapsedMs": 713,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "molit-electronics-guide"
+      ]
+    },
+    {
+      "url": "https://southkorea.embassy.gov.au/seol/ETA601.html",
+      "status": 200,
+      "finalUrl": "https://southkorea.embassy.gov.au/seol/ETA601.html",
+      "elapsedMs": 472,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-au-eta-korea"
+      ]
+    },
+    {
+      "url": "https://www.usa.gov/visa-waiver-esta",
+      "status": 200,
+      "finalUrl": "https://www.usa.gov/visa-waiver-esta",
+      "elapsedMs": 901,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-us-esta"
+      ]
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HS4_100-PURL-gpo172341/pdf/GOVPUB-HS4_100-PURL-gpo172341.pdf",
+      "status": 200,
+      "finalUrl": "https://www.govinfo.gov/content/pkg/GOVPUB-HS4_100-PURL-gpo172341/pdf/GOVPUB-HS4_100-PURL-gpo172341.pdf",
+      "elapsedMs": 707,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-us-esta-definition"
+      ]
+    },
+    {
+      "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+      "status": 200,
+      "finalUrl": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+      "elapsedMs": 281,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-jp-short"
+      ]
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+      "status": 200,
+      "finalUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+      "elapsedMs": 608,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-au-eta-601"
+      ]
+    },
+    {
+      "url": "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+      "status": 200,
+      "finalUrl": "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+      "elapsedMs": 466,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-vn-exemption",
+        "passport-vn-list"
+      ]
+    },
+    {
+      "url": "https://www.tatnews.org/2026/09/thailand-introduces-new-30-day-and-15-day-visa-exemption-rules-from-15-september/",
+      "status": 200,
+      "finalUrl": "https://www.tatnews.org/2026/09/thailand-introduces-new-30-day-and-15-day-visa-exemption-rules-from-15-september/",
+      "elapsedMs": 329,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-th-revision"
+      ]
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "status": 200,
+      "finalUrl": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "elapsedMs": 490,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-th-tdac"
+      ]
+    },
+    {
+      "url": "https://en.mps.gov.vn/article/immigration-department-launches-pre-arrival-information-system-1778670404",
+      "status": 200,
+      "finalUrl": "https://en.mps.gov.vn/article/immigration-department-launches-pre-arrival-information-system-1778670404",
+      "elapsedMs": 747,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-vn-pai"
+      ]
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+      "status": 403,
+      "finalUrl": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+      "elapsedMs": 515,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-us-vwp-current",
+        "us-vwp"
+      ]
+    },
+    {
+      "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)",
+      "status": 200,
+      "finalUrl": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)",
+      "elapsedMs": 361,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-au-ipc"
+      ]
+    },
+    {
+      "url": "https://www.kr.emb-japan.go.jp/itpr_ko/consulate.html",
+      "status": 200,
+      "finalUrl": "https://www.kr.emb-japan.go.jp/itpr_ko/consulate.html",
+      "elapsedMs": 295,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-jp"
+      ]
+    },
+    {
+      "url": "https://seoul.thaiembassy.org/en/publicservice/visa-exemption-scheme?cate=5fa4b5e3c34b8f749474d312",
+      "status": 200,
+      "finalUrl": "https://seoul.thaiembassy.org/en/publicservice/visa-exemption-scheme?cate=5fa4b5e3c34b8f749474d312",
+      "elapsedMs": 1249,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "entry-th-seoul"
+      ]
+    },
+    {
+      "url": "https://www.tourismthailand.org/Articles/plan-your-trip-customs-and-immigration",
+      "status": 403,
+      "finalUrl": "https://www.tourismthailand.org/Articles/plan-your-trip-customs-and-immigration",
+      "elapsedMs": 182,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-th"
+      ]
+    },
+    {
+      "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/4/10/469192-1775620625_v1_1775783105_signed.pdf",
+      "status": 200,
+      "finalUrl": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/4/10/469192-1775620625_v1_1775783105_signed.pdf",
+      "elapsedMs": 547,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-vn-law"
+      ]
+    },
+    {
+      "url": "https://www.immigration.gov.tw/5382/5385/7229/7238/415735",
+      "status": 200,
+      "finalUrl": "https://www.immigration.gov.tw/5382/5385/7229/7238/415735",
+      "elapsedMs": 1678,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-tw-twac"
+      ]
+    },
+    {
+      "url": "https://www.help.cbp.gov/s/article/Article-1238?language=en_US",
+      "status": 200,
+      "finalUrl": "https://www.help.cbp.gov/s/article/Article-1238?language=en_US",
+      "elapsedMs": 551,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-us-cbp"
+      ]
+    },
+    {
+      "url": "https://fam.state.gov/FAM/09FAM/09FAM040309.html",
+      "status": null,
+      "error": "fetch failed",
+      "elapsedMs": 664,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-us-fam"
+      ]
+    },
+    {
+      "url": "https://www.abf.gov.au/newsroom-subsite/Pages/Australia-Travel-Declaration-to-be-rolled-out-nationwide.aspx",
+      "status": 200,
+      "finalUrl": "https://www.abf.gov.au/newsroom-subsite/Pages/Australia-Travel-Declaration-to-be-rolled-out-nationwide.aspx",
+      "elapsedMs": 1307,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "entry-au-atd"
+      ]
+    },
+    {
+      "url": "https://singapore.embassy.gov.au/sing/visas-faq.html",
+      "status": 200,
+      "finalUrl": "https://singapore.embassy.gov.au/sing/visas-faq.html",
+      "elapsedMs": 207,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-au"
+      ]
+    },
+    {
+      "url": "https://www.australia.com/en/facts-and-planning/about-australia/key-facts-about-australia.html",
+      "status": 200,
+      "finalUrl": "https://www.australia.com/en/facts-and-planning/about-australia/key-facts-about-australia.html",
+      "elapsedMs": 127,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "au-electricity",
+        "au-facts"
+      ]
+    },
+    {
+      "url": "https://www.molit.go.kr/USR/NEWS/dtl.jsp?id=95091874&lcmspage=3",
+      "status": null,
+      "error": "fetch failed",
+      "elapsedMs": 3920,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "molit-power-banks-2026"
+      ]
+    },
+    {
+      "url": "https://www.bom.gov.au/climate/data/",
+      "status": 200,
+      "finalUrl": "https://www.bom.gov.au/climate/data/",
+      "elapsedMs": 447,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "bom-climate"
+      ]
+    },
+    {
+      "url": "https://www.boca.gov.tw/fp-149-4486-7785a-1.html",
+      "status": 200,
+      "finalUrl": "https://www.boca.gov.tw/fp-149-4486-7785a-1.html",
+      "elapsedMs": 1329,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "passport-tw"
+      ]
+    },
+    {
+      "url": "https://www.australia.com/en/facts-and-planning/about-australia/time-zones.html",
+      "status": 200,
+      "finalUrl": "https://www.australia.com/en/facts-and-planning/about-australia/time-zones.html",
+      "elapsedMs": 121,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "au-time"
+      ]
+    },
+    {
+      "url": "https://www.energy.gov/oe/electricity-101",
+      "status": 200,
+      "finalUrl": "https://www.energy.gov/oe/electricity-101",
+      "elapsedMs": 652,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "us-energy"
+      ]
+    },
+    {
+      "url": "https://usa.embassy.gov.au/visa-faqs",
+      "status": 200,
+      "finalUrl": "https://usa.embassy.gov.au/visa-faqs",
+      "elapsedMs": 178,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "au-visa"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs",
+      "elapsedMs": 613,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "us-time"
+      ]
+    },
+    {
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_066037_All.shtml",
+      "status": 200,
+      "finalUrl": "https://www.bom.gov.au/climate/averages/tables/cw_066037_All.shtml",
+      "elapsedMs": 328,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "bom-066037-all-years"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/media/okx/Climate/CentralPark/nycnormals.pdf",
+      "status": 200,
+      "finalUrl": "https://www.weather.gov/media/okx/Climate/CentralPark/nycnormals.pdf",
+      "elapsedMs": 597,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "nws-central-park-normal"
+      ]
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "status": 200,
+      "finalUrl": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "elapsedMs": 1327,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "noaa-normals"
+      ]
+    },
+    {
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_086338_All.shtml",
+      "status": 200,
+      "finalUrl": "https://www.bom.gov.au/climate/averages/tables/cw_086338_All.shtml",
+      "elapsedMs": 312,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "bom-086338-all-years"
+      ]
+    },
+    {
+      "url": "https://www.uscurrency.gov/",
+      "status": 200,
+      "finalUrl": "https://www.uscurrency.gov/",
+      "elapsedMs": 1125,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "us-currency"
+      ]
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00023174",
+      "status": 200,
+      "finalUrl": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00023174",
+      "elapsedMs": 773,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "noaa-lax-normal"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_meantxmax.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_meantxmax.html",
+      "elapsedMs": 1150,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-meantxmax"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_meantxmin.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_meantxmin.html",
+      "elapsedMs": 1002,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-meantxmin"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_precpday.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_precpday.html",
+      "elapsedMs": 870,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-precpday"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_rh.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_rh.html",
+      "elapsedMs": 878,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-rh"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_precp.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_precp.html",
+      "elapsedMs": 1028,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-precp"
+      ]
+    },
+    {
+      "url": "https://www.weather.go.kr/w/weather/worldwide.do?cityCode=308&continentCode=C01&countryCode=170",
+      "status": 200,
+      "finalUrl": "https://www.weather.go.kr/w/weather/worldwide.do?cityCode=308&continentCode=C01&countryCode=170",
+      "elapsedMs": 152,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "vn-kma-hanoi"
+      ]
+    },
+    {
+      "url": "https://climate.cwa.gov.tw/data/pdf_1.pdf",
+      "status": 200,
+      "finalUrl": "https://climate.cwa.gov.tw/data/pdf_1.pdf",
+      "elapsedMs": 253,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-station-history"
+      ]
+    },
+    {
+      "url": "https://climate.cwa.gov.tw/data/pdf_2.pdf",
+      "status": 200,
+      "finalUrl": "https://climate.cwa.gov.tw/data/pdf_2.pdf",
+      "elapsedMs": 260,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-method"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48855",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48855",
+      "elapsedMs": 224,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "vn-jma-danang"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/monthlymean.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/monthlymean.html",
+      "elapsedMs": 612,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-guide"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48917",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48917",
+      "elapsedMs": 186,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "vn-jma-phuquoc"
+      ]
+    },
+    {
+      "url": "https://ds.data.jma.go.jp/gmd/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=7&k=0&m=9&n=48877&r=1&s=1&y=2026",
+      "status": 200,
+      "finalUrl": "https://ds.data.jma.go.jp/gmd/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=7&k=0&m=9&n=48877&r=1&s=1&y=2026",
+      "elapsedMs": 412,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "vn-jma-nhatrang"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/outline.html",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/outline.html",
+      "elapsedMs": 168,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "vn-jma-normal-method",
+        "th-jma-normal-method"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48455",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48455",
+      "elapsedMs": 180,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-jma-48455"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=6&k=0&m=9&n=48327&r=1&s=1&y=2026",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=6&k=0&m=9&n=48327&r=1&s=1&y=2026",
+      "elapsedMs": 219,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "th-jma-48327"
+      ]
+    },
+    {
+      "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf#page=11",
+      "status": 200,
+      "finalUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+      "elapsedMs": 234,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "th-tmd-48327"
+      ]
+    },
+    {
+      "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_tx.html",
+      "status": 200,
+      "finalUrl": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_tx.html",
+      "elapsedMs": 2346,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "cwa-normal-tx"
+      ]
+    },
+    {
+      "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf#page=57",
+      "status": 200,
+      "finalUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+      "elapsedMs": 426,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "th-tmd-48455"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=6&k=0&m=9&n=48565&r=1&s=1&y=2026",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=6&k=0&m=9&n=48565&r=1&s=1&y=2026",
+      "elapsedMs": 149,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "th-jma-48565"
+      ]
+    },
+    {
+      "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf#page=89",
+      "status": 200,
+      "finalUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+      "elapsedMs": 74,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "th-tmd-48565"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2016&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2016&month=&day=&view=",
+      "elapsedMs": 130,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2016"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2017&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2017&month=&day=&view=",
+      "elapsedMs": 128,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2017"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2018&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2018&month=&day=&view=",
+      "elapsedMs": 167,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2018"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2019&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2019&month=&day=&view=",
+      "elapsedMs": 190,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2019"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2021&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2021&month=&day=&view=",
+      "elapsedMs": 155,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2021"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2020&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2020&month=&day=&view=",
+      "elapsedMs": 189,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2020"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2022&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2022&month=&day=&view=",
+      "elapsedMs": 108,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2022"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2025&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2025&month=&day=&view=",
+      "elapsedMs": 57,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2025"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2023&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2023&month=&day=&view=",
+      "elapsedMs": 125,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2023"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2016&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2016&month=&day=&view=",
+      "elapsedMs": 116,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2016"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2018&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2018&month=&day=&view=",
+      "elapsedMs": 68,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2018"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2024&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=44&block_no=47662&year=2024&month=&day=&view=",
+      "elapsedMs": 179,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-tokyo-2024"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2017&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2017&month=&day=&view=",
+      "elapsedMs": 131,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2017"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2021&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2021&month=&day=&view=",
+      "elapsedMs": 119,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2021"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2019&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2019&month=&day=&view=",
+      "elapsedMs": 152,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2019"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2020&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2020&month=&day=&view=",
+      "elapsedMs": 242,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2020"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2024&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2024&month=&day=&view=",
+      "elapsedMs": 96,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2024"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2022&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2022&month=&day=&view=",
+      "elapsedMs": 195,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2022"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2023&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2023&month=&day=&view=",
+      "elapsedMs": 211,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2023"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2017&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2017&month=&day=&view=",
+      "elapsedMs": 106,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2017"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2025&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=62&block_no=47772&year=2025&month=&day=&view=",
+      "elapsedMs": 162,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-osaka-2025"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2016&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2016&month=&day=&view=",
+      "elapsedMs": 162,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2016"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2021&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2021&month=&day=&view=",
+      "elapsedMs": 66,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2021"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2019&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2019&month=&day=&view=",
+      "elapsedMs": 117,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2019"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2018&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2018&month=&day=&view=",
+      "elapsedMs": 133,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2018"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2020&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2020&month=&day=&view=",
+      "elapsedMs": 120,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2020"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2024&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2024&month=&day=&view=",
+      "elapsedMs": 93,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2024"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2025&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2025&month=&day=&view=",
+      "elapsedMs": 67,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2025"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2016&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2016&month=&day=&view=",
+      "elapsedMs": 89,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2016"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2017&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2017&month=&day=&view=",
+      "elapsedMs": 97,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2017"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2022&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2022&month=&day=&view=",
+      "elapsedMs": 223,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2022"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2023&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=82&block_no=47807&year=2023&month=&day=&view=",
+      "elapsedMs": 230,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-fukuoka-2023"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2019&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2019&month=&day=&view=",
+      "elapsedMs": 64,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2019"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2020&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2020&month=&day=&view=",
+      "elapsedMs": 77,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2020"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2022&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2022&month=&day=&view=",
+      "elapsedMs": 94,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2022"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2018&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2018&month=&day=&view=",
+      "elapsedMs": 191,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2018"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2023&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2023&month=&day=&view=",
+      "elapsedMs": 109,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2023"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2021&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2021&month=&day=&view=",
+      "elapsedMs": 184,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2021"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2024&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2024&month=&day=&view=",
+      "elapsedMs": 79,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2024"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2025&month=&day=&view=",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=14&block_no=47412&year=2025&month=&day=&view=",
+      "elapsedMs": 84,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "jma-sapporo-2025"
+      ]
+    },
+    {
+      "url": "https://www.data.jma.go.jp/stats/en/normal/normal.html",
+      "status": 200,
+      "finalUrl": "https://www.data.jma.go.jp/stats/en/normal/normal.html",
+      "elapsedMs": 77,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "jma-normals-1991-2020"
+      ]
+    },
+    {
+      "url": "https://www.figma.com/design/V7lgOaWkOME5btj1Gl2DYa/PACK-MY-BAG?node-id=3-2",
+      "status": 200,
+      "finalUrl": "https://www.figma.com/design/V7lgOaWkOME5btj1Gl2DYa/PACK-MY-BAG?node-id=3-2",
+      "elapsedMs": 817,
+      "scope": "rendered-production",
+      "sourceIds": []
+    },
+    {
+      "url": "https://worldweather.wmo.int/en/city.html?cityId=308",
+      "status": 200,
+      "finalUrl": "https://worldweather.wmo.int/en/city.html?cityId=308",
+      "elapsedMs": 8986,
+      "scope": "local-source-catalog",
+      "sourceIds": [
+        "vn-wmo-hanoi"
+      ]
+    },
+    {
+      "url": "https://worldweather.wmo.int/en/city.html?cityId=656",
+      "status": 200,
+      "finalUrl": "https://worldweather.wmo.int/en/city.html?cityId=656",
+      "elapsedMs": 8862,
+      "scope": "rendered-production",
+      "sourceIds": [
+        "vn-wmo-danang"
+      ]
+    }
+  ],
+  "renderedLinkSecurity": []
+}

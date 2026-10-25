@@ -1,0 +1,1913 @@
+{
+  "checkedAt": "2026-10-25T16:32:34.965Z",
+  "origin": "http://127.0.0.1:5173",
+  "results": [
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "tokyo",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "osaka",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "fukuoka",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "cityId": "sapporo",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "danang",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "hanoi",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "nhatrang",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "cityId": "phuquoc",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "bangkok",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "phuket",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "cityId": "chiangmai",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "taipei",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "cityId": "kaohsiung",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "new-york",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "cityId": "los-angeles",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "sydney",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 2,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 3,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 4,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 5,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 6,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 7,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 8,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 9,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 10,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "cityId": "melbourne",
+      "month": 12,
+      "status": "PASS"
+    },
+    {
+      "scenario": "live-edit",
+      "cityId": "tokyo",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "scenario": "live-edit",
+      "cityId": "tokyo",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "scenario": "live-edit",
+      "cityId": "osaka",
+      "month": 11,
+      "status": "PASS"
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1920,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 350.65625,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 382.3125,
+          "width": 356
+        },
+        {
+          "height": 382.3125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 272.265625,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 404.703125,
+          "width": 356
+        },
+        {
+          "height": 404.703125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 587.328125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 587.328125,
+          "width": 356
+        },
+        {
+          "height": 587.328125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 350.65625,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 382.3125,
+          "width": 356
+        },
+        {
+          "height": 382.3125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 272.265625,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 404.703125,
+          "width": 356
+        },
+        {
+          "height": 404.703125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 587.328125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 587.328125,
+          "width": 356
+        },
+        {
+          "height": 587.328125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 350.65625,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 382.3125,
+          "width": 356
+        },
+        {
+          "height": 382.3125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 272.265625,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 404.703125,
+          "width": 356
+        },
+        {
+          "height": 404.703125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 587.328125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 587.328125,
+          "width": 356
+        },
+        {
+          "height": 587.328125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 347.3125,
+      "cardWidth": 300.109375,
+      "cardOverflow": false,
+      "columns": "300.109px 300.109px 300.125px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 378.96875,
+          "width": 300.109375
+        },
+        {
+          "height": 378.96875,
+          "width": 300.125
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 268.921875,
+      "cardWidth": 300.109375,
+      "cardOverflow": false,
+      "columns": "300.109px 300.109px 300.125px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 401.359375,
+          "width": 300.109375
+        },
+        {
+          "height": 401.359375,
+          "width": 300.125
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 583.984375,
+      "cardWidth": 300.109375,
+      "cardOverflow": false,
+      "columns": "300.109px 300.109px 300.125px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 583.984375,
+          "width": 300.109375
+        },
+        {
+          "height": 583.984375,
+          "width": 300.125
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 342.65625,
+      "cardWidth": 356.5,
+      "cardOverflow": false,
+      "columns": "356.5px 356.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 374.3125,
+          "width": 356.5
+        },
+        {
+          "height": 237.046875,
+          "width": 356.5
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 264.265625,
+      "cardWidth": 356.5,
+      "cardOverflow": false,
+      "columns": "356.5px 356.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 396.703125,
+          "width": 356.5
+        },
+        {
+          "height": 237.046875,
+          "width": 356.5
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 579.328125,
+      "cardWidth": 356.5,
+      "cardOverflow": false,
+      "columns": "356.5px 356.5px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 579.328125,
+          "width": 356.5
+        },
+        {
+          "height": 237.046875,
+          "width": 356.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 334.96875,
+      "cardWidth": 350.5,
+      "cardOverflow": false,
+      "columns": "350.5px 350.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 348.796875,
+          "width": 350.5
+        },
+        {
+          "height": 233.859375,
+          "width": 350.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 256.578125,
+      "cardWidth": 350.5,
+      "cardOverflow": false,
+      "columns": "350.5px 350.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 371.1875,
+          "width": 350.5
+        },
+        {
+          "height": 233.859375,
+          "width": 350.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 567.046875,
+      "cardWidth": 350.5,
+      "cardOverflow": false,
+      "columns": "350.5px 350.5px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 567.046875,
+          "width": 350.5
+        },
+        {
+          "height": 233.859375,
+          "width": 350.5
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 390,
+      "cardOverflow": false,
+      "columns": "390px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 127.78125,
+          "width": 390
+        },
+        {
+          "height": 186.078125,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 390,
+      "cardOverflow": false,
+      "columns": "390px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 390
+        },
+        {
+          "height": 186.078125,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 194.46875,
+      "cardWidth": 390,
+      "cardOverflow": false,
+      "columns": "390px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 127.78125,
+          "width": 390
+        },
+        {
+          "height": 186.078125,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 350,
+      "cardOverflow": false,
+      "columns": "350px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 127.78125,
+          "width": 350
+        },
+        {
+          "height": 186.078125,
+          "width": 350
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 350,
+      "cardOverflow": false,
+      "columns": "350px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 350
+        },
+        {
+          "height": 186.078125,
+          "width": 350
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 194.46875,
+      "cardWidth": 350,
+      "cardOverflow": false,
+      "columns": "350px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 350
+        },
+        {
+          "height": 186.078125,
+          "width": 350
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 335,
+      "cardOverflow": false,
+      "columns": "335px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 335
+        },
+        {
+          "height": 186.078125,
+          "width": 335
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 335,
+      "cardOverflow": false,
+      "columns": "335px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 335
+        },
+        {
+          "height": 186.078125,
+          "width": 335
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 239.25,
+      "cardWidth": 335,
+      "cardOverflow": false,
+      "columns": "335px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 335
+        },
+        {
+          "height": 186.078125,
+          "width": 335
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "name": "osaka",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 320,
+      "cardOverflow": false,
+      "columns": "320px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 320
+        },
+        {
+          "height": 186.078125,
+          "width": 320
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 129.484375,
+      "cardWidth": 320,
+      "cardOverflow": false,
+      "columns": "320px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 169.78125,
+          "width": 320
+        },
+        {
+          "height": 186.078125,
+          "width": 320
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "name": "cross-year",
+      "status": "PASS",
+      "overflow": false,
+      "cardHeight": 239.25,
+      "cardWidth": 320,
+      "cardOverflow": false,
+      "columns": "320px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 320
+        },
+        {
+          "height": 186.078125,
+          "width": 320
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

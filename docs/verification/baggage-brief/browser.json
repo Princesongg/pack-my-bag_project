@@ -1,0 +1,721 @@
+{
+  "checkedAt": "2026-10-25T17:05:43.801Z",
+  "origin": "http://127.0.0.1:5173",
+  "results": [
+    {
+      "scenario": "cabin-only does not imply free allowance; save/reload/delete user record",
+      "status": "PASS"
+    },
+    {
+      "countryId": "JP",
+      "status": "PASS"
+    },
+    {
+      "countryId": "VN",
+      "status": "PASS"
+    },
+    {
+      "countryId": "TH",
+      "status": "PASS"
+    },
+    {
+      "countryId": "TW",
+      "status": "PASS"
+    },
+    {
+      "countryId": "US",
+      "status": "PASS"
+    },
+    {
+      "countryId": "AU",
+      "status": "PASS"
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1920,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 402.5,
+          "right": 758.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 774.5,
+          "right": 1130.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 1146.5,
+          "right": 1502.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 322,
+      "columns": "157px 157px",
+      "tiles": [
+        {
+          "top": 262,
+          "bottom": 320.5,
+          "left": 1163.5,
+          "right": 1320.5,
+          "height": 58.5,
+          "width": 157,
+          "overflow": false
+        },
+        {
+          "top": 262,
+          "bottom": 320.5,
+          "left": 1328.5,
+          "right": 1485.5,
+          "height": 58.5,
+          "width": 157,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 162.5,
+          "right": 518.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 534.5,
+          "right": 890.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 906.5,
+          "right": 1262.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 322,
+      "columns": "157px 157px",
+      "tiles": [
+        {
+          "top": 262,
+          "bottom": 320.5,
+          "left": 923.5,
+          "right": 1080.5,
+          "height": 58.5,
+          "width": 157,
+          "overflow": false
+        },
+        {
+          "top": 262,
+          "bottom": 320.5,
+          "left": 1088.5,
+          "right": 1245.5,
+          "height": 58.5,
+          "width": 157,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 82.5,
+          "right": 438.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 454.5,
+          "right": 810.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "left": 826.5,
+          "right": 1182.5,
+          "height": 352.65625,
+          "width": 356,
+          "footer": 432.171875,
+          "padding": "16px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 322,
+      "columns": "157px 157px",
+      "tiles": [
+        {
+          "top": 262,
+          "bottom": 320.5,
+          "left": 843.5,
+          "right": 1000.5,
+          "height": 58.5,
+          "width": 157,
+          "overflow": false
+        },
+        {
+          "top": 262,
+          "bottom": 320.5,
+          "left": 1008.5,
+          "right": 1165.5,
+          "height": 58.5,
+          "width": 157,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 97.015625,
+          "bottom": 446.328125,
+          "left": 40,
+          "right": 340.109375,
+          "height": 349.3125,
+          "width": 300.109375,
+          "footer": 431,
+          "padding": "14.336px"
+        },
+        {
+          "top": 97.015625,
+          "bottom": 446.328125,
+          "left": 354.4375,
+          "right": 654.546875,
+          "height": 349.3125,
+          "width": 300.109375,
+          "footer": 431,
+          "padding": "14.336px"
+        },
+        {
+          "top": 97.015625,
+          "bottom": 446.328125,
+          "left": 668.875,
+          "right": 969,
+          "height": 349.3125,
+          "width": 300.125,
+          "footer": 431,
+          "padding": "14.336px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 269.46875,
+      "columns": "130.734px 130.734px",
+      "tiles": [
+        {
+          "top": 260.828125,
+          "bottom": 319.328125,
+          "left": 684.203125,
+          "right": 814.9375,
+          "height": 58.5,
+          "width": 130.734375,
+          "overflow": false
+        },
+        {
+          "top": 260.828125,
+          "bottom": 319.328125,
+          "left": 822.9375,
+          "right": 953.671875,
+          "height": 58.5,
+          "width": 130.734375,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 820,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 96.796875,
+          "bottom": 441.453125,
+          "left": 40,
+          "right": 396.5,
+          "height": 344.65625,
+          "width": 356.5,
+          "footer": 428.453125,
+          "padding": "12px"
+        },
+        {
+          "top": 96.796875,
+          "bottom": 441.453125,
+          "left": 408.5,
+          "right": 765,
+          "height": 344.65625,
+          "width": 356.5,
+          "footer": 428.453125,
+          "padding": "12px"
+        },
+        {
+          "top": 453.453125,
+          "bottom": 729.390625,
+          "left": 40,
+          "right": 396.5,
+          "height": 275.9375,
+          "width": 356.5,
+          "footer": 716.390625,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 330.5,
+      "columns": "161.25px 161.25px",
+      "tiles": [
+        {
+          "top": 587.4375,
+          "bottom": 615.4375,
+          "left": 53,
+          "right": 214.25,
+          "height": 28,
+          "width": 161.25,
+          "overflow": false
+        },
+        {
+          "top": 587.4375,
+          "bottom": 615.4375,
+          "left": 222.25,
+          "right": 383.5,
+          "height": 28,
+          "width": 161.25,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 90.28125,
+          "bottom": 427.25,
+          "left": 20,
+          "right": 370.5,
+          "height": 336.96875,
+          "width": 350.5,
+          "footer": 414.25,
+          "padding": "12px"
+        },
+        {
+          "top": 90.28125,
+          "bottom": 427.25,
+          "left": 382.5,
+          "right": 733,
+          "height": 336.96875,
+          "width": 350.5,
+          "footer": 414.25,
+          "padding": "12px"
+        },
+        {
+          "top": 439.25,
+          "bottom": 737.09375,
+          "left": 20,
+          "right": 370.5,
+          "height": 297.84375,
+          "width": 350.5,
+          "footer": 724.09375,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 324.5,
+      "columns": "158.25px 158.25px",
+      "tiles": [
+        {
+          "top": 595.140625,
+          "bottom": 623.140625,
+          "left": 33,
+          "right": 191.25,
+          "height": 28,
+          "width": 158.25,
+          "overflow": false
+        },
+        {
+          "top": 595.140625,
+          "bottom": 623.140625,
+          "left": 199.25,
+          "right": 357.5,
+          "height": 28,
+          "width": 158.25,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 641,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 90.28125,
+          "bottom": 427.25,
+          "left": 20,
+          "right": 307,
+          "height": 336.96875,
+          "width": 287,
+          "footer": 414.25,
+          "padding": "12px"
+        },
+        {
+          "top": 90.28125,
+          "bottom": 427.25,
+          "left": 319,
+          "right": 606,
+          "height": 336.96875,
+          "width": 287,
+          "footer": 414.25,
+          "padding": "12px"
+        },
+        {
+          "top": 439.25,
+          "bottom": 737.09375,
+          "left": 20,
+          "right": 307,
+          "height": 297.84375,
+          "width": 287,
+          "footer": 724.09375,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": true,
+      "comparisonWidth": 261,
+      "columns": "126.5px 126.5px",
+      "tiles": [
+        {
+          "top": 595.140625,
+          "bottom": 623.140625,
+          "left": 33,
+          "right": 159.5,
+          "height": 28,
+          "width": 126.5,
+          "overflow": false
+        },
+        {
+          "top": 595.140625,
+          "bottom": 623.140625,
+          "left": 167.5,
+          "right": 294,
+          "height": 28,
+          "width": 126.5,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 37.546875,
+          "bottom": 143.53125,
+          "left": 20,
+          "right": 410,
+          "height": 105.984375,
+          "width": 390,
+          "footer": 111.328125,
+          "padding": "12px"
+        },
+        {
+          "top": 151.53125,
+          "bottom": 279.3125,
+          "left": 20,
+          "right": 410,
+          "height": 127.78125,
+          "width": 390,
+          "footer": 223.71875,
+          "padding": "12px"
+        },
+        {
+          "top": 287.3125,
+          "bottom": 444.203125,
+          "left": 20,
+          "right": 410,
+          "height": 156.890625,
+          "width": 390,
+          "footer": 386.546875,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": false,
+      "comparisonWidth": 0,
+      "columns": "repeat(2, minmax(0px, 1fr))",
+      "tiles": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 38.0625,
+          "bottom": 144.046875,
+          "left": 20,
+          "right": 370,
+          "height": 105.984375,
+          "width": 350,
+          "footer": 111.84375,
+          "padding": "12px"
+        },
+        {
+          "top": 152.046875,
+          "bottom": 279.828125,
+          "left": 20,
+          "right": 370,
+          "height": 127.78125,
+          "width": 350,
+          "footer": 224.234375,
+          "padding": "12px"
+        },
+        {
+          "top": 287.828125,
+          "bottom": 444.71875,
+          "left": 20,
+          "right": 370,
+          "height": 156.890625,
+          "width": 350,
+          "footer": 387.0625,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": false,
+      "comparisonWidth": 0,
+      "columns": "repeat(2, minmax(0px, 1fr))",
+      "tiles": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 37.71875,
+          "bottom": 143.703125,
+          "left": 20,
+          "right": 355,
+          "height": 105.984375,
+          "width": 335,
+          "footer": 111.5,
+          "padding": "12px"
+        },
+        {
+          "top": 151.703125,
+          "bottom": 300.484375,
+          "left": 20,
+          "right": 355,
+          "height": 148.78125,
+          "width": 335,
+          "footer": 223.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 308.484375,
+          "bottom": 465.375,
+          "left": 20,
+          "right": 355,
+          "height": 156.890625,
+          "width": 335,
+          "footer": 407.71875,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": false,
+      "comparisonWidth": 0,
+      "columns": "repeat(2, minmax(0px, 1fr))",
+      "tiles": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "cardOverflow": false,
+      "cards": [
+        {
+          "top": 37.71875,
+          "bottom": 143.703125,
+          "left": 20,
+          "right": 340,
+          "height": 105.984375,
+          "width": 320,
+          "footer": 111.5,
+          "padding": "12px"
+        },
+        {
+          "top": 151.703125,
+          "bottom": 300.484375,
+          "left": 20,
+          "right": 340,
+          "height": 148.78125,
+          "width": 320,
+          "footer": 223.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 308.484375,
+          "bottom": 465.375,
+          "left": 20,
+          "right": 340,
+          "height": 156.890625,
+          "width": 320,
+          "footer": 407.71875,
+          "padding": "12px"
+        }
+      ],
+      "comparisonVisible": false,
+      "comparisonWidth": 0,
+      "columns": "repeat(2, minmax(0px, 1fr))",
+      "tiles": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "height": 0,
+          "width": 0,
+          "overflow": false
+        }
+      ],
+      "cardText": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

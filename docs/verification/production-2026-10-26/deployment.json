@@ -1,0 +1,35 @@
+﻿{
+    "id":  "dpl_3PRBzF2jBW5CcbcJ8T9LG1ewwA4E",
+    "url":  "pack-my-bagproject-kvq65i2j9-princesong.vercel.app",
+    "target":  "production",
+    "readyState":  "READY",
+    "createdAt":  1792942716187,
+    "gitSource":  {
+                      "ref":  "main",
+                      "repoId":  1430546234,
+                      "sha":  "8ca7250ae35d1dd99247052a1a3afe25d4e693c0",
+                      "type":  "github",
+                      "prId":  null
+                  },
+    "meta":  {
+                 "githubCommitAuthorName":  "Princesongg",
+                 "githubCommitAuthorEmail":  "jhi99550@gmail.com",
+                 "githubCommitMessage":  "국가별 코드 전압 및 여권 등 수정",
+                 "githubCommitOrg":  "Princesongg",
+                 "githubCommitRef":  "main",
+                 "githubCommitRepo":  "pack-my-bag_project",
+                 "githubCommitSha":  "8ca7250ae35d1dd99247052a1a3afe25d4e693c0",
+                 "githubDeployment":  "1",
+                 "githubOrg":  "Princesongg",
+                 "githubRepo":  "pack-my-bag_project",
+                 "githubRepoOwnerType":  "User",
+                 "githubCommitRepoId":  "1430546234",
+                 "githubRepoId":  "1430546234",
+                 "githubRepoVisibility":  "public",
+                 "githubHost":  "github.com",
+                 "githubCommitAuthorLogin":  "Princesongg",
+                 "githubCommitVerification":  "unverified",
+                 "repoPushedAt":  "1792942713000",
+                 "branchAlias":  "pack-my-bagproject-git-main-princesong.vercel.app"
+             }
+}

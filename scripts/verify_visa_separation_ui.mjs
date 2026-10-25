@@ -1,10 +1,11 @@
-﻿import {loadTs} from '../tests/helpers/load-ts.mjs';
+import {loadTs} from '../tests/helpers/load-ts.mjs';
 // Local browser checks; requires Vite on 127.0.0.1:5173 and installed Chrome.
 import { launchQaBrowser } from './qaBrowser.mjs';
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
-const output='docs/verification/visa-separation';mkdirSync(output,{recursive:true});
+const origin=process.env.QA_ORIGIN??'http://127.0.0.1:5173';
+const output=process.env.QA_OUTPUT??'docs/verification/visa-separation';mkdirSync(output,{recursive:true});
 const browser = launchQaBrowser({ port: 9256, profile: 'visa-separation-ui-browser' });
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));let ws;
 try {
@@ -19,7 +20,7 @@ try {
   const click=async(selector,text)=>{await js(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(selector)})].find(e=>e.textContent.includes(${JSON.stringify(text)}));if(!e)throw Error('Missing '+${JSON.stringify(text)});e.click();})()`);await sleep(60);};
   await cdp('Page.enable');await cdp('Runtime.enable');await cdp('Network.enable');
   await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
-  await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+  await cdp('Storage.clearDataForOrigin',{origin,storageTypes:'local_storage'});
   const {destinations}=await loadTs('src/service/destination/destinations.ts');
   const {tripKey}=await loadTs('src/service/trip/trip.ts');
   const {getVisaRequirement}=await loadTs('src/service/data/visaRequirements.ts');
@@ -27,9 +28,9 @@ try {
   const close=async()=>{await js(`document.querySelector('dialog .pmb-brief-modal-header button').click()`);await wait(`!document.querySelector('dialog[open]')`);};
   for(const width of [1440,390,320])for(const country of destinations){
     await cdp('Emulation.setDeviceMetricsOverride',{width,height:1100,deviceScaleFactor:1,mobile:width<768});
-    await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation'});await wait(`!!document.querySelector('.pmb-hero')`);
+    await cdp('Page.navigate',{url:origin+'/implementation'});await wait(`!!document.querySelector('.pmb-hero')`);
     const trip={countryId:country.id,cityId:country.cities[0].id,departureDate:'2027-01-10',returnDate:'2027-01-15',travelPurpose:'sightseeing',baggageType:'checked'};
-    await js(`localStorage.setItem(${JSON.stringify(tripKey)},${JSON.stringify(JSON.stringify(trip))})`);await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation/workspace?view=bag'});await wait(`!!document.querySelector('.pmb-trip-brief')`);
+    await js(`localStorage.setItem(${JSON.stringify(tripKey)},${JSON.stringify(JSON.stringify(trip))})`);await cdp('Page.navigate',{url:origin+'/implementation/workspace?view=bag'});await wait(`!!document.querySelector('.pmb-trip-brief')`);
     const visible=['US','AU'].includes(country.id);assert.equal(await js(`!!document.querySelector('.pmb-entry-banner')`),visible);assert.equal(await js(`document.querySelectorAll('.pmb-trip-brief-card').length`),3);
     if(visible){const guide=getVisaRequirement(trip);await js(`document.querySelector('.pmb-entry-banner').click()`);await wait(`!!document.querySelector('dialog[open]')`);const text=await js(`document.querySelector('dialog').textContent`);assert.ok(text.includes('VISA / ENTRY PERMISSION'));assert.ok(text.includes(guide.label));assert.ok(text.includes(guide.summary));for(const point of guide.points)assert.ok(text.includes(point));assert.doesNotMatch(text,/유효기간|만료일|여권을 챙겼|입국신고|TWAC|TDAC|IPC|경유 조건/);assert.equal(await js(`document.querySelectorAll('dialog input[type=date],dialog select,.pmb-entry-passport,[data-entry-passport-packed],[data-entry-procedure]').length`),0);assert.deepEqual(await js(`[...document.querySelectorAll('.pmb-entry-official a')].map(a=>a.href)`),guide.officialLinks.map(l=>l.url));
       await js(`(()=>{const e=document.querySelector('[data-entry-confirmation]');if(!e.checked)e.click();})()`);await sleep(50);assert.ok(await js(`document.querySelector('.pmb-entry-confirmation').textContent.includes('직접 확인함')`));assert.equal(await js(`document.querySelector('dialog').scrollWidth>document.querySelector('dialog').clientWidth+1`),false);const shot=await cdp('Page.captureScreenshot',{format:'png'});writeFileSync(`${output}/${country.id}-${width}.png`,Buffer.from(shot.data,'base64'));await close();assert.equal(await js(`document.activeElement.classList.contains('pmb-entry-banner')`),true);assert.equal(await js(`document.querySelector('[data-item-id="essential:entry-authorization"] input').checked`),true);

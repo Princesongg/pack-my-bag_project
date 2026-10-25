@@ -4,7 +4,7 @@ import { launchQaBrowser } from './qaBrowser.mjs';
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
-const phase=process.env.DESIGN_PHASE??'before';const output='docs/verification/responsive-final/'+phase;mkdirSync(output,{recursive:true});
+const phase=process.env.DESIGN_PHASE??'before';const origin=process.env.QA_ORIGIN??'http://127.0.0.1:5173';const output=process.env.QA_OUTPUT??'docs/verification/responsive-final/'+phase;mkdirSync(output,{recursive:true});
 const browser = launchQaBrowser({ port: 9260, profile: 'responsive-final-browser' });
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));let ws;
 try {
@@ -19,7 +19,7 @@ try {
   const click=async(selector,text)=>{await js(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(selector)})].find(e=>e.textContent.includes(${JSON.stringify(text)}));if(!e)throw Error('Missing '+${JSON.stringify(text)});e.click();})()`);await sleep(60);};
   await cdp('Page.enable');await cdp('Runtime.enable');await cdp('Network.enable');
   await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
-  await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+  await cdp('Storage.clearDataForOrigin',{origin:origin,storageTypes:'local_storage'});
   const {destinations}=await loadTs('src/service/destination/destinations.ts');
   const results=[];
   const record=async(name,width)=>{
@@ -30,10 +30,10 @@ try {
     const shot=await cdp('Page.captureScreenshot',{format:'png'});writeFileSync(`${output}/${name}-${width}.png`,Buffer.from(shot.data,'base64'));results.push({name,width,...geometry});
   };
   for(const width of process.env.DESIGN_WIDTHS?.split(',').map(Number)??(phase==='before'?[1440,390]:[1440,900,768,390,320])){
-    await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+    await cdp('Storage.clearDataForOrigin',{origin:origin,storageTypes:'local_storage'});
     await cdp('Emulation.setDeviceMetricsOverride',{width,height:Number(process.env.QA_HEIGHT??900),deviceScaleFactor:1,mobile:width<=768});
-    for(const [path,name] of [['/','home'],['/planning','planning'],['/implementation','start']]){await cdp('Page.navigate',{url:'http://127.0.0.1:5173'+path});await wait(`document.readyState==='complete'`);await record(name,width);}
-    await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation/workspace'});await wait(`!!document.querySelector('#trip-setup')`);await record('setup',width);
+    for(const [path,name] of [['/','home'],['/planning','planning'],['/implementation','start']]){await cdp('Page.navigate',{url:origin+path});await wait(`document.readyState==='complete'`);await record(name,width);}
+    await cdp('Page.navigate',{url:origin+"/implementation/workspace"});await wait(`!!document.querySelector('#trip-setup')`);await record('setup',width);
     await click('#pmb-all-countries button','베트남');await click('#pmb-setup-city-results button','나트랑');
     for(const [name,value] of [['departureDate','2026-12-17'],['returnDate','2026-12-20']]){await js(`(()=>{const e=document.querySelector('input[name="${name}"]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(e,'${value}');e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));})()`);await sleep(50);}
     await js(`document.querySelector('input[name=travelPurpose][value=sightseeing]').click()`);await sleep(50);await js(`document.querySelector('input[name=baggageType][value=checked]').click()`);await sleep(50);await record('setup-selected',width);await js(`document.querySelector('#trip-setup form').requestSubmit()`);await wait(`!!document.querySelector('.pmb-trip-brief')`);await record('my-bag',width);
@@ -59,7 +59,7 @@ try {
     await record('complete',width);
     console.log('PASS',phase,width,'full journey');
   }
-  assert.deepEqual(errors,[]);const externalRequests=[...new Set(requests.filter(u=>!u.startsWith('http://127.0.0.1:5173/')&&!u.startsWith('data:')))];assert.deepEqual(externalRequests,[]);
+  assert.deepEqual(errors,[]);const externalRequests=[...new Set(requests.filter(u=>!u.startsWith(origin+"/")&&!u.startsWith('data:')))];assert.deepEqual(externalRequests,[]);
   if(!phase.includes('before')){assert.ok(results.every(r=>r.elementIssues.length===0),'control geometry');assert.ok(results.every(r=>!r.modalBounds||(r.modalBounds.top>=-1&&r.modalBounds.bottom<=r.viewportHeight+1)),'settled modal bounds');}
   const previous=existsSync(`${output}/ui-results.json`)?JSON.parse(readFileSync(`${output}/ui-results.json`,'utf8')).results:[];
   const widths=new Set(results.map(r=>r.width));

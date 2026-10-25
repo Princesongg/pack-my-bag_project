@@ -1,10 +1,11 @@
-﻿import {loadTs} from '../tests/helpers/load-ts.mjs';
+import {loadTs} from '../tests/helpers/load-ts.mjs';
 // Local browser checks; requires Vite on 127.0.0.1:5173 and installed Chrome.
 import { launchQaBrowser } from './qaBrowser.mjs';
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
-const output='docs/verification/checklist-final';mkdirSync(output,{recursive:true});
+const origin=process.env.QA_ORIGIN??'http://127.0.0.1:5173';
+const output=process.env.QA_OUTPUT??'docs/verification/checklist-final';mkdirSync(output,{recursive:true});
 const browser = launchQaBrowser({ port: 9270, profile: 'checklist-final-ui-browser' });
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));let ws;
 try {
@@ -19,13 +20,13 @@ try {
   const click=async(selector,text)=>{await js(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(selector)})].find(e=>e.textContent.includes(${JSON.stringify(text)}));if(!e)throw Error('Missing '+${JSON.stringify(text)});e.click();})()`);await sleep(60);};
   await cdp('Page.enable');await cdp('Runtime.enable');await cdp('Network.enable');
   await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
-  await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+  await cdp('Storage.clearDataForOrigin',{origin,storageTypes:'local_storage'});
   const phase=process.env.COMPACT_PHASE??'after',results=[];
   const {tripKey}=await loadTs('src/service/trip/trip.ts');
   const trip={countryId:'JP',cityId:'tokyo',departureDate:'2027-11-17',returnDate:'2027-11-20',travelPurpose:'sightseeing',baggageType:'checked'};
   const snap=async(width,name)=>{await sleep(100);const g=await js(`(()=>{const selectors={heading:'.pmb-bag-heading',trip:'.pmb-bag-trip',brief:'.pmb-trip-brief',flags:'.pmb-red-flags',checklist:'.pmb-bag-categories'};return {categoryColumns:getComputedStyle(document.querySelector('.pmb-bag-categories')).gridTemplateColumns,cards:[...document.querySelectorAll('.pmb-bag-category')].map(e=>{const r=e.getBoundingClientRect(),last=[...e.querySelectorAll('li')].filter(n=>n.checkVisibility()).at(-1)??e.querySelector('header');return {id:e.getAttribute('aria-labelledby'),top:r.top,width:r.width,height:r.height,blankBelowContent:r.bottom-last.getBoundingClientRect().bottom};}),pageHeight:document.documentElement.scrollHeight,overflow:document.documentElement.scrollWidth>innerWidth+1,sections:Object.fromEntries(Object.entries(selectors).map(([key,s])=>[key,document.querySelector(s).getBoundingClientRect().height])),visibleRows:[...document.querySelectorAll('[data-item-id]')].filter(e=>e.checkVisibility()).length,totalRows:document.querySelectorAll('[data-item-id]').length,columns:getComputedStyle(document.querySelector('.pmb-trip-brief-grid')).gridTemplateColumns};})()`);assert.equal(g.overflow,false);if(phase==='after'&&width>640){assert.equal(g.categoryColumns.split(' ').length,2);assert.ok(g.cards.slice(0,4).every(c=>Math.abs(c.width-g.cards[0].width)<1));assert.ok(Math.abs(g.cards[0].height-g.cards[1].height)<1);assert.ok(Math.abs(g.cards[2].height-g.cards[3].height)<1);assert.ok(g.cards[4].width>g.cards[0].width*1.9);assert.ok(g.cards[4].blankBelowContent<=22);}results.push({width,name,...g});await js(`scrollTo(0,0)`);const shot=await cdp('Page.captureScreenshot',{format:'png'});writeFileSync(`${output}/${phase}-${width}-${name}.png`,Buffer.from(shot.data,'base64'));if(phase==='after'&&[1440,390].includes(width)){await js(`document.querySelector('.pmb-bag-categories').scrollIntoView({block:'start'})`);const cards=await cdp('Page.captureScreenshot',{format:'png'});writeFileSync(`${output}/cards-${width}-${name}.png`,Buffer.from(cards.data,'base64'));}return g;};
   for(const width of [1920,1440,1280,1024,820,768,430,390,375,360,640,641]){
-    await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<=768});await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation'});await wait(`!!document.querySelector('.pmb-hero')`);await js(`localStorage.setItem(${JSON.stringify(tripKey)},${JSON.stringify(JSON.stringify(trip))})`);await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation/workspace?view=bag'});await wait(`!!document.querySelector('.pmb-trip-brief')`);await snap(width,'initial');
+    await cdp('Storage.clearDataForOrigin',{origin,storageTypes:'local_storage'});await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<=768});await cdp('Page.navigate',{url:origin+'/implementation'});await wait(`!!document.querySelector('.pmb-hero')`);await js(`localStorage.setItem(${JSON.stringify(tripKey)},${JSON.stringify(JSON.stringify(trip))})`);await cdp('Page.navigate',{url:origin+'/implementation/workspace?view=bag'});await wait(`!!document.querySelector('.pmb-trip-brief')`);await snap(width,'initial');
     if(phase==='after'){
       const buttons=await js(`document.querySelectorAll('.pmb-category-toggle').length`);assert.equal(buttons,5);
       if(width<=640){assert.equal(await js(`[...document.querySelectorAll('.pmb-category-toggle')].filter(e=>e.getAttribute('aria-expanded')==='true').length`),1);await js(`document.querySelectorAll('.pmb-category-toggle')[1].click()`);await sleep(50);assert.equal(await js(`[...document.querySelectorAll('.pmb-category-toggle')].filter(e=>e.getAttribute('aria-expanded')==='true').length`),2);}

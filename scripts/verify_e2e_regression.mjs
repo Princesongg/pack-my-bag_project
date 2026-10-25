@@ -4,22 +4,22 @@ import { launchQaBrowser } from './qaBrowser.mjs';
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
-const output='docs/verification/e2e-regression';mkdirSync(output,{recursive:true});
+const origin=process.env.QA_ORIGIN??'http://127.0.0.1:5173';const output=process.env.QA_OUTPUT??'docs/verification/e2e-regression';mkdirSync(output,{recursive:true});
 const browser = launchQaBrowser({ port: 9257, profile: 'e2e-regression-ui-browser' });
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));let ws;
 try {
   let targets;for(let i=0;i<80;i++){try{targets=await(await fetch('http://127.0.0.1:9257/json')).json();if(targets.some(t=>t.type==='page'))break;}catch{}await sleep(100);}
   ws=new WebSocket(targets.find(t=>t.type==='page').webSocketDebuggerUrl);
   await new Promise((r,j)=>{ws.addEventListener('open',r,{once:true});ws.addEventListener('error',j,{once:true});});
-  let id=0;const pending=new Map(),errors=[],requests=[];
-  ws.addEventListener('message',event=>{const m=JSON.parse(event.data);if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p?.reject(Error(JSON.stringify(m.error))):p?.resolve(m.result);}if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails);if(m.method==='Network.requestWillBeSent')requests.push(m.params.request.url);});
+  let id=0;const pending=new Map(),errors=[],requests=[],responses=[],consoleErrors=[];
+  ws.addEventListener('message',event=>{const m=JSON.parse(event.data);if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p?.reject(Error(JSON.stringify(m.error))):p?.resolve(m.result);}if(m.method==='Network.responseReceived')responses.push({url:m.params.response.url,status:m.params.response.status});if(m.method==='Runtime.consoleAPICalled'&&m.params.type==='error')consoleErrors.push(m.params.args.map(a=>a.value??a.description));if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails);if(m.method==='Network.requestWillBeSent')requests.push(m.params.request.url);});
   const cdp=(method,params={})=>new Promise((resolve,reject)=>{const n=++id,t=setTimeout(()=>reject(Error('CDP timeout '+method)),10000);pending.set(n,{resolve:r=>{clearTimeout(t);resolve(r);},reject:e=>{clearTimeout(t);reject(e);}});ws.send(JSON.stringify({id:n,method,params}));});
   const js=async expression=>{const r=await cdp('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(r.exceptionDetails.exception?.description??r.exceptionDetails.text);return r.result.value;};
   const wait=async expression=>{for(let n=0;n<100;n++){if(await js(expression))return;await sleep(60);}throw Error('Timeout '+expression);};
   const click=async(selector,text)=>{await js(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(selector)})].find(e=>e.textContent.includes(${JSON.stringify(text)}));if(!e)throw Error('Missing '+${JSON.stringify(text)});e.click();})()`);await sleep(60);};
   await cdp('Page.enable');await cdp('Runtime.enable');await cdp('Network.enable');
   await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
-  if(!process.env.QA_RESTORE_ONLY)await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+  if(!process.env.QA_RESTORE_ONLY)await cdp('Storage.clearDataForOrigin',{origin:origin,storageTypes:'local_storage'});
   const {getClimateMonth}=await loadTs('src/service/data/climate.ts');
   const {getElectricityGuide}=await loadTs('src/service/data/electricityGuide.ts');
   const {getCountryCurrency}=await loadTs('src/service/data/currencies.ts');
@@ -49,11 +49,11 @@ try {
     const restored=await js(`({...localStorage})`);assert.deepEqual(restored,expected.storage);await click('.pmb-last-call-nav a','MY BAG으로 돌아가기');await wait(`!!document.querySelector('.pmb-trip-brief')`);assert.equal(await js(`document.querySelector('[data-item-id="essential:passport"] input').checked`),true);assert.ok(await js(`!!document.querySelector('[data-item-id="custom:'+${JSON.stringify(expected.customId.split('custom:')[1])}+'"]')`));
     writeFileSync(output+'/restart-result.json',JSON.stringify({passed:true,profileReopened:true,completionReplayed:false,storageKeys:Object.keys(restored).length},null,2));console.log('PASS browser restart');
   } else {
-    for(const width of [1440,1024,768,390,360])for(const s of scenarios){
-      await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});await cdp('Emulation.setDeviceMetricsOverride',{width,height:1100,deviceScaleFactor:1,mobile:width<=768});await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
+    for(const width of process.env.QA_WIDTHS?.split(',').map(Number)??[1440,1024,768,390,360])for(const s of scenarios){
+      await cdp('Storage.clearDataForOrigin',{origin:origin,storageTypes:'local_storage'});await cdp('Emulation.setDeviceMetricsOverride',{width,height:1100,deviceScaleFactor:1,mobile:width<=768});await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
       const row={scenario:s.id,width,country:s.country,city:s.city,status:'RUNNING'};
       try{
-      await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation'});await wait(`!!document.querySelector('.pmb-hero .pmb-cta')`);await geometry('start',width);await js(`document.querySelector('.pmb-hero .pmb-cta').focus()`);await cdp('Input.dispatchKeyEvent',{type:'keyDown',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});await cdp('Input.dispatchKeyEvent',{type:'keyUp',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});await wait(`!!document.querySelector('#trip-setup')`);
+      await cdp('Page.navigate',{url:origin+"/implementation"});await wait(`!!document.querySelector('.pmb-hero .pmb-cta')`);await geometry('start',width);await js(`document.querySelector('.pmb-hero .pmb-cta').focus()`);await cdp('Input.dispatchKeyEvent',{type:'keyDown',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});await cdp('Input.dispatchKeyEvent',{type:'keyUp',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});await wait(`!!document.querySelector('#trip-setup')`);
       if(s.id==='A'){
         await js(`document.querySelector('#trip-setup form').requestSubmit()`);await sleep(70);const messages=await js(`document.querySelector('#trip-setup').textContent`);for(const phrase of ['국가를 선택','도시를 선택','출발일을 선택','귀국일을 선택'])assert.ok(messages.includes(phrase));
         await click('#pmb-all-countries button','일본');await click('#pmb-setup-city-results button','도쿄');await click('#pmb-all-countries button','미국');assert.equal(await js(`document.querySelectorAll('#pmb-setup-city-results button[aria-pressed=true]').length`),0);await click('#pmb-all-countries button','일본');
@@ -105,10 +105,10 @@ try {
       for(let n=0;n<20;n++){if(!await js(`!!document.querySelector('[data-last-minute-id]:not(:checked)')`))break;await js(`document.querySelector('[data-last-minute-id]:not(:checked)').click()`);await sleep(40);}await wait(`!!document.querySelector('.is-flying .pmb-final-plane')`);assert.equal(await js(`getComputedStyle(document.querySelector('.pmb-final-plane')).animationName`),'pmb-final-takeoff');await wait(`!!document.querySelector('.is-complete .pmb-final-message')`);assert.ok(await js(`document.querySelector('.pmb-final-message').textContent.includes('ENJOY YOUR TRIP!')`));row.phases=await js(`window.__qaPhases`);assert.equal(row.phases.filter(p=>p.includes('is-flying')).length,1);await geometry('complete',width);assert.equal(await js(`document.activeElement.id`),'pmb-last-minute-title');
       if(width===390)await shot(`${s.id}-complete-${width}`);
       await reload();await wait(`!!document.querySelector('.is-complete')`);assert.equal(await js(`!!document.querySelector('.is-flying')`),false);await click('.pmb-final-message button','다시 확인하기');await wait(`!!document.querySelector('[data-last-minute-id]')`);assert.equal(await js(`document.querySelectorAll('[data-last-minute-id]:not(:checked)').length`),0);await js(`document.querySelector('[data-last-minute-id]').click()`);await sleep(60);assert.ok(await js(`document.querySelector('.pmb-final-transition').classList.contains('is-list')`));await js(`document.querySelector('[data-last-minute-id]').click()`);await wait(`!!document.querySelector('.is-complete')`);
-      row.status='PASS';row.customId=customId;results.push(row);writeFileSync(output+'/journeys.json',JSON.stringify({results,failures,errors},null,2));console.log('PASS journey',width,s.id,s.city);
+      row.status='PASS';row.customId=customId;results.push(row);writeFileSync(output+'/journeys.json',JSON.stringify({results,failures,errors,responses,consoleErrors},null,2));console.log('PASS journey',width,s.id,s.city);
       if(width===360&&s.id==='F')writeFileSync(output+'/restart-expected.json',JSON.stringify({url:await js(`location.href`),storage:await js(`({...localStorage})`),customId},null,2));
-      }catch(e){row.status='FAIL';row.error=String(e.stack??e);failures.push(row);await shot(`${s.id}-FAIL-${width}`);writeFileSync(output+'/journeys.json',JSON.stringify({results,failures,errors},null,2));throw e;}
+      }catch(e){row.status='FAIL';row.error=String(e.stack??e);failures.push(row);await shot(`${s.id}-FAIL-${width}`);writeFileSync(output+'/journeys.json',JSON.stringify({results,failures,errors,responses,consoleErrors},null,2));throw e;}
     }
   }
-  assert.deepEqual(errors,[]);const external=[...new Set(requests.filter(u=>!u.startsWith('http://127.0.0.1:5173/')&&!u.startsWith('data:')))];assert.deepEqual(external,[]);await cdp('Browser.close');
+  assert.deepEqual(errors,[]);const external=[...new Set(requests.filter(u=>!u.startsWith(origin+"/")&&!u.startsWith('data:')))];assert.deepEqual(external,[]);await cdp('Browser.close');
 }finally{if(ws?.readyState===WebSocket.OPEN){ws.send(JSON.stringify({id:999999,method:'Browser.close'}));await sleep(150);}ws?.close();browser.kill();}

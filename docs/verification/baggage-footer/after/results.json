@@ -1,0 +1,1051 @@
+{
+  "layouts": [
+    {
+      "width": 1920,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 207.890625,
+          "bottom": 305.90625,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 207.78125,
+          "bottom": 305.796875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 207.78125,
+          "bottom": 305.796875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 207.890625,
+          "bottom": 305.90625,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 207.78125,
+          "bottom": 305.796875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 207.78125,
+          "bottom": 305.796875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.515625,
+          "bottom": 449.171875,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.171875,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 207.890625,
+          "bottom": 305.90625,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.40625,
+          "bottom": 449.0625,
+          "width": 356,
+          "height": 352.65625,
+          "footer": 432.0625,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 207.78125,
+          "bottom": 305.796875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 207.78125,
+          "bottom": 305.796875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 97.015625,
+          "bottom": 446.328125,
+          "width": 300.109375,
+          "height": 349.3125,
+          "footer": 431,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 97.015625,
+          "bottom": 446.328125,
+          "width": 300.109375,
+          "height": 349.3125,
+          "footer": 431,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 97.015625,
+          "bottom": 446.328125,
+          "width": 300.125,
+          "height": 349.3125,
+          "footer": 431,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 206.71875,
+          "bottom": 304.734375,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.90625,
+          "bottom": 460.71875,
+          "width": 300.109375,
+          "height": 363.8125,
+          "footer": 445.390625,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.90625,
+          "bottom": 460.71875,
+          "width": 300.109375,
+          "height": 363.8125,
+          "footer": 445.390625,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 96.90625,
+          "bottom": 460.71875,
+          "width": 300.125,
+          "height": 363.8125,
+          "footer": 445.390625,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 206.609375,
+          "bottom": 304.625,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 206.609375,
+          "bottom": 304.625,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 820,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 96.796875,
+          "bottom": 441.453125,
+          "width": 356.5,
+          "height": 344.65625,
+          "footer": 428.453125,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 96.796875,
+          "bottom": 441.453125,
+          "width": 356.5,
+          "height": 344.65625,
+          "footer": 428.453125,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 453.453125,
+          "bottom": 729.390625,
+          "width": 356.5,
+          "height": 275.9375,
+          "footer": 716.390625,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 204.171875,
+          "bottom": 302.1875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 820,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 97.078125,
+          "bottom": 441.734375,
+          "width": 356.5,
+          "height": 344.65625,
+          "footer": 428.734375,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 97.078125,
+          "bottom": 441.734375,
+          "width": 356.5,
+          "height": 344.65625,
+          "footer": 428.734375,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 453.734375,
+          "bottom": 729.671875,
+          "width": 356.5,
+          "height": 275.9375,
+          "footer": 716.671875,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 204.453125,
+          "bottom": 302.46875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 204.453125,
+          "bottom": 302.46875,
+          "width": 90.1875,
+          "height": 98.015625,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 90.28125,
+          "bottom": 427.25,
+          "width": 350.5,
+          "height": 336.96875,
+          "footer": 414.25,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 90.28125,
+          "bottom": 427.25,
+          "width": 350.5,
+          "height": 336.96875,
+          "footer": 414.25,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 439.25,
+          "bottom": 737.09375,
+          "width": 350.5,
+          "height": 297.84375,
+          "footer": 724.09375,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 196.0625,
+          "bottom": 274.484375,
+          "width": 72.15625,
+          "height": 78.421875,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 91.171875,
+          "bottom": 428.140625,
+          "width": 350.5,
+          "height": 336.96875,
+          "footer": 415.140625,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 91.171875,
+          "bottom": 428.140625,
+          "width": 350.5,
+          "height": 336.96875,
+          "footer": 415.140625,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 440.140625,
+          "bottom": 737.984375,
+          "width": 350.5,
+          "height": 297.84375,
+          "footer": 724.984375,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 196.953125,
+          "bottom": 275.375,
+          "width": 72.15625,
+          "height": 78.421875,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 196.953125,
+          "bottom": 275.375,
+          "width": 72.15625,
+          "height": 78.421875,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": true,
+      "rangeVisible": true,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 37.546875,
+          "bottom": 143.53125,
+          "width": 390,
+          "height": 105.984375,
+          "footer": 111.328125,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 151.53125,
+          "bottom": 279.3125,
+          "width": 390,
+          "height": 127.78125,
+          "footer": 223.71875,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 287.3125,
+          "bottom": 444.203125,
+          "width": 390,
+          "height": 156.890625,
+          "footer": 386.546875,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": false,
+      "rangeVisible": false,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 37.828125,
+          "bottom": 143.8125,
+          "width": 390,
+          "height": 105.984375,
+          "footer": 111.609375,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 151.8125,
+          "bottom": 279.59375,
+          "width": 390,
+          "height": 127.78125,
+          "footer": 224,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 287.59375,
+          "bottom": 444.484375,
+          "width": 390,
+          "height": 156.890625,
+          "footer": 386.828125,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": false,
+      "rangeVisible": false,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 38.0625,
+          "bottom": 144.046875,
+          "width": 350,
+          "height": 105.984375,
+          "footer": 111.84375,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 152.046875,
+          "bottom": 279.828125,
+          "width": 350,
+          "height": 127.78125,
+          "footer": 224.234375,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 287.828125,
+          "bottom": 444.71875,
+          "width": 350,
+          "height": 156.890625,
+          "footer": 387.0625,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": false,
+      "rangeVisible": false,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 37.328125,
+          "bottom": 143.3125,
+          "width": 350,
+          "height": 105.984375,
+          "footer": 111.109375,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 151.3125,
+          "bottom": 300.09375,
+          "width": 350,
+          "height": 148.78125,
+          "footer": 223.5,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 308.09375,
+          "bottom": 464.984375,
+          "width": 350,
+          "height": 156.890625,
+          "footer": 407.328125,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": false,
+      "rangeVisible": false,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "countryId": "JP",
+      "cityId": "osaka",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 37.71875,
+          "bottom": 143.703125,
+          "width": 320,
+          "height": 105.984375,
+          "footer": 111.5,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온14.2°C월평균 최저10.5°C월평균 최고18.5°C평균추천 옷차림 · 검토용얇은 긴팔얇은 외투편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 151.703125,
+          "bottom": 300.484375,
+          "width": 320,
+          "height": 148.78125,
+          "footer": 223.890625,
+          "overflow": false,
+          "text": "전압 · 플러그100V · 50 / 60HzType ATYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE A납작한 2핀 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 308.484375,
+          "bottom": 465.375,
+          "width": 320,
+          "height": 156.890625,
+          "footer": 407.71875,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A"
+      ],
+      "comparisonVisible": false,
+      "rangeVisible": false,
+      "weatherMean": "14.2°C",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "countryId": "US",
+      "cityId": "new-york",
+      "overflow": false,
+      "cards": [
+        {
+          "topic": "weather",
+          "top": 37.375,
+          "bottom": 143.359375,
+          "width": 320,
+          "height": 105.984375,
+          "footer": 111.15625,
+          "overflow": false,
+          "text": "날씨 · 옷차림11월 평균기온8.9°C월평균 최저5.6°C월평균 최고12.2°C평균추천 옷차림 · 검토용얇은 긴팔니트편한 운동화과거 월별 기후 참고 · 실제 여행일 예보 아님자세히 보기"
+        },
+        {
+          "topic": "electricity",
+          "top": 151.359375,
+          "bottom": 300.140625,
+          "width": 320,
+          "height": 148.78125,
+          "footer": 223.546875,
+          "overflow": false,
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정면 · 평행한 납작한 핀 2개납작한 2핀TYPE ATYPE B 콘센트 정면 · 평행한 납작한 핀 2개 + 접지 핀접지 있는 3핀TYPE B납작한 핀의 미국 콘센트에 맞는 어댑터를 준비하세요.자세히 보기"
+        },
+        {
+          "topic": "baggage",
+          "top": 308.140625,
+          "bottom": 465.03125,
+          "width": 320,
+          "height": 156.890625,
+          "footer": 407.375,
+          "overflow": false,
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등보조배터리 · 한국 출발 기준기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인기내 휴대배터리 조건 확인위탁수하물액체류 · 한국 출발 국제선 · 용기당 100mL 이하 · 1인 1L 투명 지퍼백 1개무료 위탁 허용량 · 항공사·운임별 확인자세히 보기"
+        }
+      ],
+      "plugs": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        },
+        {
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "viewBox": "10 3 92 100"
+        }
+      ],
+      "plugLabels": [
+        "TYPE A",
+        "TYPE B"
+      ],
+      "comparisonVisible": false,
+      "rangeVisible": false,
+      "weatherMean": "8.9°C",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

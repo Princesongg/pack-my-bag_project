@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-25T16:02:01.595Z",
+  "resources": [
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/index-csI9uW3J.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 45232,
+      "sha256": "e8026c3decd7cfe24f75e3aed778761a016a125e6073d6d55ba91f95cf33acf9",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/index-DEmA5Z8k.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 292499,
+      "sha256": "87c0baa095217aa3bb2a540fd75452267a54de5095f86370d09525a544c2ecab",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/MobileCompact-COZX1lXn.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 43768,
+      "sha256": "4726cacb8354903a7b457bada994c15bb92b623dd0852a6f1d7f1a512b27d80b",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/PackingWorkspace-CSlM8sua.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 60788,
+      "sha256": "102a9858e8fd03c1ae41b7fb693459749f2b4d8c6549bf1d92c248caadb06a63",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/PackingWorkspace-rdDu2Rga.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 82568,
+      "sha256": "bb36c3160136cb1b19a090ca590b771951dfea34743536a9598ca460720c91ef",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/MobileCompact-C9xfjev-.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 375827,
+      "sha256": "1bfe6eeab0db5faad2d852417acb8183b32b531792dc6354967529cf15bd6baa",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/jp.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 151,
+      "sha256": "7edd7d8ff93b512550d46c1909cdbf86267aba92fee27d2c13e7077a0beaeda2",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/us.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 883,
+      "sha256": "e4635afb38025ef206950c0cc0525420ef053ade257f9d3bbabcc0f0b0721201",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/vn.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 197,
+      "sha256": "2c8928cad210a4b4e403139b58f3724e875c299547195929b9e6a7a9313a6b7a",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/th.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 204,
+      "sha256": "47a4049d1f96d290590e858821742132033c1f248f565d65dcbe271339081f8e",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/tw.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 457,
+      "sha256": "9a14683be076f6890d78a2ca57405f098295e099bf4a1a988e7da387dc603d8a",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/au.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 965,
+      "sha256": "5fb8e8650f2508c894f79bbceead9178f9c02bed12fc7da548cfca76a5ba9047",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/TravelInfo-BeiIXHog.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 13460,
+      "sha256": "964b051408b426ba3a84d75cc4c64f3ceeae45fd46c440de2006216c319c0158",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/TravelInfo-CKjPI3Yy.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 1807,
+      "sha256": "c7e150995175cc8a5e2c24344a4379fd6d6d38bbd090edaf1f9c0719e9ec54b2",
+      "matchesBuild": true
+    }
+  ]
+}

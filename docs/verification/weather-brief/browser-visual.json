@@ -1,0 +1,1379 @@
+{
+  "checkedAt": "2026-10-25T16:42:17.187Z",
+  "origin": "http://127.0.0.1:5173",
+  "results": [
+    {
+      "scenario": "live-edit",
+      "cityId": "tokyo",
+      "month": 11,
+      "status": "PASS"
+    },
+    {
+      "scenario": "live-edit",
+      "cityId": "tokyo",
+      "month": 1,
+      "status": "PASS"
+    },
+    {
+      "scenario": "live-edit",
+      "cityId": "osaka",
+      "month": 11,
+      "status": "PASS"
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1920,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 382.3125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 382.3125,
+          "width": 356
+        },
+        {
+          "height": 382.3125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 404.703125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 404.703125,
+          "width": 356
+        },
+        {
+          "height": 404.703125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        },
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        },
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 712.109375,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 712.109375,
+          "width": 356
+        },
+        {
+          "height": 712.109375,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 382.3125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 382.3125,
+          "width": 356
+        },
+        {
+          "height": 382.3125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 404.703125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 404.703125,
+          "width": 356
+        },
+        {
+          "height": 404.703125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        },
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        },
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 712.109375,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 712.109375,
+          "width": 356
+        },
+        {
+          "height": 712.109375,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 478.828125,
+          "height": 382.3125,
+          "footerBottom": 461.828125,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 382.3125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 382.3125,
+          "width": 356
+        },
+        {
+          "height": 382.3125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        },
+        {
+          "top": 96.515625,
+          "bottom": 501.21875,
+          "height": 404.703125,
+          "footerBottom": 484.21875,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 404.703125,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 404.703125,
+          "width": 356
+        },
+        {
+          "height": 404.703125,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        },
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        },
+        {
+          "top": 96.40625,
+          "bottom": 808.515625,
+          "height": 712.109375,
+          "footerBottom": 791.515625,
+          "padding": "16px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 712.109375,
+      "cardWidth": 356,
+      "cardOverflow": false,
+      "columns": "356px 356px 356px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 712.109375,
+          "width": 356
+        },
+        {
+          "height": 712.109375,
+          "width": 356
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 97.015625,
+          "bottom": 475.984375,
+          "height": 378.96875,
+          "footerBottom": 460.65625,
+          "padding": "14.336px"
+        },
+        {
+          "top": 97.015625,
+          "bottom": 475.984375,
+          "height": 378.96875,
+          "footerBottom": 460.65625,
+          "padding": "14.336px"
+        },
+        {
+          "top": 97.015625,
+          "bottom": 475.984375,
+          "height": 378.96875,
+          "footerBottom": 460.65625,
+          "padding": "14.336px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 378.96875,
+      "cardWidth": 300.109375,
+      "cardOverflow": false,
+      "columns": "300.109px 300.109px 300.125px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 378.96875,
+          "width": 300.109375
+        },
+        {
+          "height": 378.96875,
+          "width": 300.125
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 97.015625,
+          "bottom": 498.375,
+          "height": 401.359375,
+          "footerBottom": 483.046875,
+          "padding": "14.336px"
+        },
+        {
+          "top": 97.015625,
+          "bottom": 498.375,
+          "height": 401.359375,
+          "footerBottom": 483.046875,
+          "padding": "14.336px"
+        },
+        {
+          "top": 97.015625,
+          "bottom": 498.375,
+          "height": 401.359375,
+          "footerBottom": 483.046875,
+          "padding": "14.336px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 401.359375,
+      "cardWidth": 300.109375,
+      "cardOverflow": false,
+      "columns": "300.109px 300.109px 300.125px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 401.359375,
+          "width": 300.109375
+        },
+        {
+          "height": 401.359375,
+          "width": 300.125
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.90625,
+          "bottom": 805.671875,
+          "height": 708.765625,
+          "footerBottom": 790.34375,
+          "padding": "14.336px"
+        },
+        {
+          "top": 96.90625,
+          "bottom": 805.671875,
+          "height": 708.765625,
+          "footerBottom": 790.34375,
+          "padding": "14.336px"
+        },
+        {
+          "top": 96.90625,
+          "bottom": 805.671875,
+          "height": 708.765625,
+          "footerBottom": 790.34375,
+          "padding": "14.336px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 708.765625,
+      "cardWidth": 300.109375,
+      "cardOverflow": false,
+      "columns": "300.109px 300.109px 300.125px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 708.765625,
+          "width": 300.109375
+        },
+        {
+          "height": 708.765625,
+          "width": 300.125
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.796875,
+          "bottom": 471.109375,
+          "height": 374.3125,
+          "footerBottom": 458.109375,
+          "padding": "12px"
+        },
+        {
+          "top": 96.796875,
+          "bottom": 471.109375,
+          "height": 374.3125,
+          "footerBottom": 458.109375,
+          "padding": "12px"
+        },
+        {
+          "top": 483.109375,
+          "bottom": 720.15625,
+          "height": 237.046875,
+          "footerBottom": 707.15625,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 374.3125,
+      "cardWidth": 356.5,
+      "cardOverflow": false,
+      "columns": "356.5px 356.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 374.3125,
+          "width": 356.5
+        },
+        {
+          "height": 237.046875,
+          "width": 356.5
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 96.796875,
+          "bottom": 493.5,
+          "height": 396.703125,
+          "footerBottom": 480.5,
+          "padding": "12px"
+        },
+        {
+          "top": 96.796875,
+          "bottom": 493.5,
+          "height": 396.703125,
+          "footerBottom": 480.5,
+          "padding": "12px"
+        },
+        {
+          "top": 505.5,
+          "bottom": 742.546875,
+          "height": 237.046875,
+          "footerBottom": 729.546875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 396.703125,
+      "cardWidth": 356.5,
+      "cardOverflow": false,
+      "columns": "356.5px 356.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 396.703125,
+          "width": 356.5
+        },
+        {
+          "height": 237.046875,
+          "width": 356.5
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 97.078125,
+          "bottom": 801.1875,
+          "height": 704.109375,
+          "footerBottom": 788.1875,
+          "padding": "12px"
+        },
+        {
+          "top": 97.078125,
+          "bottom": 801.1875,
+          "height": 704.109375,
+          "footerBottom": 788.1875,
+          "padding": "12px"
+        },
+        {
+          "top": 813.1875,
+          "bottom": 1050.234375,
+          "height": 237.046875,
+          "footerBottom": 1037.234375,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 704.109375,
+      "cardWidth": 356.5,
+      "cardOverflow": false,
+      "columns": "356.5px 356.5px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 704.109375,
+          "width": 356.5
+        },
+        {
+          "height": 237.046875,
+          "width": 356.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 90.28125,
+          "bottom": 455.25,
+          "height": 364.96875,
+          "footerBottom": 442.25,
+          "padding": "12px"
+        },
+        {
+          "top": 90.28125,
+          "bottom": 455.25,
+          "height": 364.96875,
+          "footerBottom": 442.25,
+          "padding": "12px"
+        },
+        {
+          "top": 467.25,
+          "bottom": 701.109375,
+          "height": 233.859375,
+          "footerBottom": 688.109375,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 364.96875,
+      "cardWidth": 350.5,
+      "cardOverflow": false,
+      "columns": "350.5px 350.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 364.96875,
+          "width": 350.5
+        },
+        {
+          "height": 233.859375,
+          "width": 350.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 90.28125,
+          "bottom": 461.46875,
+          "height": 371.1875,
+          "footerBottom": 448.46875,
+          "padding": "12px"
+        },
+        {
+          "top": 90.28125,
+          "bottom": 461.46875,
+          "height": 371.1875,
+          "footerBottom": 448.46875,
+          "padding": "12px"
+        },
+        {
+          "top": 473.46875,
+          "bottom": 707.328125,
+          "height": 233.859375,
+          "footerBottom": 694.328125,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 371.1875,
+      "cardWidth": 350.5,
+      "cardOverflow": false,
+      "columns": "350.5px 350.5px",
+      "visibleTags": 3,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 371.1875,
+          "width": 350.5
+        },
+        {
+          "height": 233.859375,
+          "width": 350.5
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 91.171875,
+          "bottom": 779.8125,
+          "height": 688.640625,
+          "footerBottom": 766.8125,
+          "padding": "12px"
+        },
+        {
+          "top": 91.171875,
+          "bottom": 779.8125,
+          "height": 688.640625,
+          "footerBottom": 766.8125,
+          "padding": "12px"
+        },
+        {
+          "top": 791.8125,
+          "bottom": 1025.671875,
+          "height": 233.859375,
+          "footerBottom": 1012.671875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 688.640625,
+      "cardWidth": 350.5,
+      "cardOverflow": false,
+      "columns": "350.5px 350.5px",
+      "visibleTags": 5,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 688.640625,
+          "width": 350.5
+        },
+        {
+          "height": 233.859375,
+          "width": 350.5
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.546875,
+          "bottom": 143.53125,
+          "height": 105.984375,
+          "footerBottom": 111.328125,
+          "padding": "12px"
+        },
+        {
+          "top": 151.53125,
+          "bottom": 279.3125,
+          "height": 127.78125,
+          "footerBottom": 223.71875,
+          "padding": "12px"
+        },
+        {
+          "top": 287.3125,
+          "bottom": 473.390625,
+          "height": 186.078125,
+          "footerBottom": 375.546875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 390,
+      "cardOverflow": false,
+      "columns": "390px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 127.78125,
+          "width": 390
+        },
+        {
+          "height": 186.078125,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.546875,
+          "bottom": 143.53125,
+          "height": 105.984375,
+          "footerBottom": 111.328125,
+          "padding": "12px"
+        },
+        {
+          "top": 151.53125,
+          "bottom": 300.3125,
+          "height": 148.78125,
+          "footerBottom": 223.71875,
+          "padding": "12px"
+        },
+        {
+          "top": 308.3125,
+          "bottom": 494.390625,
+          "height": 186.078125,
+          "footerBottom": 396.546875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 390,
+      "cardOverflow": false,
+      "columns": "390px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 390
+        },
+        {
+          "height": 186.078125,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.828125,
+          "bottom": 208.796875,
+          "height": 170.96875,
+          "footerBottom": 144.109375,
+          "padding": "12px"
+        },
+        {
+          "top": 216.796875,
+          "bottom": 344.578125,
+          "height": 127.78125,
+          "footerBottom": 288.984375,
+          "padding": "12px"
+        },
+        {
+          "top": 352.578125,
+          "bottom": 538.65625,
+          "height": 186.078125,
+          "footerBottom": 440.8125,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 170.96875,
+      "cardWidth": 390,
+      "cardOverflow": false,
+      "columns": "390px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 127.78125,
+          "width": 390
+        },
+        {
+          "height": 186.078125,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 38.0625,
+          "bottom": 144.046875,
+          "height": 105.984375,
+          "footerBottom": 111.84375,
+          "padding": "12px"
+        },
+        {
+          "top": 152.046875,
+          "bottom": 279.828125,
+          "height": 127.78125,
+          "footerBottom": 224.234375,
+          "padding": "12px"
+        },
+        {
+          "top": 287.828125,
+          "bottom": 473.90625,
+          "height": 186.078125,
+          "footerBottom": 376.0625,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 350,
+      "cardOverflow": false,
+      "columns": "350px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 127.78125,
+          "width": 350
+        },
+        {
+          "height": 186.078125,
+          "width": 350
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.453125,
+          "bottom": 143.4375,
+          "height": 105.984375,
+          "footerBottom": 111.234375,
+          "padding": "12px"
+        },
+        {
+          "top": 151.4375,
+          "bottom": 300.21875,
+          "height": 148.78125,
+          "footerBottom": 223.625,
+          "padding": "12px"
+        },
+        {
+          "top": 308.21875,
+          "bottom": 494.296875,
+          "height": 186.078125,
+          "footerBottom": 396.453125,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 350,
+      "cardOverflow": false,
+      "columns": "350px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 350
+        },
+        {
+          "height": 186.078125,
+          "width": 350
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.734375,
+          "bottom": 208.703125,
+          "height": 170.96875,
+          "footerBottom": 144.015625,
+          "padding": "12px"
+        },
+        {
+          "top": 216.703125,
+          "bottom": 365.484375,
+          "height": 148.78125,
+          "footerBottom": 288.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 373.484375,
+          "bottom": 559.5625,
+          "height": 186.078125,
+          "footerBottom": 461.71875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 170.96875,
+      "cardWidth": 350,
+      "cardOverflow": false,
+      "columns": "350px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 350
+        },
+        {
+          "height": 186.078125,
+          "width": 350
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.71875,
+          "bottom": 143.703125,
+          "height": 105.984375,
+          "footerBottom": 111.5,
+          "padding": "12px"
+        },
+        {
+          "top": 151.703125,
+          "bottom": 300.484375,
+          "height": 148.78125,
+          "footerBottom": 223.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 308.484375,
+          "bottom": 494.5625,
+          "height": 186.078125,
+          "footerBottom": 396.71875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 335,
+      "cardOverflow": false,
+      "columns": "335px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 335
+        },
+        {
+          "height": 186.078125,
+          "width": 335
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.109375,
+          "bottom": 143.09375,
+          "height": 105.984375,
+          "footerBottom": 110.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 151.09375,
+          "bottom": 299.875,
+          "height": 148.78125,
+          "footerBottom": 223.28125,
+          "padding": "12px"
+        },
+        {
+          "top": 307.875,
+          "bottom": 493.953125,
+          "height": 186.078125,
+          "footerBottom": 396.109375,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 335,
+      "cardOverflow": false,
+      "columns": "335px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 335
+        },
+        {
+          "height": 186.078125,
+          "width": 335
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.984375,
+          "bottom": 253.734375,
+          "height": 215.75,
+          "footerBottom": 166.65625,
+          "padding": "12px"
+        },
+        {
+          "top": 261.734375,
+          "bottom": 410.515625,
+          "height": 148.78125,
+          "footerBottom": 333.921875,
+          "padding": "12px"
+        },
+        {
+          "top": 418.515625,
+          "bottom": 604.59375,
+          "height": 186.078125,
+          "footerBottom": 506.75,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 215.75,
+      "cardWidth": 335,
+      "cardOverflow": false,
+      "columns": "335px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 335
+        },
+        {
+          "height": 186.078125,
+          "width": 335
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "name": "osaka",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.71875,
+          "bottom": 143.703125,
+          "height": 105.984375,
+          "footerBottom": 111.5,
+          "padding": "12px"
+        },
+        {
+          "top": 151.703125,
+          "bottom": 300.484375,
+          "height": 148.78125,
+          "footerBottom": 223.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 308.484375,
+          "bottom": 494.5625,
+          "height": 186.078125,
+          "footerBottom": 396.71875,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 320,
+      "cardOverflow": false,
+      "columns": "320px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 320
+        },
+        {
+          "height": 186.078125,
+          "width": 320
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "name": "missing-high-low",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.109375,
+          "bottom": 143.09375,
+          "height": 105.984375,
+          "footerBottom": 110.890625,
+          "padding": "12px"
+        },
+        {
+          "top": 151.09375,
+          "bottom": 320.875,
+          "height": 169.78125,
+          "footerBottom": 223.28125,
+          "padding": "12px"
+        },
+        {
+          "top": 328.875,
+          "bottom": 514.953125,
+          "height": 186.078125,
+          "footerBottom": 417.109375,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 105.984375,
+      "cardWidth": 320,
+      "cardOverflow": false,
+      "columns": "320px",
+      "visibleTags": 2,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 169.78125,
+          "width": 320
+        },
+        {
+          "height": 186.078125,
+          "width": 320
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "name": "cross-year",
+      "status": "PASS",
+      "cards": [
+        {
+          "top": 37.984375,
+          "bottom": 253.734375,
+          "height": 215.75,
+          "footerBottom": 166.65625,
+          "padding": "12px"
+        },
+        {
+          "top": 261.734375,
+          "bottom": 410.515625,
+          "height": 148.78125,
+          "footerBottom": 333.921875,
+          "padding": "12px"
+        },
+        {
+          "top": 418.515625,
+          "bottom": 604.59375,
+          "height": 186.078125,
+          "footerBottom": 506.75,
+          "padding": "12px"
+        }
+      ],
+      "overflow": false,
+      "cardHeight": 215.75,
+      "cardWidth": 320,
+      "cardOverflow": false,
+      "columns": "320px",
+      "visibleTags": 4,
+      "tagOverflow": false,
+      "otherCards": [
+        {
+          "height": 148.78125,
+          "width": 320
+        },
+        {
+          "height": 186.078125,
+          "width": 320
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}
