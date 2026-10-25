@@ -1,5 +1,7 @@
 import type { Evidence } from './types';
 import { pending, verified } from './types';
+import { electronicsGuidance } from './electronicsGuidance';
+import { batteryCarryLabels } from './baggageLabels';
 
 export interface BaggageRule {
   id: string; name: string;
@@ -29,7 +31,8 @@ export const baggageRules: BaggageRule[] = topics.map(([id, name]) => ({
 }));
 
 // These conditional category statuses must be read together with the detailed exceptions.
-// Actual official-source verification: 2026-10-23. No airline-specific default allowance.
+// Other categories checked 2026-10-23; electronics/power banks rechecked 2026-10-25 below.
+// No airline-specific default allowance.
 const airport = ['icn-restricted-items'];
 function verifyRule(id: string, summary: string, details: string[], unresolved: string[], sourceIds = airport, limits: NonNullable<BaggageRule['limits']['value']> = []) {
   const rule = baggageRules.find(item => item.id === id)!;
@@ -49,21 +52,23 @@ verifyRule('liquids-gels', '용기당 100mL 이하 · 1인 1L 지퍼백 1개', [
   { unit: 'ml', maximum: 100, conditions: ['객실 개별 용기 용량'] },
   { unit: 'ml', maximum: 1000, conditions: ['1인당 투명 지퍼백 1개', '완전 밀봉'] },
 ]);
-verifyRule('power-banks', '1인 최대 2개 · 각 160Wh 이하 · 위탁 불가', [
-  '2026년 4월 20일 시행: 1인당 최대 2개, 각각 160Wh 이하만 객실 휴대가 가능합니다.',
-  '100Wh 초과~160Wh 이하는 항공사 승인이 필요합니다. 160Wh 초과 제품은 반입할 수 없습니다. 제품에 표시된 Wh를 확인하세요.',
-  '위탁수하물에 넣을 수 없습니다. 기내에서는 보조배터리 자체의 충전과 보조배터리로 휴대전화 등 다른 기기를 충전하는 행위 모두 금지됩니다.',
-], ['단락 방지 포장·보관 방법 및 항공사별 추가 절차는 출국 전 세부 규정 확인 필요.'], [...airport, 'molit-power-banks-2026', 'molit-power-banks-2026-policy'], [
-  { unit: 'count', maximum: 2, conditions: ['1인당 보조배터리', '2026-04-20 시행'] },
-  { unit: 'Wh', maximum: 160, conditions: ['각 배터리 기준', '100Wh 초과 시 항공사 승인', '위탁 불가', '기내 사용·충전 금지'] },
+verifyRule('power-banks', `${batteryCarryLabels.cabin} · ${batteryCarryLabels.checked} · 1인 최대 2개 · 용량은 항공사 확인`, [
+  ...electronicsGuidance.cards[1].description,
+  ...electronicsGuidance.cards[1].additional,
+], ['100Wh 초과 제품의 반입을 확정하지 않습니다. 적용 국가·항공사의 최신 용량 제한과 승인 가능 여부를 확인하세요.'], [...electronicsGuidance.sourceIds], [
+  { unit: 'count', maximum: 2, conditions: ['1인당 보조배터리', '여분 리튬배터리 전체에 일괄 적용하지 않음', '한국 기준 2026-04-20 시행', 'IATA 2026 안내도 최대 2개'] },
 ]);
 baggageRules.find(rule => rule.id === 'power-banks')!.scope.effectiveFrom = '2026-04-20';
-verifyRule('electronics', '배터리 종류 · 장착 및 분리 여부별 조건 확인', [
-  '알칼라인 배터리는 기내·위탁 처리가 가능합니다. 리튬배터리는 같은 기준을 적용하지 않으며 용량에 따라 제한됩니다.',
-  '전자기기에 장착된 리튬배터리는 160Wh 이하인 경우만 운반할 수 있습니다. 이 수치만으로 위탁 가능 여부가 확정되지는 않습니다.',
-  '분리한 여분 리튬배터리는 위탁할 수 없으며 객실 휴대 조건을 확인해야 합니다. 전자담배도 객실 휴대만 가능하고 위탁은 불가합니다.',
-  '습식배터리(전해액 축전지)는 항공사 승인이 필요합니다. 보조배터리는 위의 별도 2026년 규정을 따릅니다.',
-], ['장착 배터리의 종류별 승인·포장·전원 차단 조건, 리튬메탈 함량과 여분 배터리 개수는 세부 규정 확인 필요.'], [...airport, 'icn-battery-faq', 'molit-electronics-guide', 'icn-restricted-faq']);
+verifyRule('electronics', '노트북·태블릿·게임기 기내 휴대 권장',
+  electronicsGuidance.cards.flatMap(card => [...card.description, ...card.additional]),
+  [electronicsGuidance.scope], [...electronicsGuidance.sourceIds]);
+baggageRules.find(rule => rule.id === 'electronics')!.scope.departureCountryId = null;
+for (const rule of baggageRules.filter(rule => ['electronics', 'power-banks'].includes(rule.id))) {
+  for (const key of ['summary', 'details', 'cabin', 'checked', 'limits'] as const) {
+    const evidence = rule[key];
+    if (evidence?.status === 'verified') evidence.lastVerified = electronicsGuidance.checkedOn;
+  }
+}
 verifyRule('sharp-objects', '도검류 등 객실 제한 · 안전면도기 등 예외', [
   '도검류 등 날카로운 물건은 일반적으로 객실 반입이 금지되며 위탁수하물로 운송할 수 있습니다. 품목별 보안검색 기준을 확인하세요.',
   '공식 객실 예외: 둥근 날의 버터칼, 안전날이 포함된 면도기, 안전면도기, 전기면도기. 기내식 전용 칼은 항공사 소유품에 한합니다.',

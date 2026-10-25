@@ -1,0 +1,30 @@
+/* Shared primitives applied to existing component classes; no layout wrappers. */
+:where(button,input,select,textarea) { font-family:var(--pmb-font-family); }
+:where(.pmb-service,.inner-page) :where(p,li,label,dd) { word-break:keep-all; overflow-wrap:break-word; }
+:where(.pmb-service) { font-size:var(--pmb-font-body); line-height:var(--pmb-line-body); }
+:where(.pmb-service) :where(input:not([type=checkbox]):not([type=radio]),select,textarea) {
+  min-width:0; max-width:100%; min-height:var(--pmb-control-height);
+  border:1px solid var(--pmb-color-border-accent); border-radius:var(--pmb-radius-small);
+  background:var(--pmb-color-surface); color:var(--pmb-color-text-primary);
+}
+:where(.pmb-service) :where(input[type=checkbox],input[type=radio]) { accent-color:var(--pmb-color-primary); }
+:where(.pmb-service) :where(button,a,input,select,summary):focus-visible {
+  outline:2px solid var(--pmb-color-focus); outline-offset:4px;
+}
+:where(.pmb-cta,.primary-button,.text-button,.pmb-red-flags-action>button,.pmb-final-cta-button,.pmb-pack-less-entry-actions>button) {
+  display:inline-flex; align-items:center; justify-content:center; gap:var(--pmb-space-2);
+  min-height:var(--pmb-control-height); border-radius:var(--pmb-radius-small);
+  font-size:var(--pmb-font-small); font-weight:var(--pmb-weight-semibold);
+}
+:where(.pmb-service) :where(button:disabled,input:disabled,select:disabled) { cursor:not-allowed; }
+:where(.pmb-service) :where(button,a)>svg.lucide { flex-shrink:0; }
+:where(.pmb-service) :where(.pmb-trip-brief-card-title,.pmb-guide-section-title,.pmb-electronics-card h4)>svg.lucide {
+  width:var(--pmb-icon-title); height:var(--pmb-icon-title); stroke-width:var(--pmb-icon-stroke);
+}
+:where(.pmb-brief-modal-header button,.pmb-last-minute-actions button)>svg.lucide {
+  width:var(--pmb-icon-action); height:var(--pmb-icon-action); stroke-width:var(--pmb-icon-stroke);
+}
+/* Archive project state chips keep their existing semantic text. */
+.status-progress { background:var(--pmb-state-warning-bg); color:var(--pmb-state-warning-text); border-color:var(--pmb-state-warning-border); }
+.status-soon { background:var(--pmb-state-neutral-bg); color:var(--pmb-state-neutral-text); border-color:var(--pmb-state-neutral-border); }
+@media(max-width:768px) { :where(.pmb-service) { font-size:var(--pmb-font-small); } }

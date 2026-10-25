@@ -1,0 +1,16 @@
+{
+  "carry-on": {
+    "background": "rgb(225, 235, 252)",
+    "color": "rgb(36, 79, 140)",
+    "border": "rgb(189, 208, 238)",
+    "borderStyle": "solid",
+    "borderWidth": "1px"
+  },
+  "checked-banned": {
+    "background": "rgb(245, 218, 204)",
+    "color": "rgb(137, 85, 63)",
+    "border": "rgb(229, 183, 159)",
+    "borderStyle": "solid",
+    "borderWidth": "1px"
+  }
+}

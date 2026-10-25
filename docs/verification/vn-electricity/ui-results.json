@@ -1,0 +1,234 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "city": "hanoi",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "widths": [
+          110,
+          110
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "danang",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "widths": [
+          110,
+          110
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "nhatrang",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "widths": [
+          110,
+          110
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "phuquoc",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "widths": [
+          110,
+          110
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "hanoi",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "danang",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "nhatrang",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "phuquoc",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "city": "hanoi",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "city": "danang",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "city": "nhatrang",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "city": "phuquoc",
+      "geometry": {
+        "center": 0,
+        "overflow": false,
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "widths": [
+          88,
+          88
+        ]
+      },
+      "adapter": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

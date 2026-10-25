@@ -1,0 +1,312 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "city": "taipei",
+      "month": 1,
+      "cross": false,
+      "values": [
+        "16.4°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:light-jacket",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "taipei",
+      "month": 7,
+      "cross": false,
+      "values": [
+        "29.9°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:t-shirt",
+        "clothing:rain-protection",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "taipei",
+      "month": 11,
+      "cross": false,
+      "values": [
+        "21.9°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "kaohsiung",
+      "month": 1,
+      "cross": false,
+      "values": [
+        "19.7°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:cardigan",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "kaohsiung",
+      "month": 7,
+      "cross": false,
+      "values": [
+        "29.4°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:t-shirt",
+        "clothing:rain-protection",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "taipei",
+      "month": 12,
+      "cross": true,
+      "values": [
+        "18.2°C",
+        "16.4°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:light-jacket",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "city": "osaka",
+      "month": 11,
+      "cross": false,
+      "values": [
+        "14.2°C"
+      ],
+      "font": "34px",
+      "heights": [
+        211.546875,
+        211.546875,
+        211.546875
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:light-jacket",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "taipei",
+      "month": 1,
+      "cross": false,
+      "values": [
+        "16.4°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:light-jacket",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "taipei",
+      "month": 7,
+      "cross": false,
+      "values": [
+        "29.9°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:t-shirt",
+        "clothing:rain-protection",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "taipei",
+      "month": 11,
+      "cross": false,
+      "values": [
+        "21.9°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "kaohsiung",
+      "month": 1,
+      "cross": false,
+      "values": [
+        "19.7°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:cardigan",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "kaohsiung",
+      "month": 7,
+      "cross": false,
+      "values": [
+        "29.4°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:t-shirt",
+        "clothing:rain-protection",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "taipei",
+      "month": 12,
+      "cross": true,
+      "values": [
+        "18.2°C",
+        "16.4°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:light-jacket",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "city": "osaka",
+      "month": 11,
+      "cross": false,
+      "values": [
+        "14.2°C"
+      ],
+      "font": "30px",
+      "heights": [
+        163.265625,
+        127.15625,
+        177.734375
+      ],
+      "overflow": false,
+      "clothingIds": [
+        "clothing:light-long-sleeve",
+        "clothing:light-jacket",
+        "clothing:walking-shoes"
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

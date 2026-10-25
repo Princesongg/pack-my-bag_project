@@ -1,0 +1,869 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "name": "empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 1440,
+      "name": "departure-only",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 1440,
+      "name": "valid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 1440,
+      "name": "editing-invalid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 1440,
+      "name": "invalid-blurred",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        "귀국일은 출발일과 같거나 늦어야 해요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 1440,
+      "name": "corrected",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 1440,
+      "name": "submitted-empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "출발일을 선택해 주세요.",
+        "귀국일을 선택해 주세요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 1440,
+      "name": "corrected-after-submit",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 583,
+          "height": 54,
+          "width": 559,
+          "overflow": false
+        }
+      ],
+      "columns": "559px 559px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 768,
+      "name": "empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 768,
+      "name": "departure-only",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 768,
+      "name": "valid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 768,
+      "name": "editing-invalid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 768,
+      "name": "invalid-blurred",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        "귀국일은 출발일과 같거나 늦어야 해요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 768,
+      "name": "corrected",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 768,
+      "name": "submitted-empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "출발일을 선택해 주세요.",
+        "귀국일을 선택해 주세요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 768,
+      "name": "corrected-after-submit",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        },
+        {
+          "top": 31.796875,
+          "left": 344.609375,
+          "height": 54,
+          "width": 332.609375,
+          "overflow": false
+        }
+      ],
+      "columns": "332.609px 332.609px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 390,
+      "name": "empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 390,
+      "name": "departure-only",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 390,
+      "name": "valid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 390,
+      "name": "editing-invalid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 390,
+      "name": "invalid-blurred",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        "귀국일은 출발일과 같거나 늦어야 해요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 390,
+      "name": "corrected",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 390,
+      "name": "submitted-empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "출발일을 선택해 주세요.",
+        "귀국일을 선택해 주세요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 390,
+      "name": "corrected-after-submit",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 316,
+          "overflow": false
+        }
+      ],
+      "columns": "316px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 320,
+      "name": "empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 320,
+      "name": "departure-only",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 320,
+      "name": "valid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 320,
+      "name": "editing-invalid",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": ""
+    },
+    {
+      "width": 320,
+      "name": "invalid-blurred",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        "귀국일은 출발일과 같거나 늦어야 해요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 320,
+      "name": "corrected",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    },
+    {
+      "width": 320,
+      "name": "submitted-empty",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "출발일을 선택해 주세요.",
+        "귀국일을 선택해 주세요."
+      ],
+      "duration": ""
+    },
+    {
+      "width": 320,
+      "name": "corrected-after-submit",
+      "fields": [
+        {
+          "top": 31.796875,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        },
+        {
+          "top": 129.59375,
+          "left": 0,
+          "height": 54,
+          "width": 246,
+          "overflow": false
+        }
+      ],
+      "columns": "246px",
+      "pageOverflow": false,
+      "errors": [
+        "",
+        ""
+      ],
+      "duration": "5박 6일 여행이네요!"
+    }
+  ],
+  "errors": []
+}

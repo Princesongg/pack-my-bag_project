@@ -1,0 +1,24 @@
+.pmb-status-badge {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:var(--pmb-space-1) var(--pmb-space-2);
+  border:1px solid var(--pmb-status-carry-on-border);
+  border-radius:var(--pmb-radius-small);
+  background:var(--pmb-status-carry-on-background);
+  color:var(--pmb-status-carry-on-text);
+  font-size:var(--pmb-font-caption);
+  font-weight:var(--pmb-weight-bold);
+  line-height:1.5;
+  white-space:nowrap;
+  box-sizing:border-box;
+}
+.pmb-status-badge:is([data-variant=checked-banned],[data-variant=danger],[data-variant=prohibited]) {
+  background:var(--pmb-status-checked-banned-background);
+  color:var(--pmb-status-checked-banned-text);
+  border-color:var(--pmb-status-checked-banned-border);
+}
+.pmb-status-badge:is([data-variant=warning],[data-variant=check-required]) { background:var(--pmb-state-warning-bg); color:var(--pmb-state-warning-text); border-color:var(--pmb-state-warning-border); }
+.pmb-status-badge:is([data-variant=success],[data-variant=completed]) { background:var(--pmb-state-success-bg); color:var(--pmb-state-success-text); border-color:var(--pmb-state-success-border); }
+.pmb-status-badge[data-variant=neutral] { background:var(--pmb-state-neutral-bg); color:var(--pmb-state-neutral-text); border-color:var(--pmb-state-neutral-border); }
+.pmb-status-summary { display:flex; flex-wrap:wrap; align-items:center; gap:var(--pmb-space-1) var(--pmb-space-2); }

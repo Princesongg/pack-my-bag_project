@@ -11,6 +11,7 @@ export const clothingItems = [
   { id: 'cold-weather-accessories', name: '방한용품', checklistItemId: 'clothing:cold-weather-accessories' },
   { id: 'rain-protection', name: '우산 및 우비', checklistItemId: 'clothing:rain-protection' },
   { id: 'walking-shoes', name: '편한 운동화', checklistItemId: 'clothing:walking-shoes' },
+  { id: 'swimwear', name: '수영복', checklistItemId: 'clothing:swimwear' },
 ] as const;
 
 type ClothingId = typeof clothingItems[number]['id'];
@@ -20,6 +21,8 @@ interface ClothingRule {
   allClimateConditions: ClimateCondition[];
   seasonalReview: string[];
   purposeIds?: string[];
+  missingTemperatureFallback?: boolean;
+  cityIds?: string[];
 }
 
 export const clothingPolicy = {
@@ -34,6 +37,8 @@ export const clothingPolicy = {
 
 // Declarative drafts only; no recommendation UI or automatic checklist generation.
 export const clothingRules: ClothingRule[] = [
+  { id: 'phuket-resort-swimwear', itemId: 'swimwear', priority: 'optional', cityIds: ['phuket'], purposeIds: ['relaxation'], reason: '푸껫 휴양 일정에 수영장·해변을 이용한다면 수영복을 고려하세요.', allClimateConditions: [{ metric: 'meanTemperatureC', comparison: 'gte', value: 25 }], seasonalReview: ['수영 여부와 숙소 시설을 확인한 뒤 결정', '강수·파도·해변 안전은 현지 예보와 안내를 별도로 확인'] },
+  { id: 'warm-mean-review', itemId: 't-shirt', priority: 'optional', missingTemperatureFallback: true, reason: '평균 최고·최저가 미확인인 경우 확인된 월평균 25°C 이상을 참고해 가벼운 상의를 검토한다. 낮·밤 기온이나 실제 예보를 대신하지 않는다.', allClimateConditions: [{ metric: 'meanTemperatureC', comparison: 'gte', value: 25 }], seasonalReview: ['최고·최저는 미확인 상태이며 월평균만 사용한 서비스 검토 제안', '실제 예보·냉방·활동 조건 확인'] },
   { id: 'warm-day', itemId: 't-shirt', priority: 'optional', reason: '낮 기온이 높을 때 가벼운 상의를 고려한다.', allClimateConditions: [{ metric: 'meanDailyMaximumC', comparison: 'gte', value: 25 }, { metric: 'meanDailyMinimumC', comparison: 'gte', value: 18 }], seasonalReview: ['강수·습도·바람과 실내 냉방 확인'] },
   { id: 'cool-morning', itemId: 'light-long-sleeve', priority: 'recommended', reason: '아침·저녁의 낮은 평균 최저기온에 대응한다.', allClimateConditions: [{ metric: 'meanDailyMinimumC', comparison: 'lt', value: 18 }], seasonalReview: ['추운 계절에는 이 항목만으로 방한이 충분하지 않음'] },
   { id: 'layering', itemId: 'cardigan', priority: 'recommended', reason: '평균 최고·최저 기온 차이를 고려해 벗고 입을 수 있는 겹옷을 제안한다.', allClimateConditions: [{ metric: 'dailyTemperatureRangeC', comparison: 'gte', value: 8 }, { metric: 'meanDailyMinimumC', comparison: 'lt', value: 18 }], seasonalReview: ['여행 중 실제 일교차 예측값이 아닌 월평균 기온 차이', '바람·고도·냉난방 검토'] },

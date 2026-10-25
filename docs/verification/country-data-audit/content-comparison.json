@@ -1,0 +1,364 @@
+{
+  "checkedOn": "2026-10-25",
+  "comparisons": [
+    {
+      "id": "jma-tokyo-2016",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2017",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2018",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2019",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2020",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2021",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2022",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2023",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2024",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-tokyo-2025",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2016",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2017",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2018",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2019",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2020",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2021",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2022",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2023",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2024",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-osaka-2025",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2016",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2017",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2018",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2019",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2020",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2021",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2022",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2023",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2024",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-fukuoka-2025",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2016",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2017",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2018",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2019",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2020",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2021",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2022",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2023",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2024",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "jma-sapporo-2025",
+      "checked": 48,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "vn-jma-danang",
+      "checked": 24,
+      "differences": [],
+      "status": "matched",
+      "periodDeclaredInMethod": "1991–2020 (see JMA outline)"
+    },
+    {
+      "id": "vn-jma-nhatrang",
+      "checked": 24,
+      "differences": [],
+      "status": "matched",
+      "periodDeclaredInMethod": "1991–2020 (see JMA outline)"
+    },
+    {
+      "id": "vn-jma-phuquoc",
+      "checked": 24,
+      "differences": [],
+      "status": "matched",
+      "periodDeclaredInMethod": "1991–2020 (see JMA outline)"
+    },
+    {
+      "id": "th-jma-48455",
+      "checked": 24,
+      "differences": [],
+      "status": "matched",
+      "periodDeclaredInMethod": "1991–2020 (see JMA outline)"
+    },
+    {
+      "id": "th-jma-48327",
+      "checked": 24,
+      "differences": [],
+      "status": "matched",
+      "periodDeclaredInMethod": "1991–2020 (see JMA outline)"
+    },
+    {
+      "id": "th-jma-48565",
+      "checked": 24,
+      "differences": [],
+      "status": "matched",
+      "periodDeclaredInMethod": "1991–2020 (see JMA outline)"
+    },
+    {
+      "id": "cwa-normal-tx",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "cwa-normal-meantxmax",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "cwa-normal-meantxmin",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "cwa-normal-precp",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "cwa-normal-rh",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "cwa-normal-precpday",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "th-tmd-48455",
+      "method": "Manual PDF table transcription; station and 1991–2020 period checked",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "th-tmd-48327",
+      "method": "Manual PDF table transcription; station and 1991–2020 period checked",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "th-tmd-48565",
+      "method": "Manual PDF table transcription; station and 1991–2020 period checked",
+      "checked": 24,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "nws-central-park-normal",
+      "method": "Manual PDF table transcription; station and 1991–2020 period checked",
+      "checked": 36,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "noaa-lax-normal",
+      "method": "Manual PDF table transcription; station and 1991–2020 period checked",
+      "checked": 36,
+      "differences": [],
+      "status": "matched"
+    },
+    {
+      "id": "vn-kma-hanoi",
+      "checked": 36,
+      "differences": [],
+      "status": "matched"
+    }
+  ]
+}

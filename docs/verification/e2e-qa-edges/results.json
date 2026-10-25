@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "legacy custom alias restored",
+    {
+      "name": "delete custom visa restores shared authorization immediately",
+      "passed": true
+    },
+    "adding alias reuses existing entry row",
+    "trip isolation and return restore",
+    "corrupt trip recovery"
+  ],
+  "errors": []
+}

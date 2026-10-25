@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>-->
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+        <title>測站資料統計</title>
+        <link rel="stylesheet" href="https://climate.cwa.gov.tw/Packages/bootstrap/css/bootstrapv5theme.min.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Packages/fontawesome/css/all.min.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Packages/google-fonts/google-fonts.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Packages/lightbox2/dist/css/lightbox.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Common/global.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Common/login_layout.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Packages/yearpicker/yearpicker.css?200203038525">
+<link rel="stylesheet" href="https://climate.cwa.gov.tw/Pages/MeasuringObservation/MeasuringObservation.css?200203038525">
+<script>global = window.global || {}; d = {"base_url":"https:\/\/climate.cwa.gov.tw\/","controller":"https:\/\/climate.cwa.gov.tw\/MeasuringObservation","controller_name":"MeasuringObservation","api_url":"https:\/\/climate.cwa.gov.tw","api_domain":"http:\/\/61.56.13.65\/","expired_sec":null};for(var k in d) {global[k]=d[k]};</script><script defer src="https://climate.cwa.gov.tw/Packages/jquery/jquery.min.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/bootstrap/js/bootstrapv5.bundle.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/vue/dist/vue.min.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/moment/moment-with-locales.min.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/moment/custom.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/lightbox2/dist/js/lightbox.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Common/global.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Common/layout.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/yearpicker/yearpicker.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Pages/MeasuringObservation/MeasuringObservation.js?200203038525"></script>
+<script defer src="https://climate.cwa.gov.tw/Packages/phosphor-icons/phosphor-icons.js?200203038525"></script>
+    </head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-40KV6M7MTM"></script>
+    <script>  
+        window.dataLayer = window.dataLayer || [];   
+        function gtag(){dataLayer.push(arguments);}   
+        gtag('js', new Date());   
+        gtag('config', 'G-40KV6M7MTM'); 
+    </script>
+    <body>
+        <div class="container-fluid" style="padding:0px;overflow:hidden">
+            <a class="skip-link" href="#main">跳到主要內容</a>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand text-center" href="https://climate.cwa.gov.tw/Home">氣候服務入口網<br><small>Climate Services Portal</small></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 選單列 -->
+        <div class="collapse navbar-collapse flex-lg-column align-items-lg-end" id="navbarNav">
+            <div class="login-block">
+                <!-- <a class="change-lang" href="#">En</a> -->
+                <!-- <a class='text-light login' href="https://climate.cwa.gov.tw/Login">
+                    <span>登入</span><i class="ph ph-sign-in"></i>
+                </a> -->
+            </div>
+
+            <ul class="navbar-nav align-self-xl-center navbar-nav-scroll">
+                <li class="nav-item dropdown" id="scienceAndServiceDropdown">
+                    <button class="nav-link nav-topic" role="button" type='button' id='scienceAndService' data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded='false'>氣候科學與服務</button>
+                    <div class="dropdown-menu dropdown-custom-center" aria-labelledby='scienceAndService'>
+                        <div class="d-flex flex-column flex-lg-row">
+                            <div class="sub-block">
+                                <div class="menu-title">氣候科學</div>
+                                <ul>
+                                    <li><a class='list-group-item' data-link-name='scienceAndService' href="https://climate.cwa.gov.tw/ClimateScience" >氣候變異</a></li>
+                                    <li><a class='list-group-item' data-link-name='scienceAndService' href="https://climate.cwa.gov.tw/ClimateScience?tab=change">氣候變遷</a></li>
+                                    <li><a class='list-group-item' data-link-name='scienceAndService' href="https://climate.cwa.gov.tw/ClimatePedia">氣候小百科</a></li>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">氣候服務</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/WhatIsClimateService" class="list-group-item" data-link-name='scienceAndService'>氣候服務是什麼</a></li>
+                                    <div class="sub-menu-title">緣起與發展</div>
+                                    <ul>
+                                        <li><a href="https://climate.cwa.gov.tw/InternationalTimeline" class="list-group-item" data-link-name='scienceAndService'>國際脈動</a></li>
+                                        <li><a href="https://climate.cwa.gov.tw/InternationalTimeline?tab=domestic-tab" class="list-group-item" data-link-name='scienceAndService'>國內脈動</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">跨域氣候服務</div>
+                                <ul class="cors-service-list">
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome" class="list-group-item">關於跨域氣候服務</a></li>
+                                    <li class="d-flex flex-column flex-lg-row">
+                                        <div class="sub-block" style="min-width: 150px;">
+                                            <div class="sub-menu-title">調適領域</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/LifeSupport" class="list-group-item" data-link-name='scienceAndService'>維生基礎設施</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/WaterResource" class="list-group-item">水資源</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/LandUse" class="list-group-item" data-link-name='scienceAndService'>土地利用</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Coast" class="list-group-item" data-link-name='scienceAndService'>海岸</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Energy" class="list-group-item" data-link-name='scienceAndService'>能源</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome/CorsClimateService?page=Agriculture&subtitle=調適領域" class="list-group-item" data-link-name='scienceAndService'>農業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Health" class="list-group-item" data-link-name='scienceAndService'>健康</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/CulturePreserve" class="list-group-item" data-link-name='scienceAndService'>文化資產保存</a></li>
+                                                <!-- <li><a href="https://climate.cwa.gov.tw/Manufacture" class="list-group-item" data-link-name='scienceAndService'>製造業</a></li> -->
+                                            </ul>
+                                        </div>
+                                        <div class="sub-block">
+                                            <div class="sub-menu-title">減量部門</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/Energy" class="list-group-item" data-link-name='scienceAndService'>能源</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Manufacture" class="list-group-item" data-link-name='scienceAndService'>製造</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Transportation" class="list-group-item" data-link-name='scienceAndService'>運輸</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Architecture" class="list-group-item" data-link-name='scienceAndService'>住商</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome/CorsClimateService?page=Agriculture&subtitle=減量部門" class="list-group-item" data-link-name='scienceAndService'>農業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Environment" class="list-group-item" data-link-name='scienceAndService'>環境</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-block">
+                                            <div class="sub-menu-title">產業類別</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome/CorsClimateService?page=Agriculture&subtitle=產業類別" class="list-group-item" data-link-name='scienceAndService'>農業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/InfoCommunication" class="list-group-item" data-link-name='scienceAndService'>資訊與通訊服務</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Forestry" class="list-group-item" data-link-name='scienceAndService'>林業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Fisheries" class="list-group-item" data-link-name='scienceAndService'>漁業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Travel" class="list-group-item" data-link-name='scienceAndService'>旅遊業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Finance" class="list-group-item" data-link-name='scienceAndService'>金融業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Manufacture" class="list-group-item" data-link-name='scienceAndService'>製造業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Energy" class="list-group-item" data-link-name='scienceAndService'>能源業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Architecture" class="list-group-item" data-link-name='scienceAndService'>建築業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Education" class="list-group-item" data-link-name='scienceAndService'>教育業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Service" class="list-group-item" data-link-name='scienceAndService'>服務業</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">跨域服務連結</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/LinkSafeOcean" class="list-group-item" data-link-name='scienceAndService'>海象環境資訊平臺</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/LinkAGR" class="list-group-item" data-link-name='scienceAndService'>農業氣象觀測網監測系統</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/LinkGreenmet" class="list-group-item" data-link-name='scienceAndService'>氣象資訊綠能虛擬營運中心</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link nav-topic" role="button" type='button' id='climateMonitor' data-bs-toggle="dropdown" aria-expanded='false'>即時氣候監測</button>
+                    <div class="dropdown-menu dropdown-menu-start" aria-labelledby='climateMonitor'>
+                        <div class="d-flex flex-column flex-lg-row">
+                            <div class="sub-block">
+                                <div class="menu-title">臺灣氣候</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/HistoryAndMonitoring" class="list-group-item" data-link-name='climateMonitor'>即時監測</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/SeasonalClimate?subpage=Spring" class="list-group-item" data-link-name='climateMonitor'>季節氣候</a></li>
+                                    <li>
+                                        <div class="sub-block">
+                                            <div class="sub-menu-title">極端天氣與氣候</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/Drought" class="list-group-item" data-link-name='climateMonitor'>乾旱</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/HighTemperature" class="list-group-item" data-link-name='climateMonitor'>高溫</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">東亞及全球監測</div>
+                                <ul>
+                                    <!-- <li><a href="" class="list-group-item">海氣環流監測</a></li> -->
+                                    <li><a href="https://climate.cwa.gov.tw/AirSea" class="list-group-item" data-link-name='climateMonitor'>海氣環流監測</a></li>
+                                    <!-- <li><a href="#" class="list-group-item" data-link-name='climateMonitor' disabled>WNP 颱風</a></li> -->
+                                    <li><a href="https://climate.cwa.gov.tw/ENSO?subpage=Intro" class="list-group-item" data-link-name='climateMonitor'>聖嬰/反聖嬰</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/ISO" class="list-group-item" data-link-name='climateMonitor'>季內振盪</a></li>
+                                    <li>
+                                        <div class="sub-block">
+                                            <div class="sub-menu-title">氣候指標</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/GlobalIndicator" class="list-group-item" data-link-name='climateMonitor'>氣候變遷指標​</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/SeawaterTemperatureIndicator" class="list-group-item" data-link-name='climateMonitor'>海溫指標​</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/AtmosphereIndicator" class="list-group-item" data-link-name='climateMonitor'>大氣指標​</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/MonsoonIndicator" class="list-group-item" data-link-name='climateMonitor'>季風指標​</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="sub-block">
+                                <div class="menu-title">智能工具</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/SmartTool" class='list-group-item' data-link-name='climateMonitor'>智能工具</a></li>
+                                </ul>
+                            </div> -->
+                            <!-- <div class="sub-block">
+                                <a class="menu-card" href="#">
+                                    <img src="images/Home/smart-tool-bg.jpg" alt="smart-tool">
+                                    <div class="sub-menu-title">歡迎使用智能工具<i class="ph ph-arrow-up-right"></i></div>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link nav-topic" role="button" type='button' id='climateFcst' data-bs-toggle="dropdown" aria-expanded='false'>氣候預報</button>
+                    <div class="dropdown-menu dropdown-menu-end custom-center" aria-labelledby='climateFcst'>
+                        <div class="d-flex flex-column flex-lg-row">
+                            <div class="sub-block">
+                                <div class="menu-title">官方預報</div>
+                                <ul>
+                                    <!-- <li><a href="#" class="list-group-item" data-link-name='climateFcst' disabled>月季預報</a></li> -->
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=Prospect" class="list-group-item" data-link-name='climateFcst'>聖嬰展望</a></li>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">氣候模式預報</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=GlobalFcst" class="list-group-item" data-link-name='climateFcst'>全球</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=EastAsia" class="list-group-item" data-link-name='climateFcst'>東亞</a></li>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">氣候主題預報</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=WinterClimate" class="list-group-item" data-link-name='climateFcst'>冬季</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=Spring" class="list-group-item" data-link-name='climateFcst'>春季</a></li>
+                                    <!-- <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=PlumRain" class="list-group-item" data-link-name='climateFcst'>梅雨季</a></li> -->
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=Typhoon" class="list-group-item" data-link-name='climateFcst'>颱風季</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link nav-topic" role="button" type='button' id='climateData' data-bs-toggle="dropdown" aria-expanded='false'>氣候資料</button>
+                    <div class="dropdown-menu dropdown-menu-end custom-center" aria-labelledby="climateData">
+                        <div class="d-flex flex-column">
+                            <!-- <div class="sub-list">
+                                <ul>
+                                    <li><a href="#" class="list-group-item">關於氣候資料</a></li>
+                                </ul>
+                            </div> -->
+
+                            <div class="d-flex flex-column flex-lg-row">
+                                <div class="sub-block">
+                                    <div class="menu-title">氣象觀測資料</div>
+                                    <ul>
+                                        <li><a href="https://climate.cwa.gov.tw/GroundObservation" class="list-group-item" data-link-name='climateData'>地面觀測資料</a></li>
+                                        <li><a href="https://climate.cwa.gov.tw/OceanObservation" class="list-group-item" data-link-name='climateData'>海洋觀測資料</a></li>
+                                        <li><a href="https://climate.cwa.gov.tw/SkewTDiagram" class="list-group-item" data-link-name='climateData'>探空資料</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub-block">
+                                    <div class="menu-title">臺灣氣候統計</div>
+                                    <ul>
+                                        <li><a href="https://climate.cwa.gov.tw/MeasuringObservation" class="list-group-item" data-link-name='climateData'>測站資料統計</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub-block">
+                                    <div class="menu-title">氣象圖資與事件</div>
+                                    <ul>
+                                        <li><a href="https://climate.cwa.gov.tw/HistoryWeatherChart" class="list-group-item" data-link-name='climateData'>歷史天氣圖</a></li>
+                                        <li><a href="https://climate.cwa.gov.tw/HistoryClimateEvent" class="list-group-item" data-link-name='climateData'>歷史氣象事件</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub-block">
+                                    <div class="menu-title">遙測資料</div>
+                                    <ul>
+                                        <li><a href="https://climate.cwa.gov.tw/RemoteSensing" class="list-group-item" data-link-name='climateData'>遙測資料</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link nav-topic" role="button" type='button' id='newsActivity' data-bs-toggle="dropdown" aria-expanded='false'>新聞與活動</button>
+                    <div class="dropdown-menu" aria-labelledby="newsActivity">
+                        <div class="d-flex flex-column flex-lg-row">
+                            <div class="sub-block">
+                                <div class="menu-title">新聞</div>
+
+                                <ul>
+                                    <li><a 
+                                        href="https://climate.cwa.gov.tw/news?tab=local-news-list-tab" 
+                                        class="list-group-item" 
+                                        data-link-name='newsActivity'>國內新聞</a>
+                                    </li>
+                                    <li><a 
+                                        href="https://climate.cwa.gov.tw/news?tab=foreign-news-list-tab" 
+                                        class="list-group-item" 
+                                        data-link-name='newsActivity'>國外新聞</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub-block">
+                                <div class="menu-title">活動</div>
+                                
+                                <ul>
+                                    <li><a 
+                                        href="https://climate.cwa.gov.tw/Event" 
+                                        class="list-group-item" 
+                                        data-link-name='newsActivity'>未來活動</a>
+                                    </li>
+                                    <li><a 
+                                        href="https://climate.cwa.gov.tw/Event?tab=past-event-list-tab" 
+                                        class="list-group-item" 
+                                        data-link-name='newsActivity'>歷史活動</a>
+                                    </li>
+                                    <li><a 
+                                        href="https://climate.cwa.gov.tw/Event?tab=forum-workshop-list-tab" 
+                                        class="list-group-item" 
+                                        data-link-name='newsActivity'>論壇與工作坊</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <button class="nav-link nav-topic" type='button' id='partners' aria-expanded='false'>氣候服務夥伴</button>
+                    <div class="dropdown-menu" aria-labelledby="partners">
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/Partnership" class="list-group-item" data-link-name='partners'>夥伴關係</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/PartnerList" class="list-group-item" data-link-name='partners'>合作夥伴查詢</a></li>
+                        </ul>
+                    </div>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <button class="nav-link nav-topic" role="button" type='button' id='aboutUs' data-bs-toggle="dropdown" aria-expanded='false'>關於我們</button>
+                    <div class="dropdown-menu" aria-labelledby='aboutUs'>
+                        <ul>
+                            <li><a class='list-group-item' data-link-name='aboutUs' href="https://climate.cwa.gov.tw/About">關於本站</a></li>
+                            <li><a class='list-group-item' data-link-name='aboutUs' href="https://climate.cwa.gov.tw/RelatedWebsites" >相關網站</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="content-table"></div>
+            <main id="main">
+                <div>
+                    
+<!-- <div class="page-tag">臺灣氣候資料 / 測站資料統計</div> -->
+<header class='page-header'>
+    <div class="container">
+        <div class="slider-thumb"></div>
+        <h1 class='page-title mb-0'>氣候資料</h1>
+        <!-- <div class="page-intro">我們提供準確、即時的氣候資訊，促進可持續發展和氣候意識的提升。通過可靠的數據和預測，協助您做出明智的決策。我們致力於建立一個更可持續、氣候智慧的未來</div> -->
+    </div>
+</header>
+
+<div id="about-container" class="container">
+    <ol id="breadcrumb" aria-label="導覽路徑">
+        <li><a href="https://climate.cwa.gov.tw/Home" title="回首頁"><span class="icon">首頁</span></a></li>
+        <li><a href="#"><span class="icon">氣候資料</span></a></li>
+        <li><a href="#" class="active" title="測站資料統計" aria-current="page"><span class="icon">測站資料統計</span></a></li>
+    </ol>
+</div>
+
+<div class="container">
+    <div class="section-title mt-0" data-toctitle="title">
+        <h2>氣候統計資料概述</h2>
+    </div>
+    <p>為呈現臺灣長期氣候統計變化，交通部中央氣象署參照世界氣象組織（World Meteorological Organization, WMO）2018年出版之WMO No. 100「氣候作業指南」（Guide to Climatological Practices , WMO-No. 100, 2018 edition），更新以1991-2020年為統計基礎之30年氣候平均，整理臺灣8個百年氣象站自設站至2020年止的觀測資料，於2023年出版「臺灣氣候變化統計圖集」，圖集內容除了說明臺灣8個百年氣象站基本氣候統計特徵之外，亦新增極端氣溫與極端雨量長期趨勢變化，透過國際專家建議的極端氣候指標（Expert Team on Climate Change Detection and Indices, ETCCDI）分析，以及加強圖表視覺化的呈現，做為探討氣候與環境變遷之基本參考資訊。</p>
+    <p>氣候統計圖內容涵蓋氣溫、降水、海平面氣壓、風、相對濕度及蒸發量、日照及雲量、地中溫度、各種天氣現象日數、氣象要素綜合圖、颱風。測站部分除了8個百年氣象站外，亦加入其他署屬有人站，包括臺灣本島及外島共25個，詳列如下：鞍部、竹子湖、淡水、臺北、新竹、臺中、日月潭、阿里山、玉山、嘉義、臺南、高雄、恆春、基隆、宜蘭、花蓮、成功、臺東、大武、彭佳嶼、蘭嶼、澎湖、東吉島、金門、馬祖。</p>
+</div>
+
+<div class="container pt-4">
+    <section id="climate-statistic">
+        <div class="category-title">
+            <div class="section-title" data-toctitle="title">
+                <h2>臺灣氣候統計圖集</h2>
+            </div>
+            <div class="dropdown">
+                <button class="btn variable-select" id="climate-variable" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class='type'>氣象變數</span>
+                    <span class='selected-item'></span>
+                </button>
+                <div class="dropdown-menu">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn variable-select" id="variable-type" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class='type'>變數模型</span>
+                    <span class='selected-item'></span>
+                </button>
+                <div class="dropdown-menu">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn variable-select" id="chart-model" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class='type'>圖表模式</span>
+                    <span class='selected-item'></span>
+                </button>
+                <div class="dropdown-menu">
+                </div>
+            </div>
+            <div class="dropdown" id="station-wrapper">
+                <button class="btn variable-select" id="station" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class='type'>測站</span>
+                    <span class='selected-item'></span>
+                </button>
+                <div class="dropdown-menu">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="figure-block">
+        <img src="" alt="平均氣溫距平及10年距平平均時序圖" class='w-100' id='pic-select'>
+        <p class='pic-caption'></p>
+    </div>
+
+    <div class="sub-title">圖表說明</div>
+    <div class="figure-block">
+        <img src="images/MeasuringObservation/climate-statistic-2.png" alt="" class='w-100' id='sample-pic'>
+
+        <div class="sample-caption">
+        </div>
+    </div>
+
+    <div class="data-info">
+        <p>相關資料</p>
+        <ul>
+            <li><a href="data/pdf_1.pdf" target="_blank" title="前往百年氣象站變遷資料表(PDF，另開新視窗)">百年氣象站變遷資料表​</a></li>
+            <li><a href="data/pdf_2.pdf" target="_blank" title="前往資料產製流程說明(PDF，另開新視窗)">資料產製流程說明</a></li>
+            <li><a href="data/pdf_各測站溫度及雨量之最.pdf" target="_blank" title="前往各測站溫度及雨量之最(PDF，另開新視窗)">各測站溫度及雨量之最​</a></li>
+        </ul>
+    </div>
+
+</div>                </div>
+                <div id="top_btn" tabindex="0" role="button" aria-label="返回頂部">
+                    <div>TOP</div>
+                    <div><i class="fas fa-2x fa-long-arrow-alt-up"></i></div>
+                </div>
+            </main>
+
+            <div class="accordion" id="nav-footer-wrapper">
+  <div class="accordion-item">
+    <div class="accordion-header" id="nav-footer-title">
+      <button class="accordion-button 
+      collapsed  " type="button" aria-label="開關網站導覽" data-bs-toggle="collapse" data-bs-target="#nav-footer" aria-expanded="true" aria-controls="nav-footer">
+      </button>
+    </div>
+    <div id="nav-footer" class="accordion-collapse collapse 
+     " aria-labelledby="nav-footer-title" data-bs-parent="#nav-footer-wrapper">
+      <div class="accordion-body p-0">
+        <div class="container-fluid sitemap-bg">
+            <div class="container sitemap">
+                <div class="row">
+                    <div class="col-12 col-lg-9">
+                        <div class="footer-menu-title">氣候科學與服務</div>
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="footer-sub-menu-title">氣候科學</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateScience" title="前往氣候變異">氣候變異</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimateScience#change" title="前往氣候變遷">氣候變遷</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/ClimatePedia" title="前往氣候小百科">氣候小百科</a></li>
+                                </ul>
+                                <div class="footer-sub-menu-title">氣候服務</div>
+                                <ul>
+                                    <li class="mb-3"><a href="https://climate.cwa.gov.tw/WhatIsClimateService" title="前往氣候服務是什麼">氣候服務是什麼</a></li>
+                                    <li>
+                                        <div class="footer-sub-menu-title">緣起與發展</div>
+                                        <ul>
+                                            <li><a href="https://climate.cwa.gov.tw/InternationalTimeline" title="前往國際脈動">國際脈動</a></li>
+                                            <li><a href="https://climate.cwa.gov.tw/InternationalTimeline" title="前往國內脈動">國內脈動</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <div class="footer-sub-menu-title">跨域氣候服務</div>
+                                <ul>
+                                    <li class="mb-3"><a href="https://climate.cwa.gov.tw/ClimateServiceHome" title="前往關於跨域氣候服務">關於跨域氣候服務</a></li>
+                                    <li class="row">
+                                        <div class="col-12 col-md-3">
+                                            <div class="footer-sub-menu-title">調適領域</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/LifeSupport" title="前往維生基礎設施">維生基礎設施</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/WaterResource" title="前往水資源">水資源</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/LandUse" title="前往土地利用">土地利用</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Coast" title="前往海岸">海岸</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Energy" title="前往能源">能源</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome/CorsClimateService?page=Agriculture&subtitle='調適領域'" title="前往農業">農業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Health" title="前往健康">健康</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/CulturePreserve" title="前往文化資產保存">文化資產保存</a></li>
+                                                <!-- <li><a href="https://climate.cwa.gov.tw/Manufacture">製造業</a></li> -->
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <div class="footer-sub-menu-title">減量部門</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/Energy" title="前往能源">能源</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Manufacture" title="前往製造">製造</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Transportation" title="前往運輸">運輸</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Architecture" title="前往住商">住商</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome/CorsClimateService?page=Agriculture&subtitle='減量部門'" title="前往農業">農業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Environment" title="前往環境">環境</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <div class="footer-sub-menu-title">產業類別</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/ClimateServiceHome/CorsClimateService?page=Agriculture&subtitle='產業類別'" title="前往農業">農業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/InfoCommunication" title="前往資訊與通訊服務">資訊與通訊服務</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Forestry" title="前往林業">林業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Fisheries" title="前往漁業">漁業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Travel" title="前往旅遊業">旅遊業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Finance" title="前往金融業">金融業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Manufacture" title="前往製造業">製造業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Energy" title="前往能源業">能源業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Architecture" title="前往建築業">建築業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Education" title="前往教育業">教育業</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/Service" title="前往服務業">服務業</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <div class="footer-sub-menu-title">跨域服務連結</div>
+                                            <ul>
+                                                <li><a href="https://climate.cwa.gov.tw/LinkSafeOcean" title="前往海象環境資訊平臺">海象環境資訊平臺</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/LinkAGR" title="前往農業氣象觀測網監測系統">農業氣象觀測網監測系統</a></li>
+                                                <li><a href="https://climate.cwa.gov.tw/LinkGreenmet" title="前往氣象資訊綠能虛擬營運中心">氣象資訊綠能虛擬營運中心</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer-menu-title">即時氣候監測</div>
+                        <div class="footer-sub-menu-title">臺灣氣候</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/HistoryAndMonitoring" title="前往即時監測">即時監測</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/SeasonalClimate?subpage=Spring" title="前往季節氣候">季節氣候</a></li>
+                            <li>
+                                <div class="footer-sub-menu-title">極端天氣與氣候</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/Drought" title="前往乾旱">乾旱</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/HighTemperature" title="前往高溫">高溫</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="footer-sub-menu-title">東亞及全球監測</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/AirSea" title="前往海氣環流監測">海氣環流監測</a></li>
+                            <!-- <li>WNP 颱風</li> -->
+                            <li><a href="https://climate.cwa.gov.tw/ENSO?subpage=Intro" title="前往聖嬰/反聖嬰">聖嬰/反聖嬰</a></li>
+                            <li class="mb-3"><a href="https://climate.cwa.gov.tw/ISO" title="前往季內振盪">季內振盪</a></li>
+                            <li>
+                                <div class="footer-sub-menu-title">氣候指標</div>
+                                <ul>
+                                    <li><a href="https://climate.cwa.gov.tw/GlobalIndicator" title="前往氣候變遷指標​">氣候變遷指標​</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/SeawaterTemperatureIndicator" title="前往海溫指標">海溫指標</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/AtmosphereIndicator" title="前往大氣指標">大氣指標</a></li>
+                                    <li><a href="https://climate.cwa.gov.tw/MonsoonIndicator" title="前往季風指標">季風指標</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <div class="footer-sub-menu-title">智能工具</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/SmartTool">智能工具</a></li>
+                        </ul> -->
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer-menu-title">氣候預報</div>
+                        <div class="footer-sub-menu-title">官方預報</div>
+                        <ul>
+                            <!-- <li>月季預報</li> -->
+                            <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=Prospect" title="前往聖嬰展望">聖嬰展望</a></li>
+                        </ul>
+                        <div class="footer-sub-menu-title">氣候模式預報</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=GlobalFcst" title="前往全球氣候模式預報">全球</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=EastAsia" title="前往東亞氣候模式預報">東亞</a></li>
+                        </ul>
+                        <div class="footer-sub-menu-title">氣候主題預報</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=WinterClimate" title="前往冬季氣候預報">冬季</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=Spring" title="前往春季氣候預報">春季</a></li>
+                            <!-- <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=PlumRain">梅雨季</a></li> -->
+                            <li><a href="https://climate.cwa.gov.tw/ClimateFcst?page=Typhoon" title="前往颱風季氣候預報">颱風季</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer-menu-title">氣候資料</div>
+                        <!-- <div class="footer-sub-menu-title">關於氣候資料</div> -->
+                        <div class="footer-sub-menu-title">氣象觀測資料</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/GroundObservation" title="前往地面觀測資料">地面觀測資料</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/OceanObservation" title="前往海洋觀測資料">海洋觀測資料</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/SkewTDiagram" title="前往探空資料">探空資料</a></li>
+                        </ul>
+                        <div class="footer-sub-menu-title">臺灣氣候統計</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/MeasuringObservation" title="前往測站資料統計">測站資料統計</a></li>
+                        </ul>
+                        <div class="footer-sub-menu-title">氣象圖資與事件</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/HistoryWeatherChart" title="前往歷史天氣圖">歷史天氣圖</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/HistoryClimateEvent" title="前往歷史氣象事件">歷史氣象事件</a></li>
+                        </ul>
+                        <div class="footer-sub-menu-title">遙測資料</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/RemoteSensing" title="前往遙測資料">遙測資料</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer-menu-title">新聞與活動</div>
+                        <div class="footer-sub-menu-title">新聞</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/News?tab=local-news-list-tab" title="前往國內新聞">國內新聞</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/News?tab=foreign-news-list-tab" title="前往國外新聞">國外新聞</a></li>
+                        </ul>
+                        <div class="footer-sub-menu-title">活動</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/Event" title="前往未來活動">未來活動</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/Event?tab=past-event-list-tab" title="前往歷史活動">歷史活動</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/Event?tab=forum-workshop-list-tab" title="前往論壇與工作坊">論壇與工作坊</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <!-- <div class="footer-menu-title">氣候服務夥伴</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/Partnership">夥伴關係</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/PartnerList">合作夥伴查詢</a></li>
+                        </ul> -->
+                        <div class="footer-menu-title">關於我們</div>
+                        <ul>
+                            <li><a href="https://climate.cwa.gov.tw/About" title="前往關於本站">關於本站</a></li>
+                            <li><a href="https://climate.cwa.gov.tw/RelatedWebsites" title="前往相關網站">相關網站</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="text-light">
+    <div class="row p-4">
+        <div class="col-sm">
+            <div class="footer-info">
+                <div>
+                    <div class="footer-sub-menu-title"><b>願景</b></div>
+                    <small>我們的願景是響應世界氣象組織WMO的全球氣候服務框架GFCS，確保最佳可用的氣候科學與農業、水、衛生和其他部門有效溝通，以制定評估調適戰略。</small>
+                </div>
+                <div class="mt-3">
+                    <!-- <small>瀏覽人次：2,023 次</small> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-sm">
+            <div class="footer-info">
+                <div class="footer-sub-menu-title"><b>相關網站</b></div>
+                <a href="https://www.cwa.gov.tw/" target="_blank"><small>交通部中央氣象署</small></a><br />
+                <a href="https://adapt.epa.gov.tw/" target="_blank"><small>臺灣氣候變遷調適平台</small></a><br />
+                <a href="https://tcsp.mystrikingly.com/" target="_blank"><small>臺灣氣候服務聯盟</small></a><br />
+                <a href="https://www.icdi.network/" target="_blank"><small>國際氣候發展智庫</small></a><br />
+                <br />
+            </div>
+        </div> -->
+        <div class="col-sm">
+            <div class="footer-info">
+                <div class="footer-sub-menu-title"><b>聯絡資訊</b></div>
+                <small><b>交通部中央氣象署</b></small><br />
+                <br />
+                <small>諮詢服務：08:30 至 17:30</small><br/>
+                <small>地址：100006臺北市中正區公園路64號</small><br />
+                <small>網頁問題：mcd.cs@cwa.gov.tw</small><br />
+                <br />
+                <!-- <div>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube"></i>
+                </div> -->
+            </div>
+        </div>
+        <!-- 英文版 -->
+        <!-- <div class="col-sm">
+            <div class="footer-info">
+                <div class="footer-sub-menu-title"><b>Contact</b></div>
+                <small><b>Central Weather Bureau, MOTC</b></small><br />
+                <br />
+                <small>64, Gongyuan Road, Taipei<br /> 100006, Taiwan (R.O.C.)</small><br />
+                <br />
+                <div>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div> -->
+        <div class="col-sm-1 text-center d-flex justify-content-center align-items-center">
+            <a id="a11y_link" href="https://accessibility.moda.gov.tw/Applications/Detail?category=20260413110344" title="無障礙網站(另開新視窗)" target="_blank">
+                <img src="https://climate.cwa.gov.tw/images/accessibilityA.png" width="88" height="31" alt="通過A無障礙網頁檢測" />
+            </a>
+        </div>
+    </div>
+    <!-- <div class="row text-center pt-5">
+                    <div class="col-sm">
+                    <a href=""><u><small>Disclaimer</small></u></a>
+                    <a href=""><u><small>GKMS</small></u></a>
+                    <a href=""><u><small>Admin Login</small></u></a>
+                    <a href=""><u><small>Database Login</small></u></a>
+                    <a href=""><u><small>Tenders</small></u></a>
+                    <a href=""><u><small>Recruitment</small></u></a>
+                    <a href=""><u><small>RIT</small></u></a>
+                </div>
+              </div> -->
+    <hr>
+    <div id="copyright" class="text-center pt-2 pb-4">
+        <small>© 中華民國交通部中央氣象署 版權所有</small>
+        <!-- <small>© Copyright Central Weather Bureau, MOTC | 2022</small> -->
+    </div>
+</footer>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,124 @@
+{
+  "verifiedOn": "2026-10-25",
+  "period": {
+    "startYear": 1991,
+    "endYear": 2020
+  },
+  "sources": [
+    {
+      "id": "th-jma-normal-method",
+      "organization": "JMA Tokyo Climate Center",
+      "title": "1991–2020 평년값 정의",
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/outline.html",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/jma-outline.html",
+      "sha256": "7db6d671cc5a485f8de08020fbc22afbb7ced8fc3effe8a29b129e7ea6fd994a"
+    },
+    {
+      "id": "th-jma-48455",
+      "organization": "JMA Tokyo Climate Center",
+      "title": "BANGKOK METROPOLIS 48455 · 월평균 기온·강수량",
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48455",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/jma-48455.html",
+      "sha256": "aafd5e000394fd80eab44b9e786cf0c5eb5e57dc8df9c965eed0c0b4661a5282"
+    },
+    {
+      "id": "th-tmd-48455",
+      "organization": "태국 기상청 TMD",
+      "title": "BANGKOK METROPOLIS 48455 · 평균 일최고·일최저 · 인쇄 51쪽",
+      "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf#page=57",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/tmd-1991-2020.pdf",
+      "sha256": "1cb929e31dab30b4836d84855fea0b40374d76e9b0a02dcf80d34dc12491e3a0"
+    },
+    {
+      "id": "th-jma-48327",
+      "organization": "JMA Tokyo Climate Center",
+      "title": "CHIANG MAI 48327 · 월평균 기온·강수량",
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=6&k=0&m=9&n=48327&r=1&s=1&y=2026",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/jma-48327.html",
+      "sha256": "483b619ac49be975b6de1eaf02241f5d75d3e892f975035e16b37cdfed423af9"
+    },
+    {
+      "id": "th-tmd-48327",
+      "organization": "태국 기상청 TMD",
+      "title": "CHIANG MAI 48327 · 평균 일최고·일최저 · 인쇄 5쪽",
+      "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf#page=11",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/tmd-1991-2020.pdf",
+      "sha256": "1cb929e31dab30b4836d84855fea0b40374d76e9b0a02dcf80d34dc12491e3a0"
+    },
+    {
+      "id": "th-jma-48565",
+      "organization": "JMA Tokyo Climate Center",
+      "title": "PHUKET AIRPORT 48565 · 월평균 기온·강수량",
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=6&k=0&m=9&n=48565&r=1&s=1&y=2026",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/jma-48565.html",
+      "sha256": "6c39ec467a33d414ef232fe8c5ba46cb49b2e8d408b5a96b38ff3abafa3bf4ae"
+    },
+    {
+      "id": "th-tmd-48565",
+      "organization": "태국 기상청 TMD",
+      "title": "PHUKET AIRPORT 48565 · 평균 일최고·일최저 · 인쇄 83쪽",
+      "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf#page=89",
+      "period": {
+        "startYear": 1991,
+        "endYear": 2020
+      },
+      "status": "verified",
+      "lastVerified": "2026-10-25",
+      "snapshotPath": "src/service/data/raw/th/tmd-1991-2020.pdf",
+      "sha256": "1cb929e31dab30b4836d84855fea0b40374d76e9b0a02dcf80d34dc12491e3a0"
+    }
+  ],
+  "transcription": {
+    "file": "src/service/data/raw/th/tmd-temperature-extract.json",
+    "sha256": "46bf0bcb593af4a1bd10eb69d4158b7f0d512812886ffb9d2f1f8a186d4df5dc",
+    "method": "Manual transcription of Mean max./Mean min., checked against official PDF pages 11, 57, 89; original PDF preserved."
+  },
+  "research": [
+    {
+      "url": "https://www.tmd.go.th/en/ClimateChart",
+      "file": "src/service/data/raw/th/tmd-chart.html",
+      "sha256": "8ac01ece8bcc00a31497d45a6107eec3c034564617c73256d4b8f26c846d9f8f"
+    },
+    {
+      "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/StationList_e.php?ccode=22100",
+      "file": "src/service/data/raw/th/jma-stations.html",
+      "sha256": "b6e16fee7a3a9e998086e3ef718be14cba04e8e214bf0446008eeaec9846f07f"
+    }
+  ]
+}

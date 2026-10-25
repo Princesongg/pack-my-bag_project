@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "country": "일본",
+      "city": "도쿄",
+      "departure": "2026-12-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "미국",
+      "city": "뉴욕",
+      "departure": "2026-12-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "호주",
+      "city": "시드니",
+      "departure": "2026-12-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "베트남",
+      "city": "다낭",
+      "departure": "2026-12-17",
+      "passport": "failed",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "태국",
+      "city": "방콕",
+      "departure": "2026-12-17",
+      "passport": "failed",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "대만",
+      "city": "타이베이",
+      "departure": "2026-12-17",
+      "passport": "failed",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "베트남",
+      "city": "다낭",
+      "departure": "2026-11-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "일본",
+      "city": "도쿄",
+      "departure": "2026-12-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "미국",
+      "city": "뉴욕",
+      "departure": "2026-12-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "호주",
+      "city": "시드니",
+      "departure": "2026-12-17",
+      "passport": "met",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "베트남",
+      "city": "다낭",
+      "departure": "2026-12-17",
+      "passport": "failed",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "태국",
+      "city": "방콕",
+      "departure": "2026-12-17",
+      "passport": "failed",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "대만",
+      "city": "타이베이",
+      "departure": "2026-12-17",
+      "passport": "failed",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "베트남",
+      "city": "다낭",
+      "departure": "2026-11-17",
+      "passport": "met",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

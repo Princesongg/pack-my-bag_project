@@ -1,0 +1,4536 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "tokyo",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "도쿄 현재 시각오전 12:07시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 8.1
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 12.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 4.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 46.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 5.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 10.6
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 1.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 45.4
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "osaka",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "오사카 현재 시각오전 12:07시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 8.8
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 12.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 5.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 46.4
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 6.5
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 10.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 3.3
+            },
+            {
+              "key": "precipitationMm",
+              "value": 41.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "fukuoka",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "후쿠오카 현재 시각오전 12:07시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 9.3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 12.9
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 6.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 56.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 7.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 10.9
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 4.3
+            },
+            {
+              "key": "precipitationMm",
+              "value": 76.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "sapporo",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "삿포로 현재 시각오전 12:08시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": -1.1
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 1.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": -4.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 89.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": -3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": -0.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": -6
+            },
+            {
+              "key": "precipitationMm",
+              "value": 93.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "danang",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "다낭 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 25.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 20.5
+            },
+            {
+              "key": "precipitationMm",
+              "value": 210.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.7
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 25.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 19.7
+            },
+            {
+              "key": "precipitationMm",
+              "value": 99.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "hanoi",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "하노이 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 18.8
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 22.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 15.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 24
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 17.3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 20
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 14.6
+            },
+            {
+              "key": "precipitationMm",
+              "value": 28
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "nhatrang",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "나트랑 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 25.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 228.4
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 287,
+                "scroll": 287
+              },
+              {
+                "width": 287,
+                "scroll": 287
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 24.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 69.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 287,
+                "scroll": 287
+              },
+              {
+                "width": 287,
+                "scroll": 287
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "phuquoc",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "푸꾸옥 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 76.9
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 287,
+                "scroll": 287
+              },
+              {
+                "width": 287,
+                "scroll": 287
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 26.8
+            },
+            {
+              "key": "precipitationMm",
+              "value": 31
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 287,
+                "scroll": 287
+              },
+              {
+                "width": 287,
+                "scroll": 287
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TH",
+      "city": "bangkok",
+      "main": "220V · 50Hz",
+      "currency": "THB",
+      "kinds": [
+        "C",
+        "O"
+      ],
+      "clock": "방콕 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 32.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 23.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 13.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.6
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 32.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 23.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 24.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TH",
+      "city": "phuket",
+      "main": "220V · 50Hz",
+      "currency": "THB",
+      "kinds": [
+        "C",
+        "O"
+      ],
+      "clock": "푸껫 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 31.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 23.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 103.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.6
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 32.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 22.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 102.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TH",
+      "city": "chiangmai",
+      "main": "220V · 50Hz",
+      "currency": "THB",
+      "kinds": [
+        "C",
+        "O"
+      ],
+      "clock": "치앙마이 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.5
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 29.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 10
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 30
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 15.7
+            },
+            {
+              "key": "precipitationMm",
+              "value": 11.3
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TW",
+      "city": "taipei",
+      "main": "110V · 60Hz",
+      "currency": "TWD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "타이베이 현재 시각오후 11:08한국보다 1시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 18.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 21
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16
+            },
+            {
+              "key": "precipitationMm",
+              "value": 88.7
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 16.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 19.4
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 14.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 90.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TW",
+      "city": "kaohsiung",
+      "main": "110V · 60Hz",
+      "currency": "TWD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "가오슝 현재 시각오후 11:08한국보다 1시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 25.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 17.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 19.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 19.7
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 24.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 19.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "US",
+      "city": "new-york",
+      "main": "110–120V · 60Hz",
+      "currency": "USD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "뉴욕 현재 시각오전 11:08한국보다 13시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 3.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 6.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 0.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 4.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": -2.3
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "US",
+      "city": "los-angeles",
+      "main": "110–120V · 60Hz",
+      "currency": "USD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "로스앤젤레스 현재 시각오전 8:08한국보다 16시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 14.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 18.9
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 9.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 14.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 19.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 9.7
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "AU",
+      "city": "sydney",
+      "main": "220–240V · 50Hz",
+      "currency": "AUD",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "clock": "시드니 현재 시각오전 2:08한국보다 2시간 빠름",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 26
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 17.7
+            },
+            {
+              "key": "precipitationMm",
+              "value": 72.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 26.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 19
+            },
+            {
+              "key": "precipitationMm",
+              "value": 95
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "AU",
+      "city": "melbourne",
+      "main": "220–240V · 50Hz",
+      "currency": "AUD",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "clock": "멜버른 현재 시각오전 2:08한국보다 2시간 빠름",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 19.6
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 24.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 14.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 50.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.7
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 26.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16.5
+            },
+            {
+              "key": "precipitationMm",
+              "value": 53.3
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 186,
+                "scroll": 186
+              },
+              {
+                "width": 587,
+                "scroll": 587
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "tokyo",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "도쿄 현재 시각오전 12:08시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 8.1
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 12.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 4.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 46.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 5.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 10.6
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 1.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 45.4
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "osaka",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "오사카 현재 시각오전 12:08시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 8.8
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 12.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 5.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 46.4
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 6.5
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 10.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 3.3
+            },
+            {
+              "key": "precipitationMm",
+              "value": 41.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "fukuoka",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "후쿠오카 현재 시각오전 12:08시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 9.3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 12.9
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 6.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 56.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 7.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 10.9
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 4.3
+            },
+            {
+              "key": "precipitationMm",
+              "value": 76.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "sapporo",
+      "main": "100V · 50 / 60Hz",
+      "currency": "JPY",
+      "kinds": [
+        "A"
+      ],
+      "clock": "삿포로 현재 시각오전 12:08시차 없음",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": -1.1
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 1.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": -4.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 89.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": -3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": -0.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": -6
+            },
+            {
+              "key": "precipitationMm",
+              "value": 93.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "danang",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "다낭 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 25.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 20.5
+            },
+            {
+              "key": "precipitationMm",
+              "value": 210.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.7
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 25.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 19.7
+            },
+            {
+              "key": "precipitationMm",
+              "value": 99.8
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "hanoi",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "하노이 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 18.8
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 22.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 15.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 24
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 17.3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 20
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 14.6
+            },
+            {
+              "key": "precipitationMm",
+              "value": 28
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "nhatrang",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "나트랑 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 25.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 228.4
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 143,
+                "scroll": 143
+              },
+              {
+                "width": 143,
+                "scroll": 143
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 24.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 69.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 143,
+                "scroll": 143
+              },
+              {
+                "width": 143,
+                "scroll": 143
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "phuquoc",
+      "main": "220V · 50Hz",
+      "currency": "VND",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "clock": "푸꾸옥 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 76.9
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 143,
+                "scroll": 143
+              },
+              {
+                "width": 143,
+                "scroll": 143
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 26.8
+            },
+            {
+              "key": "precipitationMm",
+              "value": 31
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 143,
+                "scroll": 143
+              },
+              {
+                "width": 143,
+                "scroll": 143
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TH",
+      "city": "bangkok",
+      "main": "220V · 50Hz",
+      "currency": "THB",
+      "kinds": [
+        "C",
+        "O"
+      ],
+      "clock": "방콕 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 32.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 23.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 13.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.6
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 32.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 23.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 24.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TH",
+      "city": "phuket",
+      "main": "220V · 50Hz",
+      "currency": "THB",
+      "kinds": [
+        "C",
+        "O"
+      ],
+      "clock": "푸껫 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 31.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 23.1
+            },
+            {
+              "key": "precipitationMm",
+              "value": 103.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 27.6
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 32.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 22.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 102.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TH",
+      "city": "chiangmai",
+      "main": "220V · 50Hz",
+      "currency": "THB",
+      "kinds": [
+        "C",
+        "O"
+      ],
+      "clock": "치앙마이 현재 시각오후 10:08한국보다 2시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.5
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 29.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 10
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.3
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 30
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 15.7
+            },
+            {
+              "key": "precipitationMm",
+              "value": 11.3
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TW",
+      "city": "taipei",
+      "main": "110V · 60Hz",
+      "currency": "TWD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "타이베이 현재 시각오후 11:08한국보다 1시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 18.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 21
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16
+            },
+            {
+              "key": "precipitationMm",
+              "value": 88.7
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 16.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 19.4
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 14.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 90.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TW",
+      "city": "kaohsiung",
+      "main": "110V · 60Hz",
+      "currency": "TWD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "가오슝 현재 시각오후 11:08한국보다 1시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 25.3
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 17.9
+            },
+            {
+              "key": "precipitationMm",
+              "value": 19.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 19.7
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 24.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16.2
+            },
+            {
+              "key": "precipitationMm",
+              "value": 19.1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "US",
+      "city": "new-york",
+      "main": "110–120V · 60Hz",
+      "currency": "USD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "뉴욕 현재 시각오전 11:08한국보다 13시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 3.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 6.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 1
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 0.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 4.2
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": -2.3
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "US",
+      "city": "los-angeles",
+      "main": "110–120V · 60Hz",
+      "currency": "USD",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "clock": "로스앤젤레스 현재 시각오전 8:08한국보다 16시간 느림",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 14.2
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 18.9
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 9.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 14.4
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 19.1
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 9.7
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "AU",
+      "city": "sydney",
+      "main": "220–240V · 50Hz",
+      "currency": "AUD",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "clock": "시드니 현재 시각오전 2:09한국보다 2시간 빠름",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 26
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 17.7
+            },
+            {
+              "key": "precipitationMm",
+              "value": 72.5
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 22.9
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 26.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 19
+            },
+            {
+              "key": "precipitationMm",
+              "value": 95
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "AU",
+      "city": "melbourne",
+      "main": "220–240V · 50Hz",
+      "currency": "AUD",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "clock": "멜버른 현재 시각오전 2:09한국보다 2시간 빠름",
+      "metricResults": [
+        {
+          "month": 12,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 19.6
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 24.7
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 14.4
+            },
+            {
+              "key": "precipitationMm",
+              "value": 50.2
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        },
+        {
+          "month": 1,
+          "displayed": [
+            {
+              "key": "meanTemperatureC",
+              "value": 21.7
+            },
+            {
+              "key": "meanDailyMaximumC",
+              "value": 26.8
+            },
+            {
+              "key": "meanDailyMinimumC",
+              "value": 16.5
+            },
+            {
+              "key": "precipitationMm",
+              "value": 53.3
+            }
+          ],
+          "geometry": {
+            "pageOverflow": false,
+            "modalOverflow": false,
+            "metrics": [
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              },
+              {
+                "width": 296,
+                "scroll": 296
+              }
+            ]
+          }
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "clockTest": {
+    "notRepeated": true,
+    "reason": "Clock behavior unchanged; this run checks P0/P1 regressions"
+  },
+  "errors": [],
+  "externalRequests": []
+}

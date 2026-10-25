@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "reload preserves item and checks",
+    "fresh tab restores checks",
+    "delete custom item",
+    "pack less exclude and restore",
+    "temporary passport expiry absent from local and session storage",
+    "keyboard Tab trap Escape close and return focus",
+    "browser back and forward restore routed views",
+    "change country clears incompatible city and keeps dates",
+    "corrupt trip recovers safely"
+  ],
+  "errors": []
+}

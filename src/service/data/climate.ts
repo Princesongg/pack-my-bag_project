@@ -1,4 +1,5 @@
 import { getAUClimateMonth } from './auClimate';
+import { getStationClimateMonth } from './stationClimate';
 import { getUSClimateMonth } from './usClimate';
 import { climateArchive } from './climate.generated';
 import { japanStations, seasonalFeatures } from './cities';
@@ -50,6 +51,8 @@ export function calculateRecentMetric(
 
 export function getClimateMonth(cityId: string, month: number, archive: ClimateArchive = climateArchive) {
   if (!Number.isInteger(month) || month < 1 || month > 12) throw new RangeError('month must be 1..12');
+  const stationClimate = getStationClimateMonth(cityId, month);
+  if (stationClimate) return stationClimate;
   const auClimate = getAUClimateMonth(cityId, month);
   if (auClimate) return auClimate;
   const usClimate = getUSClimateMonth(cityId, month);

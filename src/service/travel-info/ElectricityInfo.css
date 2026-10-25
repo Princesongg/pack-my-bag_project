@@ -1,0 +1,23 @@
+.pmb-guide-service .pmb-electricity-main { display:block; font-size:var(--pmb-font-data-compact); color:var(--pmb-color-primary); }
+.pmb-guide-service .pmb-electricity-takeaway { padding:var(--pmb-space-3) var(--pmb-space-3); background:var(--pmb-color-surface-blue); border-radius:var(--pmb-radius-small); }
+.pmb-guide-service .pmb-electricity-usage .pmb-plug-mini { margin:var(--pmb-space-3) 0; }
+.pmb-guide-service .pmb-electricity-usage details>summary { min-height:var(--pmb-touch-target); align-content:center; cursor:pointer; color:var(--pmb-color-primary); font-size:var(--pmb-font-small); }
+.pmb-guide-service .pmb-preparation-list { list-style:none; padding:0; margin:var(--pmb-space-3) 0; }
+.pmb-guide-service .pmb-preparation-list li { margin:var(--pmb-space-3) 0; padding-bottom:var(--pmb-space-3); border-bottom:1px solid var(--pmb-state-warning-border); }
+.pmb-guide-service .pmb-preparation-list li:last-child { border-bottom:0; padding-bottom:0; }
+.pmb-guide-service .pmb-preparation-list li>strong { display:block; font-size:var(--pmb-font-body); }
+.pmb-guide-service .pmb-preparation-status { margin-top:var(--pmb-space-1); }
+.pmb-guide-service .pmb-preparation-link-note { color:var(--pmb-state-warning-text); font-size:var(--pmb-font-small); }
+.pmb-guide-service .pmb-electricity-comparison-source { margin-top:var(--pmb-space-3); }
+.pmb-guide-service .pmb-electricity-usage>section { margin-top:var(--pmb-space-6); }
+.pmb-guide-service .pmb-electricity-usage h4 { font-size:17px; margin:0 0 var(--pmb-space-3); }
+.pmb-guide-service .pmb-electricity-usage p { font-size:var(--pmb-font-small); line-height:var(--pmb-line-body); }
+.pmb-guide-service .pmb-electricity-packing { padding:var(--pmb-space-4); background:var(--pmb-color-surface-yellow); border:1px solid var(--pmb-state-warning-border); border-radius:var(--pmb-radius-card); }
+.pmb-guide-service .pmb-electricity-packing ol { padding-left:var(--pmb-space-6); }
+.pmb-guide-service .pmb-electricity-packing li { margin-bottom:var(--pmb-space-4); }
+.pmb-guide-service .pmb-electricity-compatibility { padding:var(--pmb-space-4); border:1px solid #cfdef5; border-radius:var(--pmb-radius-card); background:var(--pmb-color-surface-blue); }
+.pmb-guide-service .pmb-electricity-dryer { margin-top:var(--pmb-space-4); padding:var(--pmb-space-4); border:1px solid var(--pmb-state-warning-border); border-radius:var(--pmb-radius-card); background:var(--pmb-color-surface-yellow); }
+.pmb-guide-service .pmb-preparation-note { display:block; margin-top:var(--pmb-space-1); }
+.pmb-guide-service .pmb-electricity-compatibility,
+.pmb-guide-service .pmb-electricity-dryer { min-width:0; overflow-wrap:anywhere; }
+@media(max-width:768px) { .pmb-guide-service .pmb-electricity-usage h4 { font-size:var(--pmb-font-body); }.pmb-guide-service .pmb-electricity-packing { padding:var(--pmb-space-3); } }

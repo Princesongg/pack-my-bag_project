@@ -1,11 +1,11 @@
-.pmb-brief-modal { width:min(720px,calc(100% - 40px)); max-width:none; max-height:calc(100dvh - 64px); box-sizing:border-box; padding:0; border:1px solid #d9e2ee; border-radius:18px; background:#fcfaf4; color:#202d42; box-shadow:0 20px 70px #14243e40; overflow-y:auto; overscroll-behavior:contain; animation:pmb-brief-open .18s ease; }
-.pmb-brief-modal::backdrop { background:#14243e80; }
+.pmb-brief-modal { width:min(var(--pmb-modal-width),calc(100% - 40px)); max-width:none; max-height:calc(100dvh - 64px); box-sizing:border-box; padding:0; border:1px solid var(--pmb-color-border-default); border-radius:var(--pmb-radius-modal); background:var(--pmb-color-background); color:var(--pmb-color-text-primary); box-shadow:var(--pmb-shadow-modal); overflow-y:auto; overscroll-behavior:contain; animation:pmb-brief-open .18s ease; }
+.pmb-brief-modal::backdrop { background:var(--pmb-backdrop); }
 .pmb-brief-modal.is-closing { animation:pmb-brief-close .14s ease forwards; }
-.pmb-brief-modal-header { position:sticky; top:0; z-index:2; display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 22px; background:#fcfaf4; border-bottom:1px solid #e2e0d7; }
-.pmb-brief-modal-header h2 { font-size:20px; margin:0; }
-.pmb-brief-modal-header button { display:flex; align-items:center; gap:5px; min-width:44px; min-height:44px; padding:8px 10px; background:#fffdf7; border:1px solid #cbd9ee; border-radius:8px; color:#3d5a83; font:inherit; font-size:14px; cursor:pointer; }
-.pmb-brief-modal :is(button,a,summary):focus-visible { outline:2px solid #245be0; outline-offset:3px; }
-.pmb-brief-modal .pmb-brief-modal-content { padding:20px 22px; min-height:0; overflow:visible; }
+.pmb-brief-modal-header { position:sticky; top:0; z-index:2; display:flex; align-items:center; justify-content:space-between; gap:var(--pmb-space-3); padding:var(--pmb-space-4) var(--pmb-space-6); background:var(--pmb-color-background); border-bottom:1px solid var(--pmb-color-border-default); }
+.pmb-brief-modal-header h2 { font-size:var(--pmb-font-modal-title); margin:0; }
+.pmb-brief-modal-header button { display:flex; align-items:center; gap:var(--pmb-space-1); min-width:44px; min-height:var(--pmb-touch-target); padding:var(--pmb-space-2) var(--pmb-space-3); background:var(--pmb-color-surface); border:1px solid var(--pmb-color-border-accent); border-radius:var(--pmb-radius-small); color:var(--pmb-state-info-text); font:inherit; font-size:var(--pmb-font-small); cursor:pointer; }
+.pmb-brief-modal :is(button,a,summary):focus-visible { outline:2px solid var(--pmb-color-primary); outline-offset:3px; }
+.pmb-brief-modal .pmb-brief-modal-content { padding:var(--pmb-space-5) var(--pmb-space-6); min-height:0; overflow:visible; }
 .pmb-brief-modal .pmb-brief-modal-content .pmb-guide-baggage { padding:0; margin:0; border:0; background:none; }
 .pmb-brief-modal .pmb-brief-modal-content .pmb-baggage-rules { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:1fr; }
 .pmb-brief-modal .pmb-guide-info-card { padding:0; border:0; background:none; }
@@ -15,10 +15,10 @@
 @keyframes pmb-brief-open { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
 @keyframes pmb-brief-close { to { opacity:0; transform:translateY(12px); } }
 @media(max-width:768px) {
-  .pmb-brief-modal { width:100%; max-height:92dvh; margin:auto 0 0; border-radius:18px 18px 0 0; }
-  .pmb-brief-modal-header { padding:10px 16px; }
-  .pmb-brief-modal-header h2 { font-size:18px; }
-  .pmb-brief-modal .pmb-brief-modal-content { padding:14px 16px max(18px,env(safe-area-inset-bottom)); }
+  .pmb-brief-modal { width:calc(100% - 24px); max-height:calc(100dvh - 12px - max(12px,env(safe-area-inset-bottom))); margin:auto auto max(12px,env(safe-area-inset-bottom)); border-radius:var(--pmb-radius-modal); }
+  .pmb-brief-modal-header { padding:var(--pmb-space-3) var(--pmb-space-4); }
+  .pmb-brief-modal-header h2 { font-size:var(--pmb-font-card-title); }
+  .pmb-brief-modal .pmb-brief-modal-content { padding:var(--pmb-space-4) var(--pmb-space-4) max(var(--pmb-space-5),env(safe-area-inset-bottom)); }
   .pmb-brief-modal .pmb-brief-modal-content .pmb-baggage-rules { grid-template-columns:1fr; }
 }
 @media(prefers-reduced-motion:reduce) { .pmb-brief-modal,.pmb-brief-modal.is-closing { animation:none; } }

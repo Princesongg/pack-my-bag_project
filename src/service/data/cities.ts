@@ -3,7 +3,7 @@ import { pending, verified, type JapanCityId } from './types';
 
 export const cities = destinations.flatMap(country => country.cities.map(city => ({
   cityId: city.id, countryId: country.id, name: city.name, english: city.english,
-  climateStatus: ['JP', 'US', 'AU'].includes(country.id) ? 'partially-verified' as const : 'needs-research' as const,
+  climateStatus: ['JP', 'US', 'AU', 'TW', 'VN'].includes(country.id) ? 'partially-verified' as const : 'needs-research' as const,
 })));
 
 export const japanStations: Record<JapanCityId, {

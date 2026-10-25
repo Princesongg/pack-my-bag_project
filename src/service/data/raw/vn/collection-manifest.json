@@ -1,0 +1,100 @@
+[
+  {
+    "id": "vn-kma-hanoi",
+    "organization": "대한민국 기상청 / WMO",
+    "title": "Hanoi · 평균 일최고·일최저 및 월강수량",
+    "url": "https://www.weather.go.kr/w/weather/worldwide.do?cityCode=308&continentCode=C01&countryCode=170",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/kma-hanoi.html",
+    "sha256": "6371aa57f48e68ace971a453c74944d6f5612b10abcb38415e1d587358fb820c"
+  },
+  {
+    "id": "vn-wmo-hanoi",
+    "organization": "WMO WWIS",
+    "title": "Hanoi · 기후 통계 대조",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=308",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/wmo-hanoi.json",
+    "sha256": "b3ceced1ef112239680e9c0cb0bef897c55a52d3cc7ee8d7367079c4b2bb2642"
+  },
+  {
+    "id": "vn-wmo-danang",
+    "organization": "WMO WWIS",
+    "title": "Da Nang · 평균 일최고·일최저",
+    "url": "https://worldweather.wmo.int/en/city.html?cityId=656",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/wmo-danang.json",
+    "sha256": "d5acd8418de9fc538ae198e0faff70e3992b084921fa844240b127d4b4989a8e"
+  },
+  {
+    "id": "vn-jma-danang",
+    "organization": "JMA Tokyo Climate Center",
+    "title": "Da Nang 48855 · 월평균 기온·강수량",
+    "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48855",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/jma-48855.html",
+    "sha256": "94d6e8db5c46c1a11a30dd1702aac7eaf5b042711163cbee7abc3086503ccb46"
+  },
+  {
+    "id": "vn-jma-nhatrang",
+    "organization": "JMA Tokyo Climate Center",
+    "title": "Nha Trang 48877 · 월평균 기온·강수량",
+    "url": "https://ds.data.jma.go.jp/gmd/tcc/tcc/products/climate/climatview/graph_mkhtml_nrm.php?e=7&k=0&m=9&n=48877&r=1&s=1&y=2026",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/jma-48877.html",
+    "sha256": "f6b0de4a55573f27ca377a8e2cea4bdb6403fdb3257e7c1b282c4201c289c1ba"
+  },
+  {
+    "id": "vn-jma-phuquoc",
+    "organization": "JMA Tokyo Climate Center",
+    "title": "Phu Quoc 48917 · 월평균 기온·강수량",
+    "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/normal/parts/NrmMonth_e.php?stn=48917",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/jma-48917.html",
+    "sha256": "435c962afe5bd2ea5d0b49e454fb352ede5866954b0766ff7eb79f493d8758b5"
+  },
+  {
+    "id": "vn-jma-normal-method",
+    "organization": "JMA Tokyo Climate Center",
+    "title": "ClimatView · 1991–2020 평년값 설명",
+    "url": "https://www.data.jma.go.jp/tcc/tcc/products/climate/climatview/outline.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/vn/jma-outline.html",
+    "sha256": "7db6d671cc5a485f8de08020fbc22afbb7ced8fc3effe8a29b129e7ea6fd994a"
+  }
+]

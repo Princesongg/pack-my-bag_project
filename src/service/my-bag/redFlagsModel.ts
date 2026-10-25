@@ -1,4 +1,3 @@
-import { dayNumber } from '../trip/trip';
 export const redFlagGroups = [
   { id: 'passport', title: 'PASSPORT CHECK', name: '여권 준비', items: [
     { id: 'passport:expiry', label: '여권 유효기간을 확인했어요.' },
@@ -6,6 +5,8 @@ export const redFlagGroups = [
     { id: 'passport:country', label: '국가별 필요한 잔여 유효기간을 공식 안내에서 확인했어요.' },
     { id: 'passport:name', label: '항공권 영문 이름과 여권 이름이 일치하는지 확인했어요.' },
     { id: 'passport:damage', label: '여권에 훼손이 없는지 확인했어요.' },
+    { id: 'passport:entry-authorization', label: '내 여행의 비자·무비자·전자여행허가 조건을 직접 확인했어요.' },
+    { id: 'passport:entry-procedure', label: '입국신고 방법과 제출 시점 등 출발 전 절차를 확인했어요.' },
   ] },
   { id: 'payment', title: 'PAYMENT CHECK', name: '해외 결제 준비', items: [
     { id: 'payment:expiry', label: '카드 유효기간이 여행 기간까지 유효한지 확인했어요.' },
@@ -30,13 +31,4 @@ export function restoreRedFlagChecks(value: unknown): string[] {
 export function redFlagProgress(ids: readonly string[]) {
   const checked = new Set(ids);
   return redFlagGroups.map(group => ({ id: group.id, complete: group.items.every(item => checked.has(item.id)), checked: group.items.filter(item => checked.has(item.id)).length, total: group.items.length }));
-}
-export function passportDateNotice(expiry: string, departure: string, returning: string) {
-  if (!expiry) return '';
-  const end = dayNumber(expiry), start = dayNumber(departure), back = dayNumber(returning);
-  if (end === null) return '올바른 여권 만료일을 입력해 주세요.';
-  if (start === null || back === null) return '여행 일정을 먼저 확인해 주세요.';
-  if (end < start) return '입력한 만료일이 출발일보다 빠릅니다. 여권 갱신과 공식 입국 조건을 확인해 주세요.';
-  if (end < back) return '입력한 여권은 여행 종료일 전에 만료됩니다. 여권 갱신과 공식 입국 조건을 확인해 주세요.';
-  return '입력한 만료일은 여행 종료일과 같거나 이후입니다. 국가별 잔여 유효기간 조건 충족이나 입국 가능 여부를 보증하지 않습니다.';
 }

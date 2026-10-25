@@ -1,0 +1,478 @@
+{
+  "checkedOn": "2026-10-25",
+  "results": [
+    {
+      "country": "JP",
+      "city": "tokyo",
+      "width": 1440,
+      "title": "일본 입국 준비",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+        "https://services.digital.go.jp/ko/visit-japan-web/guide/"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "VN",
+      "city": "danang",
+      "width": 1440,
+      "title": "베트남 입국 준비",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+        "https://en.mps.gov.vn/article/immigration-department-launches-pre-arrival-information-system-1778670404",
+        "https://evisa.gov.vn/"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "TH",
+      "city": "bangkok",
+      "width": 1440,
+      "title": "태국 입국 준비",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://seoul.thaiembassy.org/en/publicservice/visa-exemption-scheme?cate=5fa4b5e3c34b8f749474d312",
+        "https://tdac.immigration.go.th/",
+        "https://tdac.immigration.go.th/manual/en/faq.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "TW",
+      "city": "taipei",
+      "width": 1440,
+      "title": "대만 입국 준비",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://www.boca.gov.tw/fp-149-4486-7785a-1.html",
+        "https://twac.immigration.gov.tw/",
+        "https://www.immigration.gov.tw/5382/5385/7229/7238/415735"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "US",
+      "city": "new-york",
+      "width": 1440,
+      "title": "미국 입국 준비 · ESTA",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://esta.cbp.dhs.gov/",
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "US",
+      "city": "los-angeles",
+      "width": 1440,
+      "title": "미국 입국 준비 · ESTA",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://esta.cbp.dhs.gov/",
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "city": "sydney",
+      "width": 1440,
+      "title": "호주 입국 준비 · ETA",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "https://southkorea.embassy.gov.au/seol/ETA601.html",
+        "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "city": "melbourne",
+      "width": 1440,
+      "title": "호주 입국 준비 · ETA",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "https://southkorea.embassy.gov.au/seol/ETA601.html",
+        "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 89.890625
+      },
+      "passed": true
+    },
+    {
+      "country": "JP",
+      "city": "tokyo",
+      "width": 390,
+      "title": "일본 입국 준비",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+        "https://services.digital.go.jp/ko/visit-japan-web/guide/"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "VN",
+      "city": "danang",
+      "width": 390,
+      "title": "베트남 입국 준비",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+        "https://en.mps.gov.vn/article/immigration-department-launches-pre-arrival-information-system-1778670404",
+        "https://evisa.gov.vn/"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "TH",
+      "city": "bangkok",
+      "width": 390,
+      "title": "태국 입국 준비",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://seoul.thaiembassy.org/en/publicservice/visa-exemption-scheme?cate=5fa4b5e3c34b8f749474d312",
+        "https://tdac.immigration.go.th/",
+        "https://tdac.immigration.go.th/manual/en/faq.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "TW",
+      "city": "taipei",
+      "width": 390,
+      "title": "대만 입국 준비",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://www.boca.gov.tw/fp-149-4486-7785a-1.html",
+        "https://twac.immigration.gov.tw/",
+        "https://www.immigration.gov.tw/5382/5385/7229/7238/415735"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "US",
+      "city": "new-york",
+      "width": 390,
+      "title": "미국 입국 준비 · ESTA",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://esta.cbp.dhs.gov/",
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "US",
+      "city": "los-angeles",
+      "width": 390,
+      "title": "미국 입국 준비 · ESTA",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://esta.cbp.dhs.gov/",
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "city": "sydney",
+      "width": 390,
+      "title": "호주 입국 준비 · ETA",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "https://southkorea.embassy.gov.au/seol/ETA601.html",
+        "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "city": "melbourne",
+      "width": 390,
+      "title": "호주 입국 준비 · ETA",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "https://southkorea.embassy.gov.au/seol/ETA601.html",
+        "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "JP",
+      "city": "tokyo",
+      "width": 320,
+      "title": "일본 입국 준비",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+        "https://services.digital.go.jp/ko/visit-japan-web/guide/"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 186.671875
+      },
+      "passed": true
+    },
+    {
+      "country": "VN",
+      "city": "danang",
+      "width": 320,
+      "title": "베트남 입국 준비",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+        "https://en.mps.gov.vn/article/immigration-department-launches-pre-arrival-information-system-1778670404",
+        "https://evisa.gov.vn/"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 197.875
+      },
+      "passed": true
+    },
+    {
+      "country": "TH",
+      "city": "bangkok",
+      "width": 320,
+      "title": "태국 입국 준비",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://seoul.thaiembassy.org/en/publicservice/visa-exemption-scheme?cate=5fa4b5e3c34b8f749474d312",
+        "https://tdac.immigration.go.th/",
+        "https://tdac.immigration.go.th/manual/en/faq.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "TW",
+      "city": "taipei",
+      "width": 320,
+      "title": "대만 입국 준비",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://www.boca.gov.tw/fp-149-4486-7785a-1.html",
+        "https://twac.immigration.gov.tw/",
+        "https://www.immigration.gov.tw/5382/5385/7229/7238/415735"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 164.28125
+      },
+      "passed": true
+    },
+    {
+      "country": "US",
+      "city": "new-york",
+      "width": 320,
+      "title": "미국 입국 준비 · ESTA",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://esta.cbp.dhs.gov/",
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 197.875
+      },
+      "passed": true
+    },
+    {
+      "country": "US",
+      "city": "los-angeles",
+      "width": 320,
+      "title": "미국 입국 준비 · ESTA",
+      "initialStatus": "확인 필요",
+      "confirmedStatus": "직접 확인함",
+      "urls": [
+        "https://esta.cbp.dhs.gov/",
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 197.875
+      },
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "city": "sydney",
+      "width": 320,
+      "title": "호주 입국 준비 · ETA",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "https://southkorea.embassy.gov.au/seol/ETA601.html",
+        "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 220.265625
+      },
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "city": "melbourne",
+      "width": 320,
+      "title": "호주 입국 준비 · ETA",
+      "initialStatus": "추가 확인 필요",
+      "confirmedStatus": "추가 확인 필요",
+      "urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "https://southkorea.embassy.gov.au/seol/ETA601.html",
+        "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)"
+      ],
+      "mainGeometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "bannerOverflow": false,
+        "bannerHeight": 220.265625
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

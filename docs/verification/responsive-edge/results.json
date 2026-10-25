@@ -1,0 +1,6835 @@
+{
+  "results": [
+    {
+      "name": "start",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 402.5,
+          "right": 1502.5,
+          "top": -1292.265625,
+          "bottom": -1202.375,
+          "width": 1100,
+          "height": 89.890625
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 402.5,
+          "right": 758.5,
+          "top": -1081.59375,
+          "bottom": -699.28125,
+          "width": 356,
+          "height": 382.3125
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 774.5,
+          "right": 1130.5,
+          "top": -1081.59375,
+          "bottom": -699.28125,
+          "width": 356,
+          "height": 382.3125
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 1146.5,
+          "right": 1502.5,
+          "top": -1081.59375,
+          "bottom": -699.28125,
+          "width": 356,
+          "height": 382.3125
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 1298.390625,
+          "right": 1481.5,
+          "top": -618.890625,
+          "bottom": -570.5,
+          "width": 183.109375,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 663.375,
+          "right": 734.828125,
+          "top": -240.125,
+          "bottom": -196.125,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 663.375,
+          "right": 734.828125,
+          "top": -142.125,
+          "bottom": -98.125,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 898.5,
+          "right": 942.5,
+          "top": 518.421875,
+          "bottom": 562.421875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 423.5,
+          "right": 564.3125,
+          "top": 769.59375,
+          "bottom": 817.59375,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 423.5,
+          "right": 574.5,
+          "top": 950.78125,
+          "bottom": 998.78125,
+          "width": 151,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 586.5,
+          "right": 1392.046875,
+          "top": 950.78125,
+          "bottom": 998.78125,
+          "width": 805.546875,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 1404.046875,
+          "right": 1481.5,
+          "top": 950.78125,
+          "bottom": 998.78125,
+          "width": 77.453125,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 427.5,
+          "right": 907.5,
+          "top": 1255.546875,
+          "bottom": 1315.140625,
+          "width": 480,
+          "height": 59.59375
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 129.15625,
+        "bottom": 950.828125,
+        "width": 720,
+        "height": 821.671875
+      },
+      "close": {
+        "left": 1219.234375,
+        "right": 1295,
+        "top": 146.15625,
+        "bottom": 190.15625,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1219.234375,
+          "right": 1295,
+          "top": 146.15625,
+          "bottom": 190.15625,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 625,
+          "right": 956,
+          "top": 227.15625,
+          "bottom": 271.15625,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 964,
+          "right": 1295,
+          "top": 227.15625,
+          "bottom": 271.15625,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 625,
+          "right": 956,
+          "top": 412.734375,
+          "bottom": 521.234375,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 964,
+          "right": 1295,
+          "top": 412.734375,
+          "bottom": 521.234375,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 625,
+          "right": 956,
+          "top": 529.234375,
+          "bottom": 637.734375,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 964,
+          "right": 1295,
+          "top": 529.234375,
+          "bottom": 637.734375,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 625,
+          "right": 956,
+          "top": 645.734375,
+          "bottom": 754.234375,
+          "width": 331,
+          "height": 108.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 625,
+          "right": 948.5,
+          "top": -58,
+          "bottom": -14,
+          "width": 323.5,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 956.5,
+          "right": 1280,
+          "top": -58,
+          "bottom": -14,
+          "width": 323.5,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 625,
+          "right": 948.5,
+          "top": 127.578125,
+          "bottom": 236.078125,
+          "width": 323.5,
+          "height": 108.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 956.5,
+          "right": 1280,
+          "top": 127.578125,
+          "bottom": 236.078125,
+          "width": 323.5,
+          "height": 108.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 625,
+          "right": 948.5,
+          "top": 244.078125,
+          "bottom": 352.578125,
+          "width": 323.5,
+          "height": 108.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 956.5,
+          "right": 1280,
+          "top": 244.078125,
+          "bottom": 352.578125,
+          "width": 323.5,
+          "height": 108.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 625,
+          "right": 948.5,
+          "top": 360.578125,
+          "bottom": 469.078125,
+          "width": 323.5,
+          "height": 108.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 202.703125,
+        "bottom": 877.28125,
+        "width": 720,
+        "height": 674.578125
+      },
+      "close": {
+        "left": 1219.234375,
+        "right": 1295,
+        "top": 219.703125,
+        "bottom": 263.703125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1219.234375,
+          "right": 1295,
+          "top": 219.703125,
+          "bottom": 263.703125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 117.3125,
+        "bottom": 962.671875,
+        "width": 720,
+        "height": 845.359375
+      },
+      "close": {
+        "left": 1219.234375,
+        "right": 1295,
+        "top": 134.3125,
+        "bottom": 178.3125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1219.234375,
+          "right": 1295,
+          "top": 134.3125,
+          "bottom": 178.3125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 625,
+          "right": 838,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 213,
+          "height": 69.59375
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 846,
+          "right": 1059,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 213,
+          "height": 69.59375
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 1067,
+          "right": 1280,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 213,
+          "height": 69.59375
+        },
+        {
+          "text": "",
+          "left": 625,
+          "right": 1280,
+          "top": 535.0625,
+          "bottom": 586.859375,
+          "width": 655,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 625,
+          "right": 1280,
+          "top": 674.453125,
+          "bottom": 722.453125,
+          "width": 655,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 1920,
+      "height": 1080,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 600,
+        "right": 1320,
+        "top": 32,
+        "bottom": 1048,
+        "width": 720,
+        "height": 1016
+      },
+      "close": {
+        "left": 1204.234375,
+        "right": 1280,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 1204.234375,
+          "right": 1280,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 625,
+          "right": 838,
+          "top": -804.40625,
+          "bottom": -734.8125,
+          "width": 213,
+          "height": 69.59375
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 846,
+          "right": 1059,
+          "top": -804.40625,
+          "bottom": -734.8125,
+          "width": 213,
+          "height": 69.59375
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 1067,
+          "right": 1280,
+          "top": -804.40625,
+          "bottom": -734.8125,
+          "width": 213,
+          "height": 69.59375
+        },
+        {
+          "text": "",
+          "left": 625,
+          "right": 1280,
+          "top": -474.9375,
+          "bottom": -423.140625,
+          "width": 655,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 625,
+          "right": 1280,
+          "top": -335.546875,
+          "bottom": -287.546875,
+          "width": 655,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 40,
+          "right": 780,
+          "top": -1900.984375,
+          "bottom": -1788.703125,
+          "width": 740,
+          "height": 112.28125
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 40,
+          "right": 404,
+          "top": -1667.921875,
+          "bottom": -1293.609375,
+          "width": 364,
+          "height": 374.3125
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 416,
+          "right": 780,
+          "top": -1667.921875,
+          "bottom": -1293.609375,
+          "width": 364,
+          "height": 374.3125
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 40,
+          "right": 404,
+          "top": -1281.609375,
+          "bottom": -1044.5625,
+          "width": 364,
+          "height": 237.046875
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 575.890625,
+          "right": 759,
+          "top": -964.171875,
+          "bottom": -915.78125,
+          "width": 183.109375,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 310.171875,
+          "right": 381.625,
+          "top": -584.625,
+          "bottom": -540.625,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 310.171875,
+          "right": 381.625,
+          "top": -486.625,
+          "bottom": -442.625,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 356,
+          "right": 400,
+          "top": 278.578125,
+          "bottom": 322.578125,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 61,
+          "right": 201.8125,
+          "top": 555.34375,
+          "bottom": 603.34375,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 61,
+          "right": 212,
+          "top": 736.53125,
+          "bottom": 784.53125,
+          "width": 151,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 224,
+          "right": 669.546875,
+          "top": 736.53125,
+          "bottom": 784.53125,
+          "width": 445.546875,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 681.546875,
+          "right": 759,
+          "top": 736.53125,
+          "bottom": 784.53125,
+          "width": 77.453125,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 65,
+          "right": 545,
+          "top": 1063.6875,
+          "bottom": 1123.28125,
+          "width": 480,
+          "height": 59.59375
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 75,
+          "right": 406,
+          "top": 130,
+          "bottom": 174,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 414,
+          "right": 745,
+          "top": 130,
+          "bottom": 174,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 75,
+          "right": 406,
+          "top": 315.578125,
+          "bottom": 424.078125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 414,
+          "right": 745,
+          "top": 315.578125,
+          "bottom": 424.078125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 75,
+          "right": 406,
+          "top": 432.078125,
+          "bottom": 540.578125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 414,
+          "right": 745,
+          "top": 432.078125,
+          "bottom": 540.578125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 75,
+          "right": 406,
+          "top": 548.578125,
+          "bottom": 657.078125,
+          "width": 331,
+          "height": 108.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 75,
+          "right": 406,
+          "top": -538,
+          "bottom": -494,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 414,
+          "right": 745,
+          "top": -538,
+          "bottom": -494,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 75,
+          "right": 406,
+          "top": -352.421875,
+          "bottom": -243.921875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 414,
+          "right": 745,
+          "top": -352.421875,
+          "bottom": -243.921875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 75,
+          "right": 406,
+          "top": -235.921875,
+          "bottom": -127.421875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 414,
+          "right": 745,
+          "top": -235.921875,
+          "bottom": -127.421875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 75,
+          "right": 406,
+          "top": -119.421875,
+          "bottom": -10.921875,
+          "width": 331,
+          "height": 108.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 75,
+          "right": 293,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 301,
+          "right": 519,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 527,
+          "right": 745,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "",
+          "left": 75,
+          "right": 745,
+          "top": 535.0625,
+          "bottom": 586.859375,
+          "width": 670,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 75,
+          "right": 745,
+          "top": 674.453125,
+          "bottom": 722.453125,
+          "width": 670,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 820,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 50,
+        "right": 770,
+        "top": 32,
+        "bottom": 568,
+        "width": 720,
+        "height": 536
+      },
+      "close": {
+        "left": 669.234375,
+        "right": 745,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 669.234375,
+          "right": 745,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 75,
+          "right": 293,
+          "top": -1284.40625,
+          "bottom": -1214.8125,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 301,
+          "right": 519,
+          "top": -1284.40625,
+          "bottom": -1214.8125,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 527,
+          "right": 745,
+          "top": -1284.40625,
+          "bottom": -1214.8125,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "",
+          "left": 75,
+          "right": 745,
+          "top": -954.9375,
+          "bottom": -903.140625,
+          "width": 670,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 75,
+          "right": 745,
+          "top": -815.546875,
+          "bottom": -767.546875,
+          "width": 670,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 20,
+          "right": 748,
+          "top": -1895.5,
+          "bottom": -1753.609375,
+          "width": 728,
+          "height": 141.890625
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 20,
+          "right": 378,
+          "top": -1642.828125,
+          "bottom": -1294.03125,
+          "width": 358,
+          "height": 348.796875
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 390,
+          "right": 748,
+          "top": -1642.828125,
+          "bottom": -1294.03125,
+          "width": 358,
+          "height": 348.796875
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 20,
+          "right": 378,
+          "top": -1282.03125,
+          "bottom": -1048.171875,
+          "width": 358,
+          "height": 233.859375
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 599,
+          "right": 731,
+          "top": -878.390625,
+          "bottom": -830,
+          "width": 132,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 288.640625,
+          "right": 360.09375,
+          "top": -550.640625,
+          "bottom": -506.640625,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 288.640625,
+          "right": 360.09375,
+          "top": -460.640625,
+          "bottom": -416.640625,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 687,
+          "right": 731,
+          "top": 178.734375,
+          "bottom": 222.734375,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 37,
+          "right": 177.8125,
+          "top": 387.203125,
+          "bottom": 435.203125,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 37,
+          "right": 731,
+          "top": 552.390625,
+          "bottom": 600.390625,
+          "width": 694,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 37,
+          "right": 645.234375,
+          "top": 638.78125,
+          "bottom": 686.78125,
+          "width": 608.234375,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 657.234375,
+          "right": 731,
+          "top": 638.78125,
+          "bottom": 686.78125,
+          "width": 73.765625,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 37,
+          "right": 731,
+          "top": 939.953125,
+          "bottom": 995.953125,
+          "width": 694,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 380,
+          "top": 118,
+          "bottom": 162,
+          "width": 363,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 388,
+          "right": 751,
+          "top": 118,
+          "bottom": 162,
+          "width": 363,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 751,
+          "top": 292.78125,
+          "bottom": 373.28125,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 751,
+          "top": 381.28125,
+          "bottom": 461.78125,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 751,
+          "top": 469.78125,
+          "bottom": 550.28125,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 751,
+          "top": 558.28125,
+          "bottom": 638.78125,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 751,
+          "top": 646.78125,
+          "bottom": 727.28125,
+          "width": 734,
+          "height": 80.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 380,
+          "top": -748,
+          "bottom": -704,
+          "width": 363,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 388,
+          "right": 751,
+          "top": -748,
+          "bottom": -704,
+          "width": 363,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 751,
+          "top": -573.21875,
+          "bottom": -492.71875,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 751,
+          "top": -484.71875,
+          "bottom": -404.21875,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 751,
+          "top": -396.21875,
+          "bottom": -315.71875,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 751,
+          "top": -307.71875,
+          "bottom": -227.21875,
+          "width": 734,
+          "height": 80.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 751,
+          "top": -219.21875,
+          "bottom": -138.71875,
+          "width": 734,
+          "height": 80.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 259,
+          "top": 193.59375,
+          "bottom": 261.484375,
+          "width": 242,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 263,
+          "right": 505,
+          "top": 193.59375,
+          "bottom": 261.484375,
+          "width": 242,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 509,
+          "right": 751,
+          "top": 193.59375,
+          "bottom": 261.484375,
+          "width": 242,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 751,
+          "top": 521.359375,
+          "bottom": 573.15625,
+          "width": 734,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 751,
+          "top": 660.75,
+          "bottom": 708.75,
+          "width": 734,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 768,
+      "height": 400,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 768,
+        "top": 32,
+        "bottom": 400,
+        "width": 768,
+        "height": 368
+      },
+      "close": {
+        "left": 675.234375,
+        "right": 751,
+        "top": 45,
+        "bottom": 89,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 675.234375,
+          "right": 751,
+          "top": 45,
+          "bottom": 89,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 259,
+          "top": -1450.40625,
+          "bottom": -1382.515625,
+          "width": 242,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 263,
+          "right": 505,
+          "top": -1450.40625,
+          "bottom": -1382.515625,
+          "width": 242,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 509,
+          "right": 751,
+          "top": -1450.40625,
+          "bottom": -1382.515625,
+          "width": 242,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 751,
+          "top": -1122.640625,
+          "bottom": -1070.84375,
+          "width": 734,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 751,
+          "top": -983.25,
+          "bottom": -935.25,
+          "width": 734,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 20,
+          "right": 410,
+          "top": -2572.5,
+          "bottom": -2408.21875,
+          "width": 390,
+          "height": 164.28125
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 20,
+          "right": 410,
+          "top": -2297.4375,
+          "bottom": -2113.953125,
+          "width": 390,
+          "height": 183.484375
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 20,
+          "right": 410,
+          "top": -2101.953125,
+          "bottom": -1753.15625,
+          "width": 390,
+          "height": 348.796875
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 20,
+          "right": 410,
+          "top": -1741.15625,
+          "bottom": -1533.6875,
+          "width": 390,
+          "height": 207.46875
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 261,
+          "right": 393,
+          "top": -1363.90625,
+          "bottom": -1315.515625,
+          "width": 132,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 321.546875,
+          "right": 393,
+          "top": -991.375,
+          "bottom": -947.375,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 321.546875,
+          "right": 393,
+          "top": -901.375,
+          "bottom": -857.375,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 349,
+          "right": 393,
+          "top": 278.953125,
+          "bottom": 322.953125,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 37,
+          "right": 177.8125,
+          "top": 521.015625,
+          "bottom": 569.015625,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 37,
+          "right": 393,
+          "top": 686.203125,
+          "bottom": 734.203125,
+          "width": 356,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 37,
+          "right": 307.234375,
+          "top": 772.59375,
+          "bottom": 820.59375,
+          "width": 270.234375,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 319.234375,
+          "right": 393,
+          "top": 772.59375,
+          "bottom": 820.59375,
+          "width": 73.765625,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 37,
+          "right": 393,
+          "top": 1096.15625,
+          "bottom": 1152.15625,
+          "width": 356,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 211,
+          "top": 134,
+          "bottom": 178,
+          "width": 194,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 219,
+          "right": 413,
+          "top": 134,
+          "bottom": 178,
+          "width": 194,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 413,
+          "top": 308.78125,
+          "bottom": 414.28125,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 413,
+          "top": 422.28125,
+          "bottom": 527.78125,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 413,
+          "top": 535.78125,
+          "bottom": 641.28125,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 413,
+          "top": 649.28125,
+          "bottom": 754.78125,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 413,
+          "top": 762.78125,
+          "bottom": 868.28125,
+          "width": 396,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 211,
+          "top": -768,
+          "bottom": -724,
+          "width": 194,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 219,
+          "right": 413,
+          "top": -768,
+          "bottom": -724,
+          "width": 194,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 413,
+          "top": -593.21875,
+          "bottom": -487.71875,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 413,
+          "top": -479.71875,
+          "bottom": -374.21875,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 413,
+          "top": -366.21875,
+          "bottom": -260.71875,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 413,
+          "top": -252.71875,
+          "bottom": -147.21875,
+          "width": 396,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 413,
+          "top": -139.21875,
+          "bottom": -33.71875,
+          "width": 396,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 146.328125,
+          "top": 209.59375,
+          "bottom": 277.484375,
+          "width": 129.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 150.328125,
+          "right": 279.65625,
+          "top": 209.59375,
+          "bottom": 277.484375,
+          "width": 129.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 283.65625,
+          "right": 412.984375,
+          "top": 209.59375,
+          "bottom": 277.484375,
+          "width": 129.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 413,
+          "top": 561.15625,
+          "bottom": 612.953125,
+          "width": 396,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 413,
+          "top": 724.34375,
+          "bottom": 772.34375,
+          "width": 396,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 430,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 430,
+        "top": 48,
+        "bottom": 600,
+        "width": 430,
+        "height": 552
+      },
+      "close": {
+        "left": 337.234375,
+        "right": 413,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 337.234375,
+          "right": 413,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 146.328125,
+          "top": -1499.40625,
+          "bottom": -1431.515625,
+          "width": 129.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 150.328125,
+          "right": 279.65625,
+          "top": -1499.40625,
+          "bottom": -1431.515625,
+          "width": 129.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 283.65625,
+          "right": 412.984375,
+          "top": -1499.40625,
+          "bottom": -1431.515625,
+          "width": 129.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 413,
+          "top": -1147.84375,
+          "bottom": -1096.046875,
+          "width": 396,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 413,
+          "top": -984.65625,
+          "bottom": -936.65625,
+          "width": 396,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 20,
+          "right": 370,
+          "top": -2730.09375,
+          "bottom": -2509.828125,
+          "width": 350,
+          "height": 220.265625
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 20,
+          "right": 370,
+          "top": -2399.046875,
+          "bottom": -2215.5625,
+          "width": 350,
+          "height": 183.484375
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 20,
+          "right": 370,
+          "top": -2203.5625,
+          "bottom": -1854.765625,
+          "width": 350,
+          "height": 348.796875
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 20,
+          "right": 370,
+          "top": -1842.765625,
+          "bottom": -1608.90625,
+          "width": 350,
+          "height": 233.859375
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 221,
+          "right": 353,
+          "top": -1439.125,
+          "bottom": -1390.734375,
+          "width": 132,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 281.546875,
+          "right": 353,
+          "top": -1036.984375,
+          "bottom": -992.984375,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 281.546875,
+          "right": 353,
+          "top": -946.984375,
+          "bottom": -902.984375,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 309,
+          "right": 353,
+          "top": 278.734375,
+          "bottom": 322.734375,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 37,
+          "right": 177.8125,
+          "top": 543.390625,
+          "bottom": 591.390625,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 37,
+          "right": 353,
+          "top": 708.578125,
+          "bottom": 756.578125,
+          "width": 316,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 37,
+          "right": 267.234375,
+          "top": 794.96875,
+          "bottom": 842.96875,
+          "width": 230.234375,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 279.234375,
+          "right": 353,
+          "top": 794.96875,
+          "bottom": 842.96875,
+          "width": 73.765625,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 37,
+          "right": 353,
+          "top": 1118.53125,
+          "bottom": 1174.53125,
+          "width": 316,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 191,
+          "top": 134,
+          "bottom": 178,
+          "width": 174,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 199,
+          "right": 373,
+          "top": 134,
+          "bottom": 178,
+          "width": 174,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 373,
+          "top": 332.578125,
+          "bottom": 438.078125,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 373,
+          "top": 446.078125,
+          "bottom": 551.578125,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 373,
+          "top": 559.578125,
+          "bottom": 665.078125,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 373,
+          "top": 673.078125,
+          "bottom": 778.578125,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 373,
+          "top": 786.578125,
+          "bottom": 892.078125,
+          "width": 356,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 191,
+          "top": -839,
+          "bottom": -795,
+          "width": 174,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 199,
+          "right": 373,
+          "top": -839,
+          "bottom": -795,
+          "width": 174,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 373,
+          "top": -640.421875,
+          "bottom": -534.921875,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 373,
+          "top": -526.921875,
+          "bottom": -421.421875,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 373,
+          "top": -413.421875,
+          "bottom": -307.921875,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 373,
+          "top": -299.921875,
+          "bottom": -194.421875,
+          "width": 356,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 373,
+          "top": -186.421875,
+          "bottom": -80.921875,
+          "width": 356,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 133,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 116,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 137,
+          "right": 253,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 116,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 257,
+          "right": 373,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 116,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 373,
+          "top": 584.953125,
+          "bottom": 636.75,
+          "width": 356,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 373,
+          "top": 748.140625,
+          "bottom": 796.140625,
+          "width": 356,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 390,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 390,
+        "top": 48,
+        "bottom": 600,
+        "width": 390,
+        "height": 552
+      },
+      "close": {
+        "left": 297.234375,
+        "right": 373,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 297.234375,
+          "right": 373,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 133,
+          "top": -1546.609375,
+          "bottom": -1478.71875,
+          "width": 116,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 137,
+          "right": 253,
+          "top": -1546.609375,
+          "bottom": -1478.71875,
+          "width": 116,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 257,
+          "right": 373,
+          "top": -1546.609375,
+          "bottom": -1478.71875,
+          "width": 116,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 373,
+          "top": -1195.046875,
+          "bottom": -1143.25,
+          "width": 356,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 373,
+          "top": -1031.859375,
+          "bottom": -983.859375,
+          "width": 356,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 20,
+          "right": 355,
+          "top": -2798.09375,
+          "bottom": -2577.828125,
+          "width": 335,
+          "height": 220.265625
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 20,
+          "right": 355,
+          "top": -2467.046875,
+          "bottom": -2283.5625,
+          "width": 335,
+          "height": 183.484375
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 20,
+          "right": 355,
+          "top": -2271.5625,
+          "bottom": -1900.375,
+          "width": 335,
+          "height": 371.1875
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 20,
+          "right": 355,
+          "top": -1888.375,
+          "bottom": -1654.515625,
+          "width": 335,
+          "height": 233.859375
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 206,
+          "right": 338,
+          "top": -1462.34375,
+          "bottom": -1413.953125,
+          "width": 132,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 266.546875,
+          "right": 338,
+          "top": -1060.203125,
+          "bottom": -1016.203125,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 266.546875,
+          "right": 338,
+          "top": -970.203125,
+          "bottom": -926.203125,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 294,
+          "right": 338,
+          "top": 278.3125,
+          "bottom": 322.3125,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 37,
+          "right": 177.8125,
+          "top": 542.96875,
+          "bottom": 590.96875,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 37,
+          "right": 338,
+          "top": 708.15625,
+          "bottom": 756.15625,
+          "width": 301,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 37,
+          "right": 252.234375,
+          "top": 794.546875,
+          "bottom": 842.546875,
+          "width": 215.234375,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 264.234375,
+          "right": 338,
+          "top": 794.546875,
+          "bottom": 842.546875,
+          "width": 73.765625,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 37,
+          "right": 338,
+          "top": 1141.90625,
+          "bottom": 1197.90625,
+          "width": 301,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 183.5,
+          "top": 134,
+          "bottom": 178,
+          "width": 166.5,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 191.5,
+          "right": 358,
+          "top": 134,
+          "bottom": 178,
+          "width": 166.5,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 358,
+          "top": 332.578125,
+          "bottom": 438.078125,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 358,
+          "top": 446.078125,
+          "bottom": 551.578125,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 358,
+          "top": 559.578125,
+          "bottom": 665.078125,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 358,
+          "top": 673.078125,
+          "bottom": 778.578125,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 358,
+          "top": 786.578125,
+          "bottom": 892.078125,
+          "width": 341,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 183.5,
+          "top": -839,
+          "bottom": -795,
+          "width": 166.5,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 191.5,
+          "right": 358,
+          "top": -839,
+          "bottom": -795,
+          "width": 166.5,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 358,
+          "top": -640.421875,
+          "bottom": -534.921875,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 358,
+          "top": -526.921875,
+          "bottom": -421.421875,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 358,
+          "top": -413.421875,
+          "bottom": -307.921875,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 358,
+          "top": -299.921875,
+          "bottom": -194.421875,
+          "width": 341,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 358,
+          "top": -186.421875,
+          "bottom": -80.921875,
+          "width": 341,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 128,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 111,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 132,
+          "right": 243,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 111,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 247,
+          "right": 358,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 111,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 358,
+          "top": 584.953125,
+          "bottom": 636.75,
+          "width": 341,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 358,
+          "top": 748.140625,
+          "bottom": 796.140625,
+          "width": 341,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 375,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 375,
+        "top": 48,
+        "bottom": 600,
+        "width": 375,
+        "height": 552
+      },
+      "close": {
+        "left": 282.234375,
+        "right": 358,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 282.234375,
+          "right": 358,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 128,
+          "top": -1615.609375,
+          "bottom": -1547.71875,
+          "width": 111,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 132,
+          "right": 243,
+          "top": -1615.609375,
+          "bottom": -1547.71875,
+          "width": 111,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 247,
+          "right": 358,
+          "top": -1615.609375,
+          "bottom": -1547.71875,
+          "width": 111,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 358,
+          "top": -1264.046875,
+          "bottom": -1212.25,
+          "width": 341,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 358,
+          "top": -1100.859375,
+          "bottom": -1052.859375,
+          "width": 341,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 20,
+          "right": 340,
+          "top": -2820.09375,
+          "bottom": -2599.828125,
+          "width": 320,
+          "height": 220.265625
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 20,
+          "right": 340,
+          "top": -2489.046875,
+          "bottom": -2305.5625,
+          "width": 320,
+          "height": 183.484375
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 20,
+          "right": 340,
+          "top": -2293.5625,
+          "bottom": -1922.375,
+          "width": 320,
+          "height": 371.1875
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 20,
+          "right": 340,
+          "top": -1910.375,
+          "bottom": -1676.515625,
+          "width": 320,
+          "height": 233.859375
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 191,
+          "right": 323,
+          "top": -1484.34375,
+          "bottom": -1435.953125,
+          "width": 132,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 251.546875,
+          "right": 323,
+          "top": -1082.203125,
+          "bottom": -1038.203125,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 251.546875,
+          "right": 323,
+          "top": -992.203125,
+          "bottom": -948.203125,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 279,
+          "right": 323,
+          "top": 278.90625,
+          "bottom": 322.90625,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 37,
+          "right": 177.8125,
+          "top": 543.359375,
+          "bottom": 591.359375,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 37,
+          "right": 323,
+          "top": 708.546875,
+          "bottom": 756.546875,
+          "width": 286,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 37,
+          "right": 237.234375,
+          "top": 794.9375,
+          "bottom": 842.9375,
+          "width": 200.234375,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 249.234375,
+          "right": 323,
+          "top": 794.9375,
+          "bottom": 842.9375,
+          "width": 73.765625,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 37,
+          "right": 323,
+          "top": 1142.296875,
+          "bottom": 1198.296875,
+          "width": 286,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 176,
+          "top": 134,
+          "bottom": 178,
+          "width": 159,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 184,
+          "right": 343,
+          "top": 134,
+          "bottom": 178,
+          "width": 159,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 343,
+          "top": 332.578125,
+          "bottom": 438.078125,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 343,
+          "top": 446.078125,
+          "bottom": 551.578125,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 343,
+          "top": 559.578125,
+          "bottom": 665.078125,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 343,
+          "top": 673.078125,
+          "bottom": 778.578125,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 343,
+          "top": 786.578125,
+          "bottom": 892.078125,
+          "width": 326,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 176,
+          "top": -839,
+          "bottom": -795,
+          "width": 159,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 184,
+          "right": 343,
+          "top": -839,
+          "bottom": -795,
+          "width": 159,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 343,
+          "top": -640.421875,
+          "bottom": -534.921875,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 343,
+          "top": -526.921875,
+          "bottom": -421.421875,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 343,
+          "top": -413.421875,
+          "bottom": -307.921875,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 343,
+          "top": -299.921875,
+          "bottom": -194.421875,
+          "width": 326,
+          "height": 105.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 343,
+          "top": -186.421875,
+          "bottom": -80.921875,
+          "width": 326,
+          "height": 105.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 123,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 106,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 127,
+          "right": 233,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 106,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 237,
+          "right": 343,
+          "top": 233.390625,
+          "bottom": 301.28125,
+          "width": 106,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 343,
+          "top": 608.75,
+          "bottom": 660.546875,
+          "width": 326,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 343,
+          "top": 795.734375,
+          "bottom": 843.734375,
+          "width": 326,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 360,
+      "height": 600,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 360,
+        "top": 48,
+        "bottom": 600,
+        "width": 360,
+        "height": 552
+      },
+      "close": {
+        "left": 267.234375,
+        "right": 343,
+        "top": 61,
+        "bottom": 105,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 267.234375,
+          "right": 343,
+          "top": 61,
+          "bottom": 105,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 123,
+          "top": -1662.609375,
+          "bottom": -1594.71875,
+          "width": 106,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 127,
+          "right": 233,
+          "top": -1662.609375,
+          "bottom": -1594.71875,
+          "width": 106,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 237,
+          "right": 343,
+          "top": -1662.609375,
+          "bottom": -1594.71875,
+          "width": 106,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 343,
+          "top": -1287.25,
+          "bottom": -1235.453125,
+          "width": 326,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 343,
+          "top": -1100.265625,
+          "bottom": -1052.265625,
+          "width": 326,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 40,
+          "right": 804,
+          "top": -1981.65625,
+          "bottom": -1869.375,
+          "width": 764,
+          "height": 112.28125
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 40,
+          "right": 416,
+          "top": -1748.59375,
+          "bottom": -1374.28125,
+          "width": 376,
+          "height": 374.3125
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 428,
+          "right": 804,
+          "top": -1748.59375,
+          "bottom": -1374.28125,
+          "width": 376,
+          "height": 374.3125
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 40,
+          "right": 416,
+          "top": -1362.28125,
+          "bottom": -1125.234375,
+          "width": 376,
+          "height": 237.046875
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 599.890625,
+          "right": 783,
+          "top": -1044.84375,
+          "bottom": -996.453125,
+          "width": 183.109375,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 321.953125,
+          "right": 393.40625,
+          "top": -665.296875,
+          "bottom": -621.296875,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 321.953125,
+          "right": 393.40625,
+          "top": -567.296875,
+          "bottom": -523.296875,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 368,
+          "right": 412,
+          "top": 173.1875,
+          "bottom": 217.1875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 61,
+          "right": 201.8125,
+          "top": 449.953125,
+          "bottom": 497.953125,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 61,
+          "right": 212,
+          "top": 631.140625,
+          "bottom": 679.140625,
+          "width": 151,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 224,
+          "right": 693.546875,
+          "top": 631.140625,
+          "bottom": 679.140625,
+          "width": 469.546875,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 705.546875,
+          "right": 783,
+          "top": 631.140625,
+          "bottom": 679.140625,
+          "width": 77.453125,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 65,
+          "right": 545,
+          "top": 958.296875,
+          "bottom": 1017.890625,
+          "width": 480,
+          "height": 59.59375
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 87,
+          "right": 418,
+          "top": 130,
+          "bottom": 174,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 426,
+          "right": 757,
+          "top": 130,
+          "bottom": 174,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 87,
+          "right": 418,
+          "top": 315.578125,
+          "bottom": 424.078125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 426,
+          "right": 757,
+          "top": 315.578125,
+          "bottom": 424.078125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 87,
+          "right": 418,
+          "top": 432.078125,
+          "bottom": 540.578125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 426,
+          "right": 757,
+          "top": 432.078125,
+          "bottom": 540.578125,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 87,
+          "right": 418,
+          "top": 548.578125,
+          "bottom": 657.078125,
+          "width": 331,
+          "height": 108.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 87,
+          "right": 418,
+          "top": -748,
+          "bottom": -704,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 426,
+          "right": 757,
+          "top": -748,
+          "bottom": -704,
+          "width": 331,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 87,
+          "right": 418,
+          "top": -562.421875,
+          "bottom": -453.921875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 426,
+          "right": 757,
+          "top": -562.421875,
+          "bottom": -453.921875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 87,
+          "right": 418,
+          "top": -445.921875,
+          "bottom": -337.421875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 426,
+          "right": 757,
+          "top": -445.921875,
+          "bottom": -337.421875,
+          "width": 331,
+          "height": 108.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 87,
+          "right": 418,
+          "top": -329.421875,
+          "bottom": -220.921875,
+          "width": 331,
+          "height": 108.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 87,
+          "right": 305,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 313,
+          "right": 531,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 539,
+          "right": 757,
+          "top": 205.59375,
+          "bottom": 275.1875,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "",
+          "left": 87,
+          "right": 757,
+          "top": 535.0625,
+          "bottom": 586.859375,
+          "width": 670,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 87,
+          "right": 757,
+          "top": 674.453125,
+          "bottom": 722.453125,
+          "width": 670,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 62,
+        "right": 782,
+        "top": 32,
+        "bottom": 358,
+        "width": 720,
+        "height": 326
+      },
+      "close": {
+        "left": 681.234375,
+        "right": 757,
+        "top": 49,
+        "bottom": 93,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 681.234375,
+          "right": 757,
+          "top": 49,
+          "bottom": 93,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 87,
+          "right": 305,
+          "top": -1494.40625,
+          "bottom": -1424.8125,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 313,
+          "right": 531,
+          "top": -1494.40625,
+          "bottom": -1424.8125,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 539,
+          "right": 757,
+          "top": -1494.40625,
+          "bottom": -1424.8125,
+          "width": 218,
+          "height": 69.59375
+        },
+        {
+          "text": "",
+          "left": 87,
+          "right": 757,
+          "top": -1164.9375,
+          "bottom": -1113.140625,
+          "width": 670,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 87,
+          "right": 757,
+          "top": -1025.546875,
+          "bottom": -977.546875,
+          "width": 670,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": []
+    },
+    {
+      "name": "long-item",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": null,
+      "close": null,
+      "bodyLocked": false,
+      "controls": [
+        {
+          "text": "VISA / ENTRY PERMISSIONESTA 확인한국 일반여권으로 비자면제프",
+          "left": 20,
+          "right": 620,
+          "top": -2432.5,
+          "bottom": -2268.21875,
+          "width": 600,
+          "height": 164.28125
+        },
+        {
+          "text": "날씨 · 옷차림12월 평균기온14.2°C얇은 긴팔 · 가디건 · 얇은 외투자세히 ",
+          "left": 20,
+          "right": 314,
+          "top": -2157.4375,
+          "bottom": -1786.25,
+          "width": 294,
+          "height": 371.1875
+        },
+        {
+          "text": "전압 · 플러그110–120V · 60HzType A / BTYPE A 콘센트 정",
+          "left": 326,
+          "right": 620,
+          "top": -2157.4375,
+          "bottom": -1786.25,
+          "width": 294,
+          "height": 371.1875
+        },
+        {
+          "text": "항공 수하물 안내기내 반입 · 보조배터리·액체류 등기내만 가능위탁 금지1인 최대 ",
+          "left": 20,
+          "right": 314,
+          "top": -1774.25,
+          "bottom": -1540.390625,
+          "width": 294,
+          "height": 233.859375
+        },
+        {
+          "text": "출발 전 점검하기",
+          "left": 471,
+          "right": 603,
+          "top": -1370.609375,
+          "bottom": -1322.21875,
+          "width": 132,
+          "height": 48.390625
+        },
+        {
+          "text": "여권 점검",
+          "left": 531.546875,
+          "right": 603,
+          "top": -1042.859375,
+          "bottom": -998.859375,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "결제 점검",
+          "left": 531.546875,
+          "right": 603,
+          "top": -952.859375,
+          "bottom": -908.859375,
+          "width": 71.453125,
+          "height": 44
+        },
+        {
+          "text": "",
+          "left": 559,
+          "right": 603,
+          "top": 158.296875,
+          "bottom": 202.296875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "내 짐 가볍게 만들기",
+          "left": 37,
+          "right": 177.8125,
+          "top": 366.765625,
+          "bottom": 414.765625,
+          "width": 140.8125,
+          "height": 48
+        },
+        {
+          "text": "필수 준비물의류 · 패션세면 · 위생용품전자기기기타 준비물",
+          "left": 37,
+          "right": 603,
+          "top": 531.953125,
+          "bottom": 579.953125,
+          "width": 566,
+          "height": 48
+        },
+        {
+          "text": "",
+          "left": 37,
+          "right": 517.234375,
+          "top": 618.34375,
+          "bottom": 666.34375,
+          "width": 480.234375,
+          "height": 48
+        },
+        {
+          "text": " 추가",
+          "left": 529.234375,
+          "right": 603,
+          "top": 618.34375,
+          "bottom": 666.34375,
+          "width": 73.765625,
+          "height": 48
+        },
+        {
+          "text": "짐싸기 완료! 마지막 점검하기",
+          "left": 37,
+          "right": 603,
+          "top": 919.515625,
+          "bottom": 975.515625,
+          "width": 566,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "name": "weather",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "weather-bottom",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "electricity-bottom",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "baggage",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 316,
+          "top": 114.8125,
+          "bottom": 158.8125,
+          "width": 299,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 324,
+          "right": 623,
+          "top": 114.8125,
+          "bottom": 158.8125,
+          "width": 299,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 623,
+          "top": 289.59375,
+          "bottom": 370.09375,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 623,
+          "top": 378.09375,
+          "bottom": 458.59375,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 623,
+          "top": 466.59375,
+          "bottom": 547.09375,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 623,
+          "top": 555.09375,
+          "bottom": 635.59375,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 623,
+          "top": 643.59375,
+          "bottom": 724.09375,
+          "width": 606,
+          "height": 80.5
+        }
+      ]
+    },
+    {
+      "name": "baggage-bottom",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "반입 제한",
+          "left": 17,
+          "right": 316,
+          "top": -811.1875,
+          "bottom": -767.1875,
+          "width": 299,
+          "height": 44
+        },
+        {
+          "text": "내 수하물 허용량",
+          "left": 324,
+          "right": 623,
+          "top": -811.1875,
+          "bottom": -767.1875,
+          "width": 299,
+          "height": 44
+        },
+        {
+          "text": "국제선 액체류 및 젤류용기당 100mL 이하1인 1L 지퍼백 1개",
+          "left": 17,
+          "right": 623,
+          "top": -636.40625,
+          "bottom": -555.90625,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "보조배터리기내만 가능위탁 금지1인 최대 2개용량은 항공사 확인",
+          "left": 17,
+          "right": 623,
+          "top": -547.90625,
+          "bottom": -467.40625,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "전자기기노트북·태블릿·게임기 기내 휴대 권장",
+          "left": 17,
+          "right": 623,
+          "top": -459.40625,
+          "bottom": -378.90625,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "날카로운 물건도검류 등 객실 제한안전면도기 등 예외",
+          "left": 17,
+          "right": 623,
+          "top": -370.90625,
+          "bottom": -290.40625,
+          "width": 606,
+          "height": 80.5
+        },
+        {
+          "text": "스프레이 및 위험물개인위생용 조건부인화성 살충제 반입 불가",
+          "left": 17,
+          "right": 623,
+          "top": -282.40625,
+          "bottom": -201.90625,
+          "width": 606,
+          "height": 80.5
+        }
+      ]
+    },
+    {
+      "name": "entry",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "entry-bottom",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "passport",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 216.328125,
+          "top": 190.40625,
+          "bottom": 258.296875,
+          "width": 199.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 220.328125,
+          "right": 419.65625,
+          "top": 190.40625,
+          "bottom": 258.296875,
+          "width": 199.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 423.65625,
+          "right": 622.984375,
+          "top": 190.40625,
+          "bottom": 258.296875,
+          "width": 199.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 623,
+          "top": 518.171875,
+          "bottom": 569.96875,
+          "width": 606,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 623,
+          "top": 681.359375,
+          "bottom": 729.359375,
+          "width": 606,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "passport-bottom",
+      "width": 640,
+      "height": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "modal": {
+        "left": 0,
+        "right": 640,
+        "top": 28.8125,
+        "bottom": 360,
+        "width": 640,
+        "height": 331.1875
+      },
+      "close": {
+        "left": 547.234375,
+        "right": 623,
+        "top": 41.8125,
+        "bottom": 85.8125,
+        "width": 75.765625,
+        "height": 44
+      },
+      "bodyLocked": true,
+      "controls": [
+        {
+          "text": "닫기",
+          "left": 547.234375,
+          "right": 623,
+          "top": 41.8125,
+          "bottom": 85.8125,
+          "width": 75.765625,
+          "height": 44
+        },
+        {
+          "text": "여권 준비확인 전 · 0/7",
+          "left": 17,
+          "right": 216.328125,
+          "top": -1514.59375,
+          "bottom": -1446.703125,
+          "width": 199.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "해외 결제 준비확인 전 · 0/5",
+          "left": 220.328125,
+          "right": 419.65625,
+          "top": -1514.59375,
+          "bottom": -1446.703125,
+          "width": 199.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "항공 반입 준비확인 전 · 0/5",
+          "left": 423.65625,
+          "right": 622.984375,
+          "top": -1514.59375,
+          "bottom": -1446.703125,
+          "width": 199.328125,
+          "height": 67.890625
+        },
+        {
+          "text": "",
+          "left": 17,
+          "right": 623,
+          "top": -1186.828125,
+          "bottom": -1135.03125,
+          "width": 606,
+          "height": 51.796875
+        },
+        {
+          "text": "아직 확인하지 않았어요직항으로 여행해요경유지의 추가 여권 요건을 확인했어요",
+          "left": 17,
+          "right": 623,
+          "top": -1023.640625,
+          "bottom": -975.640625,
+          "width": 606,
+          "height": 48
+        }
+      ]
+    }
+  ],
+  "sweep": [
+    {
+      "width": 1920,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1900,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1880,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1860,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1840,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1820,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1800,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1780,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1760,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1740,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1720,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1700,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1680,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1660,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1640,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1620,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1600,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1580,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1560,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1540,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1520,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1500,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1480,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1460,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1440,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1420,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1400,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1380,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1360,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1340,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1320,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1300,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1280,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1260,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1240,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1220,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1200,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1180,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1160,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1140,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1120,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1100,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1080,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1060,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1040,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1020,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 1000,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 980,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 960,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 940,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 920,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 900,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 880,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 860,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 840,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 820,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 800,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 780,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 760,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 740,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 720,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 700,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 680,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 660,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 640,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 620,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 600,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 580,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 560,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 540,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 520,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 500,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 480,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 460,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 440,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 420,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 400,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 380,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    },
+    {
+      "width": 360,
+      "pageOverflow": false,
+      "overlap": false,
+      "country": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,426 @@
+{
+  "results": [
+    {
+      "scenario": "A",
+      "width": 1440,
+      "country": "JP",
+      "city": "tokyo",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:f774cafd-5f7b-499c-91c6-627b45e82baa"
+    },
+    {
+      "scenario": "B",
+      "width": 1440,
+      "country": "VN",
+      "city": "danang",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:40304ffb-2533-4ae5-a707-c7fb114eca48"
+    },
+    {
+      "scenario": "C",
+      "width": 1440,
+      "country": "TH",
+      "city": "bangkok",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:f2a99389-b140-4646-9bf3-04e802723b23"
+    },
+    {
+      "scenario": "D",
+      "width": 1440,
+      "country": "TW",
+      "city": "taipei",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:50546079-1f40-4393-a19b-d84bdb4a1ae2"
+    },
+    {
+      "scenario": "E",
+      "width": 1440,
+      "country": "US",
+      "city": "new-york",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:92b6f458-e982-4e8b-8dfb-81d3e5dfdd4c"
+    },
+    {
+      "scenario": "F",
+      "width": 1440,
+      "country": "AU",
+      "city": "sydney",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:dd8b5295-aed8-423f-bc40-e49aaac0d257"
+    },
+    {
+      "scenario": "A",
+      "width": 1024,
+      "country": "JP",
+      "city": "tokyo",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:f9e91287-023e-4954-a1e9-0ebfc29557c6"
+    },
+    {
+      "scenario": "B",
+      "width": 1024,
+      "country": "VN",
+      "city": "danang",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:f9e0643b-a1be-45a5-8f68-b04057961b4f"
+    },
+    {
+      "scenario": "C",
+      "width": 1024,
+      "country": "TH",
+      "city": "bangkok",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:064237e7-c6d6-44e2-9b88-375f162cef0b"
+    },
+    {
+      "scenario": "D",
+      "width": 1024,
+      "country": "TW",
+      "city": "taipei",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:daf862d0-1802-4761-a888-f4a30e185c6b"
+    },
+    {
+      "scenario": "E",
+      "width": 1024,
+      "country": "US",
+      "city": "new-york",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:e94c3cd9-66b7-408d-8c24-0ec7187f5a39"
+    },
+    {
+      "scenario": "F",
+      "width": 1024,
+      "country": "AU",
+      "city": "sydney",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:12640b31-58e4-4803-bdc5-ef9bddb88233"
+    },
+    {
+      "scenario": "A",
+      "width": 768,
+      "country": "JP",
+      "city": "tokyo",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:389d0443-86db-4056-90d4-1e30a0622f03"
+    },
+    {
+      "scenario": "B",
+      "width": 768,
+      "country": "VN",
+      "city": "danang",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:bff08f6f-d153-47d4-afa3-710836cad8e9"
+    },
+    {
+      "scenario": "C",
+      "width": 768,
+      "country": "TH",
+      "city": "bangkok",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:4af5661b-8116-4b25-9a8b-5cfea669538a"
+    },
+    {
+      "scenario": "D",
+      "width": 768,
+      "country": "TW",
+      "city": "taipei",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:af3e33f3-7f6a-4422-b029-b2b96bf97d28"
+    },
+    {
+      "scenario": "E",
+      "width": 768,
+      "country": "US",
+      "city": "new-york",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:2e730458-a7b7-43cd-baa1-3bba47651c2b"
+    },
+    {
+      "scenario": "F",
+      "width": 768,
+      "country": "AU",
+      "city": "sydney",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:f59e44df-62d8-444f-8e4f-9369cddd528b"
+    },
+    {
+      "scenario": "A",
+      "width": 390,
+      "country": "JP",
+      "city": "tokyo",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:c26d90ac-94ce-4d61-80c8-c373a50e4149"
+    },
+    {
+      "scenario": "B",
+      "width": 390,
+      "country": "VN",
+      "city": "danang",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:c5ea66c4-1e8c-4a6e-a733-8dd8614e7fa4"
+    },
+    {
+      "scenario": "C",
+      "width": 390,
+      "country": "TH",
+      "city": "bangkok",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:e4e2cd8b-2fc4-4fa6-ae1d-60adb6057906"
+    },
+    {
+      "scenario": "D",
+      "width": 390,
+      "country": "TW",
+      "city": "taipei",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:d99d6057-5b1b-4428-b727-036352ca8c8b"
+    },
+    {
+      "scenario": "E",
+      "width": 390,
+      "country": "US",
+      "city": "new-york",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:3e410a1f-1113-4a5f-a39a-af9888e7adaf"
+    },
+    {
+      "scenario": "F",
+      "width": 390,
+      "country": "AU",
+      "city": "sydney",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:a7c8e9cf-374e-4a69-9e7e-adbb61b8c298"
+    },
+    {
+      "scenario": "A",
+      "width": 360,
+      "country": "JP",
+      "city": "tokyo",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:b4ad04fd-9a5a-4146-b48a-1789eb367344"
+    },
+    {
+      "scenario": "B",
+      "width": 360,
+      "country": "VN",
+      "city": "danang",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:e4f373b5-ff52-462c-8500-0a507ecc6a5f"
+    },
+    {
+      "scenario": "C",
+      "width": 360,
+      "country": "TH",
+      "city": "bangkok",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:5fdfafe3-73ab-41e9-978f-3e5815132b53"
+    },
+    {
+      "scenario": "D",
+      "width": 360,
+      "country": "TW",
+      "city": "taipei",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:54716a7e-00bb-4d9e-9079-3687cd42efa7"
+    },
+    {
+      "scenario": "E",
+      "width": 360,
+      "country": "US",
+      "city": "new-york",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:b441cc4f-edb6-427f-a8eb-122fd1cefb3d"
+    },
+    {
+      "scenario": "F",
+      "width": 360,
+      "country": "AU",
+      "city": "sydney",
+      "status": "PASS",
+      "phases": [
+        "pmb-last-minute pmb-final-transition is-checking",
+        "pmb-last-minute pmb-final-transition is-folding",
+        "pmb-last-minute pmb-final-transition is-flying",
+        "pmb-last-minute pmb-final-transition is-complete"
+      ],
+      "customId": "custom:c1e1282b-55a1-489a-8d14-ca04923d4542"
+    }
+  ],
+  "failures": [],
+  "errors": []
+}

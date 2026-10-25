@@ -89,7 +89,7 @@ test('normal fallback is per metric and retains its own period and label', () =>
   assert.equal(climate.recommendedMetrics.meanTemperatureC.value, 5.4);
   assert.equal(climate.recommendedMetrics.meanTemperatureC.basis, 'official-30-year-normal');
   assert.equal(climate.recommendedMetrics.meanDailyMaximumC.basis, 'recent-10-year-observations');
-  assert.equal(data.getClimateMonth('danang', 1).status, 'needs-research');
+  assert.equal(data.getClimateMonth('haiphong', 1).status, 'needs-research');
   assert.throws(() => data.getClimateMonth('tokyo', 13), RangeError);
 });
 

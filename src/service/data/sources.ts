@@ -1,11 +1,30 @@
 import { auClimateSources } from './auClimate';
+import { entryPreparationSources } from './entryPreparation';
+import { entryRegulationSources } from './entryRegulations';
+import { twClimateSources } from './twClimate.generated';
+import { vnClimateSources } from './vnClimate.generated';
 import { usClimateSources } from './usClimate';
 import { climateArchive } from './climate.generated';
 import type { Source } from './types';
 import { internationalSources } from './international';
+import { passportSources } from './passportRules';
+import { thClimateSources } from './thClimate.generated';
 
 export const researchCheckedOn = '2026-10-23';
 export const referenceSources: Source[] = [
+  { id: 'th-qsncc-electricity', organization: 'QSNCC 공식 행사장', title: 'Plan your trip · Type C / O 및 행사장 Type O 안내', url: 'https://www.qsncc.com/en/visit/plan-your-trip/', period: null, status: 'verified', lastVerified: '2026-10-25', snapshotPath: 'src/service/data/raw/th-electricity/qsncc.html', notes: '공식 HTML의 electricityDescription과 electricalPower 본문에서 C/O 주요 형태, A/B 병존, 행사장 Type O 표준을 직접 확인. 숙소 전체에 확대하지 않음.' },
+  { id: 'th-am2026-electricity', organization: '태국 정부 · 2026 Annual Meetings', title: 'Electrical Info & Devices · A/B/C/F/O 구조와 시설별 호환', url: 'https://www.am2026thailand.go.th/electrical-info-and-devices', period: null, status: 'verified', lastVerified: '2026-10-25', snapshotPath: 'src/service/data/raw/th-electricity/am2026.html', notes: '220V·50Hz, 둥근 3핀 Type O와 접지 구조, 복합 콘센트의 A/B/F 안내 확인. 공식 Type O 참고 이미지와 대조한 형태 식별용 SVG이며 치수 도면은 아님.' },
+  { id: 'th-tat-electricity', organization: '태국관광청 TAT', title: 'Electricity · 태국 220V / 50Hz', url: 'https://www.tourismthailand.org/Articles/plan-your-trip-electricity', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '본문에서 220V·50Hz, 납작 2핀·둥근 2핀 및 일부 3핀 시설, 접지·허용 전력·60/50Hz 차이 주의를 확인. 사용 빈도 수치 없음.' },
+  { id: 'th-tat-plugs', organization: '태국관광청 TAT Newsroom', title: 'Visitor Information · Type C / F', url: 'https://www.tatnews.org/visitor-information/', period: null, status: 'verified', lastVerified: '2026-10-25', notes: 'General Tourism Information: 220V, Type C/F 수용 안내 확인. 모든 시설의 접지·호환을 보장하지 않음.' },
+  { id: 'th-panasonic-electricity', organization: 'Panasonic', title: '국가별 전기 규격 · Thailand', url: 'https://panasonic.jp/tourist/en/electricity.html', period: null, status: 'verified', lastVerified: '2026-10-25', notes: 'Thailand 행 220V·50Hz·A/B/C/F를 확인. 상세의 추가 형태 근거이며 사용 빈도를 뜻하지 않음.' },
+  { id: 'kr-electricity-comparison', organization: 'Panasonic', title: '비교 기준 · 한국 220V / 60Hz / C·F', url: 'https://panasonic.jp/tourist/en/electricity.html', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '한국 행만 공통 비교 기준으로 확인. 목적지 전기 자료와 구분.' },
+  { id: 'vn-tourism-electricity', organization: '베트남 국가관광청', title: 'Plan your trip · Electricity', url: 'https://vietnam.travel/node/26', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '요청된 한국어 경로는 본문 전기 항목을 확인하지 못함. 같은 공식 사이트 영문 페이지에서 220V·대부분 둥근 2핀 수용을 확인.' },
+  { id: 'vn-icao-electricity', organization: 'ICAO', title: 'AAC/6 Viet Nam 2026 · 6.4 Electricity', url: 'https://www.icao.int/sites/default/files/APAC/Meetings/2026/2026%20AAC-6/General%20Information/Attachment-B-Meeting-Bulletin.pdf', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '3쪽 6.4: 베트남 220V·50Hz·A/C/D 및 필요 시 어댑터 안내. 행사 방문자 안내이며 숙소별 일괄 보장은 아님.' },
+  { id: 'vn-panasonic-electricity', organization: 'Panasonic', title: '국가별 전기 규격 · Vietnam', url: 'https://panasonic.jp/tourist/en/electricity.html', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '제조사 원문 베트남 행 220V·50Hz·A/C/F 확인. 정부기관 출처와 구분.' },
+  { id: 'taiwan-tourism-electricity', organization: '대만관광청', title: 'FAQ · 대만 전압·콘센트·변환 어댑터', url: 'https://www.taiwantour.or.kr/introduction/faq.html', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '110V·60Hz·납작 2핀과 한국 기기 사용 시 어댑터 및 전압 변환 필요성 확인.' },
+  { id: 'taoyuan-tourism-electricity', organization: '타오위안시 공식 관광', title: '전기전압 · Type A / B', url: 'https://travel.tycg.gov.tw/ko/service/electricity', period: null, status: 'verified', lastVerified: '2026-10-25', notes: 'Type A·Type B·60Hz와 110V 또는 220V 시설 안내 확인. 기본 110V는 대만관광청 FAQ로 확인하고 220V는 상세 시설 확인 안내로 분리.' },
+  { id: 'iata-passenger-batteries-2026', organization: 'IATA', title: '2026 리튬배터리 승객 안내 · 2026-03-31 개정', url: 'https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/passengers_travelling_with_lithium_batteries.pdf', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '7쪽 휴대용 기기 조건부 위탁·완전 종료, 보조배터리 사용 구간 및 자체 충전 금지; 8쪽 Table 1에서 내장 기기·여분 배터리·보조배터리 용량을 별도 확인. IATA 일반 안내이며 개별 항공사 승인이 아니다.' },
+  { id: 'iata-traveler-battery-safety', organization: 'IATA', title: '여행객 배터리 안전 안내', url: 'https://www.iata.org/en/youandiata/travelers/batteries', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '웹 안내는 리튬배터리 기내 휴대 중심의 보수적 안내. 전자담배 국가·항공사 제한 및 기내 사용·충전 금지 확인. 위탁의 세부 조건은 2026 PDF와 구분.' },
   { id: 'jma-download', organization: '일본 기상청', title: '과거 관측자료 다운로드', url: 'https://www.data.jma.go.jp/risk/obsdl/index.php', period: null, status: 'verified', lastVerified: researchCheckedOn, notes: '공식 다운로드 진입점. 실제 수집은 동일 기관의 월별 관측 HTML 표를 사용했다.' },
   { id: 'jma-quality', organization: '일본 기상청', title: '값과 품질 기호 설명', url: 'https://www.data.jma.go.jp/stats/data/mdrr/man/remark.html', period: null, status: 'verified', lastVerified: researchCheckedOn },
   { id: 'jma-tokyo-relocation', organization: '일본 기상청', title: '2015 기상업무 백서: 도쿄 관측지 변경', url: 'https://www.jma.go.jp/jma/kishou/books/hakusho/2015/01-1.html', period: { startYear: 2014, endYear: 2014 }, status: 'verified', lastVerified: researchCheckedOn, notes: '2014-12-02 오테마치에서 기타노마루 공원으로 변경. 수집 기간 이전 사건이며 전체 관측 이력 검토 완료를 뜻하지 않는다.' },
@@ -21,12 +40,12 @@ export const referenceSources: Source[] = [
   { id: 'sapporo-season', organization: '삿포로시', title: '삿포로시 개요, 기후: PDF 3쪽', url: 'https://www.city.sapporo.jp/shimin/bunkazai/documents/2sixyou.pdf', period: { startYear: 1981, endYear: 2010 }, status: 'verified', lastVerified: researchCheckedOn, notes: '겨울의 추위·많은 눈이라는 정성적 특징만 사용한다. 이 문서의 1981–2010 수치는 현재 기후 데이터에 혼합하지 않는다.' },
   { id: 'icn-restricted-items', organization: '인천국제공항공사', title: '제한물품 안내', url: 'https://www.airport.kr/ap_ko/905/subview.do', period: null, status: 'verified', lastVerified: researchCheckedOn, notes: '액체류·도검류 예외·보조배터리 본문 확인. 항공사별 허용 크기와 무게는 검증 대상이 아니다.' },
   { id: 'molit-power-banks-2026', organization: '국토교통부', title: '보조배터리 2개 제한, 기내 사용·충전 전면 금지 (2026-04-08)', url: 'https://www.molit.go.kr/USR/NEWS/dtl.jsp?id=95091874&lcmspage=3', period: null, status: 'verified', lastVerified: researchCheckedOn, notes: '공식 보도자료 원문과 정책브리핑의 동일 부처 발표 대조. 시행일 2026-04-20.' },
-  { id: 'molit-power-banks-2026-policy', organization: '국토교통부 · 정책브리핑', title: '보조배터리 여객기 반입, 20일부터 1인당 2개까지만 허용', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148962298', period: null, status: 'verified', lastVerified: researchCheckedOn },
+  { id: 'molit-power-banks-2026-policy', organization: '국토교통부 · 정책브리핑', title: '보조배터리 여객기 반입 안내 · 2026-04-08 발표', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148962298', period: null, status: 'verified', lastVerified: '2026-10-25', notes: '요청된 국토교통부 원문은 반복 리디렉션으로 재확인 불가. 정부 공식 정책브리핑에 게시된 동일 부처 발표 본문으로 2개·160Wh 이하 표현, 기내 사용 및 자체 충전 전면 금지, 2026-04-20 한국 기준 시행을 확인. IATA PDF의 보조배터리 100Wh 초과 금지와 구분.' },
   { id: 'icn-battery-faq', organization: '인천국제공항공사', title: '배터리 반입 FAQ (작성 2024-12-06)', url: 'https://www.airport.kr/ap_ko/907/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYXBfa28lMkY5NDYlMkYxMzg0MjclMkZhcnRjbFZpZXcuZG8lM0Y%3D', period: null, status: 'verified', lastVerified: researchCheckedOn, notes: '배터리 종류·장착 여부만 활용. 보조배터리 개수는 2026년 보도자료를 우선한다.' },
   { id: 'icn-spray-faq', organization: '인천국제공항공사', title: '스프레이 반입 FAQ', url: 'https://www.airport.kr/ap_ko/907/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYXBfa28lMkY5NDYlMkYxMzg0MjglMkZhcnRjbFZpZXcuZG8lM0Y%3D', period: null, status: 'verified', lastVerified: researchCheckedOn },
   { id: 'icn-restricted-faq', organization: '인천국제공항공사', title: '제한물품 FAQ · 전자담배와 전자기기', url: 'https://www.airport.kr/ap_ko/907/subview.do', period: null, status: 'verified', lastVerified: researchCheckedOn },
   { id: 'molit-electronics-guide', organization: '대한민국 정책브리핑', title: '리튬 배터리·스마트가방 항공기 반입 안내 (2018)', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148847990', period: null, status: 'verified', lastVerified: researchCheckedOn, notes: '장착·분리 구분을 공항 현행 FAQ와 대조. 과거 보조배터리 수량 안내는 사용하지 않는다.' },
 ];
 
-export const sources: readonly Source[] = [...referenceSources, ...internationalSources, ...usClimateSources, ...auClimateSources, ...climateArchive.sources];
+export const sources: readonly Source[] = [...referenceSources, ...entryPreparationSources, ...entryRegulationSources, ...passportSources, ...internationalSources, ...usClimateSources, ...auClimateSources, ...twClimateSources, ...vnClimateSources, ...thClimateSources, ...climateArchive.sources];
 export function getSource(id: string) { return sources.find(source => source.id === id); }

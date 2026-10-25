@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "country": "대만",
+      "city": "taipei",
+      "main": "110V · 60Hz",
+      "geometry": {
+        "heights": [
+          317.515625,
+          317.515625,
+          317.515625
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "대만",
+      "city": "kaohsiung",
+      "main": "110V · 60Hz",
+      "geometry": {
+        "heights": [
+          317.515625,
+          317.515625,
+          317.515625
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "일본",
+      "city": "osaka",
+      "main": "100V · Type A",
+      "geometry": {
+        "heights": [
+          317.515625,
+          317.515625,
+          317.515625
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "미국",
+      "city": "new-york",
+      "main": "110–120V · 60Hz · 2핀 또는 3핀",
+      "geometry": {
+        "heights": [
+          317.515625,
+          317.515625,
+          317.515625
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "호주",
+      "city": "sydney",
+      "main": "220–240V · 50Hz · 역 V자 평핀 호주형",
+      "geometry": {
+        "heights": [
+          317.515625,
+          317.515625,
+          317.515625
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "대만",
+      "city": "taipei",
+      "main": "110V · 60Hz",
+      "geometry": {
+        "heights": [
+          163.265625,
+          264.984375,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "대만",
+      "city": "kaohsiung",
+      "main": "110V · 60Hz",
+      "geometry": {
+        "heights": [
+          163.265625,
+          264.984375,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "일본",
+      "city": "osaka",
+      "main": "100V · Type A",
+      "geometry": {
+        "heights": [
+          163.265625,
+          264.984375,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "미국",
+      "city": "new-york",
+      "main": "110–120V · 60Hz · 2핀 또는 3핀",
+      "geometry": {
+        "heights": [
+          163.265625,
+          264.984375,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "호주",
+      "city": "sydney",
+      "main": "220–240V · 50Hz · 역 V자 평핀 호주형",
+      "geometry": {
+        "heights": [
+          163.265625,
+          264.984375,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

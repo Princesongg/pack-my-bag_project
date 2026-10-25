@@ -2,20 +2,20 @@
 .pmb-final-transition .pmb-final-fold-inner { min-height:0; overflow:hidden; }
 .pmb-final-transition.is-folding .pmb-final-fold { grid-template-rows:0fr; opacity:0; }
 .pmb-final-transition.is-checking input[data-final-check=true]:checked { animation:pmb-final-check .18s ease-out; }
-.pmb-last-minute-complete { text-align:center; padding:8px 0 14px; }
-.pmb-final-flight { width:min(100%,320px); height:108px; position:relative; margin:0 auto 6px; }
+.pmb-last-minute-complete { text-align:center; padding:var(--pmb-space-2) 0 var(--pmb-space-4); }
+.pmb-final-flight { width:min(100%,320px); height:108px; position:relative; margin:0 auto var(--pmb-space-2); }
 .pmb-final-trail { position:absolute; inset:0; width:100%; height:100%; fill:none; stroke:#a6b9d0; stroke-width:2; stroke-dasharray:4 7; }
-.pmb-final-plane { position:absolute; color:#245be0; left:80%; top:6%; transform:rotate(-15deg); }
+.pmb-final-plane { position:absolute; color:var(--pmb-color-primary); left:80%; top:6%; transform:rotate(-15deg); }
 .is-flying .pmb-final-plane { animation:pmb-final-takeoff 1.05s cubic-bezier(.25,.6,.35,1) both; }
 .is-flying .pmb-final-trail { animation:pmb-final-trail .8s .15s ease both; }
-.pmb-final-message>span { font-size:14px; font-weight:600; letter-spacing:1px; color:#42638b; }
-.pmb-final-message h2 { font-size:clamp(25px,5vw,36px); line-height:1.18; letter-spacing:-.8px; color:#203b60; margin:10px 0 14px; }
-.pmb-final-message p { font-size:14px; line-height:1.8; color:#526580; margin:0 0 16px; }
-.pmb-final-message button { min-height:44px; padding:9px 18px; border:1px solid #bdcfe6; border-radius:9px; background:#edf4fc; color:#203b60; }
+.pmb-final-message>span { font-size:var(--pmb-font-small); font-weight:600; letter-spacing:1px; color:#42638b; }
+.pmb-final-message h2 { font-size:clamp(25px,5vw,36px); line-height:1.18; letter-spacing:-.8px; color:var(--pmb-color-text-primary); margin:var(--pmb-space-3) 0 var(--pmb-space-4); }
+.pmb-final-message p { font-size:var(--pmb-font-small); line-height:var(--pmb-line-body); color:var(--pmb-color-text-secondary); margin:0 0 var(--pmb-space-4); }
+.pmb-final-message button { min-height:var(--pmb-touch-target); padding:var(--pmb-space-2) var(--pmb-space-5); border:1px solid var(--pmb-color-border-accent); border-radius:var(--pmb-radius-small); background:var(--pmb-color-surface-blue); color:var(--pmb-color-text-primary); }
 .is-flying .pmb-final-message { animation:pmb-final-message .4s .7s ease both; }
 @keyframes pmb-final-check { 50% { transform:scale(1.18); } }
 @keyframes pmb-final-takeoff { from { left:5%; top:66%; opacity:0; transform:rotate(0); } 15% { opacity:1; } to { left:80%; top:6%; opacity:1; transform:rotate(-15deg); } }
 @keyframes pmb-final-trail { from { opacity:0; clip-path:inset(0 100% 0 0); } to { opacity:1; clip-path:inset(0); } }
 @keyframes pmb-final-message { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
-@media(max-width:768px) { .pmb-final-message>span { font-size:12px; }.pmb-final-flight { height:94px; } }
+@media(max-width:768px) { .pmb-final-message>span { font-size:var(--pmb-font-caption); }.pmb-final-flight { height:94px; } }
 @media(prefers-reduced-motion:reduce) { .pmb-final-transition * { animation:none!important; transition:none!important; } }

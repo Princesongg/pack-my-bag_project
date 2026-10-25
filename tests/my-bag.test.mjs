@@ -8,7 +8,7 @@ test('packing list reuses clothing IDs, merges cross-month duplicates and suppor
   assert.equal(new Set(items.map(item => item.id)).size, items.length);
   assert.ok(items.some(item => item.id.startsWith('clothing:')));
   assert.ok(items.some(item => item.id === 'essential:passport'));
-  const unsupported = getDefaultBagItems({ ...trip, countryId:'VN', cityId:'danang' });
+  const unsupported = getDefaultBagItems({ ...trip, countryId:'TH', cityId:'unknown' });
   assert.ok(!unsupported.some(item => item.id.startsWith('clothing:')));
   assert.equal(new Set(items.map(item => item.categoryId)).size, 5);
 });

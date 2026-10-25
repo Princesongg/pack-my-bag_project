@@ -1,9 +1,9 @@
 /* Opt-in service tokens: existing screens change only when they use a token. */
 .pmb-service {
-  --pmb-type-label-size:14px;
-  --pmb-type-primary-size:18px;
-  --pmb-type-status-size:14px;
-  --pmb-type-body-size:16px;
+  --pmb-type-label-size:var(--pmb-font-small);
+  --pmb-type-primary-size:var(--pmb-font-card-title);
+  --pmb-type-status-size:var(--pmb-font-small);
+  --pmb-type-body-size:var(--pmb-font-body);
   --pmb-type-label-line:20px;
   --pmb-type-primary-line:26px;
   --pmb-type-status-line:20px;
@@ -13,10 +13,10 @@
 }
 @media(max-width:768px) {
   .pmb-service {
-    --pmb-type-label-size:12px;
-    --pmb-type-primary-size:14px;
-    --pmb-type-status-size:12px;
-    --pmb-type-body-size:14px;
+    --pmb-type-label-size:var(--pmb-font-small);
+    --pmb-type-primary-size:var(--pmb-font-small);
+    --pmb-type-status-size:var(--pmb-font-caption);
+    --pmb-type-body-size:var(--pmb-font-small);
     --pmb-type-label-line:16px;
     --pmb-type-primary-line:20px;
     --pmb-type-status-line:18px;

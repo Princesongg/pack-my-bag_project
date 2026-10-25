@@ -1,0 +1,66 @@
+import {loadTs} from '../tests/helpers/load-ts.mjs';
+// Local browser checks; requires Vite on 127.0.0.1:5173 and installed Chrome.
+import { launchQaBrowser } from './qaBrowser.mjs';
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import assert from 'node:assert/strict';
+const phase=process.env.DESIGN_PHASE??'after';const output='docs/verification/design-system/'+phase;mkdirSync(output,{recursive:true});
+const browser = launchQaBrowser({ port: 9242, profile: 'design-system-ui-browser' });
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));let ws;
+try {
+  let targets;for(let i=0;i<80;i++){try{targets=await(await fetch('http://127.0.0.1:9242/json')).json();if(targets.some(t=>t.type==='page'))break;}catch{}await sleep(100);}
+  ws=new WebSocket(targets.find(t=>t.type==='page').webSocketDebuggerUrl);
+  await new Promise((r,j)=>{ws.addEventListener('open',r,{once:true});ws.addEventListener('error',j,{once:true});});
+  let id=0;const pending=new Map(),errors=[],requests=[];
+  ws.addEventListener('message',event=>{const m=JSON.parse(event.data);if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p?.reject(Error(JSON.stringify(m.error))):p?.resolve(m.result);}if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails);if(m.method==='Network.requestWillBeSent')requests.push(m.params.request.url);});
+  const cdp=(method,params={})=>new Promise((resolve,reject)=>{const n=++id,t=setTimeout(()=>reject(Error('CDP timeout '+method)),10000);pending.set(n,{resolve:r=>{clearTimeout(t);resolve(r);},reject:e=>{clearTimeout(t);reject(e);}});ws.send(JSON.stringify({id:n,method,params}));});
+  const js=async expression=>{const r=await cdp('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(r.exceptionDetails.exception?.description??r.exceptionDetails.text);return r.result.value;};
+  const wait=async expression=>{for(let n=0;n<100;n++){if(await js(expression))return;await sleep(60);}throw Error('Timeout '+expression);};
+  const click=async(selector,text)=>{await js(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(selector)})].find(e=>e.textContent.includes(${JSON.stringify(text)}));if(!e)throw Error('Missing '+${JSON.stringify(text)});e.click();})()`);await sleep(60);};
+  await cdp('Page.enable');await cdp('Runtime.enable');await cdp('Network.enable');
+  await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
+  await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+  const {destinations}=await loadTs('src/service/destination/destinations.ts');
+  const results=[];
+  const record=async(name,width)=>{
+    await sleep(90);
+    const geometry=await js(`(()=>{const modal=document.querySelector('dialog[open]');return {pageHeight:document.documentElement.scrollHeight,briefColumns:document.querySelector('.pmb-trip-brief-grid')?getComputedStyle(document.querySelector('.pmb-trip-brief-grid')).gridTemplateColumns:null,pageOverflow:document.documentElement.scrollWidth>innerWidth+1,modalOverflow:modal?modal.scrollWidth>modal.clientWidth+1:false,bodyFont:getComputedStyle(document.querySelector('.pmb-service')??document.body).fontSize,modalHeader:modal?getComputedStyle(modal.querySelector('h2')).fontSize:null,buttons:[...document.querySelectorAll('.pmb-brief-modal-header button,.pmb-red-flags-action button,.pmb-last-minute-actions button')].map(e=>({height:e.getBoundingClientRect().height,radius:getComputedStyle(e).borderRadius})),badges:[...document.querySelectorAll('.pmb-status-badge')].map(e=>({label:e.textContent,variant:e.dataset.variant,color:getComputedStyle(e).color,background:getComputedStyle(e).backgroundColor,border:getComputedStyle(e).borderColor})),numbers:[...document.querySelectorAll('[data-climate-metric]')].map(e=>({width:e.clientWidth,scroll:e.scrollWidth})),sources:[...document.querySelectorAll('.pmb-guide-sources')].length};})()`);
+    if(!phase.includes('before')&&geometry.buttons.some(b=>b.height<43.99))writeFileSync(`${output}/touch-failure-${name}-${width}.json`,JSON.stringify(geometry,null,2));
+    if(!phase.includes('before')){assert.equal(geometry.pageOverflow,false,name+' page '+width);assert.equal(geometry.modalOverflow,false,name+' modal '+width);assert.ok(geometry.numbers.every(n=>n.scroll<=n.width+1));assert.ok(geometry.buttons.every(b=>b.height>=43.99));}
+    const shot=await cdp('Page.captureScreenshot',{format:'png'});writeFileSync(`${output}/${name}-${width}.png`,Buffer.from(shot.data,'base64'));results.push({name,width,...geometry});
+  };
+  for(const width of process.env.DESIGN_WIDTHS?.split(',').map(Number)??(phase==='before'?[1440,390]:[1440,900,768,390,320])){
+    await cdp('Storage.clearDataForOrigin',{origin:'http://127.0.0.1:5173',storageTypes:'local_storage'});
+    await cdp('Emulation.setDeviceMetricsOverride',{width,height:1100,deviceScaleFactor:1,mobile:width<=768});
+    for(const [path,name] of [['/','home'],['/planning','planning'],['/implementation','start']]){await cdp('Page.navigate',{url:'http://127.0.0.1:5173'+path});await wait(`document.readyState==='complete'`);await record(name,width);}
+    await cdp('Page.navigate',{url:'http://127.0.0.1:5173/implementation/workspace'});await wait(`!!document.querySelector('#trip-setup')`);await record('setup',width);
+    await click('#pmb-all-countries button','베트남');await click('#pmb-setup-city-results button','나트랑');
+    for(const [name,value] of [['departureDate','2026-12-17'],['returnDate','2026-12-20']]){await js(`(()=>{const e=document.querySelector('input[name="${name}"]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(e,'${value}');e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));})()`);await sleep(50);}
+    await js(`document.querySelector('input[name=travelPurpose][value=sightseeing]').click()`);await sleep(50);await js(`document.querySelector('input[name=baggageType][value=checked]').click()`);await sleep(50);await js(`document.querySelector('#trip-setup form').requestSubmit()`);await wait(`!!document.querySelector('.pmb-trip-brief')`);await record('my-bag',width);
+    if(!phase.includes('before')){
+      await cdp('DOM.enable');await cdp('CSS.enable');const doc=await cdp('DOM.getDocument');const node=await cdp('DOM.querySelector',{nodeId:doc.root.nodeId,selector:'.pmb-bag-heading h2'});const fonts=await cdp('CSS.getPlatformFontsForNode',{nodeId:node.nodeId});writeFileSync(`${output}/platform-fonts-${width}.json`,JSON.stringify(fonts,null,2)+'\n');
+      await js(`document.querySelector('[data-item-id="essential:passport"] input').click()`);await sleep(50);
+    }
+    for(const topic of ['weather','electricity','baggage']){
+      await js(`document.querySelector('[data-topic="${topic}"]').click()`);await wait(`!!document.querySelector('dialog[open]')`);await record(topic,width);
+      if(topic==='baggage'){await js(`document.querySelector('#pmb-baggage-trigger-electronics').click()`);await wait(`!!document.querySelector('.pmb-electronics-guidance')`);await record('electronics',width);}
+      await js(`document.querySelector('dialog .pmb-brief-modal-header button').click()`);await wait(`!document.querySelector('dialog[open]')`);
+    }
+    await js(`document.querySelector('.pmb-red-flags-action button').click()`);await wait(`!!document.querySelector('.pmb-passport-check')`);await record('red-flags',width);await js(`document.querySelector('dialog .pmb-brief-modal-header button').click()`);await wait(`!document.querySelector('dialog[open]')`);
+    await js(`document.querySelector('.pmb-pack-less-entry-actions button').click()`);await wait(`!!document.querySelector('#pmb-pack-less-editor')`);await js(`document.querySelector('#pmb-pack-less-editor').scrollIntoView({block:'center'})`);await record('pack-less',width);
+    if(!phase.includes('before')){
+      const loaded=new Promise(resolve=>{const listener=e=>{if(JSON.parse(e.data).method==='Page.loadEventFired'){ws.removeEventListener('message',listener);resolve();}};ws.addEventListener('message',listener);});await cdp('Page.reload');await loaded;await wait(`!!document.querySelector('.pmb-trip-brief')`);assert.equal(await js(`document.querySelector('[data-item-id="essential:passport"] input').checked`),true);
+    }
+    await js(`document.querySelector('#pmb-last-minute-entry').click()`);await wait(`!!document.querySelector('dialog[open]')`);await record('confirm',width);await click('.pmb-final-confirm button','마지막 점검으로 이동');await wait(`!!document.querySelector('.pmb-last-call')`);await record('last-minute',width);
+    if(!phase.includes('before'))await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'no-preference'}]});
+    for(let n=0;n<20;n++){const pending=await js(`!!document.querySelector('input[data-last-minute-id]:not(:checked)')`);if(!pending)break;await js(`document.querySelector('input[data-last-minute-id]:not(:checked)').click()`);await sleep(60);}
+    if(!phase.includes('before')){await wait(`!!document.querySelector('.is-flying .pmb-final-plane')`);assert.equal(await js(`getComputedStyle(document.querySelector('.pmb-final-plane')).animationName`),'pmb-final-takeoff');await wait(`!!document.querySelector('.is-complete .pmb-final-message')`);}
+    else await wait(`!!document.querySelector('.pmb-final-message')`);
+    await record('complete',width);
+    console.log('PASS',phase,width,'full journey');
+  }
+  assert.deepEqual(errors,[]);const externalRequests=[...new Set(requests.filter(u=>!u.startsWith('http://127.0.0.1:5173/')&&!u.startsWith('data:')))];assert.deepEqual(externalRequests,[]);
+  const previous=existsSync(`${output}/ui-results.json`)?JSON.parse(readFileSync(`${output}/ui-results.json`,'utf8')).results:[];
+  const widths=new Set(results.map(r=>r.width));
+  writeFileSync(`${output}/ui-results.json`,JSON.stringify({results:[...previous.filter(r=>!widths.has(r.width)),...results],errors,externalRequests},null,2)+'\n');await cdp('Browser.close');
+}finally{if(ws?.readyState===WebSocket.OPEN){ws.send(JSON.stringify({id:999999,method:'Browser.close'}));await sleep(150);}ws?.close();browser.kill();}

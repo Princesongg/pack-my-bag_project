@@ -1,0 +1,2276 @@
+{
+  "results": [
+    {
+      "name": "home",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "planning",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "start",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "setup",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "my-bag",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "weather",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [
+        {
+          "width": 287,
+          "scroll": 287
+        },
+        {
+          "width": 287,
+          "scroll": 287
+        }
+      ],
+      "sources": 1
+    },
+    {
+      "name": "electricity",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "제품 사양 확인 필요",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        },
+        {
+          "label": "챙기기",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "준비 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "확인 후 결정",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "baggage",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 1
+    },
+    {
+      "name": "electronics",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내 휴대 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "별도 규정 확인",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "red-flags",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "pack-less",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "confirm",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "last-minute",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 44,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "complete",
+      "width": 1440,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "home",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "planning",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "start",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "setup",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "my-bag",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "weather",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [
+        {
+          "width": 287,
+          "scroll": 287
+        },
+        {
+          "width": 287,
+          "scroll": 287
+        }
+      ],
+      "sources": 1
+    },
+    {
+      "name": "electricity",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "제품 사양 확인 필요",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        },
+        {
+          "label": "챙기기",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "준비 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "확인 후 결정",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "baggage",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 1
+    },
+    {
+      "name": "electronics",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내 휴대 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "별도 규정 확인",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "red-flags",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "pack-less",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "confirm",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": "20px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "last-minute",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 44,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "complete",
+      "width": 1024,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "planning",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "start",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "setup",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "my-bag",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "weather",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [
+        {
+          "width": 344,
+          "scroll": 344
+        },
+        {
+          "width": 344,
+          "scroll": 344
+        }
+      ],
+      "sources": 1
+    },
+    {
+      "name": "electricity",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "제품 사양 확인 필요",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        },
+        {
+          "label": "챙기기",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "준비 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "확인 후 결정",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "baggage",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 1
+    },
+    {
+      "name": "electronics",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내 휴대 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "별도 규정 확인",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "red-flags",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "pack-less",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "confirm",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "last-minute",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 44,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "complete",
+      "width": 768,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "planning",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "start",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "setup",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "my-bag",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "weather",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [
+        {
+          "width": 155,
+          "scroll": 155
+        },
+        {
+          "width": 155,
+          "scroll": 155
+        }
+      ],
+      "sources": 1
+    },
+    {
+      "name": "electricity",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "제품 사양 확인 필요",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        },
+        {
+          "label": "챙기기",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "준비 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "확인 후 결정",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "baggage",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 1
+    },
+    {
+      "name": "electronics",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내 휴대 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "별도 규정 확인",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "red-flags",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "pack-less",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "confirm",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "last-minute",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 44,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "complete",
+      "width": 390,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "home",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "planning",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "16px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "start",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "setup",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "my-bag",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "weather",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [
+        {
+          "width": 140,
+          "scroll": 140
+        },
+        {
+          "width": 140,
+          "scroll": 140
+        }
+      ],
+      "sources": 1
+    },
+    {
+      "name": "electricity",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "제품 사양 확인 필요",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        },
+        {
+          "label": "챙기기",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "준비 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "확인 후 결정",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "baggage",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 1
+    },
+    {
+      "name": "electronics",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "기내 휴대 권장",
+          "variant": "info",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        },
+        {
+          "label": "별도 규정 확인",
+          "variant": "check-required",
+          "color": "rgb(105, 81, 42)",
+          "background": "rgb(247, 239, 212)",
+          "border": "rgb(232, 219, 169)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "red-flags",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 2
+    },
+    {
+      "name": "pack-less",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "confirm",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": "18px",
+      "buttons": [
+        {
+          "height": 48.390625,
+          "radius": "8px"
+        },
+        {
+          "height": 58,
+          "radius": "8px"
+        }
+      ],
+      "badges": [
+        {
+          "label": "기내만 가능",
+          "variant": "carry-on",
+          "color": "rgb(36, 79, 140)",
+          "background": "rgb(225, 235, 252)",
+          "border": "rgb(189, 208, 238)"
+        },
+        {
+          "label": "위탁 금지",
+          "variant": "checked-banned",
+          "color": "rgb(137, 85, 63)",
+          "background": "rgb(245, 218, 204)",
+          "border": "rgb(229, 183, 159)"
+        }
+      ],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "last-minute",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [
+        {
+          "height": 44,
+          "radius": "8px"
+        },
+        {
+          "height": 44,
+          "radius": "8px"
+        }
+      ],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    },
+    {
+      "name": "complete",
+      "width": 360,
+      "pageOverflow": false,
+      "modalOverflow": false,
+      "bodyFont": "14px",
+      "modalHeader": null,
+      "buttons": [],
+      "badges": [],
+      "numbers": [],
+      "sources": 0
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

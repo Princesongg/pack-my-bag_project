@@ -42,7 +42,7 @@ test('New York winter and LAX summer produce different existing recommendations;
   assert.ok(summer.some(i=>i.id==='light-long-sleeve'));
   assert.ok(!summer.some(i=>i.id==='winter-coat'||i.id==='rain-protection'));
   assert.notDeepEqual(winter,summer);
-  for(const city of ['danang','bangkok','taipei','unknown'])assert.equal(getClimateMonth(city,1).recommendedMetrics,null);
+  for(const city of ['haiphong','haiphong','unknown'])assert.equal(getClimateMonth(city,1).recommendedMetrics,null);
   const tokyo=getClimateMonth('tokyo',1).recommendedMetrics;
   assert.equal(tokyo.meanTemperatureC.value,5.9);
   assert.deepEqual(tokyo.meanTemperatureC.period,{startYear:2016,endYear:2025});

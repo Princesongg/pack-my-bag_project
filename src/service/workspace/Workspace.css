@@ -1,14 +1,20 @@
-.pmb-service .pmb-workspace-heading { padding-block:24px 0; }
-.pmb-service .pmb-workspace-heading>a { display:inline-flex; align-items:center; min-height:44px; font-size:14px; color:#65738a; }
-.pmb-service .pmb-workspace-heading p { font-size:14px; color:var(--pmb-blue); margin:12px 0 4px; }
-.pmb-service .pmb-workspace-heading h1 { font-size:24px; margin:0 0 20px; }
-.pmb-workspace-result-step { background:#f6edcf; color:#3d5a83; text-align:center; font-size:14px; padding:8px 20px; }
-.pmb-service.pmb-workspace .pmb-setup :is(.pmb-country-button,.pmb-setup-city-grid>button) { min-height:68px; padding:9px 10px; }
+.pmb-service .pmb-workspace-heading { padding-block:var(--pmb-space-6) 0; }
+.pmb-service .pmb-workspace-heading>a { display:inline-flex; align-items:center; min-height:var(--pmb-touch-target); font-size:var(--pmb-font-small); color:var(--pmb-color-text-secondary); }
+.pmb-service .pmb-workspace-heading p { font-size:var(--pmb-font-small); color:var(--pmb-blue); margin:var(--pmb-space-3) 0 var(--pmb-space-1); }
+.pmb-service .pmb-workspace-heading h1 { font-size:var(--pmb-font-section-title); margin:0 0 var(--pmb-space-5); }
+.pmb-workspace-result-step { background:var(--pmb-color-surface-yellow); color:var(--pmb-state-info-text); text-align:center; font-size:var(--pmb-font-small); padding:var(--pmb-space-2) var(--pmb-space-5); }
+.pmb-service.pmb-workspace .pmb-setup :is(.pmb-country-button,.pmb-setup-city-grid>button) { min-height:68px; padding:var(--pmb-space-2) var(--pmb-space-3); }
 .pmb-workspace .pmb-setup .pmb-country-grid { grid-auto-rows:1fr; }
 .pmb-start-screen .pmb-header { justify-content:space-between; }
-.pmb-workspace .pmb-setup { margin-bottom:32px; }
+.pmb-workspace .pmb-setup { margin-bottom:var(--pmb-space-8); }
+@media(max-width:640px) {
+  .pmb-workspace-result-step { display:none; }
+  .pmb-service .pmb-workspace-heading p { display:none; }
+  .pmb-service .pmb-workspace-heading h1 { margin:var(--pmb-space-1) 0 var(--pmb-space-2); }
+  .pmb-service.pmb-workspace .pmb-setup :is(.pmb-country-button,.pmb-setup-city-grid>button) { min-height:56px; }
+}
 @media(max-width:768px) {
-  .pmb-service .pmb-workspace-heading { padding-top:12px; }
-  .pmb-service .pmb-workspace-heading h1 { font-size:18px; margin-bottom:12px; }
-  .pmb-workspace-result-step { font-size:12px; }
+  .pmb-service .pmb-workspace-heading { padding-top:var(--pmb-space-3); }
+  .pmb-service .pmb-workspace-heading h1 { font-size:var(--pmb-font-card-title); margin-bottom:var(--pmb-space-3); }
+  .pmb-workspace-result-step { font-size:var(--pmb-font-caption); }
 }

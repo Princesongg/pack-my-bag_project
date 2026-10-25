@@ -17,7 +17,7 @@ export default function ServiceModal({ title, topic, children, onClose, returnFo
     // Preserve the actual page width, including the space occupied by its scrollbar.
     root.style.scrollBehavior = 'auto';
     root.style.overflow = 'hidden';
-    Object.assign(document.body.style, { position: 'fixed', top: `-${scroll.top}px`, left: `${bounds.left}px`, width: `${bounds.width}px`, overflow: 'hidden', boxSizing: 'border-box' });
+    Object.assign(document.body.style, { position: 'fixed', top: `-${scroll.top}px`, left: `${bounds.left}px`, width: `calc(100% - ${Math.max(0, window.innerWidth - bounds.width)}px)`, overflow: 'hidden', boxSizing: 'border-box' });
     modal?.showModal();
     return () => {
       window.clearTimeout(timer.current);

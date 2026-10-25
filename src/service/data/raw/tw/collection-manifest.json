@@ -1,0 +1,119 @@
+[
+  {
+    "id": "cwa-normal-tx",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "1991–2020 월별 기후 평년값 · 월평균 기온",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_tx.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/Taiwan_tx.html",
+    "sha256": "0eaa4cab7f3e100ce7c964a04fc9dada509c966d81a366e52c3389c8a0bb071a"
+  },
+  {
+    "id": "cwa-normal-meantxmax",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "1991–2020 월별 기후 평년값 · 평균 일최고기온",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_meantxmax.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/Taiwan_meantxmax.html",
+    "sha256": "2768a145617a0fe845da2e87f7907edf31d254593c67aff7aca835408faa31da"
+  },
+  {
+    "id": "cwa-normal-meantxmin",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "1991–2020 월별 기후 평년값 · 평균 일최저기온",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_meantxmin.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/Taiwan_meantxmin.html",
+    "sha256": "153b85916214603a98e4f452941a54d18e1db1c22ae080ff362ffffd9f799093"
+  },
+  {
+    "id": "cwa-normal-precp",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "1991–2020 월별 기후 평년값 · 월강수량 평균",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_precp.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/Taiwan_precp.html",
+    "sha256": "f1f67202b2cf8f10c139fcdffb33e7fbba37d90ef8b299faf8e3d8d5cf89717a"
+  },
+  {
+    "id": "cwa-normal-rh",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "1991–2020 월별 기후 평년값 · 월평균 상대습도",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_rh.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/Taiwan_rh.html",
+    "sha256": "bf37ec926cfe203e9237fb758262ed5d5a73525e366e0241ba9558f17bb6106a"
+  },
+  {
+    "id": "cwa-normal-precpday",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "1991–2020 월별 기후 평년값 · 월평균 강수일수 (≥0.1mm)",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/MonthlyMean/MOD/Taiwan_precpday.html",
+    "period": {
+      "startYear": 1991,
+      "endYear": 2020
+    },
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/Taiwan_precpday.html",
+    "sha256": "20f4bb61cd8646f341d6564c50e18231f9f6e6a529c02ce97cf923c2eac3d764"
+  },
+  {
+    "id": "cwa-normal-guide",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "월평년값 안내 · 가오슝 구 관측소 기준",
+    "url": "https://www.cwa.gov.tw/V8/C/C/Statistics/monthlymean.html",
+    "period": null,
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/monthlymean.html",
+    "sha256": "ffecf51b05031e780bd7770ffcea0a85143af4bf14d1669f31d0434cffac158f"
+  },
+  {
+    "id": "cwa-normal-method",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "통계자료 산출 과정 · 평균과 절대 극값 구분",
+    "url": "https://climate.cwa.gov.tw/data/pdf_2.pdf",
+    "period": null,
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/statistical-method.pdf",
+    "sha256": "a99bd51585e233de2fcf69461be42ee9a81306bf98ede867ee61e284563e8cf2"
+  },
+  {
+    "id": "cwa-station-history",
+    "organization": "대만 중앙기상서 CWA",
+    "title": "관측소 변천 이력",
+    "url": "https://climate.cwa.gov.tw/data/pdf_1.pdf",
+    "period": null,
+    "status": "verified",
+    "lastVerified": "2026-10-25",
+    "snapshotPath": "src/service/data/raw/tw/station-history.pdf",
+    "sha256": "5fc9ea26138d9c4c203ea5bd2c12d49b822a247fef4bd6673d7fe76434af62cc"
+  }
+]

@@ -1,0 +1,189 @@
+{
+  "checkedOn": "2026-10-25T14:17:41.645Z",
+  "origin": "https://pack-my-bagproject.vercel.app",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://pack-my-bagproject.vercel.app/",
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "title": "PACK MY BAG | Project Journey",
+      "assets": [
+        "/assets/index-CIPtQz9J.js",
+        "/assets/index-Cfyul8o7.css"
+      ]
+    },
+    {
+      "path": "/planning",
+      "status": 200,
+      "url": "https://pack-my-bagproject.vercel.app/planning",
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "title": "PACK MY BAG | Project Journey",
+      "assets": [
+        "/assets/index-CIPtQz9J.js",
+        "/assets/index-Cfyul8o7.css"
+      ]
+    },
+    {
+      "path": "/implementation",
+      "status": 200,
+      "url": "https://pack-my-bagproject.vercel.app/implementation",
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "title": "PACK MY BAG | Project Journey",
+      "assets": [
+        "/assets/index-CIPtQz9J.js",
+        "/assets/index-Cfyul8o7.css"
+      ]
+    },
+    {
+      "path": "/implementation/workspace",
+      "status": 200,
+      "url": "https://pack-my-bagproject.vercel.app/implementation/workspace",
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "title": "PACK MY BAG | Project Journey",
+      "assets": [
+        "/assets/index-CIPtQz9J.js",
+        "/assets/index-Cfyul8o7.css"
+      ]
+    },
+    {
+      "path": "/implementation/workspace?view=bag",
+      "status": 200,
+      "url": "https://pack-my-bagproject.vercel.app/implementation/workspace?view=bag",
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "title": "PACK MY BAG | Project Journey",
+      "assets": [
+        "/assets/index-CIPtQz9J.js",
+        "/assets/index-Cfyul8o7.css"
+      ]
+    },
+    {
+      "path": "/implementation/travel-info",
+      "status": 200,
+      "url": "https://pack-my-bagproject.vercel.app/implementation/travel-info",
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "title": "PACK MY BAG | Project Journey",
+      "assets": [
+        "/assets/index-CIPtQz9J.js",
+        "/assets/index-Cfyul8o7.css"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/index-CIPtQz9J.js",
+      "status": 200,
+      "bytes": 292499,
+      "sha256": "51baadb4b669f529f7190246bb25e4fe171f1d85bf86a31fb412566e79ab32b0",
+      "localExists": false,
+      "matchesLocal": false
+    },
+    {
+      "path": "/assets/index-Cfyul8o7.css",
+      "status": 200,
+      "bytes": 33479,
+      "sha256": "d1cdf3206574c0606562661683f1d66b03c7383ced4be01c2798d0c6d087f8ab",
+      "localExists": false,
+      "matchesLocal": false
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/index-Cfyul8o7.css",
+      "status": 200,
+      "bytes": 33479,
+      "contentType": "text/css; charset=utf-8",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/index-CIPtQz9J.js",
+      "status": 200,
+      "bytes": 292499,
+      "contentType": "application/javascript; charset=utf-8",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/PackingWorkspace-BG-7NKxw.css",
+      "status": 200,
+      "bytes": 38322,
+      "contentType": "text/css; charset=utf-8",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/PackingWorkspace-BhFNkiSd.js",
+      "status": 200,
+      "bytes": 65571,
+      "contentType": "application/javascript; charset=utf-8",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/MobileCompact-B-y0siYa.js",
+      "status": 200,
+      "bytes": 285493,
+      "contentType": "application/javascript; charset=utf-8",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/assets/MobileCompact-B2nC_Dtw.css",
+      "status": 200,
+      "bytes": 26359,
+      "contentType": "text/css; charset=utf-8",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/jp.svg",
+      "status": 200,
+      "bytes": 151,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/th.svg",
+      "status": 200,
+      "bytes": 204,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/vn.svg",
+      "status": 200,
+      "bytes": 197,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/tw.svg",
+      "status": 200,
+      "bytes": 457,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/us.svg",
+      "status": 200,
+      "bytes": 883,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/flags/au.svg",
+      "status": 200,
+      "bytes": 965,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    },
+    {
+      "url": "https://pack-my-bagproject.vercel.app/favicon.svg",
+      "status": 200,
+      "bytes": 502,
+      "contentType": "image/svg+xml",
+      "knownSecretPattern": false
+    }
+  ]
+}

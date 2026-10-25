@@ -1,0 +1,93 @@
+{
+  "target": "existing pack-my-bag_project production",
+  "uploaded": false,
+  "containsEnvironmentFiles": false,
+  "totalBytes": 915268,
+  "files": [
+    {
+      "path": ".vercel/output/config.json",
+      "bytes": 141,
+      "sha256": "3da1cdc9cfd6268dffc9d98272742428c1dcb9f00480c9fbec9b8456e001bba5"
+    },
+    {
+      "path": ".vercel/output/static/assets/index-BwkiOPkz.css",
+      "bytes": 45205,
+      "sha256": "2f414e8dcd77b6739907187718600cec5de336601873da6c17a6c7b0a4e14b58"
+    },
+    {
+      "path": ".vercel/output/static/assets/index-Cc-EpF-n.js",
+      "bytes": 292499,
+      "sha256": "d28ffe8097a422ac787977ccf9663a6823f493da6cc7a1b1d6296df2dc43e9cb"
+    },
+    {
+      "path": ".vercel/output/static/assets/MobileCompact-COZX1lXn.css",
+      "bytes": 43768,
+      "sha256": "4726cacb8354903a7b457bada994c15bb92b623dd0852a6f1d7f1a512b27d80b"
+    },
+    {
+      "path": ".vercel/output/static/assets/MobileCompact-rMj5_oV-.js",
+      "bytes": 375827,
+      "sha256": "c10317c1ffe956eb28fefdc88206c325fd5b5758751193c8316b880bbe0e95ca"
+    },
+    {
+      "path": ".vercel/output/static/assets/PackingWorkspace-BI2qxVys.css",
+      "bytes": 56730,
+      "sha256": "63c3656981fb7b4b2f1b39a984b4727d2550cf54f1753f38c4576b3d36f2f887"
+    },
+    {
+      "path": ".vercel/output/static/assets/PackingWorkspace-D9pQxWs-.js",
+      "bytes": 81814,
+      "sha256": "b71f24aa2c0503e457ea9f704de364afa0ac64204e08d9c7f1e31bba6a096f4d"
+    },
+    {
+      "path": ".vercel/output/static/assets/TravelInfo-Bg161L9E.js",
+      "bytes": 13460,
+      "sha256": "665f63dcf54cf8b8614b6df914478307054045d5851f2731652ad9f102d9812c"
+    },
+    {
+      "path": ".vercel/output/static/assets/TravelInfo-CKjPI3Yy.css",
+      "bytes": 1807,
+      "sha256": "c7e150995175cc8a5e2c24344a4379fd6d6d38bbd090edaf1f9c0719e9ec54b2"
+    },
+    {
+      "path": ".vercel/output/static/favicon.svg",
+      "bytes": 502,
+      "sha256": "74dd500bc06900138ea19f5562dc2040ea5b82c214be8f6271297720debaeb01"
+    },
+    {
+      "path": ".vercel/output/static/flags/au.svg",
+      "bytes": 965,
+      "sha256": "5fb8e8650f2508c894f79bbceead9178f9c02bed12fc7da548cfca76a5ba9047"
+    },
+    {
+      "path": ".vercel/output/static/flags/jp.svg",
+      "bytes": 151,
+      "sha256": "7edd7d8ff93b512550d46c1909cdbf86267aba92fee27d2c13e7077a0beaeda2"
+    },
+    {
+      "path": ".vercel/output/static/flags/th.svg",
+      "bytes": 204,
+      "sha256": "47a4049d1f96d290590e858821742132033c1f248f565d65dcbe271339081f8e"
+    },
+    {
+      "path": ".vercel/output/static/flags/tw.svg",
+      "bytes": 457,
+      "sha256": "9a14683be076f6890d78a2ca57405f098295e099bf4a1a988e7da387dc603d8a"
+    },
+    {
+      "path": ".vercel/output/static/flags/us.svg",
+      "bytes": 883,
+      "sha256": "e4635afb38025ef206950c0cc0525420ef053ade257f9d3bbabcc0f0b0721201"
+    },
+    {
+      "path": ".vercel/output/static/flags/vn.svg",
+      "bytes": 197,
+      "sha256": "2c8928cad210a4b4e403139b58f3724e875c299547195929b9e6a7a9313a6b7a"
+    },
+    {
+      "path": ".vercel/output/static/index.html",
+      "bytes": 658,
+      "sha256": "a3f1bec7fb54f3f4efc5b793a14c967fd9edd5410dd07c02dd9ffb25553d081f"
+    }
+  ]
+}

@@ -1,0 +1,1181 @@
+{
+  "results": [
+    {
+      "width": 1920,
+      "name": "initial",
+      "categoryColumns": "540px 540px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 540,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 540,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 540,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 540,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 540,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3264,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 865.765625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1920,
+      "name": "restored",
+      "categoryColumns": "540px 540px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 540,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 540,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 540,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 540,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 540,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3264,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 865.765625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1440,
+      "name": "initial",
+      "categoryColumns": "540px 540px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 540,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 540,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 540,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 540,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 540,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3264,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 865.765625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1440,
+      "name": "restored",
+      "categoryColumns": "540px 540px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 540,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 540,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 540,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 540,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 540,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3264,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 865.765625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1280,
+      "name": "initial",
+      "categoryColumns": "540px 540px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 540,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 540,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 540,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 540,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 540,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3264,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 865.765625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1280,
+      "name": "restored",
+      "categoryColumns": "540px 540px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 540,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 540,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 540,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 540,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 540,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3264,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 865.765625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1024,
+      "name": "initial",
+      "categoryColumns": "455.281px 455.297px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 455.28125,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 455.296875,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 455.28125,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 455.296875,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 455.28125,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3314,
+      "overflow": false,
+      "sections": {
+        "heading": 173.890625,
+        "trip": 192.359375,
+        "brief": 498.140625,
+        "flags": 169.171875,
+        "checklist": 862.609375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "300.109px 300.109px 300.125px"
+    },
+    {
+      "width": 1024,
+      "name": "restored",
+      "categoryColumns": "455.281px 455.297px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 455.28125,
+          "height": 366.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 455.296875,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 455.28125,
+          "height": 268.171875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 455.296875,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 455.28125,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3314,
+      "overflow": false,
+      "sections": {
+        "heading": 173.890625,
+        "trip": 192.359375,
+        "brief": 498.140625,
+        "flags": 169.171875,
+        "checklist": 862.609375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "300.109px 300.109px 300.125px"
+    },
+    {
+      "width": 820,
+      "name": "initial",
+      "categoryColumns": "355.125px 355.125px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 355.125,
+          "height": 417.359375,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 355.125,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 355.125,
+          "height": 293.765625,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 355.125,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 355.125,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3584,
+      "overflow": false,
+      "sections": {
+        "heading": 162.671875,
+        "trip": 192.359375,
+        "brief": 720.140625,
+        "flags": 169.171875,
+        "checklist": 921.421875
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356.5px 356.5px"
+    },
+    {
+      "width": 820,
+      "name": "restored",
+      "categoryColumns": "355.125px 355.125px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 355.125,
+          "height": 417.359375,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 355.125,
+          "height": 376.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 355.125,
+          "height": 293.765625,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 355.125,
+          "height": 229.796875,
+          "blankBelowContent": 21
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 355.125,
+          "height": 180.796875,
+          "blankBelowContent": 21
+        }
+      ],
+      "pageHeight": 3584,
+      "overflow": false,
+      "sections": {
+        "heading": 162.671875,
+        "trip": 192.359375,
+        "brief": 720.140625,
+        "flags": 169.171875,
+        "checklist": 921.421875
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356.5px 356.5px"
+    },
+    {
+      "width": 768,
+      "name": "initial",
+      "categoryColumns": "357.094px 357.094px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 357.09375,
+          "height": 346.578125,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 357.09375,
+          "height": 333.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 357.09375,
+          "height": 198.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 357.09375,
+          "height": 256.578125,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 357.09375,
+          "height": 153.59375,
+          "blankBelowContent": 13
+        }
+      ],
+      "pageHeight": 3550,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 685.4375,
+        "flags": 239.96875,
+        "checklist": 784.375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "358px 358px"
+    },
+    {
+      "width": 768,
+      "name": "restored",
+      "categoryColumns": "357.094px 357.094px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 357.09375,
+          "height": 346.578125,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 357.09375,
+          "height": 333.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 357.09375,
+          "height": 198.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 357.09375,
+          "height": 256.578125,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 357.09375,
+          "height": 153.59375,
+          "blankBelowContent": 13
+        }
+      ],
+      "pageHeight": 3550,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 685.4375,
+        "flags": 239.96875,
+        "checklist": 784.375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "358px 358px"
+    },
+    {
+      "width": 430,
+      "name": "initial",
+      "categoryColumns": "390px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 390,
+          "height": 314.1875,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 2898,
+      "overflow": false,
+      "sections": {
+        "heading": 72.015625,
+        "trip": 169.953125,
+        "brief": 471.84375,
+        "flags": 165.984375,
+        "checklist": 578.1875
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "390px"
+    },
+    {
+      "width": 430,
+      "name": "restored",
+      "categoryColumns": "390px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 390,
+          "height": 314.1875,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 390,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 2898,
+      "overflow": false,
+      "sections": {
+        "heading": 72.015625,
+        "trip": 169.953125,
+        "brief": 471.84375,
+        "flags": 165.984375,
+        "checklist": 578.1875
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "390px"
+    },
+    {
+      "width": 390,
+      "name": "initial",
+      "categoryColumns": "350px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 350,
+          "height": 336.984375,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 2996,
+      "overflow": false,
+      "sections": {
+        "heading": 68.125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 600.984375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "350px"
+    },
+    {
+      "width": 390,
+      "name": "restored",
+      "categoryColumns": "350px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 350,
+          "height": 336.984375,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 350,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 2996,
+      "overflow": false,
+      "sections": {
+        "heading": 68.125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 600.984375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "350px"
+    },
+    {
+      "width": 375,
+      "name": "initial",
+      "categoryColumns": "335px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 335,
+          "height": 359.78125,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "335px"
+    },
+    {
+      "width": 375,
+      "name": "restored",
+      "categoryColumns": "335px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 335,
+          "height": 359.78125,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 335,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "335px"
+    },
+    {
+      "width": 360,
+      "name": "initial",
+      "categoryColumns": "320px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 320,
+          "height": 359.78125,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "320px"
+    },
+    {
+      "width": 360,
+      "name": "restored",
+      "categoryColumns": "320px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 320,
+          "height": 359.78125,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 320,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "320px"
+    },
+    {
+      "width": 640,
+      "name": "initial",
+      "categoryColumns": "600px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 600,
+          "height": 308.59375,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 2738,
+      "overflow": false,
+      "sections": {
+        "heading": 76.578125,
+        "trip": 169.953125,
+        "brief": 380.453125,
+        "flags": 165.984375,
+        "checklist": 572.59375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "296px 296px"
+    },
+    {
+      "width": 640,
+      "name": "restored",
+      "categoryColumns": "600px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 600,
+          "height": 308.59375,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 600,
+          "height": 58,
+          "blankBelowContent": 1
+        }
+      ],
+      "pageHeight": 2738,
+      "overflow": false,
+      "sections": {
+        "heading": 76.578125,
+        "trip": 169.953125,
+        "brief": 380.453125,
+        "flags": 165.984375,
+        "checklist": 572.59375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "296px 296px"
+    },
+    {
+      "width": 641,
+      "name": "initial",
+      "categoryColumns": "294.5px 294.5px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 294.5,
+          "height": 368.96875,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 294.5,
+          "height": 333.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 294.5,
+          "height": 198.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 294.5,
+          "height": 302.171875,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 294.5,
+          "height": 153.59375,
+          "blankBelowContent": 13
+        }
+      ],
+      "pageHeight": 3637,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 707.828125,
+        "flags": 239.96875,
+        "checklist": 848.734375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "294.5px 294.5px"
+    },
+    {
+      "width": 641,
+      "name": "restored",
+      "categoryColumns": "294.5px 294.5px",
+      "cards": [
+        {
+          "id": "pmb-bag-essentials",
+          "width": 294.5,
+          "height": 368.96875,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-clothing",
+          "width": 294.5,
+          "height": 333.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-toiletries",
+          "width": 294.5,
+          "height": 198.59375,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-electronics",
+          "width": 294.5,
+          "height": 302.171875,
+          "blankBelowContent": 13
+        },
+        {
+          "id": "pmb-bag-other",
+          "width": 294.5,
+          "height": 153.59375,
+          "blankBelowContent": 13
+        }
+      ],
+      "pageHeight": 3637,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 707.828125,
+        "flags": 239.96875,
+        "checklist": 848.734375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "294.5px 294.5px"
+    }
+  ],
+  "errors": []
+}

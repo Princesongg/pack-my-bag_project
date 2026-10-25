@@ -1,17 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { loadTs } from './helpers/load-ts.mjs';
-const { redFlagGroups, redFlagProgress, restoreRedFlagChecks, passportDateNotice } = await loadTs('src/service/my-bag/redFlagsModel.ts');
+const { redFlagGroups, redFlagProgress, restoreRedFlagChecks } = await loadTs('src/service/my-bag/redFlagsModel.ts');
 const { restoreBag, basicBagItems, packingProgress, bagStorageKey, loadBag } = await loadTs('src/service/my-bag/bag.ts');
 
-test('passport checks use date-only trip comparisons without applying a universal remaining-validity rule', () => {
-  assert.equal(passportDateNotice('', '2028-02-28','2028-03-02'),'');
-  assert.match(passportDateNotice('invalid','2028-02-28','2028-03-02'),/올바른/);
-  assert.match(passportDateNotice('2028-02-27','2028-02-28','2028-03-02'),/출발일보다/);
-  assert.match(passportDateNotice('2028-02-29','2028-02-28','2028-03-02'),/종료일 전에/);
-  assert.match(passportDateNotice('2028-03-02','2028-02-28','2028-03-02'),/보증하지 않습니다/);
-  assert.match(passportDateNotice('2028-03-03','2028-02-28','2028-03-02'),/보증하지 않습니다/);
-});
 test('only fully acknowledged groups are complete, invalid and duplicate checks are discarded', () => {
   const ids=redFlagGroups.flatMap(group=>group.items.map(item=>item.id));
   assert.equal(new Set(ids).size,ids.length);

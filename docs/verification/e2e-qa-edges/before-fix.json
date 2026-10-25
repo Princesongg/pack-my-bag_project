@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "legacy custom alias restored",
+    {
+      "name": "delete custom visa restores shared authorization immediately",
+      "passed": false
+    }
+  ],
+  "errors": []
+}

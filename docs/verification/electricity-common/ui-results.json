@@ -1,0 +1,678 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "tokyo",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "osaka",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "fukuoka",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "JP",
+      "city": "sapporo",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "danang",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "hanoi",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "nhatrang",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "VN",
+      "city": "phuquoc",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TH",
+      "city": "bangkok",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "F"
+      ],
+      "status": "확인 후 결정",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TH",
+      "city": "phuket",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "F"
+      ],
+      "status": "확인 후 결정",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TH",
+      "city": "chiangmai",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "F"
+      ],
+      "status": "확인 후 결정",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TW",
+      "city": "taipei",
+      "main": "110V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "TW",
+      "city": "kaohsiung",
+      "main": "110V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          395.484375,
+          395.484375,
+          395.484375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "US",
+      "city": "new-york",
+      "main": "110–120V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "US",
+      "city": "los-angeles",
+      "main": "110–120V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "AU",
+      "city": "sydney",
+      "main": "220–240V · 50Hz",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "country": "AU",
+      "city": "melbourne",
+      "main": "220–240V · 50Hz",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          373.09375,
+          373.09375,
+          373.09375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "tokyo",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "osaka",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "fukuoka",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "JP",
+      "city": "sapporo",
+      "main": "100V · 50 / 60Hz",
+      "kinds": [
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "danang",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          336.75,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "hanoi",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          336.75,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "nhatrang",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          336.75,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "VN",
+      "city": "phuquoc",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "A"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          336.75,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TH",
+      "city": "bangkok",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "F"
+      ],
+      "status": "확인 후 결정",
+      "geometry": {
+        "heights": [
+          152.765625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TH",
+      "city": "phuket",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "F"
+      ],
+      "status": "확인 후 결정",
+      "geometry": {
+        "heights": [
+          152.765625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TH",
+      "city": "chiangmai",
+      "main": "220V · 50Hz",
+      "kinds": [
+        "C",
+        "F"
+      ],
+      "status": "확인 후 결정",
+      "geometry": {
+        "heights": [
+          152.765625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TW",
+      "city": "taipei",
+      "main": "110V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "TW",
+      "city": "kaohsiung",
+      "main": "110V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "US",
+      "city": "new-york",
+      "main": "110–120V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "US",
+      "city": "los-angeles",
+      "main": "110–120V · 60Hz",
+      "kinds": [
+        "A",
+        "B"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "AU",
+      "city": "sydney",
+      "main": "220–240V · 50Hz",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "AU",
+      "city": "melbourne",
+      "main": "220–240V · 50Hz",
+      "kinds": [
+        "I2",
+        "I3"
+      ],
+      "status": "준비 권장",
+      "geometry": {
+        "heights": [
+          163.265625,
+          317.5625,
+          177.734375
+        ],
+        "overflow": false
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

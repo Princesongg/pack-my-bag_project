@@ -18,7 +18,7 @@ test('weather points use actual monthly statistics and existing clothing candida
 });
 
 test('weather points omit missing, invalid and incompatible measurements', () => {
-  assert.equal(getWeatherPoints(getClimateMonth('danang', 1), 'sightseeing'), null);
+  assert.equal(getWeatherPoints(getClimateMonth('haiphong', 1), 'sightseeing'), null);
   const climate = structuredClone(getClimateMonth('tokyo', 1));
   climate.recommendedMetrics.precipitationMm.value = null;
   climate.recommendedMetrics.meanDailyMinimumC.period = { startYear: 1991, endYear: 2020 };
@@ -59,7 +59,7 @@ test('purpose filtering and summer/winter conditions change clothing candidates'
 });
 
 test('unavailable or mixed-basis data does not generate clothing candidates or fake numeric values', () => {
-  assert.deepEqual(getClothingPreview(getClimateMonth('danang', 1), 'sightseeing'), []);
+  assert.deepEqual(getClothingPreview(getClimateMonth('haiphong', 1), 'sightseeing'), []);
   const base = getClimateMonth('tokyo', 1);
   const missing = structuredClone(base);
   missing.recommendedMetrics.meanTemperatureC.value = null;

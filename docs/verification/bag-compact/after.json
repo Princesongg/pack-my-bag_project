@@ -1,0 +1,389 @@
+{
+  "results": [
+    {
+      "width": 1920,
+      "name": "initial",
+      "pageHeight": 3217,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 818.953125
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1920,
+      "name": "restored",
+      "pageHeight": 3217,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 818.953125
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1440,
+      "name": "initial",
+      "pageHeight": 3217,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 818.953125
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1440,
+      "name": "restored",
+      "pageHeight": 3217,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 818.953125
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1280,
+      "name": "initial",
+      "pageHeight": 3217,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 818.953125
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1280,
+      "name": "restored",
+      "pageHeight": 3217,
+      "overflow": false,
+      "sections": {
+        "heading": 181.375,
+        "trip": 192.359375,
+        "brief": 479.09375,
+        "flags": 169.171875,
+        "checklist": 818.953125
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356px 356px 356px"
+    },
+    {
+      "width": 1024,
+      "name": "initial",
+      "pageHeight": 3265,
+      "overflow": false,
+      "sections": {
+        "heading": 173.890625,
+        "trip": 192.359375,
+        "brief": 498.140625,
+        "flags": 169.171875,
+        "checklist": 813.609375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "300.109px 300.109px 300.125px"
+    },
+    {
+      "width": 1024,
+      "name": "restored",
+      "pageHeight": 3265,
+      "overflow": false,
+      "sections": {
+        "heading": 173.890625,
+        "trip": 192.359375,
+        "brief": 498.140625,
+        "flags": 169.171875,
+        "checklist": 813.609375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "300.109px 300.109px 300.125px"
+    },
+    {
+      "width": 820,
+      "name": "initial",
+      "pageHeight": 3535,
+      "overflow": false,
+      "sections": {
+        "heading": 162.671875,
+        "trip": 192.359375,
+        "brief": 720.140625,
+        "flags": 169.171875,
+        "checklist": 872.421875
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356.5px 356.5px"
+    },
+    {
+      "width": 820,
+      "name": "restored",
+      "pageHeight": 3535,
+      "overflow": false,
+      "sections": {
+        "heading": 162.671875,
+        "trip": 192.359375,
+        "brief": 720.140625,
+        "flags": 169.171875,
+        "checklist": 872.421875
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "356.5px 356.5px"
+    },
+    {
+      "width": 768,
+      "name": "initial",
+      "pageHeight": 3550,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 685.4375,
+        "flags": 239.96875,
+        "checklist": 784.375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "358px 358px"
+    },
+    {
+      "width": 768,
+      "name": "restored",
+      "pageHeight": 3550,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 685.4375,
+        "flags": 239.96875,
+        "checklist": 784.375
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "358px 358px"
+    },
+    {
+      "width": 430,
+      "name": "initial",
+      "pageHeight": 2898,
+      "overflow": false,
+      "sections": {
+        "heading": 72.015625,
+        "trip": 169.953125,
+        "brief": 471.84375,
+        "flags": 165.984375,
+        "checklist": 578.1875
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "390px"
+    },
+    {
+      "width": 430,
+      "name": "restored",
+      "pageHeight": 2898,
+      "overflow": false,
+      "sections": {
+        "heading": 72.015625,
+        "trip": 169.953125,
+        "brief": 471.84375,
+        "flags": 165.984375,
+        "checklist": 578.1875
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "390px"
+    },
+    {
+      "width": 390,
+      "name": "initial",
+      "pageHeight": 2996,
+      "overflow": false,
+      "sections": {
+        "heading": 68.125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 600.984375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "350px"
+    },
+    {
+      "width": 390,
+      "name": "restored",
+      "pageHeight": 2996,
+      "overflow": false,
+      "sections": {
+        "heading": 68.125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 600.984375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "350px"
+    },
+    {
+      "width": 375,
+      "name": "initial",
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "335px"
+    },
+    {
+      "width": 375,
+      "name": "restored",
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "335px"
+    },
+    {
+      "width": 360,
+      "name": "initial",
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "320px"
+    },
+    {
+      "width": 360,
+      "name": "restored",
+      "pageHeight": 3043,
+      "overflow": false,
+      "sections": {
+        "heading": 67.78125,
+        "trip": 169.953125,
+        "brief": 492.84375,
+        "flags": 165.984375,
+        "checklist": 623.78125
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "320px"
+    },
+    {
+      "width": 640,
+      "name": "initial",
+      "pageHeight": 2738,
+      "overflow": false,
+      "sections": {
+        "heading": 76.578125,
+        "trip": 169.953125,
+        "brief": 380.453125,
+        "flags": 165.984375,
+        "checklist": 572.59375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "296px 296px"
+    },
+    {
+      "width": 640,
+      "name": "restored",
+      "pageHeight": 2738,
+      "overflow": false,
+      "sections": {
+        "heading": 76.578125,
+        "trip": 169.953125,
+        "brief": 380.453125,
+        "flags": 165.984375,
+        "checklist": 572.59375
+      },
+      "visibleRows": 5,
+      "totalRows": 19,
+      "columns": "296px 296px"
+    },
+    {
+      "width": 641,
+      "name": "initial",
+      "pageHeight": 4044,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 707.828125,
+        "flags": 239.96875,
+        "checklist": 1256.15625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "294.5px 294.5px"
+    },
+    {
+      "width": 641,
+      "name": "restored",
+      "pageHeight": 4044,
+      "overflow": false,
+      "sections": {
+        "heading": 139.78125,
+        "trip": 306.734375,
+        "brief": 707.828125,
+        "flags": 239.96875,
+        "checklist": 1256.15625
+      },
+      "visibleRows": 19,
+      "totalRows": 19,
+      "columns": "294.5px 294.5px"
+    }
+  ],
+  "errors": []
+}

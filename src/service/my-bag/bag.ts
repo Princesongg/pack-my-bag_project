@@ -2,9 +2,13 @@ import { restoreLastMinute, type LastMinuteState } from './lastMinuteModel';
 import type { Trip } from '../trip/trip';
 import { getTripClimate } from '../data/climate';
 import { getClothingPreview } from '../travel-info/guideModel';
+import { vietnamAdapterItem, isTravelAdapterItem } from '../data/electricity';
+import { getElectricityPreparation, type PreparationStatus } from '../data/electricityGuide';
 import { restorePackLess, type PackLessState } from './packLessModel';
 import { restoreRedFlagChecks } from './redFlagsModel';
 import { restoreBaggageAllowance, type BaggageAllowance } from './baggageAllowance';
+import { getEntryRegulation } from '../data/entryRegulations';
+import { entryItemIds, matchesEntryItem, restoreEntryChecks } from './entryChecks';
 
 export const bagCategories = [
   { id: 'essentials', name: '필수 준비물' }, { id: 'clothing', name: '의류 · 패션' },
@@ -12,8 +16,8 @@ export const bagCategories = [
   { id: 'other', name: '기타 준비물' },
 ] as const;
 export type CategoryId = typeof bagCategories[number]['id'];
-export type BagItem = { id: string; name: string; categoryId: CategoryId; custom?: true; note?: string };
-export type BagState = { version: 1; checkedIds: string[]; customItems: BagItem[]; packLess?: PackLessState; redFlagCheckedIds?: string[]; baggageAllowance?: BaggageAllowance; lastMinute?: LastMinuteState };
+export type BagItem = { id: string; name: string; categoryId: CategoryId; custom?: true; note?: string; recommendation?: 'electricity' | 'entry'; recommendationStatus?: PreparationStatus };
+export type BagState = { version: 1; checkedIds: string[]; customItems: BagItem[]; packLess?: PackLessState; redFlagCheckedIds?: string[]; baggageAllowance?: BaggageAllowance; lastMinute?: LastMinuteState; entryPreparationConfirmed?: boolean };
 
 // General packing suggestions, not entry requirements or airline clearance.
 export const basicBagItems: BagItem[] = [
@@ -34,14 +38,26 @@ export const basicBagItems: BagItem[] = [
 export function bagStorageKey(trip: Trip) {
   return `pack-my-bag.bag.v1:${JSON.stringify([trip.countryId, trip.cityId, trip.departureDate, trip.returnDate, trip.travelPurpose, trip.baggageType])}`;
 }
-export function getDefaultBagItems(trip: Trip): BagItem[] {
+export function getDefaultBagItems(trip: Trip, existingItems: readonly BagItem[] = []): BagItem[] {
   const items = new Map(basicBagItems.map(item => [item.id, item]));
+  if(getEntryRegulation(trip)) {
+    if(!existingItems.some(item=>matchesEntryItem(item,'authorization')))items.set(entryItemIds.authorization,{id:entryItemIds.authorization,name:'비자·무비자·여행허가 조건 확인',categoryId:'essentials',recommendation:'entry',note:'본인의 관광 자격과 필요한 비자·여행허가를 공식 안내에서 확인하세요.'});
+    if(!existingItems.some(item=>matchesEntryItem(item,'procedure')))items.set(entryItemIds.procedure,{id:entryItemIds.procedure,name:'입국신고·출발 전 절차 확인',categoryId:'essentials',recommendation:'entry',note:'국가·공항·항공편에 적용되는 신고 방법과 제출 시점을 확인하세요.'});
+  }
+  for (const item of getElectricityPreparation(trip.countryId)) {
+    if (!item.id || item.id === vietnamAdapterItem.id && existingItems.some(isTravelAdapterItem)) continue;
+    items.set(item.id, { id: item.id, name: item.name, categoryId: 'electronics', note: item.reason, recommendation: 'electricity', recommendationStatus: item.status });
+  }
   for (const segment of getTripClimate(trip.cityId, trip.departureDate, trip.returnDate)) {
     for (const item of getClothingPreview(segment.climate, trip.travelPurpose)) {
-      items.set(item.checklistItemId, { id: item.checklistItemId, name: item.name, categoryId: 'clothing', note: 'PACK MY BAG 옷차림 참고 항목 · 개인차와 출발 전 예보를 확인하세요.' });
+      items.set(item.checklistItemId, { id: item.checklistItemId, name: item.name, categoryId: 'clothing', note: trip.countryId === 'TH' ? item.reason : 'PACK MY BAG 옷차림 참고 항목 · 개인차와 출발 전 예보를 확인하세요.' });
     }
   }
   return [...items.values()];
+}
+export function withElectricityRecommendation(item: BagItem, countryId: string): BagItem {
+  const match = getElectricityPreparation(countryId).find(candidate => candidate.id === item.id || candidate.id === vietnamAdapterItem.id && isTravelAdapterItem(item));
+  return match ? { ...item, name: match.name, note: match.reason, recommendation: 'electricity', recommendationStatus: match.status } : item;
 }
 export function restoreBag(value: unknown, defaults: readonly BagItem[]): BagState {
   const empty: BagState = { version: 1, checkedIds: [], customItems: [] };
@@ -57,7 +73,7 @@ export function restoreBag(value: unknown, defaults: readonly BagItem[]): BagSta
   }
   const packLess = restorePackLess(raw.packLess, [...defaults, ...customItems]);
   const baggageAllowance = restoreBaggageAllowance(raw.baggageAllowance);
-  return { version: 1, customItems, checkedIds: [...new Set((Array.isArray(raw.checkedIds) ? raw.checkedIds : []).filter((id): id is string => typeof id === 'string' && ids.has(id)))], ...(packLess ? { packLess } : {}), ...(raw.lastMinute ? { lastMinute: restoreLastMinute(raw.lastMinute, [...defaults, ...customItems]) } : {}), ...(baggageAllowance ? { baggageAllowance } : {}), ...(Array.isArray(raw.redFlagCheckedIds) ? { redFlagCheckedIds: restoreRedFlagChecks(raw.redFlagCheckedIds) } : {}) };
+  return restoreEntryChecks({ version: 1, customItems, checkedIds: [...new Set((Array.isArray(raw.checkedIds) ? raw.checkedIds : []).filter((id): id is string => typeof id === 'string' && ids.has(id)))], ...(packLess ? { packLess } : {}), ...(raw.lastMinute ? { lastMinute: restoreLastMinute(raw.lastMinute, [...defaults, ...customItems]) } : {}), ...(baggageAllowance ? { baggageAllowance } : {}), ...(Array.isArray(raw.redFlagCheckedIds) ? { redFlagCheckedIds: restoreRedFlagChecks(raw.redFlagCheckedIds) } : {}), ...(raw.entryPreparationConfirmed === true ? { entryPreparationConfirmed: true } : {}) },[...defaults,...customItems]);
 }
 export function loadBag(storage: Pick<Storage, 'getItem'>, key: string, defaults: readonly BagItem[]) {
   try { return restoreBag(JSON.parse(storage.getItem(key) ?? 'null'), defaults); }

@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "country": "일본",
+      "city": "오사카",
+      "baggage": "checked",
+      "cards": [
+        "installed-devices",
+        "power-banks-spares",
+        "special-devices"
+      ],
+      "sourceInfo": [
+        "IATA · 2026 리튬배터리 승객 안내 · 2026-03-31 개정\n확인 2026-10-25",
+        "IATA · 여행객 배터리 안전 안내\n확인 2026-10-25",
+        "국토교통부 · 정책브리핑 · 보조배터리 여객기 반입 안내 · 2026-04-08 발표\n확인 2026-10-25"
+      ],
+      "geometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "cardsOverflow": false
+      },
+      "sharedRedFlags": true,
+      "lastMinute": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "country": "대만",
+      "city": "타이베이",
+      "baggage": "cabin-only",
+      "cards": [
+        "installed-devices",
+        "power-banks-spares",
+        "special-devices"
+      ],
+      "sourceInfo": [
+        "IATA · 2026 리튬배터리 승객 안내 · 2026-03-31 개정\n확인 2026-10-25",
+        "IATA · 여행객 배터리 안전 안내\n확인 2026-10-25",
+        "국토교통부 · 정책브리핑 · 보조배터리 여객기 반입 안내 · 2026-04-08 발표\n확인 2026-10-25"
+      ],
+      "geometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "cardsOverflow": false
+      },
+      "sharedRedFlags": true,
+      "lastMinute": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "country": "일본",
+      "city": "오사카",
+      "baggage": "checked",
+      "cards": [
+        "installed-devices",
+        "power-banks-spares",
+        "special-devices"
+      ],
+      "sourceInfo": [
+        "IATA · 2026 리튬배터리 승객 안내 · 2026-03-31 개정\n확인 2026-10-25",
+        "IATA · 여행객 배터리 안전 안내\n확인 2026-10-25",
+        "국토교통부 · 정책브리핑 · 보조배터리 여객기 반입 안내 · 2026-04-08 발표\n확인 2026-10-25"
+      ],
+      "geometry": {
+        "pageOverflow": false,
+        "modalOverflow": false,
+        "cardsOverflow": false
+      },
+      "sharedRedFlags": true,
+      "lastMinute": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

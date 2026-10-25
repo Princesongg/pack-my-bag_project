@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "country": "JP",
+      "width": 1440,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "VN",
+      "width": 1440,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "TH",
+      "width": 1440,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "TW",
+      "width": 1440,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "US",
+      "width": 1440,
+      "visaVisible": true,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "width": 1440,
+      "visaVisible": true,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "JP",
+      "width": 390,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "VN",
+      "width": 390,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "TH",
+      "width": 390,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "TW",
+      "width": 390,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "US",
+      "width": 390,
+      "visaVisible": true,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "width": 390,
+      "visaVisible": true,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "JP",
+      "width": 320,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "VN",
+      "width": 320,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "TH",
+      "width": 320,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "TW",
+      "width": 320,
+      "visaVisible": false,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "US",
+      "width": 320,
+      "visaVisible": true,
+      "passportInRedFlags": true,
+      "passed": true
+    },
+    {
+      "country": "AU",
+      "width": 320,
+      "visaVisible": true,
+      "passportInRedFlags": true,
+      "passed": true
+    }
+  ],
+  "errors": []
+}

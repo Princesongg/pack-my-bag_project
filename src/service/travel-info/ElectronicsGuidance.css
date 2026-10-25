@@ -1,0 +1,30 @@
+.pmb-guide-service .pmb-electronics-guidance { min-width:0; }
+.pmb-guide-service .pmb-electronics-scope { margin:var(--pmb-space-3) 0 var(--pmb-space-4); color:var(--pmb-color-text-secondary); font-size:var(--pmb-font-caption); line-height:1.65; }
+.pmb-guide-service .pmb-electronics-cards { display:grid; gap:var(--pmb-space-3); }
+.pmb-guide-service .pmb-electronics-card { min-width:0; padding:var(--pmb-space-4); border:1px solid var(--pmb-color-border-accent); border-radius:var(--pmb-radius-card); background:var(--pmb-color-background); }
+.pmb-guide-service .pmb-electronics-card:nth-child(2) { background:var(--pmb-color-surface-blue); }
+.pmb-guide-service .pmb-electronics-card:last-child { background:var(--pmb-color-surface-yellow); padding:var(--pmb-space-3) var(--pmb-space-4); }
+.pmb-guide-service .pmb-electronics-card h4 { display:flex; align-items:center; gap:var(--pmb-space-2); margin:0 0 var(--pmb-space-2); color:var(--pmb-color-primary); font-size:var(--pmb-font-body); line-height:1.5; }
+.pmb-guide-service .pmb-electronics-card h4 svg { flex-shrink:0; }
+.pmb-guide-service .pmb-electronics-card p { margin:var(--pmb-space-2) 0 0; font-size:var(--pmb-font-small); line-height:var(--pmb-line-body); }
+.pmb-guide-service .pmb-electronics-badges { display:flex; flex-wrap:wrap; gap:var(--pmb-space-2); }
+.pmb-guide-service .pmb-electronics-additional { margin-top:var(--pmb-space-4); padding:var(--pmb-space-3) var(--pmb-space-3); border:1px solid var(--pmb-color-border-default); border-radius:var(--pmb-radius-small); background:var(--pmb-color-surface); }
+.pmb-guide-service .pmb-electronics-additional summary { min-height:var(--pmb-touch-target); display:list-item; align-content:center; font-size:var(--pmb-font-small); color:var(--pmb-color-primary); cursor:pointer; }
+.pmb-guide-service .pmb-electronics-additional h4 { margin:var(--pmb-space-4) 0 var(--pmb-space-2); font-size:var(--pmb-font-small); }
+.pmb-guide-service .pmb-electronics-additional ul { padding-left:var(--pmb-space-5); margin:0; }
+.pmb-guide-service .pmb-electronics-additional li { margin-bottom:var(--pmb-space-3); }
+.pmb-guide-service .pmb-electronics-additional :is(p,li) { font-size:var(--pmb-font-small); line-height:var(--pmb-line-body); }
+.pmb-guide-service .pmb-electronics-sources { margin-top:var(--pmb-space-4); padding-top:var(--pmb-space-3); border-top:1px solid var(--pmb-color-border-default); color:var(--pmb-color-text-secondary); font-size:var(--pmb-font-caption); }
+.pmb-guide-service .pmb-electronics-sources h4 { font-size:var(--pmb-font-small); margin:0; color:var(--pmb-color-text-primary); }
+.pmb-guide-service .pmb-electronics-sources p { margin:var(--pmb-space-1) 0; }
+.pmb-guide-service .pmb-electronics-sources ul { list-style:none; padding:0; margin:var(--pmb-space-2) 0; }
+.pmb-guide-service .pmb-electronics-sources li { margin:var(--pmb-space-2) 0; }
+.pmb-guide-service .pmb-electronics-sources a { display:block; padding:var(--pmb-space-1) 0; color:var(--pmb-color-primary); overflow-wrap:anywhere; }
+.pmb-guide-service .pmb-electronics-sources span { display:block; }
+.pmb-guide-service .pmb-electronics-guidance :is(a,summary):focus-visible { outline:2px solid var(--pmb-color-primary); outline-offset:3px; }
+@media(max-width:768px) {
+  .pmb-guide-service .pmb-electronics-card { padding:var(--pmb-space-3); }
+  .pmb-guide-service .pmb-electronics-card:last-child { padding:var(--pmb-space-3); }
+  .pmb-guide-service .pmb-electronics-card h4 { font-size:var(--pmb-font-small); }
+  .pmb-guide-service .pmb-electronics-card p { font-size:var(--pmb-font-small); }
+}

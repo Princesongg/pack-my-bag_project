@@ -1,0 +1,264 @@
+{
+  "results": [
+    {
+      "country": "JP",
+      "width": 1440,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://www.kr.emb-japan.go.jp/itpr_ko/consulate.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "VN",
+      "width": 1440,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+        "https://congbaocdn.chinhphu.vn/180507251028987904/2026/4/10/469192-1775620625_v1_1775783105_signed.pdf"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "TH",
+      "width": 1440,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://www.tourismthailand.org/Articles/plan-your-trip-customs-and-immigration"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "TW",
+      "width": 1440,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://www.boca.gov.tw/fp-149-4486-7785a-1.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "US",
+      "width": 1440,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://fam.state.gov/FAM/09FAM/09FAM040309.html",
+        "https://www.help.cbp.gov/s/article/Article-1238?language=en_US"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "AU",
+      "width": 1440,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://singapore.embassy.gov.au/sing/visas-faq.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "JP",
+      "width": 390,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://www.kr.emb-japan.go.jp/itpr_ko/consulate.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "VN",
+      "width": 390,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+        "https://congbaocdn.chinhphu.vn/180507251028987904/2026/4/10/469192-1775620625_v1_1775783105_signed.pdf"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "TH",
+      "width": 390,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://www.tourismthailand.org/Articles/plan-your-trip-customs-and-immigration"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "TW",
+      "width": 390,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://www.boca.gov.tw/fp-149-4486-7785a-1.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "US",
+      "width": 390,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://fam.state.gov/FAM/09FAM/09FAM040309.html",
+        "https://www.help.cbp.gov/s/article/Article-1238?language=en_US"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "AU",
+      "width": 390,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://singapore.embassy.gov.au/sing/visas-faq.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "JP",
+      "width": 320,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://www.kr.emb-japan.go.jp/itpr_ko/consulate.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "VN",
+      "width": 320,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://vnembassy-algiers.mofa.gov.vn/en/tin-chi-tiet/chi-tiet/nghi-quyet-44nq-cp-59226-1377.html",
+        "https://congbaocdn.chinhphu.vn/180507251028987904/2026/4/10/469192-1775620625_v1_1775783105_signed.pdf"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "TH",
+      "width": 320,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://www.tourismthailand.org/Articles/plan-your-trip-customs-and-immigration"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "TW",
+      "width": 320,
+      "expiry": "2027-04-25",
+      "status": "failed",
+      "sourceLinks": [
+        "https://www.boca.gov.tw/fp-149-4486-7785a-1.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "US",
+      "width": 320,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://fam.state.gov/FAM/09FAM/09FAM040309.html",
+        "https://www.help.cbp.gov/s/article/Article-1238?language=en_US"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    },
+    {
+      "country": "AU",
+      "width": 320,
+      "expiry": "2027-04-25",
+      "status": "met",
+      "sourceLinks": [
+        "https://singapore.embassy.gov.au/sing/visas-faq.html"
+      ],
+      "geometry": {
+        "dialogOverflow": false,
+        "panelOverflow": false
+      },
+      "privacyPassed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

@@ -53,5 +53,5 @@ test('year boundaries and existing US/Japan values remain independent',()=>{
   assert.equal(getClimateMonth('new-york',1).recommendedMetrics.meanTemperatureC.basis,'official-30-year-normal');
   assert.equal(getClimateMonth('tokyo',1).recommendedMetrics.meanTemperatureC.value,5.9);
   assert.equal(getClimateMonth('tokyo',1).recommendedMetrics.meanTemperatureC.basis,'recent-10-year-observations');
-  assert.equal(getClimateMonth('danang',1).recommendedMetrics,null);
+  assert.equal(getClimateMonth('haiphong',1).recommendedMetrics,null);
 });

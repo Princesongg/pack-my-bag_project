@@ -1,0 +1,698 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "state": "empty",
+      "pageHeight": 1343,
+      "setup": {
+        "top": 270.59375,
+        "height": 1024.71875
+      },
+      "dates": {
+        "top": 884.546875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1184.125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1440,
+      "state": "selected",
+      "pageHeight": 1343,
+      "setup": {
+        "top": 270.59375,
+        "height": 1024.71875
+      },
+      "dates": {
+        "top": 884.546875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1184.125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1440,
+      "state": "restored",
+      "pageHeight": 1343,
+      "setup": {
+        "top": 270.59375,
+        "height": 1024.71875
+      },
+      "dates": {
+        "top": 884.546875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1184.125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1280,
+      "state": "empty",
+      "pageHeight": 1343,
+      "setup": {
+        "top": 270.59375,
+        "height": 1024.71875
+      },
+      "dates": {
+        "top": 884.546875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1184.125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1280,
+      "state": "selected",
+      "pageHeight": 1343,
+      "setup": {
+        "top": 270.59375,
+        "height": 1024.71875
+      },
+      "dates": {
+        "top": 884.546875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1184.125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1280,
+      "state": "restored",
+      "pageHeight": 1343,
+      "setup": {
+        "top": 270.59375,
+        "height": 1024.71875
+      },
+      "dates": {
+        "top": 884.546875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1184.125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1024,
+      "state": "empty",
+      "pageHeight": 1417,
+      "setup": {
+        "top": 313.875,
+        "height": 1055.15625
+      },
+      "dates": {
+        "top": 918.8125,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1263.328125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1024,
+      "state": "selected",
+      "pageHeight": 1417,
+      "setup": {
+        "top": 313.875,
+        "height": 1055.15625
+      },
+      "dates": {
+        "top": 918.8125,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1263.328125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 1024,
+      "state": "restored",
+      "pageHeight": 1417,
+      "setup": {
+        "top": 313.875,
+        "height": 1055.15625
+      },
+      "dates": {
+        "top": 918.8125,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1263.328125,
+        "height": 82.1875
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 768,
+      "state": "empty",
+      "pageHeight": 1503,
+      "setup": {
+        "top": 275.671875,
+        "height": 1203.46875
+      },
+      "dates": {
+        "top": 939.90625,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1331.265625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 768,
+      "state": "selected",
+      "pageHeight": 1659,
+      "setup": {
+        "top": 275.671875,
+        "height": 1359.46875
+      },
+      "dates": {
+        "top": 1095.90625,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1487.265625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 768,
+      "state": "restored",
+      "pageHeight": 1659,
+      "setup": {
+        "top": 275.671875,
+        "height": 1359.46875
+      },
+      "dates": {
+        "top": 1095.90625,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1487.265625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 4,
+      "summaryVisible": 0
+    },
+    {
+      "width": 430,
+      "state": "empty",
+      "pageHeight": 1536,
+      "setup": {
+        "top": 239.875,
+        "height": 1272.171875
+      },
+      "dates": {
+        "top": 823.90625,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1365.0625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 430,
+      "state": "selected",
+      "pageHeight": 1210,
+      "setup": {
+        "top": 239.875,
+        "height": 946.328125
+      },
+      "dates": {
+        "top": 498.0625,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1039.21875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 430,
+      "state": "restored",
+      "pageHeight": 1210,
+      "setup": {
+        "top": 239.875,
+        "height": 946.328125
+      },
+      "dates": {
+        "top": 498.0625,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1039.21875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 390,
+      "state": "empty",
+      "pageHeight": 1596,
+      "setup": {
+        "top": 233.6875,
+        "height": 1338.453125
+      },
+      "dates": {
+        "top": 884,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1425.15625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 390,
+      "state": "selected",
+      "pageHeight": 1204,
+      "setup": {
+        "top": 233.6875,
+        "height": 946.328125
+      },
+      "dates": {
+        "top": 491.875,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1033.03125,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 390,
+      "state": "restored",
+      "pageHeight": 1204,
+      "setup": {
+        "top": 233.6875,
+        "height": 946.328125
+      },
+      "dates": {
+        "top": 491.875,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1033.03125,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 375,
+      "state": "empty",
+      "pageHeight": 1618,
+      "setup": {
+        "top": 233.6875,
+        "height": 1360.046875
+      },
+      "dates": {
+        "top": 884,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1446.75,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 375,
+      "state": "selected",
+      "pageHeight": 1226,
+      "setup": {
+        "top": 233.6875,
+        "height": 967.921875
+      },
+      "dates": {
+        "top": 491.875,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1054.625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 375,
+      "state": "restored",
+      "pageHeight": 1226,
+      "setup": {
+        "top": 233.6875,
+        "height": 967.921875
+      },
+      "dates": {
+        "top": 491.875,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1054.625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 360,
+      "state": "empty",
+      "pageHeight": 1618,
+      "setup": {
+        "top": 233.6875,
+        "height": 1360.046875
+      },
+      "dates": {
+        "top": 884,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1446.75,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 360,
+      "state": "selected",
+      "pageHeight": 1226,
+      "setup": {
+        "top": 233.6875,
+        "height": 967.921875
+      },
+      "dates": {
+        "top": 491.875,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1054.625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 360,
+      "state": "restored",
+      "pageHeight": 1226,
+      "setup": {
+        "top": 233.6875,
+        "height": 967.921875
+      },
+      "dates": {
+        "top": 491.875,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1054.625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 640,
+      "state": "empty",
+      "pageHeight": 1445,
+      "setup": {
+        "top": 239.875,
+        "height": 1181.171875
+      },
+      "dates": {
+        "top": 830.703125,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1274.0625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 640,
+      "state": "selected",
+      "pageHeight": 1119,
+      "setup": {
+        "top": 239.875,
+        "height": 855.328125
+      },
+      "dates": {
+        "top": 504.859375,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 948.21875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 640,
+      "state": "restored",
+      "pageHeight": 1119,
+      "setup": {
+        "top": 239.875,
+        "height": 855.328125
+      },
+      "dates": {
+        "top": 504.859375,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 948.21875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 481,
+      "state": "empty",
+      "pageHeight": 1441,
+      "setup": {
+        "top": 239.875,
+        "height": 1177.15625
+      },
+      "dates": {
+        "top": 826.6875,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 1270.046875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 481,
+      "state": "selected",
+      "pageHeight": 1115,
+      "setup": {
+        "top": 239.875,
+        "height": 851.3125
+      },
+      "dates": {
+        "top": 500.84375,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 944.203125,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 481,
+      "state": "restored",
+      "pageHeight": 1115,
+      "setup": {
+        "top": 239.875,
+        "height": 851.3125
+      },
+      "dates": {
+        "top": 500.84375,
+        "height": 85.796875
+      },
+      "submit": {
+        "top": 944.203125,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 480,
+      "state": "empty",
+      "pageHeight": 1539,
+      "setup": {
+        "top": 239.875,
+        "height": 1274.875
+      },
+      "dates": {
+        "top": 826.609375,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1367.765625,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 6,
+      "cityCardsVisible": 0,
+      "summaryVisible": 0
+    },
+    {
+      "width": 480,
+      "state": "selected",
+      "pageHeight": 1213,
+      "setup": {
+        "top": 239.875,
+        "height": 949.03125
+      },
+      "dates": {
+        "top": 500.765625,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1041.921875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    },
+    {
+      "width": 480,
+      "state": "restored",
+      "pageHeight": 1213,
+      "setup": {
+        "top": 239.875,
+        "height": 949.03125
+      },
+      "dates": {
+        "top": 500.765625,
+        "height": 183.59375
+      },
+      "submit": {
+        "top": 1041.921875,
+        "height": 129.984375
+      },
+      "overflow": false,
+      "countryCardsVisible": 0,
+      "cityCardsVisible": 0,
+      "summaryVisible": 2
+    }
+  ],
+  "errors": []
+}

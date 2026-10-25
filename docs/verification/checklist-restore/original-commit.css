@@ -1,0 +1,80 @@
+.pmb-bag-service { font-size:16px; line-height:1.6; }
+.pmb-bag-service .pmb-bag { width:min(1100px,calc(100% - 80px)); padding-block:32px 40px; }
+.pmb-bag-service :is(.pmb-nav a,.pmb-nav button,.pmb-nav small,.pmb-archive,.pmb-footer) { font-size:14px; }
+.pmb-bag-service .pmb-guide-current-nav { color:var(--pmb-blue); border-bottom:2px solid var(--pmb-blue); padding-block:13px; font-weight:700; }
+.pmb-bag-service .pmb-bag :is(p,span,label,li) { word-break:keep-all; overflow-wrap:break-word; }
+.pmb-bag-heading { margin-bottom:24px; }
+.pmb-bag-heading>span { color:var(--pmb-blue); font-size:14px; font-weight:600; }
+.pmb-bag-heading h1 { font-size:clamp(36px,5vw,58px); color:var(--pmb-blue); margin:8px 0; line-height:1.1; letter-spacing:-1.5px; }
+.pmb-bag-heading h2 { font-size:24px; margin:12px 0 6px; }
+.pmb-bag-heading p { color:#677387; margin:0; }
+.pmb-bag-trip { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px 24px; padding:18px 22px; background:#f6edcf; border:1px solid #ede1b9; border-radius:14px; }
+.pmb-bag-trip>div { display:grid; gap:4px; }
+.pmb-bag-trip span { font-size:14px; color:#77715f; }
+.pmb-bag-trip .pmb-bag-trip-currency { font-size:14px; font-weight:400; line-height:1.6; word-break:keep-all; overflow-wrap:break-word; }
+.pmb-bag-edit-trip { display:flex; align-items:center; gap:5px; width:fit-content; min-height:44px; font-size:14px; color:var(--pmb-blue); }
+.pmb-bag-progress { padding:22px 0; }
+.pmb-bag-progress>div:first-child { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.pmb-bag-progress h2 { font-size:16px; margin:0; }
+.pmb-bag-progress strong { font-size:28px; color:var(--pmb-blue); }
+.pmb-bag-progress p { font-size:14px; margin:4px 0 10px; color:#677387; }
+.pmb-bag-progress-track { height:10px; border-radius:10px; background:#e2e9f4; overflow:hidden; }
+.pmb-bag-progress-track>span { display:block; height:100%; background:var(--pmb-blue); border-radius:inherit; transition:width .2s; }
+.pmb-bag-note { display:flex; align-items:center; flex-wrap:wrap; gap:8px 12px; margin-bottom:20px; font-size:14px; color:#65738a; }
+.pmb-bag-note p { flex:1; min-width:200px; margin:0; }
+.pmb-bag-note a { display:flex; align-items:center; gap:5px; color:var(--pmb-blue); min-height:44px; }
+.pmb-bag-categories { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:stretch; gap:20px; }
+.pmb-bag-category-other { grid-column:1 / -1; }
+.pmb-bag-category-other>ul { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:20px; }
+.pmb-bag-service .pmb-bag-categories+.pmb-pack-less { margin-top:22px; }
+.pmb-bag-category { border:1px solid #e2e0d7; border-radius:14px; background:#fffdf7; padding:18px; min-width:0; }
+.pmb-bag-category>header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-bottom:10px; }
+.pmb-bag-category h2 { font-size:18px; margin:0; }
+.pmb-bag-category>header>span { font-size:14px; color:#65738a; }
+.pmb-bag-category ul { margin:0; padding:0; list-style:none; }
+.pmb-bag-category li { display:flex; align-items:center; gap:6px; border-top:1px solid #efede5; }
+.pmb-bag-category label { display:flex; align-items:center; gap:12px; flex:1; min-width:0; min-height:48px; padding-block:6px; cursor:pointer; }
+.pmb-bag-category input { width:20px; height:20px; accent-color:var(--pmb-blue); flex-shrink:0; margin:0; }
+.pmb-bag-category label>span { min-width:0; }
+.pmb-bag-category small { font-size:14px; color:#65738a; margin-left:8px; white-space:normal; }
+.pmb-bag-category .is-packed label>span { color:#758279; text-decoration:line-through; }
+.pmb-bag-category li>button { display:grid; place-items:center; min-width:44px; min-height:44px; border:0; background:transparent; color:#8d7066; cursor:pointer; flex-shrink:0; }
+.pmb-bag-add { margin-top:22px; padding:20px; border:1px dashed #cbd7e8; border-radius:14px; }
+.pmb-bag-add h2 { font-size:18px; margin:0 0 12px; }
+.pmb-bag-add>div { display:flex; align-items:end; gap:12px; }
+.pmb-bag-add label { display:grid; gap:5px; font-size:14px; min-width:0; }
+.pmb-bag-name { flex:1; }
+.pmb-bag-add :is(input,select,button) { font:inherit; font-size:16px; min-height:44px; padding:9px 12px; border-radius:8px; border:1px solid #cbd7e8; background:#fffdf7; color:inherit; min-width:0; box-sizing:border-box; }
+.pmb-bag-add button { display:flex; align-items:center; gap:5px; color:white; background:var(--pmb-blue); cursor:pointer; }
+.pmb-bag-add>p { font-size:14px; margin:8px 0 0; }
+.pmb-bag-actions { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:22px; font-size:14px; color:#65738a; }
+.pmb-bag-actions a { display:flex; align-items:center; gap:6px; min-height:44px; color:var(--pmb-blue); }
+.pmb-bag-warning { color:#8b6746; font-size:14px; }
+.pmb-bag-service :is(input,select,button,a):focus-visible { outline:2px solid var(--pmb-blue); outline-offset:3px; }
+@media(max-width:768px) {
+  .pmb-bag-service { font-size:14px; }
+  .pmb-bag-service .pmb-bag { width:100%; padding:20px 20px 28px; }
+  .pmb-bag-service :is(.pmb-nav a,.pmb-nav button,.pmb-nav small,.pmb-archive,.pmb-footer,.pmb-footer>span,.pmb-footer-brand) { font-size:12px; }
+  .pmb-bag-service .pmb-nav { flex-wrap:wrap; justify-content:center; gap:8px 16px; }
+  .pmb-bag-heading { margin-bottom:16px; }
+  .pmb-bag-heading>span { font-size:12px; }
+  .pmb-bag-heading h1 { font-size:38px; }
+  .pmb-bag-heading h2 { font-size:18px; margin-top:8px; }
+  .pmb-bag-trip { padding:12px 14px; gap:8px; }
+  .pmb-bag-trip span { font-size:12px; }
+  .pmb-bag-progress { padding:16px 0; }
+  .pmb-bag-progress h2 { font-size:14px; }
+  .pmb-bag-progress p,.pmb-bag-note { font-size:12px; }
+  .pmb-bag-note { margin-bottom:14px; }
+  .pmb-bag-categories { grid-template-columns:1fr; gap:12px; }
+  .pmb-bag-category-other>ul { grid-template-columns:1fr; }
+  .pmb-bag-category { padding:12px 14px; }
+  .pmb-bag-category h2 { font-size:16px; }
+  .pmb-bag-category small,.pmb-bag-category>header>span { font-size:12px; }
+  .pmb-bag-category label { min-height:44px; }
+  .pmb-bag-add { padding:14px; margin-top:16px; }
+  .pmb-bag-add>div { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:10px; }
+  .pmb-bag-add label:first-child { grid-column:1 / -1; }
+  .pmb-bag-add :is(input,select,button) { font-size:14px; width:100%; }
+  .pmb-bag-actions { flex-wrap:wrap; margin-top:16px; font-size:12px; }
+}
