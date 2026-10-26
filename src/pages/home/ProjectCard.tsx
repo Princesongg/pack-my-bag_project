@@ -10,16 +10,15 @@ export default function ProjectCard({ type }: { type: 'planning' | 'implementati
     <Link to={href} className={`project-card ${isPlan ? 'plan-card' : 'build-card'}`} aria-label={`${title} 페이지 열기`}>
       <div className="card-head">
         <span className="card-index">0{isPlan ? '1' : '2'} / {isPlan ? 'PLANNING' : 'IMPLEMENTATION'}</span>
-        <span className={`status ${isPlan ? 'status-progress' : 'status-soon'}`}>{isPlan ? 'IN PROGRESS' : 'COMING SOON'}</span>
       </div>
-      <div className="card-icon-zone"><span className="card-icon"><Icon size={38} strokeWidth={1.35} /></span>
+      <div className="card-icon-zone" aria-hidden="true"><span className="card-icon"><Icon size={38} strokeWidth={1.35} /></span>
         <span className="decoration-one" /><span className="decoration-two" />
       </div>
       <h3>{title}</h3>
       <p>{isPlan
-        ? '왜 이 서비스를 만들었는지, 어떤 정보를 조사하고 어떻게 설계했는지 기록합니다.'
-        : '실제 PACK MY BAG 서비스를 제작하고, 여행 정보를 탐색하고 짐을 챙기는 경험을 구현합니다.'}</p>
-      <div className="card-bottom"><span>{isPlan ? '기획 과정 살펴보기' : '구현 공간 미리 보기'}</span><span className="card-arrow"><ArrowUpRight size={21} /></span></div>
+        ? '서비스 기획 배경부터 정보 조사, 사용자 흐름과 서비스 구조까지 기획 아카이브의 개요를 확인해 보세요.'
+        : '여행 정보 입력부터 맞춤형 준비물 추천, 마지막 점검까지 구현한 서비스를 확인해 보세요.'}</p>
+      <div className="card-bottom"><span>{isPlan ? '기획 과정 살펴보기' : '구현 결과 살펴보기'}</span><span className="card-arrow" aria-hidden="true"><ArrowUpRight size={21} /></span></div>
     </Link>
   );
 }

@@ -1,0 +1,1194 @@
+{
+  "results": [
+    {
+      "engine": "chrome",
+      "viewportWidth": 1920,
+      "cityId": "osaka",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984px"
+        },
+        "after": {
+          "top": "177.984px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1920,
+      "cityId": "los-angeles",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984px"
+        },
+        "after": {
+          "top": "177.984px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1440,
+      "cityId": "osaka",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984px"
+        },
+        "after": {
+          "top": "177.984px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1440,
+      "cityId": "los-angeles",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984px"
+        },
+        "after": {
+          "top": "177.984px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1280,
+      "cityId": "osaka",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984px"
+        },
+        "after": {
+          "top": "177.984px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1280,
+      "cityId": "los-angeles",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984px"
+        },
+        "after": {
+          "top": "177.984px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1024,
+      "cityId": "osaka",
+      "height": 187.5,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "176.5px"
+        },
+        "after": {
+          "top": "176.5px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 1024,
+      "cityId": "los-angeles",
+      "height": 187.5,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "176.5px"
+        },
+        "after": {
+          "top": "176.5px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 820,
+      "cityId": "osaka",
+      "height": 180.46875,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "169.469px"
+        },
+        "after": {
+          "top": "169.469px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 820,
+      "cityId": "los-angeles",
+      "height": 180.46875,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "169.469px"
+        },
+        "after": {
+          "top": "169.469px",
+          "left": "-10px",
+          "right": "203.406px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 768,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "709px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 768,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "709px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 430,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 398,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "387px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 430,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 398,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "387px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 390,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 358,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "347px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 390,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 358,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "347px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 375,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 343,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "332px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 375,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 343,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "332px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 360,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 328,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "317px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 360,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 328,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "317px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 320,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 288,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "277px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "chrome",
+      "viewportWidth": 320,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 288,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.0781px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "277px",
+          "right": "-1px",
+          "bottom": "65.0781px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1920,
+      "cityId": "osaka",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984375px"
+        },
+        "after": {
+          "top": "177.984375px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1920,
+      "cityId": "los-angeles",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984375px"
+        },
+        "after": {
+          "top": "177.984375px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1440,
+      "cityId": "osaka",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984375px"
+        },
+        "after": {
+          "top": "177.984375px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1440,
+      "cityId": "los-angeles",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984375px"
+        },
+        "after": {
+          "top": "177.984375px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1280,
+      "cityId": "osaka",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984375px"
+        },
+        "after": {
+          "top": "177.984375px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1280,
+      "cityId": "los-angeles",
+      "height": 188.984375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "177.984375px"
+        },
+        "after": {
+          "top": "177.984375px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1024,
+      "cityId": "osaka",
+      "height": 187.5,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "176.5px"
+        },
+        "after": {
+          "top": "176.5px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 1024,
+      "cityId": "los-angeles",
+      "height": 187.5,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "176.5px"
+        },
+        "after": {
+          "top": "176.5px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 820,
+      "cityId": "osaka",
+      "height": 180.46875,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "169.46875px"
+        },
+        "after": {
+          "top": "169.46875px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 820,
+      "cityId": "los-angeles",
+      "height": 180.46875,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "dashed",
+      "stubBorderTop": "none",
+      "notches": {
+        "before": {
+          "top": "-1px",
+          "left": "-10px",
+          "bottom": "169.46875px"
+        },
+        "after": {
+          "top": "169.46875px",
+          "left": "-10px",
+          "right": "203.390625px",
+          "bottom": "-1px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 167.96875
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 768,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "709px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 768,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 720,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "709px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 430,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 398,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "387px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 430,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 398,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "387px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 390,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 358,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "347px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 390,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 358,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "347px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 375,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 343,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "332px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 375,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 343,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "332px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 360,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 328,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "317px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 360,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 328,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "317px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 320,
+      "cityId": "osaka",
+      "height": 232.859375,
+      "width": 288,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "277px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONOSAKAJP · 일본 · 오사카여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2026.11.09DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    },
+    {
+      "engine": "webkit",
+      "viewportWidth": 320,
+      "cityId": "los-angeles",
+      "height": 232.859375,
+      "width": 288,
+      "overflow": false,
+      "internalOverflow": false,
+      "stubBorderLeft": "none",
+      "stubBorderTop": "dashed",
+      "notches": {
+        "before": {
+          "top": "-10px",
+          "left": "-1px",
+          "bottom": "65.078125px"
+        },
+        "after": {
+          "top": "-10px",
+          "left": "277px",
+          "right": "-1px",
+          "bottom": "65.078125px"
+        }
+      },
+      "barcodeHidden": "true",
+      "text": " PACK MY BAG TRAVEL PASSDESTINATIONLOS ANGELESUS · 미국 · 로스앤젤레스여행 준비용 · 실제 항공권이 아닙니다DEPARTURE출발일2027.01.10DURATION여행 기간8박 9일",
+      "previousHeight": 206.28125
+    }
+  ],
+  "errors": [],
+  "actualIOS": "NOT TESTED"
+}

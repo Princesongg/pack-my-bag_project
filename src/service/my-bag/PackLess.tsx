@@ -3,6 +3,7 @@ import { ChevronDown, Feather, RotateCcw } from 'lucide-react';
 import type { BagItem } from './bag';
 import { answersComplete, emptyPackLessAnswers, getPackingSuggestions, sanitizeDecisions, type PackLessAnswers, type PackLessState, type PackingDecisions } from './packLessModel';
 import './PackLess.css';
+import PackLessIllustration from './PackLessIllustration';
 
 const questions = [
   { key: 'accommodationAmenities', title: '숙소에 세면용품이 제공되나요?', options: [['yes', '네, 제공돼요.'], ['no', '아니요, 직접 챙겨야 해요.'], ['unknown', '아직 모르겠어요.']] },
@@ -17,6 +18,7 @@ export default function PackLess({ items, tripDays, saved, onApply, onUndo }: { 
   return <section className="pmb-pack-less" aria-labelledby="pmb-pack-less-title"><div className="pmb-pack-less-heading"><Feather size={24}/><div><span>PACK LESS</span><h2 id="pmb-pack-less-title">Pack lighter, travel better.</h2><p>몇 가지만 알려주면 짐을 조금 더 가볍게 정리할 수 있어요.</p></div></div>
     <div className="pmb-pack-less-entry-actions"><button type="button" onClick={() => { setOpen(value => !value); setNotice(''); }} aria-expanded={open} aria-controls="pmb-pack-less-editor">{open ? '닫기' : saved ? 'PACK LESS 설정 다시 변경' : '내 짐 가볍게 만들기'}</button>{saved?.previous && <button type="button" className="pmb-pack-less-secondary" onClick={() => { onUndo(); setOpen(false); setNotice('직전 적용 전의 설정으로 되돌렸어요. 체크 상태와 직접 추가한 물품은 유지됩니다.'); }}><RotateCcw size={16}/> 직전 적용 되돌리기</button>}</div>
     {open && <PackLessEditor key={JSON.stringify(saved)} items={items} tripDays={tripDays} saved={saved} onApply={value => { onApply(value); setOpen(false); setNotice('선택한 변경을 MY BAG에 적용했어요. 제외한 물품은 아래에서 복원할 수 있어요.'); }}/>}<p className="pmb-pack-less-notice" role="status">{notice}</p>
+    <PackLessIllustration/>
   </section>;
 }
 

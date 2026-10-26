@@ -7,6 +7,14 @@
 .pmb-final-cta-button svg { flex-shrink:0; }
 .pmb-final-cta-button:hover { background:#194bc3; }
 .pmb-final-cta-button:active { background:#163fa3; }
+.pmb-final-cta-art { display:none; pointer-events:none; }
+@media(min-width:769px) {
+  .pmb-final-cta { grid-template-columns:minmax(480px,1.4fr) minmax(0,1fr); }
+  .pmb-final-cta>div { grid-column:1; grid-row:1; }
+  .pmb-final-cta-button { grid-column:1; grid-row:2; }
+  .pmb-final-cta-art { display:block; position:relative; grid-column:2; grid-row:1 / span 2; min-width:0; min-height:0; align-self:stretch; }
+  .pmb-final-cta-art>svg { position:absolute; inset:0; margin:auto; width:100%; height:100%; max-width:380px; max-height:250px; }
+}
 .pmb-brief-modal[data-topic=final-check-confirm] { width:min(480px,calc(100% - 32px)); margin:auto; }
 .pmb-final-confirm { padding:var(--pmb-space-5) var(--pmb-space-6); font-size:var(--pmb-font-small); line-height:1.8; word-break:keep-all; }
 .pmb-final-confirm>p { margin:0 0 var(--pmb-space-5); }

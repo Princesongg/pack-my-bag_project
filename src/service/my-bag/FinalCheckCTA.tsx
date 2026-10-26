@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, Luggage } from 'lucide-react';
 import ServiceModal from './ServiceModal';
+import FinalCheckIllustration from './FinalCheckIllustration';
 import './FinalCheckCTA.css';
 
 export default function FinalCheckCTA({ total, complete, onContinue }: { total: number; complete: number; onContinue: (scroll: number) => void }) {
@@ -22,5 +23,6 @@ export default function FinalCheckCTA({ total, complete, onContinue }: { total: 
       if (remaining > 0) setConfirming(true); else onContinue(scroll.current);
     }}><Luggage size={21} aria-hidden="true"/><span>짐싸기 완료! 마지막 점검하기</span><ArrowRight size={21} aria-hidden="true"/></button>
     {confirming && <ServiceModal title="마지막 점검으로 이동할까요?" topic="final-check-confirm" returnFocus={trigger.current} onClose={() => setConfirming(false)}><div className="pmb-final-confirm"><p>아직 확인하지 않은 준비물이 있어요.<br/>그래도 마지막 점검으로 이동할까요?</p><div><button type="button" onClick={() => setConfirming(false)}>준비물 더 확인하기</button><button type="button" onClick={() => { continueAfterClose.current = true; setConfirming(false); }}>마지막 점검으로 이동 <ArrowRight size={17}/></button></div></div></ServiceModal>}
+    <FinalCheckIllustration/>
   </section>;
 }

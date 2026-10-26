@@ -1,0 +1,414 @@
+{
+  "checks": [
+    {
+      "engine": "chrome",
+      "width": 1920,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 1280,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 1024,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 900,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 820,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 430,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 375,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 360,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "chrome",
+      "width": 320,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "overflow": false,
+      "columns": 2,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 900,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 820,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 430,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 360,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "overflow": false,
+      "columns": 1,
+      "blocks": 4,
+      "paragraphs": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "info": 3,
+      "font": "16px",
+      "title": "AI와 함께, 아이디어를 실제 웹 서비스로.",
+      "bodyFont": "29.6px"
+    }
+  ],
+  "otherTopicsUnchanged": true,
+  "actualIPhone": "NOT TESTED"
+}

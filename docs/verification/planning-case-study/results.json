@@ -1,0 +1,117 @@
+{
+  "responsive": [
+    {
+      "engine": "chrome",
+      "width": 1920,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 1280,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 1024,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 820,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 430,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 375,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "engine": "chrome",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 820,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 430,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "status": "PASS"
+    }
+  ],
+  "anchorsAndKeyboard": "PASS",
+  "directHashAndReload": "PASS",
+  "actualIPhone": "NOT TESTED"
+}

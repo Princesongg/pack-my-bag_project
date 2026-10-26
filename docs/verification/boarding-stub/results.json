@@ -1,0 +1,322 @@
+[
+  {
+    "engine": "chrome",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 58,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 32,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 58,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 32,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 58,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 32,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 14,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 48,
+      "width": 16,
+      "height": 64
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 15,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 49,
+      "width": 16,
+      "height": 63
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 59,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 49,
+      "width": 15,
+      "height": 63
+    },
+    "barcode": {
+      "left": 33,
+      "top": 49,
+      "width": 16,
+      "height": 63
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 58,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 48,
+      "width": 15,
+      "height": 63
+    },
+    "barcode": {
+      "left": 32,
+      "top": 48,
+      "width": 16,
+      "height": 65
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 58,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 48,
+      "width": 15,
+      "height": 63
+    },
+    "barcode": {
+      "left": 32,
+      "top": 48,
+      "width": 16,
+      "height": 65
+    },
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 58,
+    "text": "NEXT TRIP",
+    "writing": "vertical-rl",
+    "height": 161,
+    "label": {
+      "left": 10,
+      "top": 48,
+      "width": 15,
+      "height": 63
+    },
+    "barcode": {
+      "left": 32,
+      "top": 48,
+      "width": 16,
+      "height": 65
+    },
+    "overflow": false
+  }
+]

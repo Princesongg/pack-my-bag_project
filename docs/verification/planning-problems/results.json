@@ -1,0 +1,966 @@
+{
+  "checks": [
+    {
+      "engine": "chrome",
+      "width": 1920,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 1280,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 1024,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 900,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 0,
+          "topDifference": 203.171875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 232.765625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 203.171875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 820,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 0,
+          "topDifference": 203.171875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 232.765625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 203.171875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 59.1875,
+          "topDifference": 262.359375,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 232.765625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 262.359375,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 430,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 283.953125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 283.953125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 59.1875,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 283.953125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 375,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 59.1875,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 360,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 0,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 320,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 343.140625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 87.984375,
+          "topDifference": 401.53125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 372.734375,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 2,
+          "heightDifference": 0,
+          "topDifference": 0,
+          "stacked": false
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 900,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 0,
+          "topDifference": 203.171875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 232.765625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 203.171875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 820,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 0,
+          "topDifference": 203.171875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 232.765625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 203.171875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 59.1875,
+          "topDifference": 262.359375,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 232.765625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 262.359375,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 430,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 283.953125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 283.953125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 59.1875,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 283.953125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 59.1875,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 360,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 0,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 313.546875,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "overflow": false,
+      "pairs": [
+        {
+          "labels": [
+            "PROBLEM 01",
+            "GOAL 01"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 343.140625,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 02",
+            "GOAL 02"
+          ],
+          "columns": 1,
+          "heightDifference": 87.984375,
+          "topDifference": 401.53125,
+          "stacked": true
+        },
+        {
+          "labels": [
+            "PROBLEM 03",
+            "GOAL 03"
+          ],
+          "columns": 1,
+          "heightDifference": 29.59375,
+          "topDifference": 372.734375,
+          "stacked": true
+        }
+      ],
+      "font": "16px",
+      "challenge": 1,
+      "objective": 1
+    }
+  ],
+  "otherTopicDataUnchanged": true,
+  "actualIPhone": "NOT TESTED"
+}

@@ -19,9 +19,3 @@
 .text-button,.primary-button { display: inline-flex; align-items: center; gap: var(--pmb-space-3); font-size: var(--pmb-font-small); font-weight: 790; padding: var(--pmb-space-4) var(--pmb-space-4); color: white; background: var(--pmb-color-primary); border-radius: var(--pmb-radius-small); }
 .text-button.subtle-button { background: #e4ecf0; color: #466b89; }
 .text-button:hover,.primary-button:hover { filter: brightness(.94); }
-.implementation-page { display: flex; flex-direction: column; }
-.coming-panel { margin: var(--pmb-space-14) 0 var(--pmb-space-8); border-radius: 25px; background: #e6eff3; border: 1px solid #d5e5eb; padding: 68px var(--pmb-space-8); display: flex; align-items: center; text-align: center; flex-direction: column; }
-.coming-icon { background: #f6e2ab; color: #2f6599; width: 112px; height: 112px; display: grid; place-items: center; border-radius: 31px; margin-bottom: 34px; transform: rotate(-7deg); }
-.coming-panel h1 { margin: var(--pmb-space-4) 0; font-size: clamp(30px,4vw,47px); letter-spacing: -.06em; }
-.coming-panel p { font-size: var(--pmb-font-body); line-height: var(--pmb-line-body); color: #738590; margin: 0; }
-.large-soon { font-size: var(--pmb-font-caption); font-weight: 850; color: #6e92ac; letter-spacing: .19em; margin: var(--pmb-space-8) 0; }

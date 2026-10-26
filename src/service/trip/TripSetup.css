@@ -47,6 +47,7 @@
 .pmb-service .pmb-setup .pmb-setup-city-picker .pmb-setup-help { display:flex; align-items:center; box-sizing:border-box; min-height:46px; margin:0; padding:var(--pmb-space-3) var(--pmb-space-3); border:1px solid var(--pmb-color-border-accent); border-radius:var(--pmb-radius-small); background:#fff; }
 .pmb-service .pmb-setup-date-grid label,.pmb-service .pmb-setup-city-search { display:grid; gap:var(--pmb-space-2); font-size:var(--pmb-font-small); min-width:0; }
 .pmb-service .pmb-setup-date-grid { align-items:start; }
+.pmb-service .pmb-setup-date-control { display:block; min-width:0; }
 .pmb-service .pmb-setup-date-grid label { grid-template-rows:auto 54px; align-content:start; }
 .pmb-service .pmb-setup-date-grid input { height:54px; min-height:54px; box-sizing:border-box; margin:0; line-height:normal; }
 .pmb-service .pmb-setup-date-grid input::-webkit-date-and-time-value { text-align:left; }
@@ -85,6 +86,16 @@
 
 /* Completed choices share the same controls and state at every viewport. */
 @media(max-width:640px) {
+  /* A native date control must not size the label's fixed Grid track on iOS.
+     Put spacing on the wrapper: iOS date inputs can mis-size width:100% + padding. */
+  .pmb-service .pmb-setup-date-grid { grid-template-columns:minmax(0,1fr); }
+  .pmb-service .pmb-setup-date-grid label { display:flex; flex-direction:column; align-items:stretch; gap:var(--pmb-space-2); }
+  .pmb-service .pmb-setup-date-control { display:flex; align-items:center; min-width:0; max-width:100%; padding:0 var(--pmb-space-3); border:1px solid var(--pmb-color-border-accent); border-radius:var(--pmb-radius-small); background:#fff; }
+  .pmb-service .pmb-setup input:is([type=date],[type=search]) { font-size:16px; }
+  .pmb-service .pmb-setup .pmb-setup-date-grid input[type=date] { display:block; flex:1; width:100%; min-width:0; max-width:100%; height:var(--pmb-control-height); min-height:0; padding:0; margin:0; border:0; border-radius:0; background:transparent; line-height:1.5; -webkit-appearance:none; appearance:none; }
+  .pmb-service .pmb-setup-date-grid input::-webkit-date-and-time-value { min-height:1.5em; text-align:left; }
+  .pmb-service .pmb-setup-date-grid input::-webkit-datetime-edit { padding:0; }
+  .pmb-service .pmb-setup-date-feedback { min-block-size:0; }
   .pmb-service .pmb-setup>header>span,.pmb-service .pmb-setup>header>p { display:none; }
   .pmb-service .pmb-setup>header { margin-bottom:var(--pmb-space-3); }
   .pmb-service .pmb-setup h2 { font-size:clamp(20px,4.5vw,24px); margin:0; }

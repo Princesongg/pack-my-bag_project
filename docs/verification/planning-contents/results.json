@@ -1,0 +1,218 @@
+[
+  {
+    "engine": "chrome",
+    "width": 1920,
+    "cardHeight": 106,
+    "navHeight": 106,
+    "bodyTop": 799.734375,
+    "columns": 4,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1440,
+    "cardHeight": 106,
+    "navHeight": 106,
+    "bodyTop": 799.734375,
+    "columns": 4,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1280,
+    "cardHeight": 106,
+    "navHeight": 106,
+    "bodyTop": 798.71875,
+    "columns": 4,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1100,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 900.5,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1024,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 892.78125,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 820,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 872.421875,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 768,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 869.8125,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 430,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 865.828125,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 390,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 865.828125,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 375,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 908.0625,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 360,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 934.0625,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 320,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 934.0625,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "cardHeight": 106,
+    "navHeight": 106,
+    "bodyTop": 799.734375,
+    "columns": 4,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "cardHeight": 106,
+    "navHeight": 106,
+    "bodyTop": 799.734375,
+    "columns": 4,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1280,
+    "cardHeight": 106,
+    "navHeight": 106,
+    "bodyTop": 798.703125,
+    "columns": 4,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1100,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 900.5,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1024,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 892.78125,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 820,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 872.421875,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 768,
+    "cardHeight": 106,
+    "navHeight": 226,
+    "bodyTop": 869.8125,
+    "columns": 2,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 430,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 865.828125,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 865.828125,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 375,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 908.0625,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 360,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 934.0625,
+    "columns": 1,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "cardHeight": 66,
+    "navHeight": 306,
+    "bodyTop": 934.0625,
+    "columns": 1,
+    "overflow": false
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "engine": "chrome",
+    "width": 1920,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 801.78125,
+        "bottom": 1077.15625,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 801.78125,
+        "bottom": 1077.15625,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1440,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 794.3125,
+        "bottom": 1069.6875,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 794.3125,
+        "bottom": 1069.6875,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1280,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 776.0625,
+        "bottom": 1051.4375,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 776.0625,
+        "bottom": 1051.4375,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 1024,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 739.90625,
+        "bottom": 1015.28125,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 739.90625,
+        "bottom": 1015.28125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 820,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 720.15625,
+        "bottom": 995.53125,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 720.15625,
+        "bottom": 995.53125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 768,
+    "cards": [
+      {
+        "height": 379.5625,
+        "top": 714.53125,
+        "bottom": 1015.09375,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 379.5625,
+        "top": 714.53125,
+        "bottom": 1015.09375,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 430,
+    "cards": [
+      {
+        "height": 322.375,
+        "top": 915.03125,
+        "bottom": 1162.40625,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1253.40625,
+        "bottom": 1500.78125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 390,
+    "cards": [
+      {
+        "height": 322.375,
+        "top": 904.78125,
+        "bottom": 1152.15625,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1243.15625,
+        "bottom": 1490.53125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 375,
+    "cards": [
+      {
+        "height": 347.5625,
+        "top": 900.96875,
+        "bottom": 1173.53125,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1264.53125,
+        "bottom": 1511.90625,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 360,
+    "cards": [
+      {
+        "height": 347.5625,
+        "top": 914.6875,
+        "bottom": 1187.25,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1278.25,
+        "bottom": 1525.625,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "chrome",
+    "width": 320,
+    "cards": [
+      {
+        "height": 347.5625,
+        "top": 987.484375,
+        "bottom": 1260.046875,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 347.5625,
+        "top": 1351.046875,
+        "bottom": 1623.609375,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 801.78125,
+        "bottom": 1077.15625,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 801.78125,
+        "bottom": 1077.15625,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 794.3125,
+        "bottom": 1069.6875,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 794.3125,
+        "bottom": 1069.6875,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1280,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 776.0625,
+        "bottom": 1051.4375,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 776.0625,
+        "bottom": 1051.4375,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1024,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 739.90625,
+        "bottom": 1015.28125,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 739.90625,
+        "bottom": 1015.28125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 820,
+    "cards": [
+      {
+        "height": 354.375,
+        "top": 720.09375,
+        "bottom": 995.46875,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 354.375,
+        "top": 720.09375,
+        "bottom": 995.46875,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 768,
+    "cards": [
+      {
+        "height": 379.5625,
+        "top": 714.53125,
+        "bottom": 1015.09375,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 379.5625,
+        "top": 714.53125,
+        "bottom": 1015.09375,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 430,
+    "cards": [
+      {
+        "height": 322.375,
+        "top": 915.03125,
+        "bottom": 1162.40625,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1253.40625,
+        "bottom": 1500.78125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "cards": [
+      {
+        "height": 322.375,
+        "top": 904.78125,
+        "bottom": 1152.15625,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1243.15625,
+        "bottom": 1490.53125,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 375,
+    "cards": [
+      {
+        "height": 347.5625,
+        "top": 900.96875,
+        "bottom": 1173.53125,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1264.53125,
+        "bottom": 1511.90625,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 360,
+    "cards": [
+      {
+        "height": 347.5625,
+        "top": 914.6875,
+        "bottom": 1187.25,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 322.375,
+        "top": 1278.25,
+        "bottom": 1525.625,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "cards": [
+      {
+        "height": 347.5625,
+        "top": 987.484375,
+        "bottom": 1260.046875,
+        "href": "/planning",
+        "overflow": false
+      },
+      {
+        "height": 347.5625,
+        "top": 1351.046875,
+        "bottom": 1623.609375,
+        "href": "/implementation",
+        "overflow": false
+      }
+    ],
+    "badges": 0,
+    "overflow": false
+  }
+]

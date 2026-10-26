@@ -36,7 +36,7 @@
 .small-cross { font-size: var(--pmb-font-card-title); margin-right: var(--pmb-space-1); vertical-align: -2px; }
 .section-top h2 { font-size: clamp(27px,3.2vw,39px); margin: var(--pmb-space-3) 0 0; font-weight: 820; letter-spacing: -.064em; }
 .section-top p { font-size: var(--pmb-font-small); color: #75818b; line-height: var(--pmb-line-body); margin: 0 0 var(--pmb-space-1); }
-.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--pmb-space-6); }
+.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--pmb-space-6); align-items: stretch; }
 .project-card { min-height: 348px; border: 1px solid var(--pmb-color-border-default); border-radius: var(--pmb-radius-modal); padding: var(--pmb-space-7) var(--pmb-space-8) var(--pmb-space-6); display: flex; flex-direction: column; background: var(--pmb-color-surface); transition: transform .22s, border-color .22s, box-shadow .22s; }
 .project-card:hover { transform: translateY(-5px); box-shadow: 0 15px 34px #2c527013; border-color: #acbdc9; }
 .build-card { background: var(--pmb-color-surface-blue); border-color: #d8e3e8; }
@@ -54,6 +54,25 @@
 .build-card .card-bottom { border-color: #d5e0e5; }
 .card-arrow { width: 33px; height: 33px; border: 1px solid #d2dddc; border-radius: 50%; display: grid; place-items: center; transition: background .2s,color .2s; }
 .project-card:hover .card-arrow { background: #315b7c; color: #fff; }
+.chapters .project-card { min-width: 0; min-height: 0; text-decoration: none; }
+.chapters .project-card p { max-width: none; margin-bottom: var(--pmb-space-5); line-height: 1.8; overflow-wrap: anywhere; }
+.chapters .card-bottom { gap: var(--pmb-space-3); min-height: 44px; }
+.chapters .card-arrow { flex: 0 0 33px; }
+.chapters .project-card:focus-visible { outline: 3px solid var(--pmb-color-primary); outline-offset: 4px; }
+.chapters .project-card:focus-visible .card-arrow { background: #315b7c; color: #fff; }
+@media (max-width: 680px) {
+  .chapters .project-card { padding: var(--pmb-space-6); }
+  .chapters .card-icon-zone { height: 68px; margin: var(--pmb-space-4) 0 var(--pmb-space-3); }
+  .chapters .card-icon { width: 64px; height: 64px; border-radius: 18px; }
+  .chapters .card-icon svg { width: 32px; height: 32px; }
+  .chapters .decoration-one { left: 52px; width: 28px; height: 28px; }
+  .chapters .decoration-two { left: 92px; top: 36px; }
+  .chapters .card-bottom { padding-top: var(--pmb-space-4); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chapters .project-card, .chapters .card-arrow { transition: none; }
+  .chapters .project-card:hover { transform: none; }
+}
 .journey { margin-bottom: 93px; padding: var(--pmb-space-7) var(--pmb-space-8) var(--pmb-space-8); border: 1px solid var(--pmb-color-border-default); border-radius: var(--pmb-radius-modal); background: #f6f3ea; }
 .journey-title { display: flex; gap: var(--pmb-space-2); font-size: var(--pmb-font-caption); font-weight: 850; letter-spacing: .12em; align-items: center; color: #71808c; margin-bottom: var(--pmb-space-6); }
 .journey-items { display: grid; grid-template-columns: repeat(4,1fr); gap: var(--pmb-space-5); }

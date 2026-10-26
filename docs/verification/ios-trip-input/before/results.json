@@ -1,0 +1,5369 @@
+{
+  "origin": "http://127.0.0.1:5173",
+  "phase": "before",
+  "results": [
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 120,
+          "right": 1320,
+          "top": 0,
+          "bottom": 102,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 1032.25,
+            "right": 1102.28125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1126.28125,
+            "right": 1177.3125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 149,
+            "right": 708,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 149,
+              "right": 708,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 149,
+              "right": 708,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 732,
+            "right": 1291,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 732,
+              "right": 1291,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 732,
+              "right": 1291,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 149,
+          "right": 1291,
+          "top": 982.34375,
+          "bottom": 1049.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 149,
+          "right": 1291,
+          "top": 884.546875,
+          "bottom": 970.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 149,
+          "right": 1291,
+          "top": 1073.53125,
+          "bottom": 1160.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 120,
+          "right": 1320,
+          "top": 270.59375,
+          "bottom": 1295.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 120,
+          "right": 1320,
+          "top": 0,
+          "bottom": 102,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 1032.25,
+            "right": 1102.28125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1126.28125,
+            "right": 1177.3125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 149,
+            "right": 708,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 149,
+              "right": 708,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 149,
+              "right": 708,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 732,
+            "right": 1291,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 732,
+              "right": 1291,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 732,
+              "right": 1291,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 149,
+          "right": 1291,
+          "top": 982.34375,
+          "bottom": 1049.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 149,
+          "right": 1291,
+          "top": 884.546875,
+          "bottom": 970.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 149,
+          "right": 1291,
+          "top": 1073.53125,
+          "bottom": 1160.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 120,
+          "right": 1320,
+          "top": 270.59375,
+          "bottom": 1295.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 40,
+          "right": 1240,
+          "top": 0,
+          "bottom": 102,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 952.25,
+            "right": 1022.28125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1046.28125,
+            "right": 1097.3125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 69,
+            "right": 628,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 69,
+              "right": 628,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 69,
+              "right": 628,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 652,
+            "right": 1211,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 652,
+              "right": 1211,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 652,
+              "right": 1211,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 69,
+          "right": 1211,
+          "top": 982.34375,
+          "bottom": 1049.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 69,
+          "right": 1211,
+          "top": 884.546875,
+          "bottom": 970.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 69,
+          "right": 1211,
+          "top": 1073.53125,
+          "bottom": 1160.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 40,
+          "right": 1240,
+          "top": 270.59375,
+          "bottom": 1295.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 40,
+          "right": 1240,
+          "top": 0,
+          "bottom": 102,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 952.25,
+            "right": 1022.28125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1046.28125,
+            "right": 1097.3125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 69,
+            "right": 628,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 69,
+              "right": 628,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 69,
+              "right": 628,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 652,
+            "right": 1211,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 652,
+              "right": 1211,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 652,
+              "right": 1211,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 69,
+          "right": 1211,
+          "top": 982.34375,
+          "bottom": 1049.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 69,
+          "right": 1211,
+          "top": 884.546875,
+          "bottom": 970.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 69,
+          "right": 1211,
+          "top": 1073.53125,
+          "bottom": 1160.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 40,
+          "right": 1240,
+          "top": 270.59375,
+          "bottom": 1295.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 1000,
+          "top": 0,
+          "bottom": 145.28125,
+          "width": 976,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 433.46875,
+            "right": 503.5,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 539.5,
+            "right": 590.53125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 47.515625,
+            "right": 500,
+            "top": 950.609375,
+            "bottom": 1004.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 918.8125,
+              "bottom": 942.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 918.8125,
+              "bottom": 1004.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 524,
+            "right": 976.484375,
+            "top": 950.609375,
+            "bottom": 1004.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 918.8125,
+              "bottom": 942.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 918.8125,
+              "bottom": 1004.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 1016.609375,
+          "bottom": 1083.796875,
+          "width": 928.96875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 918.8125,
+          "bottom": 1004.609375,
+          "width": 928.96875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 1104.265625,
+          "bottom": 1242.859375,
+          "width": 928.96875,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 1000,
+          "top": 313.875,
+          "bottom": 1369.03125,
+          "width": 976,
+          "height": 1055.15625
+        },
+        "formHeight": 866.15625,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 1000,
+          "top": 0,
+          "bottom": 145.28125,
+          "width": 976,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 433.46875,
+            "right": 503.5,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 539.5,
+            "right": 590.53125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 47.515625,
+            "right": 500,
+            "top": 950.609375,
+            "bottom": 1004.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 918.8125,
+              "bottom": 942.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 918.8125,
+              "bottom": 1004.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 524,
+            "right": 976.484375,
+            "top": 950.609375,
+            "bottom": 1004.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 918.8125,
+              "bottom": 942.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 918.8125,
+              "bottom": 1004.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 1016.609375,
+          "bottom": 1083.796875,
+          "width": 928.96875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 918.8125,
+          "bottom": 1004.609375,
+          "width": 928.96875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 1104.265625,
+          "bottom": 1242.859375,
+          "width": 928.96875,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 1000,
+          "top": 313.875,
+          "bottom": 1369.03125,
+          "width": 976,
+          "height": 1055.15625
+        },
+        "formHeight": 866.15625,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 820,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 796,
+          "top": 0,
+          "bottom": 145.28125,
+          "width": 772,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 331.46875,
+            "right": 401.5,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 437.5,
+            "right": 488.53125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 43.03125,
+            "right": 398,
+            "top": 945.65625,
+            "bottom": 999.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 913.859375,
+              "bottom": 937.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 913.859375,
+              "bottom": 999.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 422,
+            "right": 776.96875,
+            "top": 945.65625,
+            "bottom": 999.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 913.859375,
+              "bottom": 937.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 913.859375,
+              "bottom": 999.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 1011.65625,
+          "bottom": 1078.84375,
+          "width": 733.9375,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 913.859375,
+          "bottom": 999.65625,
+          "width": 733.9375,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 1098.84375,
+          "bottom": 1237.4375,
+          "width": 733.9375,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 796,
+          "top": 313.875,
+          "bottom": 1358.65625,
+          "width": 772,
+          "height": 1044.78125
+        },
+        "formHeight": 864.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 796,
+          "top": 0,
+          "bottom": 145.28125,
+          "width": 772,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 331.46875,
+            "right": 401.5,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 437.5,
+            "right": 488.53125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 43.03125,
+            "right": 398,
+            "top": 945.65625,
+            "bottom": 999.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 913.859375,
+              "bottom": 937.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 913.859375,
+              "bottom": 999.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 422,
+            "right": 776.96875,
+            "top": 945.65625,
+            "bottom": 999.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 913.859375,
+              "bottom": 937.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 913.859375,
+              "bottom": 999.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 1011.65625,
+          "bottom": 1078.84375,
+          "width": 733.9375,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 913.859375,
+          "bottom": 999.65625,
+          "width": 733.9375,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 1098.84375,
+          "bottom": 1237.4375,
+          "width": 733.9375,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 796,
+          "top": 313.875,
+          "bottom": 1358.65625,
+          "width": 772,
+          "height": 1044.78125
+        },
+        "formHeight": 864.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 748,
+          "top": 0,
+          "bottom": 137.28125,
+          "width": 728,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 696.96875,
+            "right": 748,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37.890625,
+            "right": 378,
+            "top": 971.703125,
+            "bottom": 1025.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 939.90625,
+              "bottom": 963.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 939.90625,
+              "bottom": 1025.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 390,
+            "right": 730.109375,
+            "top": 971.703125,
+            "bottom": 1025.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 939.90625,
+              "bottom": 963.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 939.90625,
+              "bottom": 1025.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1037.703125,
+          "bottom": 1104.890625,
+          "width": 692.21875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 939.90625,
+          "bottom": 1025.703125,
+          "width": 692.21875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1124.890625,
+          "bottom": 1311.265625,
+          "width": 692.21875,
+          "height": 186.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 748,
+          "top": 275.671875,
+          "bottom": 1479.140625,
+          "width": 728,
+          "height": 1203.46875
+        },
+        "formHeight": 1050.703125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 748,
+          "top": -61,
+          "bottom": 76.28125,
+          "width": 728,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 15.1875,
+            "bottom": 63.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 696.96875,
+            "right": 748,
+            "top": 15.1875,
+            "bottom": 63.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37.890625,
+            "right": 378,
+            "top": 1066.703125,
+            "bottom": 1120.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 1034.90625,
+              "bottom": 1058.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 1034.90625,
+              "bottom": 1120.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 390,
+            "right": 730.109375,
+            "top": 1066.703125,
+            "bottom": 1120.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 1034.90625,
+              "bottom": 1058.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 1034.90625,
+              "bottom": 1120.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1132.703125,
+          "bottom": 1199.890625,
+          "width": 692.21875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1034.90625,
+          "bottom": 1120.703125,
+          "width": 692.21875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1219.890625,
+          "bottom": 1406.265625,
+          "width": 692.21875,
+          "height": 186.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 748,
+          "top": 214.671875,
+          "bottom": 1574.140625,
+          "width": 728,
+          "height": 1359.46875
+        },
+        "formHeight": 1206.703125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 430,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 410,
+          "top": 0,
+          "bottom": 137.28125,
+          "width": 390,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 358.96875,
+            "right": 410,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 393,
+            "top": 855.703125,
+            "bottom": 909.703125,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 823.90625,
+              "bottom": 847.703125,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 823.90625,
+              "bottom": 909.703125,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 393,
+            "top": 953.5,
+            "bottom": 1007.5,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 921.703125,
+              "bottom": 945.5,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 921.703125,
+              "bottom": 1007.5,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 393,
+          "top": 1019.5,
+          "bottom": 1086.6875,
+          "width": 356,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 393,
+          "top": 823.90625,
+          "bottom": 1007.5,
+          "width": 356,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 393,
+          "top": 1106.6875,
+          "bottom": 1345.0625,
+          "width": 356,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 410,
+          "top": 239.875,
+          "bottom": 1512.046875,
+          "width": 390,
+          "height": 1272.171875
+        },
+        "formHeight": 1192.171875,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 410,
+          "top": 0,
+          "bottom": 137.28125,
+          "width": 390,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 358.96875,
+            "right": 410,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 393,
+            "top": 529.859375,
+            "bottom": 583.859375,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 498.0625,
+              "bottom": 521.859375,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 498.0625,
+              "bottom": 583.859375,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 393,
+            "top": 627.65625,
+            "bottom": 681.65625,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 595.859375,
+              "bottom": 619.65625,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 595.859375,
+              "bottom": 681.65625,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 393,
+          "top": 693.65625,
+          "bottom": 760.84375,
+          "width": 356,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 393,
+          "top": 498.0625,
+          "bottom": 681.65625,
+          "width": 356,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 393,
+          "top": 780.84375,
+          "bottom": 1019.21875,
+          "width": 356,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 410,
+          "top": 239.875,
+          "bottom": 1186.203125,
+          "width": 390,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 370,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 350,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 318.96875,
+            "right": 370,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 353,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 353,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 353,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 316,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 353,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 316,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 353,
+          "top": 1166.78125,
+          "bottom": 1405.15625,
+          "width": 316,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 370,
+          "top": 233.6875,
+          "bottom": 1572.140625,
+          "width": 350,
+          "height": 1338.453125
+        },
+        "formHeight": 1258.453125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 370,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 350,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 318.96875,
+            "right": 370,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 353,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 353,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 353,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 316,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 353,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 316,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 353,
+          "top": 774.65625,
+          "bottom": 1013.03125,
+          "width": 316,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 370,
+          "top": 233.6875,
+          "bottom": 1180.015625,
+          "width": 350,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 355,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 335,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 303.96875,
+            "right": 355,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 338,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 338,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 338,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 301,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 338,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 301,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 338,
+          "top": 1166.78125,
+          "bottom": 1405.15625,
+          "width": 301,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 355,
+          "top": 233.6875,
+          "bottom": 1572.140625,
+          "width": 335,
+          "height": 1338.453125
+        },
+        "formHeight": 1258.453125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 355,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 335,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 303.96875,
+            "right": 355,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 338,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 338,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 338,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 301,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 338,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 301,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 338,
+          "top": 774.65625,
+          "bottom": 1013.03125,
+          "width": 301,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 355,
+          "top": 233.6875,
+          "bottom": 1180.015625,
+          "width": 335,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 360,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 340,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 320,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 288.96875,
+            "right": 340,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 323,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 323,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 323,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 286,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 323,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 286,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 323,
+          "top": 1166.78125,
+          "bottom": 1405.15625,
+          "width": 286,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 340,
+          "top": 233.6875,
+          "bottom": 1572.140625,
+          "width": 320,
+          "height": 1338.453125
+        },
+        "formHeight": 1258.453125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 340,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 320,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 288.96875,
+            "right": 340,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 323,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 323,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 323,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 286,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 323,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 286,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 323,
+          "top": 774.65625,
+          "bottom": 1013.03125,
+          "width": 286,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 340,
+          "top": 233.6875,
+          "bottom": 1180.015625,
+          "width": 320,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 300,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 280,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 248.96875,
+            "right": 300,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 283,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 283,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 283,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 246,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 283,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 246,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 283,
+          "top": 1166.78125,
+          "bottom": 1469.9375,
+          "width": 246,
+          "height": 303.15625
+        },
+        "panel": {
+          "left": 20,
+          "right": 300,
+          "top": 233.6875,
+          "bottom": 1636.921875,
+          "width": 280,
+          "height": 1403.234375
+        },
+        "formHeight": 1323.234375,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 300,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 280,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 248.96875,
+            "right": 300,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 283,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 283,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "text",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 283,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 246,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 283,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 246,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 283,
+          "top": 774.65625,
+          "bottom": 1077.8125,
+          "width": 246,
+          "height": 303.15625
+        },
+        "panel": {
+          "left": 20,
+          "right": 300,
+          "top": 233.6875,
+          "bottom": 1244.796875,
+          "width": 280,
+          "height": 1011.109375
+        },
+        "formHeight": 931.109375,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 120,
+          "right": 1320,
+          "top": 0,
+          "bottom": 102,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 1032.25,
+            "right": 1102.28125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1126.28125,
+            "right": 1177.3125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 149,
+            "right": 708,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 149,
+              "right": 708,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 149,
+              "right": 708,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 732,
+            "right": 1291,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 732,
+              "right": 1291,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 732,
+              "right": 1291,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 149,
+          "right": 1291,
+          "top": 982.34375,
+          "bottom": 1049.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 149,
+          "right": 1291,
+          "top": 884.546875,
+          "bottom": 970.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 149,
+          "right": 1291,
+          "top": 1073.53125,
+          "bottom": 1160.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 120,
+          "right": 1320,
+          "top": 270.59375,
+          "bottom": 1295.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 120,
+          "right": 1320,
+          "top": -443,
+          "bottom": -341,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 1032.25,
+            "right": 1102.28125,
+            "top": -416.546875,
+            "bottom": -368.453125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1126.28125,
+            "right": 1177.3125,
+            "top": -416.546875,
+            "bottom": -368.453125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 149,
+            "right": 708,
+            "top": 473.34375,
+            "bottom": 527.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 149,
+              "right": 708,
+              "top": 441.546875,
+              "bottom": 465.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 149,
+              "right": 708,
+              "top": 441.546875,
+              "bottom": 527.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 732,
+            "right": 1291,
+            "top": 473.34375,
+            "bottom": 527.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 732,
+              "right": 1291,
+              "top": 441.546875,
+              "bottom": 465.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 732,
+              "right": 1291,
+              "top": 441.546875,
+              "bottom": 527.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 149,
+          "right": 1291,
+          "top": 539.34375,
+          "bottom": 606.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 149,
+          "right": 1291,
+          "top": 441.546875,
+          "bottom": 527.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 149,
+          "right": 1291,
+          "top": 630.53125,
+          "bottom": 717.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 120,
+          "right": 1320,
+          "top": -172.40625,
+          "bottom": 852.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 1280,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 40,
+          "right": 1240,
+          "top": 0,
+          "bottom": 102,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 952.25,
+            "right": 1022.28125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1046.28125,
+            "right": 1097.3125,
+            "top": 26.453125,
+            "bottom": 74.546875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 69,
+            "right": 628,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 69,
+              "right": 628,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 69,
+              "right": 628,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 652,
+            "right": 1211,
+            "top": 916.34375,
+            "bottom": 970.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 652,
+              "right": 1211,
+              "top": 884.546875,
+              "bottom": 908.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 652,
+              "right": 1211,
+              "top": 884.546875,
+              "bottom": 970.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 69,
+          "right": 1211,
+          "top": 982.34375,
+          "bottom": 1049.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 69,
+          "right": 1211,
+          "top": 884.546875,
+          "bottom": 970.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 69,
+          "right": 1211,
+          "top": 1073.53125,
+          "bottom": 1160.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 40,
+          "right": 1240,
+          "top": 270.59375,
+          "bottom": 1295.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 40,
+          "right": 1240,
+          "top": -443,
+          "bottom": -341,
+          "width": 1200,
+          "height": 102,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 952.25,
+            "right": 1022.28125,
+            "top": -416.546875,
+            "bottom": -368.453125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 1046.28125,
+            "right": 1097.3125,
+            "top": -416.546875,
+            "bottom": -368.453125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 69,
+            "right": 628,
+            "top": 473.34375,
+            "bottom": 527.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 69,
+              "right": 628,
+              "top": 441.546875,
+              "bottom": 465.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 69,
+              "right": 628,
+              "top": 441.546875,
+              "bottom": 527.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 652,
+            "right": 1211,
+            "top": 473.34375,
+            "bottom": 527.34375,
+            "width": 559,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 652,
+              "right": 1211,
+              "top": 441.546875,
+              "bottom": 465.34375,
+              "width": 559,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 652,
+              "right": 1211,
+              "top": 441.546875,
+              "bottom": 527.34375,
+              "width": 559,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 69,
+          "right": 1211,
+          "top": 539.34375,
+          "bottom": 606.53125,
+          "width": 1142,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 69,
+          "right": 1211,
+          "top": 441.546875,
+          "bottom": 527.34375,
+          "width": 1142,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 69,
+          "right": 1211,
+          "top": 630.53125,
+          "bottom": 717.125,
+          "width": 1142,
+          "height": 86.59375
+        },
+        "panel": {
+          "left": 40,
+          "right": 1240,
+          "top": -172.40625,
+          "bottom": 852.3125,
+          "width": 1200,
+          "height": 1024.71875
+        },
+        "formHeight": 824.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 1024,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 1000,
+          "top": 0,
+          "bottom": 145.28125,
+          "width": 976,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 433.46875,
+            "right": 503.5,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 539.5,
+            "right": 590.53125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 47.515625,
+            "right": 500,
+            "top": 950.609375,
+            "bottom": 1004.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 918.8125,
+              "bottom": 942.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 918.8125,
+              "bottom": 1004.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 524,
+            "right": 976.484375,
+            "top": 950.609375,
+            "bottom": 1004.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 918.8125,
+              "bottom": 942.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 918.8125,
+              "bottom": 1004.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 1016.609375,
+          "bottom": 1083.796875,
+          "width": 928.96875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 918.8125,
+          "bottom": 1004.609375,
+          "width": 928.96875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 1104.265625,
+          "bottom": 1242.859375,
+          "width": 928.96875,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 1000,
+          "top": 313.875,
+          "bottom": 1369.03125,
+          "width": 976,
+          "height": 1055.15625
+        },
+        "formHeight": 866.15625,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 1000,
+          "top": -517,
+          "bottom": -371.71875,
+          "width": 976,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 433.46875,
+            "right": 503.5,
+            "top": -440.8125,
+            "bottom": -392.71875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 539.5,
+            "right": 590.53125,
+            "top": -440.8125,
+            "bottom": -392.71875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 47.515625,
+            "right": 500,
+            "top": 433.609375,
+            "bottom": 487.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 401.8125,
+              "bottom": 425.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 47.515625,
+              "right": 500,
+              "top": 401.8125,
+              "bottom": 487.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 524,
+            "right": 976.484375,
+            "top": 433.609375,
+            "bottom": 487.609375,
+            "width": 452.484375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 401.8125,
+              "bottom": 425.609375,
+              "width": 452.484375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 524,
+              "right": 976.484375,
+              "top": 401.8125,
+              "bottom": 487.609375,
+              "width": 452.484375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 499.609375,
+          "bottom": 566.796875,
+          "width": 928.96875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 401.8125,
+          "bottom": 487.609375,
+          "width": 928.96875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 47.515625,
+          "right": 976.484375,
+          "top": 587.265625,
+          "bottom": 725.859375,
+          "width": 928.96875,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 1000,
+          "top": -203.125,
+          "bottom": 852.03125,
+          "width": 976,
+          "height": 1055.15625
+        },
+        "formHeight": 866.15625,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 820,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 796,
+          "top": 0,
+          "bottom": 145.28125,
+          "width": 772,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 331.46875,
+            "right": 401.5,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 437.5,
+            "right": 488.53125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 43.03125,
+            "right": 398,
+            "top": 945.65625,
+            "bottom": 999.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 913.859375,
+              "bottom": 937.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 913.859375,
+              "bottom": 999.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 422,
+            "right": 776.96875,
+            "top": 945.65625,
+            "bottom": 999.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 913.859375,
+              "bottom": 937.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 913.859375,
+              "bottom": 999.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 1011.65625,
+          "bottom": 1078.84375,
+          "width": 733.9375,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 913.859375,
+          "bottom": 999.65625,
+          "width": 733.9375,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 1098.84375,
+          "bottom": 1237.4375,
+          "width": 733.9375,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 796,
+          "top": 313.875,
+          "bottom": 1358.65625,
+          "width": 772,
+          "height": 1044.78125
+        },
+        "formHeight": 864.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 24,
+          "right": 796,
+          "top": -507,
+          "bottom": -361.71875,
+          "width": 772,
+          "height": 145.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 331.46875,
+            "right": 401.5,
+            "top": -430.8125,
+            "bottom": -382.71875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 437.5,
+            "right": 488.53125,
+            "top": -430.8125,
+            "bottom": -382.71875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 43.03125,
+            "right": 398,
+            "top": 438.65625,
+            "bottom": 492.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 406.859375,
+              "bottom": 430.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 43.03125,
+              "right": 398,
+              "top": 406.859375,
+              "bottom": 492.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 422,
+            "right": 776.96875,
+            "top": 438.65625,
+            "bottom": 492.65625,
+            "width": 354.96875,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 406.859375,
+              "bottom": 430.65625,
+              "width": 354.96875,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 422,
+              "right": 776.96875,
+              "top": 406.859375,
+              "bottom": 492.65625,
+              "width": 354.96875,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 504.65625,
+          "bottom": 571.84375,
+          "width": 733.9375,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 406.859375,
+          "bottom": 492.65625,
+          "width": 733.9375,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 43.03125,
+          "right": 776.96875,
+          "top": 591.84375,
+          "bottom": 730.4375,
+          "width": 733.9375,
+          "height": 138.59375
+        },
+        "panel": {
+          "left": 24,
+          "right": 796,
+          "top": -193.125,
+          "bottom": 851.65625,
+          "width": 772,
+          "height": 1044.78125
+        },
+        "formHeight": 864.75,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 748,
+          "top": 0,
+          "bottom": 137.28125,
+          "width": 728,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 696.96875,
+            "right": 748,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37.890625,
+            "right": 378,
+            "top": 971.703125,
+            "bottom": 1025.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 939.90625,
+              "bottom": 963.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 939.90625,
+              "bottom": 1025.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 390,
+            "right": 730.109375,
+            "top": 971.703125,
+            "bottom": 1025.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 939.90625,
+              "bottom": 963.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 939.90625,
+              "bottom": 1025.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1037.703125,
+          "bottom": 1104.890625,
+          "width": 692.21875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 939.90625,
+          "bottom": 1025.703125,
+          "width": 692.21875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 1124.890625,
+          "bottom": 1311.265625,
+          "width": 692.21875,
+          "height": 186.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 748,
+          "top": 275.671875,
+          "bottom": 1479.140625,
+          "width": 728,
+          "height": 1203.46875
+        },
+        "formHeight": 1050.703125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 748,
+          "top": -705,
+          "bottom": -567.71875,
+          "width": 728,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": -628.8125,
+            "bottom": -580.71875,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 696.96875,
+            "right": 748,
+            "top": -628.8125,
+            "bottom": -580.71875,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37.890625,
+            "right": 378,
+            "top": 422.703125,
+            "bottom": 476.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 390.90625,
+              "bottom": 414.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37.890625,
+              "right": 378,
+              "top": 390.90625,
+              "bottom": 476.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 390,
+            "right": 730.109375,
+            "top": 422.703125,
+            "bottom": 476.703125,
+            "width": 340.109375,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 390.90625,
+              "bottom": 414.703125,
+              "width": 340.109375,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 390,
+              "right": 730.109375,
+              "top": 390.90625,
+              "bottom": 476.703125,
+              "width": 340.109375,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 488.703125,
+          "bottom": 555.890625,
+          "width": 692.21875,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 390.90625,
+          "bottom": 476.703125,
+          "width": 692.21875,
+          "height": 85.796875
+        },
+        "purpose": {
+          "left": 37.890625,
+          "right": 730.109375,
+          "top": 575.890625,
+          "bottom": 762.265625,
+          "width": 692.21875,
+          "height": 186.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 748,
+          "top": -429.328125,
+          "bottom": 930.140625,
+          "width": 728,
+          "height": 1359.46875
+        },
+        "formHeight": 1206.703125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 430,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 410,
+          "top": 0,
+          "bottom": 137.28125,
+          "width": 390,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 358.96875,
+            "right": 410,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 393,
+            "top": 855.703125,
+            "bottom": 909.703125,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 823.90625,
+              "bottom": 847.703125,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 823.90625,
+              "bottom": 909.703125,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 393,
+            "top": 953.5,
+            "bottom": 1007.5,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 921.703125,
+              "bottom": 945.5,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 921.703125,
+              "bottom": 1007.5,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 393,
+          "top": 1019.5,
+          "bottom": 1086.6875,
+          "width": 356,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 393,
+          "top": 823.90625,
+          "bottom": 1007.5,
+          "width": 356,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 393,
+          "top": 1106.6875,
+          "bottom": 1345.0625,
+          "width": 356,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 410,
+          "top": 239.875,
+          "bottom": 1512.046875,
+          "width": 390,
+          "height": 1272.171875
+        },
+        "formHeight": 1192.171875,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 410,
+          "top": 0,
+          "bottom": 137.28125,
+          "width": 390,
+          "height": 137.28125,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 358.96875,
+            "right": 410,
+            "top": 76.1875,
+            "bottom": 124.28125,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 393,
+            "top": 529.859375,
+            "bottom": 583.859375,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 498.0625,
+              "bottom": 521.859375,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 498.0625,
+              "bottom": 583.859375,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 393,
+            "top": 627.65625,
+            "bottom": 681.65625,
+            "width": 356,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 393,
+              "top": 595.859375,
+              "bottom": 619.65625,
+              "width": 356,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 393,
+              "top": 595.859375,
+              "bottom": 681.65625,
+              "width": 356,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 393,
+          "top": 693.65625,
+          "bottom": 760.84375,
+          "width": 356,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 393,
+          "top": 498.0625,
+          "bottom": 681.65625,
+          "width": 356,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 393,
+          "top": 780.84375,
+          "bottom": 1019.21875,
+          "width": 356,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 410,
+          "top": 239.875,
+          "bottom": 1186.203125,
+          "width": 390,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 370,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 350,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 318.96875,
+            "right": 370,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 353,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 353,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 353,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 316,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 353,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 316,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 353,
+          "top": 1166.78125,
+          "bottom": 1405.15625,
+          "width": 316,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 370,
+          "top": 233.6875,
+          "bottom": 1572.140625,
+          "width": 350,
+          "height": 1338.453125
+        },
+        "formHeight": 1258.453125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 370,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 350,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 318.96875,
+            "right": 370,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 353,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 353,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 316,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 353,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 316,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 353,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 316,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 353,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 316,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 353,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 316,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 353,
+          "top": 774.65625,
+          "bottom": 1013.03125,
+          "width": 316,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 370,
+          "top": 233.6875,
+          "bottom": 1180.015625,
+          "width": 350,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 375,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 355,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 335,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 303.96875,
+            "right": 355,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 338,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 338,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 338,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 301,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 338,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 301,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 338,
+          "top": 1166.78125,
+          "bottom": 1405.15625,
+          "width": 301,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 355,
+          "top": 233.6875,
+          "bottom": 1572.140625,
+          "width": 335,
+          "height": 1338.453125
+        },
+        "formHeight": 1258.453125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 355,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 335,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 303.96875,
+            "right": 355,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 338,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 338,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 301,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 338,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 301,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 338,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 301,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 338,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 301,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 338,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 301,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 338,
+          "top": 774.65625,
+          "bottom": 1013.03125,
+          "width": 301,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 355,
+          "top": 233.6875,
+          "bottom": 1180.015625,
+          "width": 335,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 360,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 340,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 320,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 288.96875,
+            "right": 340,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 323,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 323,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 323,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 286,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 323,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 286,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 323,
+          "top": 1166.78125,
+          "bottom": 1405.15625,
+          "width": 286,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 340,
+          "top": 233.6875,
+          "bottom": 1572.140625,
+          "width": 320,
+          "height": 1338.453125
+        },
+        "formHeight": 1258.453125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 340,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 320,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 288.96875,
+            "right": 340,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 323,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 323,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 286,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 323,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 286,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 323,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 286,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 323,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 286,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 323,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 286,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 323,
+          "top": 774.65625,
+          "bottom": 1013.03125,
+          "width": 286,
+          "height": 238.375
+        },
+        "panel": {
+          "left": 20,
+          "right": 340,
+          "top": 233.6875,
+          "bottom": 1180.015625,
+          "width": 320,
+          "height": 946.328125
+        },
+        "formHeight": 866.328125,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    },
+    {
+      "engine": "chrome",
+      "width": 320,
+      "empty": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 300,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 280,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 248.96875,
+            "right": 300,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 283,
+            "top": 915.796875,
+            "bottom": 969.796875,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 884,
+              "bottom": 907.796875,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 884,
+              "bottom": 969.796875,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 283,
+            "top": 1013.59375,
+            "bottom": 1067.59375,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 981.796875,
+              "bottom": 1005.59375,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 981.796875,
+              "bottom": 1067.59375,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 283,
+          "top": 1079.59375,
+          "bottom": 1146.78125,
+          "width": 246,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 283,
+          "top": 884,
+          "bottom": 1067.59375,
+          "width": 246,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 283,
+          "top": 1166.78125,
+          "bottom": 1469.9375,
+          "width": 246,
+          "height": 303.15625
+        },
+        "panel": {
+          "left": 20,
+          "right": 300,
+          "top": 233.6875,
+          "bottom": 1636.921875,
+          "width": 280,
+          "height": 1403.234375
+        },
+        "formHeight": 1323.234375,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "selected": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "overflow": false,
+        "header": {
+          "left": 20,
+          "right": 300,
+          "top": 0,
+          "bottom": 131.09375,
+          "width": 280,
+          "height": 131.09375,
+          "position": "static"
+        },
+        "nav": [
+          {
+            "left": 20,
+            "right": 90.03125,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 70.03125,
+            "height": 48.09375,
+            "text": "TRIP INPUT"
+          },
+          {
+            "left": 248.96875,
+            "right": 300,
+            "top": 70,
+            "bottom": 118.09375,
+            "width": 51.03125,
+            "height": 48.09375,
+            "text": "MY BAG"
+          }
+        ],
+        "dates": [
+          {
+            "left": 37,
+            "right": 283,
+            "top": 523.671875,
+            "bottom": 577.671875,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-09",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 491.875,
+              "bottom": 515.671875,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 491.875,
+              "bottom": 577.671875,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          },
+          {
+            "left": 37,
+            "right": 283,
+            "top": 621.46875,
+            "bottom": 675.46875,
+            "width": 246,
+            "height": 54,
+            "font": "14px",
+            "padding": "12px",
+            "type": "date",
+            "value": "2026-11-17",
+            "label": {
+              "left": 37,
+              "right": 283,
+              "top": 589.671875,
+              "bottom": 613.46875,
+              "width": 246,
+              "height": 23.796875
+            },
+            "wrapper": {
+              "left": 37,
+              "right": 283,
+              "top": 589.671875,
+              "bottom": 675.46875,
+              "width": 246,
+              "height": 85.796875
+            },
+            "appearance": "auto"
+          }
+        ],
+        "feedback": {
+          "left": 37,
+          "right": 283,
+          "top": 687.46875,
+          "bottom": 754.65625,
+          "width": 246,
+          "height": 67.1875
+        },
+        "dateGrid": {
+          "left": 37,
+          "right": 283,
+          "top": 491.875,
+          "bottom": 675.46875,
+          "width": 246,
+          "height": 183.59375
+        },
+        "purpose": {
+          "left": 37,
+          "right": 283,
+          "top": 774.65625,
+          "bottom": 1077.8125,
+          "width": 246,
+          "height": 303.15625
+        },
+        "panel": {
+          "left": 20,
+          "right": 300,
+          "top": 233.6875,
+          "bottom": 1244.796875,
+          "width": 280,
+          "height": 1011.109375
+        },
+        "formHeight": 931.109375,
+        "visualViewport": {
+          "scale": 1,
+          "height": 900,
+          "offsetTop": 0
+        }
+      },
+      "makeBagAndRestore": true,
+      "status": "PASS in tested desktop engine"
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "actualIOS": "NOT TESTED"
+}

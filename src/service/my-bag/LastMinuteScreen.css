@@ -7,14 +7,26 @@
 .pmb-last-call-heading h1 { font-size:clamp(52px,9vw,84px); letter-spacing:-4px; line-height:1; margin:var(--pmb-space-3) 0; font-weight:900; }
 .pmb-last-call-heading h1>span { color:var(--pmb-color-primary); }
 .pmb-last-call-heading p { margin:0 0 var(--pmb-space-6); font-size:var(--pmb-font-card-title); }
-.pmb-last-call-ticket { display:grid; grid-template-columns:minmax(0,1fr) auto; border:1px solid #e3cf80; border-radius:var(--pmb-radius-panel); background:#f5e5a6; }
+.pmb-last-call-ticket { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,3fr); border:1px solid #e3cf80; border-radius:var(--pmb-radius-panel); background:#f5e5a6; overflow:hidden; }
 .pmb-last-call-destination { min-width:0; padding:var(--pmb-space-5) var(--pmb-space-6); }
-.pmb-last-call-destination>span { display:flex; align-items:center; gap:var(--pmb-space-2); font-size:var(--pmb-font-small); font-weight:600; }
-.pmb-last-call-destination h2 { font-size:28px; line-height:1.2; margin:var(--pmb-space-3) 0 var(--pmb-space-2); overflow-wrap:anywhere; }
+.pmb-travel-pass-brand { display:flex; align-items:center; flex-wrap:wrap; gap:var(--pmb-space-2); font-size:12px; font-weight:700; letter-spacing:.4px; }
+.pmb-travel-pass-brand small { margin-left:auto; font-size:10px; font-weight:500; letter-spacing:1px; color:#5d614d; }
+.pmb-travel-pass-label { display:block; margin-top:var(--pmb-space-3); font-size:10px; letter-spacing:1.6px; color:#5d614d; }
+.pmb-travel-pass-route { display:flex; align-items:center; gap:var(--pmb-space-3); }
+.pmb-travel-pass-route>span { display:flex; align-items:center; gap:var(--pmb-space-2); color:var(--pmb-color-primary); margin-left:auto; flex-shrink:0; }
+.pmb-travel-pass-route i { width:clamp(16px,4vw,48px); border-top:1px dashed #a69355; }
+.pmb-last-call-destination h2 { font-size:clamp(24px,3vw,32px); line-height:1.15; margin:var(--pmb-space-1) 0 var(--pmb-space-2); overflow-wrap:anywhere; min-width:0; letter-spacing:-.5px; }
 .pmb-last-call-destination p { margin:0; font-size:var(--pmb-font-small); }
-.pmb-last-call-ticket dl { display:grid; align-content:center; gap:var(--pmb-space-4); margin:0; padding:var(--pmb-space-5) var(--pmb-space-6); border-left:2px dashed #d5bf77; }
-.pmb-last-call-ticket dt { font-size:var(--pmb-font-small); color:#5d614d; }
+.pmb-travel-pass-note { display:block; margin-top:var(--pmb-space-2); font-size:10px; color:#5d614d; }
+.pmb-last-call-ticket dl { position:relative; display:grid; align-content:center; gap:var(--pmb-space-2); margin:0; padding:var(--pmb-space-4) var(--pmb-space-5); border-left:2px dashed #d5bf77; min-width:0; }
+.pmb-travel-pass-stub::before,.pmb-travel-pass-stub::after { content:''; position:absolute; left:-10px; width:18px; height:18px; border:1px solid #e3cf80; border-radius:50%; background:#f8f3e4; pointer-events:none; }
+.pmb-travel-pass-stub::before { top:-1px; height:9px; border-top:0; border-radius:0 0 10px 10px; }
+.pmb-travel-pass-stub::after { bottom:-1px; height:9px; border-bottom:0; border-radius:10px 10px 0 0; }
+.pmb-last-call-ticket dt>span { display:block; font-size:9px; letter-spacing:1.2px; }
+.pmb-travel-pass-barcode { height:18px; width:100%; max-width:144px; margin-top:var(--pmb-space-1); opacity:.7; background:repeating-linear-gradient(90deg,var(--pmb-color-text-primary) 0 1px,transparent 1px 3px,var(--pmb-color-text-primary) 3px 6px,transparent 6px 8px,var(--pmb-color-text-primary) 8px 10px,transparent 10px 14px); }
+.pmb-last-call-ticket dt { font-size:12px; line-height:1.3; color:#5d614d; }
 .pmb-last-call-ticket dd { font-size:var(--pmb-font-body); font-weight:650; margin:var(--pmb-space-1) 0 0; }
+.pmb-last-call-ticket dd { overflow-wrap:anywhere; font-variant-numeric:tabular-nums; line-height:1.3; }
 .pmb-last-call .pmb-last-minute { margin-top:var(--pmb-space-5); background:var(--pmb-color-surface); border-color:#d4dce5; padding:var(--pmb-space-5); }
 .pmb-final-checklist-heading { display:flex; align-items:center; justify-content:space-between; gap:var(--pmb-space-3); }
 .pmb-final-checklist-heading h2 { font-size:var(--pmb-font-body); margin:0; }
@@ -27,9 +39,15 @@
   .pmb-last-call-heading h1 { letter-spacing:-2px; }
   .pmb-last-call-heading p { font-size:var(--pmb-font-body); margin-bottom:var(--pmb-space-5); }
   .pmb-last-call-ticket { grid-template-columns:minmax(0,1fr); }
-  .pmb-last-call-destination { padding:var(--pmb-space-4); }
+  .pmb-last-call-destination { padding:var(--pmb-space-3) var(--pmb-space-4); }
   .pmb-last-call-destination h2 { font-size:var(--pmb-font-section-title); }
-  .pmb-last-call-ticket dl { grid-template-columns:repeat(2,minmax(0,1fr)); border-left:0; border-top:2px dashed #d5bf77; padding:var(--pmb-space-3) var(--pmb-space-4); gap:var(--pmb-space-3); }
+  .pmb-last-call-ticket dl { grid-template-columns:repeat(2,minmax(0,1fr)); border-left:0; border-top:2px dashed #d5bf77; padding:var(--pmb-space-3) var(--pmb-space-4); gap:var(--pmb-space-1) var(--pmb-space-3); }
+  .pmb-travel-pass-stub::before,.pmb-travel-pass-stub::after { top:-10px; bottom:auto; width:9px; height:18px; border:1px solid #e3cf80; }
+  .pmb-travel-pass-stub::before { left:-1px; border-left:0; border-radius:0 10px 10px 0; }
+  .pmb-travel-pass-stub::after { left:auto; right:-1px; border-right:0; border-radius:10px 0 0 10px; }
+  .pmb-travel-pass-barcode { grid-column:1 / -1; height:8px; max-width:none; margin:0; }
+  .pmb-travel-pass-label { margin-top:var(--pmb-space-1); }
+  .pmb-last-call-ticket dt>span { display:inline; margin-right:var(--pmb-space-1); font-size:8px; letter-spacing:.6px; }
   .pmb-last-call-ticket dt { font-size:var(--pmb-font-caption); }
   .pmb-last-call-ticket dd { font-size:var(--pmb-font-small); }
   .pmb-last-call .pmb-last-minute { padding:var(--pmb-space-4); margin-top:var(--pmb-space-4); }

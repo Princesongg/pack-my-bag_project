@@ -1,0 +1,1254 @@
+{
+  "checks": [
+    {
+      "engine": "chrome",
+      "width": 1920,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 1280,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 1024,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 900,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 820,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 430,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 375,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 360,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "chrome",
+      "width": 320,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 2,
+          "equalHeight": true,
+          "stacked": false,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 900,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 820,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 430,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 360,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": true,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "overflow": false,
+      "pairs": [
+        {
+          "problem": "PROBLEM 01",
+          "solution": "SOLUTION 01",
+          "title": "SMART TRIP BRIEF",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 02",
+          "solution": "SOLUTION 02",
+          "title": "PACKING RED FLAGS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 03",
+          "solution": "SOLUTION 03",
+          "title": "PACK LESS",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        },
+        {
+          "problem": "PROBLEM 04",
+          "solution": "SOLUTION 04",
+          "title": "LAST MINUTE BAG",
+          "columns": 1,
+          "equalHeight": false,
+          "stacked": true,
+          "arrowHidden": "true"
+        }
+      ],
+      "font": "16px",
+      "flow": [
+        "SMART TRIP BRIEF",
+        "PACKING RED FLAGS",
+        "PACK LESS",
+        "LAST MINUTE BAG"
+      ],
+      "approach": 1,
+      "challenge": 1
+    }
+  ],
+  "otherTopicDataUnchanged": true,
+  "actualIPhone": "NOT TESTED"
+}

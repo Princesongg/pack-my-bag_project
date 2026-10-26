@@ -8,6 +8,9 @@
 .pmb-start-screen .pmb-header { justify-content:space-between; }
 .pmb-workspace .pmb-setup { margin-bottom:var(--pmb-space-8); }
 @media(max-width:640px) {
+  /* Remain in document flow. Insets protect edge-to-edge iOS hosts without
+     adding a device-specific top margin or changing the global viewport. */
+  .pmb-service.pmb-workspace { padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); padding-left:env(safe-area-inset-left,0px); padding-right:env(safe-area-inset-right,0px); -webkit-text-size-adjust:100%; text-size-adjust:100%; }
   .pmb-workspace-result-step { display:none; }
   .pmb-service .pmb-workspace-heading p { display:none; }
   .pmb-service .pmb-workspace-heading h1 { margin:var(--pmb-space-1) 0 var(--pmb-space-2); }

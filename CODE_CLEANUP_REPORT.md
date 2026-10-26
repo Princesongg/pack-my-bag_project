@@ -1,5 +1,30 @@
 # 파일·중복 코드 정리
 
+## 2026-10-27 재점검 및 기획 정리 반영
+
+- 앱의 정적·문자열 동적 import, CSS `@import`, 테스트 참조를 확인했습니다. 누락 상대경로 0개. `data/index.ts`, `countries.ts`는 테스트용 공개 진입점이며 `typography.css`는 CSS import로 사용하므로 유지했습니다. 삭제할 미사용 컴포넌트 파일은 발견하지 않았습니다.
+- 앱 TS/TSX/CSS의 바이트 동일 파일은 없습니다. 동일한 태국/베트남 JMA 설명 원본은 국가별 수집 계보가 있어 유지했습니다. 의미상 모든 중복 코드를 없앴다는 뜻은 아닙니다.
+- `src/styles/archive.css`의 이전 구현 예정 화면 스타일 6개와 `src/styles/responsive.css`의 해당 화면·사라진 note/상태 배지 스타일 4개를 제거했습니다. 현재 TS/TSX에 클래스 참조가 없는 10개 규칙만 정리했습니다.
+- `node_modules/.cache` 내부의 비활성 QA Chrome 프로필 18개를 제거했습니다. 확보 용량 **776,110,179 bytes / 740.16 MiB**. 절대경로 범위·Git 디렉터리 부재·실행 중 Chrome의 프로필 사용 여부를 확인했습니다. 실제 사용자 프로필·의존성·Playwright/WebKit 도구·Git 작업 사본·출처·QA 증거는 삭제하지 않았습니다.
+- 최신 Planning 목차, 01 AI LAB Overview, 02 문제→차별화 기능 대응과 고객 결제 문제를 목격한 실제 경험 문구를 반영합니다. 기존 START SCREEN·요약 스탬프·PACK LESS/FINAL CHECK 일러스트·LAST CALL 티켓·iOS 입력 방어 등 앞선 세션의 승인된 로컬 수정도 함께 반영합니다. 이번 정리 때문에 앱 기능이나 여행 데이터를 새로 바꾸지 않았습니다.
+- README와 MAINTENANCE_AUDIT의 현재 폴더 역할·재사용 규칙을 유지합니다. 새 기능 폴더나 임시 중복 컴포넌트를 만들지 않았습니다.
+
+### 검증
+
+- PASS: 기존 단위 테스트 94개, 실패 0개.
+- PASS: TypeScript/Vite 프로덕션 빌드.
+- PASS: Chrome/Windows WebKit × 1440/820/390px × 아카이브 홈/Planning/서비스 START SCREEN의 18개 조합에서 CSS 정리 전후 좌표 동일, 가로 넘침·JS 예외 없음. [검사 결과](docs/verification/cleanup-20261027/results.json)
+- 앞선 Planning 검증: 목차·01·02 반응형 및 키보드·앵커 확인. [최신 02 검사](docs/verification/planning-differentiation/results.json)
+- NOT TESTED: 실제 iPhone 및 이번 커밋의 Production 배포 완료·브라우저 재검증. 로컬 통과를 Production 수정 완료로 간주하지 않습니다.
+
+### 커밋 범위와 보호
+
+원래 폴더에 `.git`이 없어 기존 `node_modules/.cache/cleanup-checkout`의 main 작업 사본을 사용합니다. 원격 최신 main을 먼저 확인하고, 요청 메시지 `수정 및 기획 오버뷰 정리`로 커밋 후 일반 push합니다. `.gitignore`, Git 설정·원격, `.github`, `vercel.json`, `.vercel`, 환경 파일과 배포 루트는 변경하지 않습니다. 커밋·푸시에 필요한 Git 메타데이터 갱신만 수행합니다.
+
+줄바꿈만 다른 텍스트와 과거 Production QA 기록의 로컬 변경은 이번 커밋에서 제외합니다. 공식 원본은 로컬과 HEAD blob이 동일함을 확인하고 체크아웃의 줄바꿈 변환을 커밋하지 않습니다. 대량 누적 이미지 대신 새 보고서가 직접 연결하는 증거와 최신 검사 JSON만 선별합니다. 캐시 삭제는 Git에 포함되지 않는 로컬 용량 정리입니다.
+
+---
+
 2026-10-26. Git/Vercel 설정 파일은 변경하지 않았습니다.
 
 - 실제 앱 진입점·동적 import·CSS import·테스트 참조를 조사했습니다. 데이터의 공개 export는 테스트가 사용하므로 유지하고, service.css가 참조하는 typography.css도 유지했습니다.

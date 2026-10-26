@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, Compass, Globe2, Plane, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Compass, Plane, Sparkles } from 'lucide-react';
 import './service.css';
 import './ServiceHomeCTA.css';
 import ServiceHeader from './ServiceHeader';
@@ -10,10 +10,17 @@ function TravelVisual() {
     <div className="pmb-art-disc" /><div className="pmb-orbit" /><Plane className="pmb-plane" size={42} strokeWidth={1.5} />
     <span className="pmb-art-star">✳</span><span className="pmb-art-plus">+</span>
     <div className="pmb-ready"><span /> READY FOR A NEW ADVENTURE</div>
-    <div className="pmb-passport"><Globe2 size={39} strokeWidth={1} /><span>PASSPORT</span><small>THE WORLD IS YOURS</small></div>
+    <div className="pmb-passport"><svg viewBox="0 0 110 157" fill="none" aria-hidden="true" focusable="false">
+      {/* A generic travel globe, with no national symbols or official markings. */}
+      <g transform="translate(55 57)" stroke="currentColor" strokeWidth="1.5">
+        <circle r="18"/><ellipse rx="8" ry="18"/>
+        <path d="M-18 0H18M-15-9H15M-15 9H15"/>
+      </g>
+      <text x="55" y="94" fill="currentColor" textAnchor="middle" fontFamily="inherit" fontSize="8" letterSpacing="1.1">PASSPORT</text>
+    </svg></div>
     <div className="pmb-case"><div className="pmb-case-handle" /><div className="pmb-case-body"><i /><i /><i /><i /><span className="pmb-sticker-round">LET’S<br /><b>GO!</b><Sparkles size={15} /></span><span className="pmb-sticker-land"><span>☀</span>SEE THE WORLD</span><span className="pmb-sticker-small">PMB / 001 <ArrowUpRight size={13}/></span></div><span className="pmb-wheel pmb-wheel-left"/><span className="pmb-wheel pmb-wheel-right"/></div>
     <div className="pmb-tag"><span>GOOD<br />TO GO.</span><small>PACK MY BAG</small></div>
-    <div className="pmb-boarding"><div className="pmb-ticket-top"><Plane size={14}/> BOARDING PASS <span>ONE WAY</span></div><div className="pmb-ticket-route"><strong>NOW</strong><span>····· <Plane size={20} /> ·····</span><strong>NEXT</strong></div><div className="pmb-ticket-bottom"><span>FROM EVERYDAY</span><span>TO SOMEWHERE NEW</span></div><div className="pmb-ticket-stub"><span>YOUR NEXT ADVENTURE</span><div className="pmb-barcode"/></div></div>
+    <div className="pmb-boarding"><div className="pmb-ticket-top"><Plane size={14}/> BOARDING PASS <span>ONE WAY</span></div><div className="pmb-ticket-route"><strong>NOW</strong><span>····· <Plane size={20} /> ·····</span><strong>NEXT</strong></div><div className="pmb-ticket-bottom"><span>FROM EVERYDAY</span><span>TO SOMEWHERE NEW</span></div><div className="pmb-ticket-stub"><span>NEXT TRIP</span><div className="pmb-barcode"/></div></div>
     <div className="pmb-art-caption"><span>LESS SEARCHING.</span><strong>MORE EXPLORING. <ArrowUpRight size={16}/></strong></div>
   </div>;
 }
