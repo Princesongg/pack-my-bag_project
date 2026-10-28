@@ -21,7 +21,6 @@
 .planning-sections { display: grid; gap: clamp(24px, 4vw, 48px); margin-top: clamp(32px, 5vw, 64px); }
 .planning-section { min-width: 0; padding: clamp(24px, 4vw, 48px); border: 1px solid var(--pmb-color-border-default); border-radius: var(--pmb-radius-modal); background: var(--pmb-color-surface); scroll-margin-top: 24px; }
 .planning-section-heading { display: flex; align-items: flex-start; gap: 20px; padding-bottom: 28px; border-bottom: 1px solid var(--pmb-color-border-default); }
-.planning-section-number { color: #39709b; font-size: var(--pmb-font-small); font-weight: 850; padding-top: 6px; }
 .planning-section-heading h2 { font-size: clamp(24px, 2.6vw, 32px); line-height: 1.3; letter-spacing: -.035em; margin: 0 0 12px; }
 .planning-section p { font-size: var(--pmb-font-small); line-height: 1.85; color: #5c6e7d; word-break: keep-all; overflow-wrap: anywhere; margin: 0; max-width: 70ch; }
 .planning-block-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; margin-block: 28px; }
@@ -29,64 +28,54 @@
 .planning-section h3 { font-size: var(--pmb-font-body); line-height: 1.5; margin: 0 0 10px; letter-spacing: -.025em; }
 .planning-section .planning-highlight { max-width: none; padding: 20px 24px; background: #f8edd5; border-radius: var(--pmb-radius-small); color: #4b6171; }
 .planning-back-top { display: inline-flex; align-items: center; min-height: 44px; margin-top: 12px; color: #315b7c; font-size: var(--pmb-font-caption); font-weight: 750; }
-.planning-scope { margin-block: 28px; }
-.planning-scope ul { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 40px; margin: 20px 0 0; padding: 0; }
-.planning-scope li { display: flex; flex-direction: column; gap: 6px; font-size: var(--pmb-font-small); line-height: 1.7; overflow-wrap: anywhere; }
-.planning-scope li span { color: #5c6e7d; }
-.planning-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; list-style: none; padding: 0; margin: 28px 0; }
-.planning-flow li { display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 2px solid #b8cddd; font-size: var(--pmb-font-small); font-weight: 750; }
-.planning-flow li span { color: #39709b; font-size: var(--pmb-font-caption); }
+.planning-scope { display: grid; gap: 12px; margin-block: 28px; padding-top: 24px; border-top: 1px solid var(--pmb-color-border-default); }
+.planning-scope > strong { font-size: 24px; line-height: 1.5; letter-spacing: -.025em; }
+.planning-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; list-style: none; padding: 0; margin: 16px 0 0; }
+.planning-flow > li { position: relative; min-width: 0; padding: 16px 12px 0 0; border-top: 2px solid #b8cddd; }
+.planning-flow-number { display: block; color: #39709b; font-size: 12px; font-weight: 800; line-height: 1.6; letter-spacing: .04em; }
+.planning-flow-name { display: block; color: #617383; font-size: 12px; line-height: 1.6; margin: 4px 0 12px; letter-spacing: .04em; }
+.planning-flow-arrow { position: absolute; right: -20px; top: 24px; color: #6b8ca7; pointer-events: none; }
 #planning-contents { scroll-margin-top: 24px; }
-@media (min-width: 681px) and (max-width: 1100px) {
-  .planning-page .topic-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
-}
-@media (max-width: 680px) {
-  .planning-page .topic-grid, .planning-block-grid, .planning-scope ul { grid-template-columns: minmax(0, 1fr); }
-  .planning-page .topic-card { grid-template-columns: 24px minmax(0,1fr) 16px; gap: 12px; padding: 20px 16px; }
-  .planning-page .topic-top { grid-column: auto; }
-  .planning-page .topic-top > svg { display: none; }
-  .planning-section { padding: 24px 20px; }
-  .planning-section-heading { gap: 12px; padding-bottom: 20px; }
-  .planning-section-heading h2 { font-size: 24px; }
-  .planning-block-grid { gap: 24px; margin-block: 24px; }
-  .planning-section .planning-highlight { padding: 16px; }
-  .planning-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
 @media (prefers-reduced-motion: reduce) {
   html:has(.planning-page) { scroll-behavior: auto; }
   .planning-page .topic-card { transition: none; }
 }
 
-
-/* Overview-only portfolio hierarchy; the other case-study sections stay unchanged. */
-#project-overview .planning-overview-labels { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; margin-bottom: 20px; color: #39709b; font-size: 12px; font-weight: 800; letter-spacing: .08em; line-height: 1.6; }
-#project-overview .planning-overview-labels > span:last-child { color: #63778a; font-size: 11px; }
-#project-overview .planning-overview-heading h2 { font-size: clamp(28px, 3vw, 38px); line-height: 1.4; letter-spacing: -.045em; margin-bottom: 16px; word-break: keep-all; overflow-wrap: anywhere; }
-#project-overview .planning-overview-heading p { max-width: 62ch; font-size: 17px; line-height: 1.8; color: #526a7d; }
-#project-overview .planning-block-grid { gap: 36px 44px; }
-#project-overview .planning-block h3 { font-size: 18px; font-weight: 800; margin-bottom: 14px; }
-#project-overview .planning-block p { max-width: 54ch; font-size: 16px; line-height: 1.85; }
-#project-overview .planning-block p + p { margin-top: 12px; }
-#project-overview .planning-overview-goal { display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: var(--pmb-radius-small); background: #f8edd5; }
-#project-overview .planning-overview-goal > span { font-size: 11px; font-weight: 850; letter-spacing: .12em; color: #736443; }
-#project-overview .planning-overview-goal > strong { font-size: 21px; line-height: 1.6; letter-spacing: -.035em; word-break: keep-all; overflow-wrap: anywhere; }
-#project-overview .planning-overview-goal p { max-width: 76ch; font-size: 15px; }
-#project-overview .planning-overview-info { display: grid; gap: 14px; margin: 28px 0 20px; font-size: 14px; line-height: 1.8; }
-#project-overview .planning-overview-info > div { display: grid; grid-template-columns: 130px minmax(0,1fr); gap: 16px; }
-#project-overview .planning-overview-info dt { color: #526a7d; font-weight: 750; }
+/* Overview: bilingual headings and concise editorial content. */
+#project-overview .planning-overview-labels { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 20px; color: #39709b; font-size: 12px; font-weight: 800; letter-spacing: .06em; line-height: 1.6; }
+#project-overview .planning-overview-labels > span:last-child { color: #63778a; }
+#project-overview .planning-overview-heading h2 { font-size: clamp(28px,3vw,38px); line-height: 1.4; letter-spacing: -.045em; margin-bottom: 16px; word-break: keep-all; overflow-wrap: anywhere; }
+#project-overview .planning-overview-heading p { max-width: 72ch; font-size: 17px; line-height: 1.75; color: #526a7d; }
+.planning-page #project-overview .planning-block-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 40px; margin-block: 28px; }
+#project-overview .planning-block { border: 0; padding: 0; }
+#project-overview .planning-block h3 { font-size: 18px; font-weight: 650; margin-bottom: 10px; line-height: 1.5; }
+#project-overview .planning-block-keyword { display: block; color: #39709b; font-size: 12px; font-weight: 750; letter-spacing: .035em; line-height: 1.6; margin-bottom: 5px; overflow-wrap: anywhere; }
+#project-overview .planning-block p { max-width: none; font-size: 16px; line-height: 1.75; }
+#project-overview .planning-block p + p { margin-top: 8px; }
+#project-overview .planning-overview-goal { display: grid; gap: 8px; padding: 18px 22px; background: #f8edd5; }
+#project-overview .planning-overview-goal > span { font-size: 11px; font-weight: 850; letter-spacing: .1em; color: #736443; }
+#project-overview .planning-overview-goal > strong { font-size: 19px; line-height: 1.55; letter-spacing: -.035em; word-break: keep-all; overflow-wrap: anywhere; }
+#project-overview .planning-overview-info { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px 24px; margin: 20px 0 14px; font-size: 14px; line-height: 1.7; }
+#project-overview .planning-overview-info > div { min-width: 0; }
+#project-overview .planning-overview-info dt { font-size: 11px; font-weight: 750; color: #39709b; letter-spacing: .04em; margin-bottom: 4px; }
 #project-overview .planning-overview-info dd { margin: 0; overflow-wrap: anywhere; }
-#project-overview .planning-overview-note { max-width: 88ch; font-size: 13px; color: #617383; }
-@media (max-width: 900px) {
-  #project-overview .planning-block-grid { grid-template-columns: minmax(0,1fr); gap: 28px; }
-  #project-overview .planning-block p { max-width: 68ch; }
+#project-overview .planning-overview-note { max-width: none; font-size: 14px; line-height: 1.7; color: #617383; }
+@media (max-width: 1100px) {
+  .planning-page #project-overview .planning-block-grid { gap: 24px; margin-block: 24px; }
+  #project-overview .planning-overview-heading h2 { font-size: 30px; }
+  #project-overview .planning-block p { font-size: 15px; line-height: 1.7; }
 }
 @media (max-width: 680px) {
-  #project-overview .planning-overview-heading h2 { font-size: 28px; }
-  #project-overview .planning-overview-heading p { font-size: 16px; }
-  #project-overview .planning-overview-labels { gap: 6px; flex-direction: column; align-items: flex-start; }
-  #project-overview .planning-overview-goal { padding: 20px 16px; }
-  #project-overview .planning-overview-goal > strong { font-size: 20px; }
-  #project-overview .planning-overview-info > div { grid-template-columns: minmax(0,1fr); gap: 2px; }
+  .planning-page #project-overview .planning-block-grid { grid-template-columns: minmax(0,1fr); gap: 18px; margin-block: 20px; }
+  #project-overview .planning-overview-labels { gap: 4px 12px; margin-bottom: 12px; font-size: 11px; }
+  #project-overview .planning-overview-heading h2 { font-size: clamp(23px,6vw,26px); margin: 12px 0; }
+  #project-overview .planning-overview-heading p { font-size: 15px; line-height: 1.7; }
+  #project-overview .planning-block h3 { font-size: 17px; margin-bottom: 6px; }
+  #project-overview .planning-block-keyword { margin-bottom: 3px; }
+  #project-overview .planning-overview-goal { padding: 14px 16px; gap: 6px; }
+  #project-overview .planning-overview-goal > strong { font-size: 16px; }
+  #project-overview .planning-overview-info { gap: 12px; margin-top: 16px; }
+  #project-overview .planning-overview-info dt { font-size: 10px; letter-spacing: .015em; }
 }
 
 /* Problem/solution pairs: DOM order preserves each relationship on narrow screens. */
@@ -105,33 +94,258 @@
 #problem-goals .planning-pair-goal { position: relative; background: var(--pmb-color-surface-blue); }
 #problem-goals .planning-pair-link { position: absolute; left: -24px; top: calc(50% - 8px); color: #6b8ca7; pointer-events: none; }
 #problem-goals .planning-pair h4 { font-size: 18px; line-height: 1.6; letter-spacing: -.025em; margin: 10px 0 14px; word-break: keep-all; overflow-wrap: anywhere; }
-#problem-goals .planning-pair p { max-width: 54ch; font-size: 16px; line-height: 1.85; }
+#problem-goals .planning-pair p { max-width: 54ch; font-size: 16px; line-height: 1.75; }
 #problem-goals .planning-pair p + p,
 #problem-goals .planning-problems-challenge p + p { margin-top: 12px; }
-#problem-goals .planning-problems-approach { background: #f8edd5; border-radius: var(--pmb-radius-small); padding: 28px; margin-top: 32px; }
-#problem-goals .planning-problems-approach h3 { font-size: clamp(24px,2.6vw,32px); line-height: 1.4; margin: 12px 0 16px; letter-spacing: -.025em; }
+#problem-goals .planning-problems-approach { background: #f8edd5; border-radius: var(--pmb-radius-small); padding: 20px 24px; margin-top: 24px; }
+#problem-goals .planning-problems-approach h3 { font-size: clamp(24px,2.6vw,32px); line-height: 1.4; margin: 8px 0 10px; letter-spacing: -.025em; }
 #problem-goals .planning-problems-approach p { max-width: 80ch; font-size: 16px; }
-#problem-goals .planning-approach-flow { list-style: none; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 20px; margin: 24px 0; padding: 0; }
-#problem-goals .planning-approach-flow li { min-width: 0; border-top: 1px solid #d8cba7; padding-top: 12px; }
-#problem-goals .planning-approach-flow strong { display: block; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
-#problem-goals .planning-approach-flow span { display: block; font-size: 14px; line-height: 1.7; color: #5c6e7d; margin-top: 6px; }
-#problem-goals .planning-approach-caption { font-size: 14px; }
 #problem-goals .planning-problems-challenge { padding-top: 28px; border-top: 1px solid var(--pmb-color-border-default); margin-top: 28px; }
 #problem-goals .planning-problems-challenge h3 { font-size: 23px; line-height: 1.6; margin: 12px 0 18px; letter-spacing: -.035em; word-break: keep-all; overflow-wrap: anywhere; }
 #problem-goals .planning-problems-challenge p { max-width: 80ch; font-size: 16px; }
 #problem-goals .planning-problems-challenge .planning-problems-production-note { font-size: 13px; color: #617383; }
-@media (max-width: 900px) {
-  #problem-goals .planning-pair { grid-template-columns: minmax(0,1fr); gap: 24px; }
-  #problem-goals .planning-pair-link { left: calc(50% - 8px); top: -20px; transform: rotate(90deg); }
-  #problem-goals .planning-pairs { gap: 24px; }
-  #problem-goals .planning-pair-headings { grid-template-columns: minmax(0,1fr); gap: 16px; }
-  #problem-goals .planning-pair p { max-width: 68ch; }
-  #problem-goals .planning-approach-flow { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+
+#problem-goals .planning-insight { border-left: 2px solid #b8cddd; padding-left: 16px; margin-top: 24px; }
+#problem-goals .planning-insight h3 { font-size: 18px; font-weight: 650; margin: 6px 0; }
+#problem-goals .planning-insight p { font-size: 15px; line-height: 1.7; max-width: 90ch; }
+#problem-goals .planning-approach-flow { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; list-style: none; margin: 16px 0 0; padding: 0; }
+#problem-goals .planning-approach-flow li { display: flex; align-items: center; gap: 20px; min-width: 0; }
+#problem-goals .planning-approach-flow span { font-size: 15px; line-height: 1.6; font-weight: 650; color: #4b6171; }
+#problem-goals .planning-approach-flow svg { flex-shrink: 0; color: #8c8467; }
+@media (max-width: 1100px) {
+  #problem-goals .planning-condition-note { font-size: 14px; line-height: 1.65; margin-top: 12px; }
+  #problem-goals .planning-insight { margin-top: 18px; padding-left: 14px; }
+  #problem-goals .planning-insight h3 { font-size: 16px; }
+  #problem-goals .planning-insight p { font-size: 14px; line-height: 1.65; }
+  #problem-goals .planning-approach-flow { gap: 8px 14px; margin-top: 12px; }
+  #problem-goals .planning-approach-flow li { gap: 14px; }
 }
 @media (max-width: 680px) {
-  #problem-goals .planning-problems-heading p { font-size: 16px; }
-  #problem-goals .planning-pair > div { padding: 20px 16px; }
-  #problem-goals .planning-problems-approach { padding: 24px 16px; margin-top: 24px; }
-  #problem-goals .planning-problems-challenge { padding-top: 24px; margin-top: 24px; }
-  #problem-goals .planning-problems-challenge h3 { font-size: 21px; }
+  #problem-goals .planning-problems-approach h3 { font-size: 21px; }
+  #problem-goals .planning-approach-flow { gap: 5px 6px; }
+  #problem-goals .planning-approach-flow li { gap: 6px; }
+  #problem-goals .planning-approach-flow span { font-size: 14px; }
+  #problem-goals .planning-approach-flow svg { width: 12px; }
+}
+
+/* Research-only content hierarchy and compact scope summary. */
+#research .planning-block-keyword { display: block; color: #39709b; font-size: 12px; font-weight: 750; letter-spacing: .035em; line-height: 1.6; margin-bottom: 5px; overflow-wrap: anywhere; }
+#research .planning-scope-label { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 12px; }
+#research .planning-scope-caption { font-size: 14px; color: #617383; }
+#research .planning-scope-english { display: none; }
+#research .planning-research-label { display: block; color: #39709b; font-size: 12px; line-height: 1.6; font-weight: 800; letter-spacing: .07em; }
+#research .planning-research-heading h2 { margin: 20px 0 16px; font-size: clamp(28px,3vw,38px); line-height: 1.4; letter-spacing: -.045em; word-break: keep-all; overflow-wrap: anywhere; }
+#research .planning-research-heading p { max-width: 76ch; font-size: 17px; line-height: 1.8; }
+#research .planning-block h3 { font-size: 18px; font-weight: 650; margin-bottom: 10px; }
+#research .planning-block p, #research .planning-scope p { font-size: 16px; line-height: 1.75; }
+#research .planning-research-approach { padding: 20px 24px; }
+#research .planning-research-approach h3 { font-size: 21px; line-height: 1.6; margin: 12px 0; letter-spacing: -.03em; word-break: keep-all; overflow-wrap: anywhere; }
+#research .planning-research-approach p { max-width: 80ch; font-size: 16px; }
+
+/* Service Planning: user flow, design principles, then the production process. */
+#service-planning .planning-service-label { display: block; color: #39709b; font-size: 12px; line-height: 1.6; font-weight: 750; letter-spacing: .04em; }
+#service-planning .planning-service-label > span { display: inline-block; font-size: 14px; font-weight: 500; letter-spacing: 0; color: #617383; margin-left: 8px; }
+#service-planning .planning-service-heading h2 { margin: 20px 0 16px; font-size: clamp(28px,3vw,38px); line-height: 1.4; letter-spacing: -.045em; word-break: keep-all; overflow-wrap: anywhere; }
+#service-planning .planning-service-heading p { max-width: 76ch; font-size: 17px; line-height: 1.75; }
+#service-planning .planning-service-flow { margin: 24px 0; }
+#service-planning .planning-flow { gap: 24px; }
+#service-planning .planning-flow-copy { display: contents; }
+#service-planning .planning-flow h4 { font-size: 18px; font-weight: 650; line-height: 1.5; margin: 0 0 8px; letter-spacing: -.025em; word-break: keep-all; overflow-wrap: anywhere; }
+#service-planning .planning-flow p { font-size: 15px; line-height: 1.7; }
+.planning-page #service-planning .planning-block-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px 40px; margin: 14px 0 24px; }
+.planning-page #service-planning .planning-block { border: 0; padding: 0; }
+#service-planning .planning-block-keyword { display: block; color: #39709b; font-size: 12px; font-weight: 750; line-height: 1.6; margin-bottom: 5px; overflow-wrap: anywhere; }
+#service-planning .planning-block h3 { font-size: 18px; font-weight: 650; margin-bottom: 8px; }
+#service-planning .planning-block p { font-size: 16px; line-height: 1.75; }
+#service-planning .planning-service-approach { padding: 20px 24px; }
+#service-planning .planning-service-approach h3 { font-size: 21px; line-height: 1.5; margin: 8px 0; letter-spacing: -.03em; }
+#service-planning .planning-service-approach p { max-width: none; font-size: 15px; line-height: 1.7; }
+#service-planning .planning-production-flow { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 20px; list-style: none; padding: 0; margin: 16px 0 12px; }
+#service-planning .planning-production-flow li { position: relative; min-width: 0; color: #4b6171; }
+#service-planning .planning-production-flow strong { display: block; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+#service-planning .planning-production-flow span { display: block; font-size: 14px; line-height: 1.6; margin-top: 4px; word-break: keep-all; overflow-wrap: anywhere; }
+#service-planning .planning-production-flow svg { position: absolute; right: -17px; top: 3px; color: #8c8467; }
+#service-planning .planning-service-approach .planning-service-author { font-size: 14px; color: #617383; }
+@media (max-width: 1100px) {
+  #service-planning .planning-service-heading h2 { font-size: 30px; }
+  #service-planning .planning-flow { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  #service-planning .planning-flow > li { padding: 12px; border: 1px solid #d8e4e9; border-radius: var(--pmb-radius-small); }
+  #service-planning .planning-flow-arrow { display: none; }
+  #service-planning .planning-flow-name { font-size: 14px; margin: 4px 0 6px; }
+  #service-planning .planning-flow h4 { font-size: 16px; margin-bottom: 4px; }
+  #service-planning .planning-flow p { font-size: 14px; }
+  #service-planning .planning-block h3 { font-size: 17px; }
+  #service-planning .planning-block p { font-size: 15px; line-height: 1.65; }
+  #service-planning .planning-production-flow { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 20px; margin-top: 12px; }
+  #service-planning .planning-production-flow svg { display: none; }
+}
+@media (max-width: 680px) {
+  #service-planning .planning-service-heading h2 { font-size: clamp(23px,6vw,26px); margin: 12px 0; }
+  #service-planning .planning-service-heading p { font-size: 15px; line-height: 1.7; }
+  #service-planning .planning-service-flow { margin: 14px 0; }
+  #service-planning .planning-flow { gap: 10px; margin-top: 10px; }
+  #service-planning .planning-flow > li { padding: 10px; }
+  #service-planning .planning-flow-number { font-size: 12px; }
+  #service-planning .planning-flow-name { margin: 2px 0 4px; font-size: 14px; font-weight: 750; color: #315b7c; }
+  #service-planning .planning-flow h4 { font-size: 15px; }
+  .planning-page #service-planning .planning-block-grid { gap: 12px; margin: 8px 0 14px; }
+  #service-planning .planning-block-keyword { display: none; }
+  #service-planning .planning-block h3 { font-size: 16px; margin-bottom: 5px; }
+  #service-planning .planning-block p { font-size: 14px; }
+  #service-planning .planning-service-approach { padding: 14px; }
+  #service-planning .planning-production-flow { gap: 8px 12px; margin: 10px 0; }
+  #service-planning .planning-service-approach .planning-service-author { font-size: 14px; line-height: 1.6; }
+}
+@media (max-width: 374px) {
+  #service-planning .planning-flow { grid-template-columns: 1fr; gap: 0; }
+  #service-planning .planning-flow > li { display: grid; grid-template-columns: 24px minmax(0,1fr); gap: 2px 10px; padding: 0 0 12px 10px; border: 0; border-left: 1px solid #b8cddd; border-radius: 0; }
+  #service-planning .planning-flow > li:last-child { padding-bottom: 0; border-left-color: transparent; }
+  #service-planning .planning-flow-number { grid-column: 1; grid-row: 1 / 4; }
+  #service-planning .planning-flow-name { grid-column: 2; margin: 0; }
+  #service-planning .planning-flow-copy { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; grid-column: 2; }
+  #service-planning .planning-flow h4, #service-planning .planning-flow p { margin: 0; }
+  .planning-page #service-planning .planning-block-grid { grid-template-columns: 1fr; gap: 12px; }
+}
+
+/* Shared Planning breakpoints: desktop declarations above stay unchanged. */
+@media (max-width: 1100px) {
+  .planning-page.inner-page { padding-top: 28px; }
+  .planning-page .inner-heading { margin: 32px 0 24px; }
+  .planning-page .planning-banner { padding: 20px 24px; gap: 16px; }
+  .planning-page .banner-icon { width: 52px; height: 52px; flex-shrink: 0; }
+  .planning-page .detail-section-header { margin-top: 32px; margin-bottom: 16px; align-items: flex-start; }
+  .planning-page .detail-section-header span { max-width: 38ch; line-height: 1.7; }
+  .planning-page .topic-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .planning-page .topic-card { grid-template-columns: 24px minmax(0,1fr) 16px; gap: 12px; padding: 16px; }
+  .planning-page .topic-top { grid-column: auto; }
+  .planning-page .topic-top > svg { display: none; }
+  .planning-page .planning-sections { margin-top: 32px; gap: 28px; }
+  .planning-page .planning-section { padding: 28px; }
+  .planning-page .planning-section-heading { padding-bottom: 24px; }
+  .planning-page :is(#problem-goals,#research) .planning-section-heading h2 { font-size: 30px; line-height: 1.4; margin-bottom: 14px; }
+  .planning-page :is(#problem-goals,#research) .planning-block-grid { gap: 24px 28px; margin-block: 24px; }
+  #problem-goals .planning-pair-headings, #problem-goals .planning-pair { gap: 24px; }
+  #problem-goals .planning-pair > div { padding: 20px; }
+  #problem-goals .planning-pair-link { left: -20px; }
+}
+@media (max-width: 720px) {
+  #problem-goals .planning-pair { grid-template-columns: minmax(0,1fr); gap: 20px; }
+  #problem-goals .planning-pair-link { left: calc(50% - 8px); top: -18px; transform: rotate(90deg); }
+  #problem-goals .planning-pair-headings { gap: 16px; }
+  #problem-goals .planning-pair-headings h3 { font-size: 16px; }
+  #problem-goals .planning-pairs { gap: 24px; }
+}
+@media (max-width: 680px) {
+  .planning-page.inner-page { width: calc(100% - 24px); padding-top: 16px; padding-bottom: 40px; }
+  .planning-page .back-link { min-height: 44px; }
+  .planning-page .inner-heading { margin: 24px 0 20px; }
+  .planning-page .section-label { font-size: 12px; letter-spacing: .07em; }
+  .planning-page .inner-heading h1 { font-size: clamp(26px,7vw,30px); line-height: 1.4; margin: 12px 0; word-break: keep-all; overflow-wrap: anywhere; }
+  .planning-page .inner-heading p { font-size: 15px; line-height: 1.75; }
+  .planning-page .planning-banner { padding: 16px; gap: 12px; }
+  .planning-page .banner-icon { width: 44px; height: 44px; }
+  .planning-page .banner-icon svg { width: 24px; height: 24px; }
+  .planning-page .planning-banner strong { font-size: 17px; }
+  .planning-page .planning-banner p { font-size: 14px; line-height: 1.6; margin-top: 4px; }
+  .planning-page .detail-section-header { margin-top: 24px; margin-bottom: 12px; flex-direction: column; gap: 6px; }
+  .planning-page .detail-section-header h2 { font-size: 23px; }
+  .planning-page .detail-section-header span { max-width: none; font-size: 13px; }
+  .planning-page .topic-grid { gap: 10px; }
+  .planning-page .topic-card { grid-template-columns: minmax(0,1fr) 16px; grid-template-rows: auto auto; gap: 8px; padding: 14px; }
+  .planning-page .topic-top { grid-column: 1; grid-row: 1; font-size: 12px; }
+  .planning-page .planning-topic-arrow { grid-column: 2; grid-row: 1; }
+  .planning-page .topic-card h3 { grid-column: 1 / -1; grid-row: 2; font-size: 14px; line-height: 1.5; }
+  .planning-page .planning-sections { margin-top: 24px; gap: 20px; }
+  .planning-page .planning-section { padding: 20px 16px 12px; }
+  .planning-page .planning-section-heading { padding-bottom: 18px; }
+  .planning-page :is(#problem-goals,#research) .planning-section-heading h2 { font-size: clamp(23px,6vw,26px); line-height: 1.4; margin: 12px 0; }
+  .planning-page :is(#problem-goals,#research) .planning-section-heading p { font-size: 15px; line-height: 1.7; }
+  .planning-page :is(#problem-goals,#research) .planning-block-grid { grid-template-columns: minmax(0,1fr); gap: 20px; margin-block: 20px; }
+  .planning-page #research .planning-block h3 { font-size: 17px; line-height: 1.5; margin-bottom: 8px; }
+  .planning-page #research .planning-block p { max-width: none; font-size: 15px; line-height: 1.7; }
+  .planning-page .planning-back-top { margin-top: 8px; min-height: 44px; }
+  #problem-goals .planning-problems-note { font-size: 13px; line-height: 1.7; margin: 16px 0 20px; }
+  #problem-goals .planning-pair-headings { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-bottom: 16px; }
+  #problem-goals .planning-pair-headings > div > span { font-size: 10px; letter-spacing: .025em; }
+  #problem-goals .planning-pair-headings h3 { font-size: 14px; line-height: 1.5; margin-top: 6px; }
+  #problem-goals .planning-pair > div { padding: 0; }
+  #problem-goals .planning-pair-problem { background: transparent; }
+  #problem-goals .planning-pair > .planning-pair-goal { padding: 14px; border-left: 2px solid #b8cddd; }
+  #problem-goals .planning-pair h4 { font-size: 17px; line-height: 1.5; margin: 6px 0 8px; }
+  #problem-goals .planning-pair p { max-width: none; font-size: 15px; line-height: 1.7; }
+  #problem-goals .planning-pair p + p, #problem-goals .planning-problems-challenge p + p { margin-top: 8px; }
+  #problem-goals .planning-problems-approach { padding: 16px; margin-top: 24px; }
+  #problem-goals .planning-problems-approach h3 { font-size: 23px; line-height: 1.4; margin: 8px 0 12px; }
+  #problem-goals .planning-problems-approach p { font-size: 15px; line-height: 1.7; }
+  #problem-goals .planning-problems-challenge { padding-top: 20px; margin-top: 20px; }
+  #problem-goals .planning-problems-challenge h3 { font-size: 19px; line-height: 1.5; margin: 8px 0 12px; }
+  #problem-goals .planning-problems-challenge p { font-size: 15px; line-height: 1.7; }
+  #problem-goals .planning-problems-challenge .planning-problems-production-note { font-size: 13px; line-height: 1.7; }
+  #research .planning-scope { gap: 8px; margin-block: 20px; padding-top: 20px; }
+  #research .planning-scope > strong { font-size: 22px; }
+  #research .planning-scope p { font-size: 15px; line-height: 1.7; }
+  #research .planning-research-approach { padding: 16px; }
+  #research .planning-research-approach h3 { font-size: 19px; line-height: 1.5; margin: 8px 0 12px; }
+  #research .planning-research-approach p { font-size: 15px; line-height: 1.7; }
+}
+
+/* Compact editorial variants share the same topic records as the desktop report. */
+.planning-page .planning-brief { display: none !important; }
+@media (max-width: 1100px) {
+  .planning-page .planning-full { display: none !important; }
+  .planning-page .planning-brief { display: block !important; }
+  .planning-page #research .planning-block-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-block: 20px; }
+  .planning-page #research .planning-block { border: 1px solid var(--pmb-color-border-default); border-radius: var(--pmb-radius-small); padding: 16px; }
+  .planning-page #research .planning-block h3 { font-size: 16px; margin-bottom: 8px; }
+  .planning-page #research .planning-block p { font-size: 15px; line-height: 1.65; }
+  .planning-page .planning-section-heading p { max-width: 65ch; }
+  #problem-goals .planning-pair-headings { display: none; }
+  #problem-goals .planning-problems-note { font-size: 14px; line-height: 1.65; margin: 16px 0; }
+  #problem-goals .planning-pairs { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  #problem-goals .planning-pair { display: block; min-width: 0; border: 1px solid #d8e4e9; border-radius: var(--pmb-radius-small); background: var(--pmb-color-surface-blue); }
+  #problem-goals .planning-pair > .planning-pair-compact { padding: 16px; }
+  #problem-goals .planning-pair h4 { font-size: 16px; margin: 6px 0; line-height: 1.5; }
+  #problem-goals .planning-pair-compact > svg { display: block; margin: 8px 0; color: #6b8ca7; }
+  #problem-goals .planning-pair-compact > strong { display: block; font-size: 15px; line-height: 1.5; overflow-wrap: anywhere; color: #315b7c; }
+  #problem-goals .planning-pair p { font-size: 14px; line-height: 1.6; margin-top: 6px; }
+  #problem-goals .planning-problems-challenge { margin-top: 20px; padding-top: 18px; }
+  #problem-goals .planning-problems-challenge h3 { font-size: 20px; line-height: 1.5; margin: 8px 0; }
+  #problem-goals .planning-problems-challenge p { font-size: 15px; line-height: 1.65; }
+  #research .planning-scope { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-block: 18px; padding-top: 16px; }
+  #research .planning-scope > strong { font-size: 20px; }
+  #research .planning-research-approach p { font-size: 14px; line-height: 1.7; margin-top: 8px; }
+}
+@media (max-width: 680px) {
+  .planning-page #research .planning-block-grid { gap: 10px; }
+  .planning-page #research .planning-block { padding: 12px; }
+  .planning-page #research .planning-block h3 { font-size: 15px; }
+  .planning-page #research .planning-block p { font-size: 14px; line-height: 1.65; }
+  #problem-goals .planning-pairs { gap: 10px; }
+  #problem-goals .planning-pair > .planning-pair-compact { padding: 12px; }
+  #problem-goals .planning-pair h4 { font-size: 15px; }
+  #problem-goals .planning-pair-compact > strong { font-size: 14px; }
+}
+@media (max-width: 350px) {
+  #problem-goals .planning-pairs { grid-template-columns: 1fr; }
+  #problem-goals .planning-pair > .planning-pair-compact { display: grid !important; grid-template-columns: 24px minmax(0,1fr); gap: 4px 8px; }
+  #problem-goals .planning-pair-compact > .planning-problems-label { grid-row: 1 / 5; }
+  #problem-goals .planning-pair-compact > :not(.planning-problems-label) { grid-column: 2; margin: 0; }
+  #problem-goals .planning-pair-compact > svg { display: none; }
+}
+@media (min-width: 1101px) {
+  #problem-goals .planning-problems-challenge .planning-problems-production-note { margin-top: 12px; }
+}
+
+@media (max-width: 680px) {
+  #research .planning-scope { display: grid; gap: 6px; }
+  #research .planning-scope-local, #research .planning-scope-caption { display: none; }
+  #research .planning-scope-english { display: inline; font-size: 18px; }
+  #research .planning-scope p { font-size: 14px; line-height: 1.65; }
+  #research .planning-block-keyword { margin-bottom: 4px; letter-spacing: .02em; }
+  #research .planning-research-approach .planning-research-limit { font-size: 14px; line-height: 1.65; margin-top: 10px; }
+}
+@media (max-width: 350px) {
+  .planning-page #research .planning-block-grid { grid-template-columns: minmax(0,1fr); }
+  .planning-page #research .planning-block { display: grid; grid-template-columns: 110px minmax(0,1fr); align-items: center; gap: 10px; padding: 12px; }
+  .planning-page #research .planning-block h3 { margin: 0; }
 }

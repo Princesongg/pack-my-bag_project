@@ -1,0 +1,717 @@
+[
+  {
+    "width": 1920,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 958
+      },
+      {
+        "id": "problem-goals",
+        "height": 1878
+      },
+      {
+        "id": "research",
+        "height": 977
+      },
+      {
+        "id": "service-planning",
+        "height": 1001
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "289.5px 289.5px 289.5px 289.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "257.5px 257.5px 257.5px 257.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "531px 531px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 216,
+        "solutionHeight": 216
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      }
+    ],
+    "pairs": "1102px"
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 958
+      },
+      {
+        "id": "problem-goals",
+        "height": 1878
+      },
+      {
+        "id": "research",
+        "height": 977
+      },
+      {
+        "id": "service-planning",
+        "height": 1001
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "289.5px 289.5px 289.5px 289.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "257.5px 257.5px 257.5px 257.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "531px 531px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 216,
+        "solutionHeight": 216
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      }
+    ],
+    "pairs": "1102px"
+  },
+  {
+    "width": 1280,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 958
+      },
+      {
+        "id": "problem-goals",
+        "height": 1906
+      },
+      {
+        "id": "research",
+        "height": 977
+      },
+      {
+        "id": "service-planning",
+        "height": 1001
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "283.25px 283.25px 283.25px 283.25px",
+    "topicCount": 4,
+    "serviceFlowColumns": "251.25px 251.25px 251.25px 251.25px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "518.5px 518.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 244,
+        "solutionHeight": 244
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 176,
+        "solutionHeight": 176
+      }
+    ],
+    "pairs": "1077px"
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 777
+      },
+      {
+        "id": "problem-goals",
+        "height": 1131
+      },
+      {
+        "id": "research",
+        "height": 759
+      },
+      {
+        "id": "service-planning",
+        "height": 976
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "453.5px 453.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "424.5px 424.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "424.5px 424.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "424.5px 424.5px"
+  },
+  {
+    "width": 820,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 828
+      },
+      {
+        "id": "problem-goals",
+        "height": 1150
+      },
+      {
+        "id": "research",
+        "height": 759
+      },
+      {
+        "id": "service-planning",
+        "height": 976
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "372.5px 372.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "343.5px 343.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "343.5px 343.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "343.5px 343.5px"
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 828
+      },
+      {
+        "id": "problem-goals",
+        "height": 1150
+      },
+      {
+        "id": "research",
+        "height": 818
+      },
+      {
+        "id": "service-planning",
+        "height": 1018
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "346.5px 346.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "317.5px 317.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "317.5px 317.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "317.5px 317.5px"
+  },
+  {
+    "width": 430,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 1100
+      },
+      {
+        "id": "problem-goals",
+        "height": 1269
+      },
+      {
+        "id": "research",
+        "height": 855
+      },
+      {
+        "id": "service-planning",
+        "height": 914
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "190.5px 190.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "173.5px 173.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "173.5px 173.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "173.5px 173.5px"
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 1190
+      },
+      {
+        "id": "problem-goals",
+        "height": 1343
+      },
+      {
+        "id": "research",
+        "height": 895
+      },
+      {
+        "id": "service-planning",
+        "height": 908
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "170.5px 170.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "153.5px 153.5px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "153.5px 153.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "153.5px 153.5px"
+  },
+  {
+    "width": 375,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 1189
+      },
+      {
+        "id": "problem-goals",
+        "height": 1407
+      },
+      {
+        "id": "research",
+        "height": 894
+      },
+      {
+        "id": "service-planning",
+        "height": 945
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "163px 163px",
+    "topicCount": 4,
+    "serviceFlowColumns": "146px 146px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "146px 146px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "146px 146px"
+  },
+  {
+    "width": 360,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 1213
+      },
+      {
+        "id": "problem-goals",
+        "height": 1430
+      },
+      {
+        "id": "research",
+        "height": 917
+      },
+      {
+        "id": "service-planning",
+        "height": 973
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "155.5px 155.5px",
+    "topicCount": 4,
+    "serviceFlowColumns": "287px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "138.5px 138.5px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "138.5px 138.5px"
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "project-overview",
+        "height": 1263
+      },
+      {
+        "id": "problem-goals",
+        "height": 1521
+      },
+      {
+        "id": "research",
+        "height": 1045
+      },
+      {
+        "id": "service-planning",
+        "height": 1005
+      }
+    ],
+    "outOfBounds": [],
+    "headerIssues": [],
+    "topicColumns": "143px 143px",
+    "topicCount": 4,
+    "serviceFlowColumns": "262px",
+    "serviceSteps": [
+      "TRIP INPUT",
+      "MY BAG",
+      "PACKING",
+      "FINAL CHECK"
+    ],
+    "productionSteps": [
+      "REQUIREMENTS",
+      "AI PLANNING SUPPORT",
+      "DEVELOPMENT",
+      "REVIEW & REFINEMENT"
+    ],
+    "researchColumns": "262px",
+    "researchCount": 4,
+    "researchScope": "6 COUNTRIES · 17 CITIES",
+    "pairDetails": [
+      {
+        "title": "SMART TRIP BRIEF",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACKING RED FLAGS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "PACK LESS",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      },
+      {
+        "title": "LAST MINUTE BAG",
+        "problemHeight": 0,
+        "solutionHeight": 0
+      }
+    ],
+    "pairs": "262px"
+  }
+]

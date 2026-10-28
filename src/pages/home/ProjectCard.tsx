@@ -15,10 +15,11 @@ export default function ProjectCard({ type }: { type: 'planning' | 'implementati
         <span className="decoration-one" /><span className="decoration-two" />
       </div>
       <h3>{title}</h3>
-      <p>{isPlan
+      <p className="card-description-desktop">{isPlan
         ? '서비스 기획 배경부터 정보 조사, 사용자 흐름과 서비스 구조까지 기획 아카이브의 개요를 확인해 보세요.'
         : '여행 정보 입력부터 맞춤형 준비물 추천, 마지막 점검까지 구현한 서비스를 확인해 보세요.'}</p>
-      <div className="card-bottom"><span>{isPlan ? '기획 과정 살펴보기' : '구현 결과 살펴보기'}</span><span className="card-arrow" aria-hidden="true"><ArrowUpRight size={21} /></span></div>
+      <p className="card-description-mobile">{isPlan ? <>기획 배경·정보 조사와<br />사용자 흐름 아카이브</> : <>정보 입력·준비물 추천,<br />체크·최종 점검 구현</>}</p>
+      <div className="card-bottom"><span className="card-description-desktop">{isPlan ? '기획 과정 살펴보기' : '구현 결과 살펴보기'}</span><span className="card-description-mobile">{isPlan ? '기획 보기' : '구현 보기'}</span><span className="card-arrow" aria-hidden="true"><ArrowUpRight size={21} /></span></div>
     </Link>
   );
 }

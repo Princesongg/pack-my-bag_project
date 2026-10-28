@@ -1,5 +1,15 @@
 # 파일·중복 코드 정리
 
+## 2026-10-29 기획정리
+
+- Planning 01~04 및 상단 문구·반응형 정보 구조, 홈의 모바일 2열 요약 카드 개선을 반영했습니다.
+- 미사용 `.planning-section-number`, 빈 800px 미디어 쿼리, 단일 ID를 감싼 불필요한 `:is()` 및 과도한 빈 줄을 정리했습니다. 앱 진입점과 테스트용 데이터 공개 진입점은 유지했습니다.
+- 실행 중이 아닌 QA Chrome 프로필과 반복 생성한 중간 Planning PNG 910개, 140,404,938 bytes(133.90 MiB)를 정리했습니다. 최종 캡처·기존 보고서가 참조하는 자료·각 단계 측정 JSON·공식 출처·의존성 및 Git 작업 사본은 보존했습니다.
+- `vercel.json`, `.vercel`, `.gitignore`, `.github`, 환경 파일, Git 설정·원격을 수정하지 않았습니다. 기존 `node_modules/.cache/cleanup-checkout`에서 커밋·일반 push에 필요한 Git 명령만 사용합니다.
+- PASS: 단위 테스트 94개, TypeScript/Vite 빌드, Chrome 1920/1440/1280/1024/820/768/430/390/375/360/320px 레이아웃·목차 이동·복귀 검사. CSS 정리 전후 상세 섹션 높이가 동일합니다. [최종 측정](docs/verification/planning-compact/header-after/results.json)
+- 실제 iPhone Safari와 배포 후 운영 화면은 이번 정리에서 테스트하지 않았습니다.
+
+
 ## 2026-10-27 재점검 및 기획 정리 반영
 
 - 앱의 정적·문자열 동적 import, CSS `@import`, 테스트 참조를 확인했습니다. 누락 상대경로 0개. `data/index.ts`, `countries.ts`는 테스트용 공개 진입점이며 `typography.css`는 CSS import로 사용하므로 유지했습니다. 삭제할 미사용 컴포넌트 파일은 발견하지 않았습니다.

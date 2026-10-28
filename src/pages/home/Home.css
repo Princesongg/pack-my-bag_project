@@ -83,3 +83,26 @@
 .journey-step strong { font-size: var(--pmb-font-small); }
 .journey-step small { font-size: var(--pmb-font-caption); color: #9aa5ac; }
 .journey-step.current small { color: #3873a4; }
+
+.chapters .card-description-mobile { display: none; }
+@media (max-width: 680px) {
+  .chapters .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .chapters .project-card { padding: 16px 12px 10px; }
+  .chapters .card-description-desktop { display: none; }
+  .chapters .card-description-mobile { display: block; }
+  .chapters .card-head { gap: 0; }
+  .chapters .card-index { font-size: 10px; letter-spacing: .025em; line-height: 1.6; white-space: nowrap; }
+  .chapters .card-icon-zone { height: 46px; margin: 14px 0 12px; }
+  .chapters .card-icon { width: 44px; height: 44px; border-radius: 13px; }
+  .chapters .card-icon svg { width: 25px; height: 25px; }
+  .chapters .decoration-one { width: 20px; height: 20px; left: 34px; top: -3px; }
+  .chapters .decoration-two { width: 28px; left: 67px; top: 25px; }
+  .chapters .project-card h3 { font-size: 18px; line-height: 1.4; margin-bottom: 8px; }
+  .chapters .project-card p { font-size: 14px; line-height: 1.6; letter-spacing: -.04em; margin-bottom: 12px; word-break: keep-all; }
+  .chapters .card-bottom { padding-top: 8px; gap: 6px; font-size: 13px; }
+  .chapters .card-arrow { width: 26px; height: 26px; flex-basis: 26px; }
+  .chapters .card-arrow svg { width: 17px; height: 17px; }
+}
+@media (max-width: 374px) {
+  .chapters .project-grid { grid-template-columns: minmax(0, 1fr); }
+}
